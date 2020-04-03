@@ -1,0 +1,2342 @@
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 4).
+
+ans = 
+
+ <a href="matlab: helpPopup parallel.Pool" style="font-weight:bold">Pool</a> with properties: 
+
+            Connected: true
+           NumWorkers: 4
+              Cluster: <a href="matlab: parallel.internal.display.Displayer.displayObject('1F8B0800000000000000AD54CD4EC240105E2A2592A8D18BE1E80318A2C6037A51C41835540C62F4D0041758A1BA74EBB62472F3E8A378F4317C042FDE3DF208EED2A95DB655343AC99776A6F3CDDF4E17658E2C246441E0492027302BB08442C97C3EB3C8AAD4CEA4BE2AE0618E2925B4E8B801E12EA6C58EE37B140F8B07034A2B74E00BB345FAC40D5814FF50893F0F714DD073902BCA27F542F8FA6628DF22C8782BB9385E5E8B277D46661CCF001D29FD9E9A31DF48E1ABF598A27F1374F994B388E2CC9A3F9B9BECF9C0A1E48263CF23BCD904FE4B36E6C7F9D2E722FD0B99AFFB7ED7FC0DB0CD088834E84AE001F02CF00ADF23690C3D82F6718051CA397E79E8282159C8394D3229BA6A3350B21FDD479505E5A9EE5B16ECEAF92E2B711641FF6CB11DB65EACB236A661BC35E377FB5200FD5EE094B36B71F4897A8F59EB2C601C77894C1438CC0DED2783FE05E3B784FB93FE7572377038F16B2E755C5275DAC4F51DB72BFD1B3D4E7047F3977597A6CC21DAEB680E52A761DB63FEC3147E4DE34BBDB26D9FFBA27ABB54DADC087A7848F88D5DF63CB95A769DE1BE28DAB670D0935DFAB6556E54CB7BF6386B1346DFBC612DDFAE6FACAD6FE1441FB929F3CF831DAADA1D9F9FC2CF1BDFF30D78FB5BDED18ECE9FD3F8FA3E9B13FCE4BDACFBE97C3D5FDA9E2234B9A7FFCD7F44DFDFCB97489D73A8ABF7B2FADFFEE55E96F201F22352F3E0060000')">local</a>
+        AttachedFiles: {}
+    AutoAddClientPath: true
+          IdleTimeout: 30 minutes (30 minutes remaining)
+          SpmdEnabled: true
+
+
+ans =
+
+  Columns 1 through 21
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 22 through 24
+
+     0     0     0
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 4.7359e+04
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 27-Mar-2020 10:52:33
+
+ans =
+
+  Columns 1 through 21
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 22 through 24
+
+     0     0     0
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 4.7359e+04
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     59      47359.3            0
+
+ans =
+
+  Columns 1 through 13
+
+ -149.2014 -149.2464 -149.2500 -149.2441 -149.2379 -149.2318   29.6347   29.7905   29.8170   29.8235   29.8154   29.8271    5.5301
+
+  Columns 14 through 24
+
+   -7.9254   -7.9252   -7.9239   -7.9360   -7.9380  -14.9064  -14.9082  -14.9110  -14.8639  -14.8801  -14.8705
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.0526e+03
+
+    1    118      2052.61            0         4.81     6.72e+03
+
+ans =
+
+  Columns 1 through 13
+
+ -149.2290 -149.2676 -149.2832 -149.3132 -149.3452 -149.3835   29.6178   29.7826   29.8112   29.8183   29.8092   29.8241    3.3282
+
+  Columns 14 through 24
+
+   -7.9255   -7.9251   -7.9238   -7.9357   -7.9378  -14.9070  -14.9100  -14.9129  -14.8793  -14.8907  -14.8840
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.0112e+03
+
+    2    177      2011.17            0        0.278     6.72e+03
+
+ans =
+
+  Columns 1 through 13
+
+ -149.2434 -149.2803 -149.3012 -149.3433 -149.3860 -149.4340   29.6098   29.7798   29.8094   29.8168   29.8074   29.8238   -7.9434
+
+  Columns 14 through 24
+
+   -7.9261   -7.9255   -7.9241   -7.9359   -7.9380  -14.9080  -14.9114  -14.9143  -14.8858  -14.8954  -14.8896
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.9875e+03
+
+    3    236      1987.53            0         1.41      6.1e+03
+
+ans =
+
+  Columns 1 through 13
+
+ -149.3371 -149.3555 -149.4150 -149.5490 -149.6636 -149.7684   29.5333   29.7459   29.7853   29.7952   29.7815   29.8117   -4.1117
+
+  Columns 14 through 24
+
+   -7.9269   -7.9253   -7.9233   -7.9349   -7.9370  -14.9109  -14.9183  -14.9213  -14.9281  -14.9266  -14.9274
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.9149e+03
+
+    4    295      1914.86            0        0.479          792
+
+ans =
+
+  Columns 1 through 13
+
+ -149.6294 -149.6257 -149.7319 -149.8652 -149.9260 -149.9606   15.4747   28.1699   29.1661   29.3081   28.9656   29.6907   -7.9806
+
+  Columns 14 through 24
+
+   -7.9327   -7.9277   -7.9230   -7.9315   -7.9335  -14.9296  -14.9486  -14.9510  -14.9764  -14.9734  -14.9749
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.8210e+03
+
+    5    354      1821.04            0        0.677          875
+
+ans =
+
+  Columns 1 through 13
+
+ -149.7229 -149.7076 -149.8194 -149.9346 -149.9703 -149.9839  -29.7726   22.7270   27.6367   28.0269   24.9922   29.4392   -7.9135
+
+  Columns 14 through 24
+
+   -7.9368   -7.9291   -7.9227   -7.9291   -7.9295  -14.9377  -14.9592  -14.9618  -14.9829  -14.9822  -14.9834
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.7613e+03
+
+    6    413      1761.32            0         1.53          976
+
+ans =
+
+  Columns 1 through 13
+
+ -149.7235 -149.7083 -149.8198 -149.9348 -149.9703 -149.9839  -29.9989   22.2089   27.6143   28.0169   24.2512   29.4406   -7.9132
+
+  Columns 14 through 24
+
+   -7.9368   -7.9291   -7.9227   -7.9292   -7.9295  -14.9377  -14.9593  -14.9618  -14.9829  -14.9822  -14.9834
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.7577e+03
+
+    7    472      1757.68            0       0.0311          988
+
+ans =
+
+  Columns 1 through 13
+
+ -149.7297 -149.7150 -149.8229 -149.9361 -149.9714 -149.9844  -29.7484  -29.2672   27.8993   28.1114  -29.7287   29.3942   -7.8859
+
+  Columns 14 through 24
+
+   -7.9384   -7.9305   -7.9225   -7.9312   -7.9322  -14.9413  -14.9611  -14.9634  -14.9827  -14.9816  -14.9831
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.6317e+03
+
+    8    531      1631.75            0         2.49     1.55e+03
+
+ans =
+
+  Columns 1 through 13
+
+ -149.7328 -149.7182 -149.8248 -149.9367 -149.9717 -149.9846  -29.6857  -28.4017   27.8375   28.0483  -29.9986   29.3968   -7.8854
+
+  Columns 14 through 24
+
+   -7.9384   -7.9304   -7.9224   -7.9310   -7.9321  -14.9414  -14.9613  -14.9637  -14.9828  -14.9817  -14.9832
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.6285e+03
+
+    9    590      1628.48            0       0.0304      1.5e+03
+
+ans =
+
+  Columns 1 through 13
+
+ -149.7329 -149.7182 -149.8249 -149.9368 -149.9718 -149.9846  -29.9984  -27.9810   27.8136   28.0248  -29.9969   29.3950   -7.8855
+
+  Columns 14 through 24
+
+   -7.9384   -7.9304   -7.9224   -7.9311   -7.9321  -14.9414  -14.9613  -14.9637  -14.9828  -14.9817  -14.9832
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.6278e+03
+
+   10    649      1627.79            0       0.0175     1.49e+03
+Local minimum possible. Constraints satisfied.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance and constraints are 
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 2600.794741 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+ -149.7329 -149.7182 -149.8249 -149.9368 -149.9718 -149.9846  -29.9984  -27.9810   27.8136   28.0248  -29.9969   29.3950   -7.8855
+
+  Columns 14 through 24
+
+   -7.9384   -7.9304   -7.9224   -7.9311   -7.9321  -14.9414  -14.9613  -14.9637  -14.9828  -14.9817  -14.9832
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.2539e+03
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 27-Mar-2020 11:34:57
+
+ans =
+
+  Columns 1 through 13
+
+ -149.7329 -149.7182 -149.8249 -149.9368 -149.9718 -149.9846  -29.9984  -27.9810   27.8136   28.0248  -29.9969   29.3950   -7.8855
+
+  Columns 14 through 24
+
+   -7.9384   -7.9304   -7.9224   -7.9311   -7.9321  -14.9414  -14.9613  -14.9637  -14.9828  -14.9817  -14.9832
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.2539e+03
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      2253.87            0
+
+ans =
+
+  Columns 1 through 13
+
+ -149.7859 -149.7743 -149.8598 -149.9494 -149.9774 -149.9877  -29.9900  -28.5046   26.2780   26.2357  -29.9975   26.4100   -7.8849
+
+  Columns 14 through 24
+
+   -7.9491   -7.9430   -7.9355   -7.9418   -7.9418  -14.9500  -14.9686  -14.9707  -14.9861  -14.9853  -14.9865
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.2275e+03
+
+    1     98      2227.54            0        0.128          145
+
+ans =
+
+  Columns 1 through 13
+
+ -149.7990 -149.7880 -149.8677 -149.9522 -149.9787 -149.9884  -29.9879  -28.5372   26.1523   26.0764  -29.9976   26.3950   -7.8851
+
+  Columns 14 through 24
+
+   -7.9519   -7.9461   -7.9386   -7.9444   -7.9443  -14.9515  -14.9697  -14.9720  -14.9868  -14.9860  -14.9872
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.2265e+03
+
+    2    147      2226.45            0      0.00692         63.4
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9449 -149.9409 -149.9621 -149.9860 -149.9939 -149.9967  -29.9578  -29.0429   24.8750   25.0301  -29.9990   26.3952   -7.9271
+
+  Columns 14 through 24
+
+   -7.9858   -7.9801   -7.9756   -7.9772   -7.9803  -14.9750  -14.9869  -14.9872  -14.9957  -14.9957  -14.9961
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.2178e+03
+
+    3    196      2217.78            0       0.0587         22.9
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9867 -149.9861 -149.9908 -149.9966 -149.9985 -149.9992  -29.9092  -29.9952   24.8232   25.0260  -29.9996   26.3952   -7.9216
+
+  Columns 14 through 24
+
+   -7.9950   -7.9948   -7.9928   -7.9917   -7.9908  -14.9873  -14.9957  -14.9975  -14.9988  -14.9988  -14.9990
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.2164e+03
+
+    4    245      2216.39            0       0.0321         4.46
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9995 -149.9999 -149.9999 -149.9999 -150.0000 -150.0000  -29.7988  -29.9973   24.8141   25.0251  -29.9998   26.3952   -7.9014
+
+  Columns 14 through 24
+
+   -7.9988   -7.9991   -7.9984   -7.9976   -7.9966  -14.9943  -14.9993  -14.9997  -14.9998  -14.9998  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.2161e+03
+
+    5    294      2216.07            0      0.00474        0.668
+Local minimum found that satisfies the constraints.
+
+Optimization completed because the objective function is non-decreasing in 
+feasible directions, to within the value of the optimality tolerance,
+and constraints are satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 1093.108326 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9995 -149.9999 -149.9999 -149.9999 -150.0000 -150.0000  -29.7988  -29.9973   24.8141   25.0251  -29.9998   26.3952   -7.9014
+
+  Columns 14 through 24
+
+   -7.9988   -7.9991   -7.9984   -7.9976   -7.9966  -14.9943  -14.9993  -14.9997  -14.9998  -14.9998  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.6611e+03
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 27-Mar-2020 11:53:09
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9995 -149.9999 -149.9999 -149.9999 -150.0000 -150.0000  -29.7988  -29.9973   24.8141   25.0251  -29.9998   26.3952   -7.9014
+
+  Columns 14 through 24
+
+   -7.9988   -7.9991   -7.9984   -7.9976   -7.9966  -14.9943  -14.9993  -14.9997  -14.9998  -14.9998  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.6611e+03
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      3661.09            0
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9995 -149.9999 -149.9999 -149.9999 -150.0000 -150.0000  -29.7846  -29.9908   22.0052   22.0744  -29.9998   23.4102   -7.8909
+
+  Columns 14 through 24
+
+   -7.9942   -7.9989   -7.9984   -7.9948   -7.9966  -14.9932  -14.9991  -14.9997  -14.9998  -14.9999  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.6251e+03
+
+    1     98       3625.1            0        0.178         89.2
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9995 -149.9999 -149.9999 -149.9999 -150.0000 -150.0000  -29.7606  -29.9812   21.8530   22.0302  -29.9998   23.3952   -7.8809
+
+  Columns 14 through 24
+
+   -7.9852   -7.9987   -7.9984   -7.9898   -7.9965  -14.9903  -14.9987  -14.9996  -14.9998  -14.9999  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.6246e+03
+
+    2    147      3624.65            0      0.00606         2.44
+Local minimum found that satisfies the constraints.
+
+Optimization completed because the objective function is non-decreasing in 
+feasible directions, to within the value of the optimality tolerance,
+and constraints are satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 602.696176 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9995 -149.9999 -149.9999 -149.9999 -150.0000 -150.0000  -29.7606  -29.9812   21.8530   22.0302  -29.9998   23.3952   -7.8809
+
+  Columns 14 through 24
+
+   -7.9852   -7.9987   -7.9984   -7.9898   -7.9965  -14.9903  -14.9987  -14.9996  -14.9998  -14.9999  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 5.6412e+03
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 27-Mar-2020 12:03:10
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9995 -149.9999 -149.9999 -149.9999 -150.0000 -150.0000  -29.7606  -29.9812   21.8530   22.0302  -29.9998   23.3952   -7.8809
+
+  Columns 14 through 24
+
+   -7.9852   -7.9987   -7.9984   -7.9898   -7.9965  -14.9903  -14.9987  -14.9996  -14.9998  -14.9999  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 5.6412e+03
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      5641.16            0
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9995 -149.9999 -149.9999 -149.9999 -150.0000 -150.0000  -29.7480  -29.9682   21.9939   23.7965  -29.9995   20.4102   -7.8791
+
+  Columns 14 through 24
+
+   -7.9819   -7.9943   -7.9978   -7.9896   -7.9964  -14.9805  -14.9987  -14.9996  -14.9997  -14.9999  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 5.6297e+03
+
+    1     98      5629.65            0        0.133         47.9
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9994 -149.9999 -149.9999 -149.9999 -150.0000 -150.0000  -29.7229  -29.9482   22.2865   24.1113  -29.9994   20.3953   -7.8805
+
+  Columns 14 through 24
+
+   -7.9796   -7.9874   -7.9973   -7.9892   -7.9963  -14.9621  -14.9987  -14.9996  -14.9996  -14.9999  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 5.6295e+03
+
+    2    147      5629.53            0       0.0173           48
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9994 -149.9999 -149.9999 -149.9999 -150.0000 -150.0000  -29.5787  -29.9176   24.8402   24.8932  -29.9994   20.3954   -7.9011
+
+  Columns 14 through 24
+
+   -7.9732   -7.9735   -7.9970   -7.9864   -7.9949  -14.7401  -14.9986  -14.9996  -14.9996  -14.9999  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 5.6293e+03
+
+    3    196      5629.27            0        0.109         49.9
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9994 -149.9999 -149.9999 -149.9999 -150.0000 -150.0000  -29.4887  -29.8944   24.8141   25.0295  -29.9993   20.3954   -7.9019
+
+  Columns 14 through 24
+
+   -7.9709   -7.9711   -7.9970   -7.9821   -7.9935  -14.3081  -14.9986  -14.9996  -14.9996  -14.9999  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 5.6292e+03
+
+    4    245      5629.17            0       0.0295         51.2
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9994 -149.9999 -149.9999 -149.9999 -150.0000 -150.0000  -29.7579  -29.7993   24.7605   25.0273  -29.9993   20.3955   -7.8208
+
+  Columns 14 through 24
+
+   -7.9437   -7.9525   -7.9963   -7.9849   -7.9687  -13.4944  -14.9984  -14.9995  -14.9996  -14.9999  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 5.6291e+03
+
+    5    294      5629.13            0       0.0563         51.3
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9994 -149.9999 -149.9999 -149.9999 -150.0000 -150.0000  -29.7687  -29.7979   24.7627   25.0273  -29.9993   20.3955   -7.8121
+
+  Columns 14 through 24
+
+   -7.9414   -7.9513   -7.9962   -7.9999   -7.9488  -13.4955  -14.9984  -14.9995  -14.9996  -14.9999  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 5.6291e+03
+
+    6    343      5629.11            0      0.00333         51.4
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9994 -149.9999 -149.9999 -149.9999 -150.0000 -150.0000  -29.7788  -29.3995   24.8526   25.0263  -29.9994   20.3955   -7.5752
+
+  Columns 14 through 24
+
+   -7.5884   -7.8715   -7.9935   -7.9978   -7.8817  -13.5190  -14.9984  -14.9995  -14.9996  -14.9999  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 5.6290e+03
+
+    7    392      5629.04            0       0.0564         51.2
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9994 -149.9999 -149.9999 -149.9999 -150.0000 -150.0000  -29.8066  -29.1341   24.8426   25.0263  -29.9994   20.3955   -7.3881
+
+  Columns 14 through 24
+
+   -6.9882   -7.7816   -7.9922   -7.9982   -7.7844  -13.5193  -14.9983  -14.9995  -14.9996  -14.9999  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 5.6289e+03
+
+    8    441      5628.94            0       0.0808         51.6
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9994 -149.9999 -149.9999 -149.9999 -150.0000 -150.0000  -29.8365  -29.0018   24.8327   25.0262  -29.9994   20.3955   -6.8834
+
+  Columns 14 through 24
+
+   -7.0018   -7.3050   -7.9889   -7.9985   -7.6912  -13.5185  -14.9983  -14.9995  -14.9996  -14.9999  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 5.6288e+03
+
+    9    490      5628.85            0       0.0877         49.7
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9994 -149.9999 -149.9999 -149.9999 -150.0000 -150.0000  -29.8727  -29.5948   24.8240   25.0261  -29.9994   20.3955   -6.8961
+
+  Columns 14 through 24
+
+   -6.9982   -7.0003   -7.7403   -7.9987   -7.5343  -13.5192  -14.9983  -14.9994  -14.9996  -14.9999  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 5.6288e+03
+
+   10    539      5628.75            0       0.0565         28.4
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9994 -149.9999 -149.9999 -149.9999 -150.0000 -150.0000  -29.8990  -29.9980   24.8172   25.0259  -29.9994   20.3955   -6.8950
+
+  Columns 14 through 24
+
+   -6.9971   -7.0060   -7.5795   -7.9988   -7.4283  -13.5210  -14.9983  -14.9994  -14.9996  -14.9999  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 5.6287e+03
+
+   11    588      5628.69            0       0.0276         25.8
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9994 -149.9999 -149.9999 -149.9999 -150.0000 -150.0000  -29.8973  -29.9796   24.8153   25.0259  -29.9994   20.3955   -6.8954
+
+  Columns 14 through 24
+
+   -6.9973   -7.0055   -7.0014   -7.9987   -7.0712  -13.5254  -14.9982  -14.9993  -14.9996  -14.9999  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 5.6285e+03
+
+   12    637      5628.48            0       0.0849         22.3
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9994 -149.9999 -149.9999 -149.9999 -150.0000 -150.0000  -29.8977  -29.9599   24.8102   25.0256  -29.9994   20.3955   -6.8918
+
+  Columns 14 through 24
+
+   -6.9959   -7.0075   -7.0054   -7.9988   -6.9969  -13.5227  -14.9981  -14.9992  -14.9996  -14.9999  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 5.6284e+03
+
+   13    686       5628.4            0      0.00935         19.4
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9994 -149.9999 -149.9999 -149.9999 -150.0000 -150.0000  -29.7992  -29.9188   24.7654   25.0273  -29.9993   20.3955   -6.8988
+
+  Columns 14 through 24
+
+   -7.0036   -7.0191   -7.0157   -7.9974   -7.0061  -13.5300  -14.9953  -14.9976  -14.9995  -14.9999  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 5.6284e+03
+
+   14    735      5628.41            0       0.0048         10.7
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9994 -149.9999 -149.9999 -149.9999 -150.0000 -150.0000  -29.9990  -29.9030   24.7747   25.0270  -29.9993   20.3955   -6.8986
+
+  Columns 14 through 24
+
+   -7.0068   -7.0162   -7.3217   -7.9965   -7.0033  -13.5267  -14.9936  -14.9968  -14.9995  -14.9999  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 5.6283e+03
+
+   15    784      5628.32            0       0.0388         9.81
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9994 -149.9999 -149.9999 -149.9999 -150.0000 -150.0000  -29.9816  -29.9032   24.7988   25.0267  -29.9993   20.3955   -6.8975
+
+  Columns 14 through 24
+
+   -7.0072   -7.0193   -7.9966   -7.9967   -7.0023  -13.5244  -14.9922  -14.9960  -14.9995  -14.9999  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 5.6281e+03
+
+   16    833      5628.12            0       0.0844         6.96
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9994 -149.9999 -149.9999 -149.9999 -150.0000 -150.0000  -29.9468  -29.7965   24.7435   25.0253  -29.9993   20.3955   -6.9054
+
+  Columns 14 through 24
+
+   -7.0175   -7.1002   -7.9963   -7.9915   -6.9965  -13.5378  -14.9362  -14.7542  -14.9996  -14.9999  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 5.6281e+03
+
+   17    882      5628.07            0         0.02         5.64
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9994 -149.9999 -149.9999 -149.9999 -150.0000 -150.0000  -29.8926  -29.5230   24.7062   25.0251  -29.9993   20.3955   -6.9132
+
+  Columns 14 through 24
+
+   -7.0103   -7.5895   -7.9960   -7.9832   -6.9971  -13.5550  -13.5059  -14.7788  -14.9995  -14.9999  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 5.6278e+03
+
+   18    931      5627.83            0        0.114         5.57
+Local minimum found that satisfies the constraints.
+
+Optimization completed because the objective function is non-decreasing in 
+feasible directions, to within the value of the optimality tolerance,
+and constraints are satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 3118.250285 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9994 -149.9999 -149.9999 -149.9999 -150.0000 -150.0000  -29.8926  -29.5230   24.7062   25.0251  -29.9993   20.3955   -6.9132
+
+  Columns 14 through 24
+
+   -7.0103   -7.5895   -7.9960   -7.9832   -6.9971  -13.5550  -13.5059  -14.7788  -14.9995  -14.9999  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.5260e+03
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 27-Mar-2020 12:55:08
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9994 -149.9999 -149.9999 -149.9999 -150.0000 -150.0000  -29.8926  -29.5230   24.7062   25.0251  -29.9993   20.3955   -6.9132
+
+  Columns 14 through 24
+
+   -7.0103   -7.5895   -7.9960   -7.9832   -6.9971  -13.5550  -13.5059  -14.7788  -14.9995  -14.9999  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.5260e+03
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      8526.04            0
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9993 -149.9999 -149.9999 -150.0000 -150.0000 -150.0000  -29.8764  -29.5131   24.7090   25.4301  -29.9993   17.4105   -6.9104
+
+  Columns 14 through 24
+
+   -6.9998   -7.5883   -7.9901   -7.9691   -6.1934  -13.5325  -13.3454  -14.8444  -14.9994  -14.9998  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.5215e+03
+
+    1     98      8521.55            0        0.163         39.4
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9992 -149.9999 -149.9999 -150.0000 -150.0000 -150.0000  -29.8481  -29.4971   24.7197   26.1738  -29.9993   17.3981   -6.9106
+
+  Columns 14 through 24
+
+   -6.9923   -7.5855   -7.9796   -7.9108   -5.9981  -13.4828  -12.9258  -14.8508  -14.9993  -14.9998  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.5212e+03
+
+    2    147      8521.25            0       0.0464         38.8
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9992 -149.9999 -149.9999 -150.0000 -150.0000 -150.0000  -29.8082  -29.4701   24.6957   27.1989  -29.9993   17.3966   -6.8998
+
+  Columns 14 through 24
+
+   -6.9946   -7.5781   -7.9607   -6.9878   -5.9980  -13.3958  -12.2050  -14.7739  -14.9992  -14.9998  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.5211e+03
+
+    3    196      8521.11            0        0.131         37.3
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9992 -149.9999 -149.9999 -150.0000 -150.0000 -150.0000  -29.6976  -29.4233   24.8930   27.8169  -29.9993   17.3965   -6.8674
+
+  Columns 14 through 24
+
+   -6.9645   -7.5523   -7.9037   -6.9972   -5.9980  -13.1788  -12.0451  -13.2863  -14.9991  -14.9998  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.5211e+03
+
+    4    245      8521.07            0        0.104         31.3
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9992 -149.9999 -149.9999 -150.0000 -150.0000 -150.0000  -29.6338  -29.1926   25.0106   27.9610  -29.9992   17.3964   -6.6966
+
+  Columns 14 through 24
+
+   -7.1856   -7.4466   -7.7396   -6.9990   -5.9979  -12.9061  -12.0238  -13.3056  -14.9990  -14.9998  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.5210e+03
+
+    5    294      8520.96            0       0.0476         31.2
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9992 -149.9999 -149.9999 -150.0000 -150.0000 -150.0000  -29.5519  -28.3878   26.0111   27.9705  -29.9991   17.3964   -6.2391
+
+  Columns 14 through 24
+
+   -7.9959   -7.2909   -7.3358   -6.9983   -5.9979  -12.5075  -12.0231  -13.3039  -14.9990  -14.9998  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.5211e+03
+
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9992 -149.9999 -149.9999 -150.0000 -150.0000 -150.0000  -29.5928  -28.7902   25.5109   27.9657  -29.9991   17.3964   -6.4679
+
+  Columns 14 through 24
+
+   -7.5907   -7.3688   -7.5377   -6.9986   -5.9979  -12.7068  -12.0235  -13.3048  -14.9990  -14.9998  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.5210e+03
+
+    6    392      8520.95            0       0.0694           31
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9992 -149.9999 -149.9999 -150.0000 -150.0000 -150.0000  -29.4550  -27.7450   25.8765   27.9836  -29.9989   17.3964   -5.9160
+
+  Columns 14 through 24
+
+   -7.8205   -7.4731   -7.3518   -6.9968   -5.9979  -12.3093  -12.0237  -13.3024  -14.9990  -14.9998  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.5210e+03
+
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9992 -149.9999 -149.9999 -150.0000 -150.0000 -150.0000  -29.5239  -28.2676   25.6937   27.9747  -29.9990   17.3964   -6.1920
+
+  Columns 14 through 24
+
+   -7.7056   -7.4209   -7.4448   -6.9977   -5.9979  -12.5080  -12.0236  -13.3036  -14.9990  -14.9998  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.5210e+03
+
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9992 -149.9999 -149.9999 -150.0000 -150.0000 -150.0000  -29.5584  -28.5289   25.6023   27.9702  -29.9991   17.3964   -6.3299
+
+  Columns 14 through 24
+
+   -7.6482   -7.3948   -7.4913   -6.9982   -5.9979  -12.6074  -12.0235  -13.3042  -14.9990  -14.9998  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.5210e+03
+
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9992 -149.9999 -149.9999 -150.0000 -150.0000 -150.0000  -29.5756  -28.6596   25.5566   27.9680  -29.9991   17.3964   -6.3989
+
+  Columns 14 through 24
+
+   -7.6195   -7.3818   -7.5145   -6.9984   -5.9979  -12.6571  -12.0235  -13.3045  -14.9990  -14.9998  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.5209e+03
+
+    7    588      8520.92            0       0.0115           31
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9992 -149.9999 -149.9999 -150.0000 -150.0000 -150.0000  -29.6527  -26.7204   25.4482   27.9730  -29.9989   17.3964   -5.9157
+
+  Columns 14 through 24
+
+   -7.7346   -7.6700   -7.5159   -6.9995   -5.9979  -12.4699  -12.0243  -13.3029  -14.9990  -14.9998  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.5209e+03
+
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9992 -149.9999 -149.9999 -150.0000 -150.0000 -150.0000  -29.6141  -27.6900   25.5024   27.9705  -29.9990   17.3964   -6.1573
+
+  Columns 14 through 24
+
+   -7.6770   -7.5259   -7.5152   -6.9989   -5.9979  -12.5635  -12.0239  -13.3037  -14.9990  -14.9998  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.5210e+03
+
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9992 -149.9999 -149.9999 -150.0000 -150.0000 -150.0000  -29.5949  -28.1748   25.5295   27.9692  -29.9990   17.3964   -6.2781
+
+  Columns 14 through 24
+
+   -7.6482   -7.4538   -7.5148   -6.9987   -5.9979  -12.6103  -12.0237  -13.3041  -14.9990  -14.9998  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.5209e+03
+
+    8    735      8520.92            0       0.0245         31.8
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9992 -149.9999 -149.9999 -150.0000 -150.0000 -150.0000  -29.8333  -26.5312   26.6741   27.9618  -29.9985   17.3964   -6.1594
+
+  Columns 14 through 24
+
+   -7.4714   -7.3061   -7.5617   -7.0059   -5.9979  -12.1117  -12.0322  -13.2970  -14.9990  -14.9998  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.5210e+03
+
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9992 -149.9999 -149.9999 -150.0000 -150.0000 -150.0000  -29.7141  -27.3530   26.1018   27.9655  -29.9988   17.3964   -6.2188
+
+  Columns 14 through 24
+
+   -7.5598   -7.3800   -7.5383   -7.0023   -5.9979  -12.3610  -12.0279  -13.3005  -14.9990  -14.9998  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.5210e+03
+
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9992 -149.9999 -149.9999 -150.0000 -150.0000 -150.0000  -29.6545  -27.7639   25.8156   27.9673  -29.9989   17.3964   -6.2484
+
+  Columns 14 through 24
+
+   -7.6040   -7.4169   -7.5266   -7.0005   -5.9979  -12.4856  -12.0258  -13.3023  -14.9990  -14.9998  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.5210e+03
+
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9992 -149.9999 -149.9999 -150.0000 -150.0000 -150.0000  -29.6247  -27.9693   25.6726   27.9683  -29.9990   17.3964   -6.2633
+
+  Columns 14 through 24
+
+   -7.6261   -7.4354   -7.5207   -6.9996   -5.9979  -12.5480  -12.0248  -13.3032  -14.9990  -14.9998  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.5209e+03
+
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9992 -149.9999 -149.9999 -150.0000 -150.0000 -150.0000  -29.6397  -27.7453   26.1168   27.9656  -29.9990   17.3964   -6.3832
+
+  Columns 14 through 24
+
+   -7.4326   -7.2694   -7.5871   -7.0001   -5.9979  -12.3541  -12.0250  -13.3026  -14.9990  -14.9998  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.5210e+03
+
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9992 -149.9999 -149.9999 -150.0000 -150.0000 -150.0000  -29.6147  -27.9778   25.9093   27.9674  -29.9990   17.3964   -6.3346
+
+  Columns 14 through 24
+
+   -7.5439   -7.3663   -7.5492   -6.9994   -5.9979  -12.4852  -12.0243  -13.3033  -14.9990  -14.9998  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.5210e+03
+
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9992 -149.9999 -149.9999 -150.0000 -150.0000 -150.0000  -29.6023  -28.0957   25.7901   27.9684  -29.9990   17.3964   -6.3062
+
+  Columns 14 through 24
+
+   -7.5995   -7.4140   -7.5287   -6.9990   -5.9979  -12.5498  -12.0240  -13.3037  -14.9990  -14.9998  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.5209e+03
+
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9992 -149.9999 -149.9999 -150.0000 -150.0000 -150.0000  -29.5974  -28.1604   25.6971   27.9689  -29.9990   17.3964   -6.2870
+
+  Columns 14 through 24
+
+   -7.6265   -7.4312   -7.5157   -6.9988   -5.9979  -12.5816  -12.0238  -13.3039  -14.9990  -14.9998  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.5209e+03
+
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9992 -149.9999 -149.9999 -150.0000 -150.0000 -150.0000  -29.5951  -28.1879   25.6289   27.9691  -29.9990   17.3964   -6.2780
+
+  Columns 14 through 24
+
+   -7.6410   -7.4422   -7.5105   -6.9987   -5.9979  -12.5993  -12.0237  -13.3040  -14.9990  -14.9998  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.5210e+03
+
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9992 -149.9999 -149.9999 -150.0000 -150.0000 -150.0000  -29.5950  -28.1813   25.5792   27.9692  -29.9990   17.3964   -6.2780
+
+  Columns 14 through 24
+
+   -7.6446   -7.4480   -7.5127   -6.9987   -5.9979  -12.6048  -12.0237  -13.3040  -14.9990  -14.9998  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.5210e+03
+
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9992 -149.9999 -149.9999 -150.0000 -150.0000 -150.0000  -29.5949  -28.1780   25.5543   27.9692  -29.9990   17.3964   -6.2781
+
+  Columns 14 through 24
+
+   -7.6464   -7.4509   -7.5138   -6.9987   -5.9979  -12.6075  -12.0237  -13.3041  -14.9990  -14.9998  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.5210e+03
+
+Local minimum possible. Constraints satisfied.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance and constraints are 
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 4087.811570 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9992 -149.9999 -149.9999 -150.0000 -150.0000 -150.0000  -29.5949  -28.1748   25.5295   27.9692  -29.9990   17.3964   -6.2781
+
+  Columns 14 through 24
+
+   -7.6482   -7.4538   -7.5148   -6.9987   -5.9979  -12.6103  -12.0237  -13.3041  -14.9990  -14.9998  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.2140e+04
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 27-Mar-2020 14:03:15
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9992 -149.9999 -149.9999 -150.0000 -150.0000 -150.0000  -29.5949  -28.1748   25.5295   27.9692  -29.9990   17.3964   -6.2781
+
+  Columns 14 through 24
+
+   -7.6482   -7.4538   -7.5148   -6.9987   -5.9979  -12.6103  -12.0237  -13.3041  -14.9990  -14.9998  -14.9999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.2140e+04
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      12140.2            0
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9997 -149.9999 -150.0000 -150.0000 -150.0000 -150.0000  -29.5919  -28.1705   25.5028   27.9609  -29.9992   14.4114   -6.2921
+
+  Columns 14 through 24
+
+   -7.6455   -7.4540   -7.5102   -6.9340   -5.4206  -12.6020  -12.2156  -14.2762  -14.9996  -14.9999  -15.0000
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.2138e+04
+
+    1     98      12137.7            0        0.181         26.8
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9999 -150.0000 -150.0000 -150.0000 -150.0000 -150.0000  -29.5942  -28.1576   25.5975   27.9240  -29.9994   14.3965   -6.2561
+
+  Columns 14 through 24
+
+   -7.6495   -7.4516   -7.5172   -6.9006   -5.0812  -12.6725  -12.4105  -14.4203  -14.9998  -15.0000  -15.0000
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.2137e+04
+
+    2    147      12137.5            0       0.0523         24.1
+
+ans =
+
+  Columns 1 through 13
+
+ -149.9999 -150.0000 -150.0000 -150.0000 -150.0000 -150.0000  -29.6378  -28.2120   25.8519   27.7620  -29.9995   14.3964   -6.0718
+
+  Columns 14 through 24
+
+   -7.7169   -7.4392   -7.5654   -6.8396   -5.0212  -12.8567  -12.8794  -14.8022  -14.9999  -15.0000  -15.0000
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.2137e+04
+
+    3    196      12137.3            0       0.0551         22.8
+
+ans =
+
+  Columns 1 through 13
+
+ -150.0000 -150.0000 -150.0000 -150.0000 -150.0000 -150.0000  -29.6432  -28.3200   25.8861   27.5913  -29.9996   14.3964   -6.0526
+
+  Columns 14 through 24
+
+   -7.7284   -7.4391   -7.5672   -6.5358   -4.9980  -12.9546  -13.3121  -14.8039  -15.0000  -15.0000  -15.0000
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.2137e+04
+
+    4    245      12137.3            0       0.0508           17
+
+ans =
+
+  Columns 1 through 13
+
+ -150.0000 -150.0000 -150.0000 -150.0000 -150.0000 -150.0000  -29.8084  -28.3430   26.0736   27.0579  -29.9996   14.3964   -5.9948
+
+  Columns 14 through 24
+
+   -7.7666   -7.4799   -7.5764   -6.0014   -4.9979  -13.2796  -13.4736  -14.8040  -15.0000  -15.0000  -15.0000
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.2137e+04
+
+    5    294      12137.3            0       0.0751         16.9
+
+ans =
+
+  Columns 1 through 13
+
+ -150.0000 -150.0000 -150.0000 -150.0000 -150.0000 -150.0000  -29.8242  -28.4771   25.9891   26.7485  -29.9996   14.3964   -5.9796
+
+  Columns 14 through 24
+
+   -7.7817   -7.4899   -7.5220   -5.9987   -4.9979  -13.3067  -13.4999  -14.8040  -15.0000  -15.0000  -15.0000
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.2137e+04
+
+    6    343      12137.3            0       0.0141         2.38
+Local minimum found that satisfies the constraints.
+
+Optimization completed because the objective function is non-decreasing in 
+feasible directions, to within the value of the optimality tolerance,
+and constraints are satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 1156.735698 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+ -150.0000 -150.0000 -150.0000 -150.0000 -150.0000 -150.0000  -29.8242  -28.4771   25.9891   26.7485  -29.9996   14.3964   -5.9796
+
+  Columns 14 through 24
+
+   -7.7817   -7.4899   -7.5220   -5.9987   -4.9979  -13.3067  -13.4999  -14.8040  -15.0000  -15.0000  -15.0000
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.5951e+04
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 27-Mar-2020 14:22:32
+
+ans =
+
+  Columns 1 through 13
+
+ -150.0000 -150.0000 -150.0000 -150.0000 -150.0000 -150.0000  -29.8242  -28.4771   25.9891   26.7485  -29.9996   14.3964   -5.9796
+
+  Columns 14 through 24
+
+   -7.7817   -7.4899   -7.5220   -5.9987   -4.9979  -13.3067  -13.4999  -14.8040  -15.0000  -15.0000  -15.0000
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.5951e+04
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      15950.8            0
+Initial point is a local minimum that satisfies the constraints.
+
+Optimization completed because at the initial point, the objective function is non-decreasing 
+in feasible directions to within the value of the optimality tolerance, and 
+constraints are satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 237.166064 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+ -150.0000 -150.0000 -150.0000 -150.0000 -150.0000 -150.0000  -29.8242  -28.4771   25.9891   26.7485  -29.9996   14.3964   -5.9796
+
+  Columns 14 through 24
+
+   -7.7817   -7.4899   -7.5220   -5.9987   -4.9979  -13.3067  -13.4999  -14.8040  -15.0000  -15.0000  -15.0000
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.9886e+04
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 27-Mar-2020 14:26:29
+
+ans =
+
+  Columns 1 through 13
+
+ -150.0000 -150.0000 -150.0000 -150.0000 -150.0000 -150.0000  -29.8242  -28.4771   25.9891   26.7485  -29.9996   14.3964   -5.9796
+
+  Columns 14 through 24
+
+   -7.7817   -7.4899   -7.5220   -5.9987   -4.9979  -13.3067  -13.4999  -14.8040  -15.0000  -15.0000  -15.0000
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.9886e+04
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      19886.4            0
+Initial point is a local minimum that satisfies the constraints.
+
+Optimization completed because at the initial point, the objective function is non-decreasing 
+in feasible directions to within the value of the optimality tolerance, and 
+constraints are satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 225.518757 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+ -150.0000 -150.0000 -150.0000 -150.0000 -150.0000 -150.0000  -29.8242  -28.4771   25.9891   26.7485  -29.9996   14.3964   -5.9796
+
+  Columns 14 through 24
+
+   -7.7817   -7.4899   -7.5220   -5.9987   -4.9979  -13.3067  -13.4999  -14.8040  -15.0000  -15.0000  -15.0000
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.4163e+04
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 27-Mar-2020 14:30:14
+
+ans =
+
+  Columns 1 through 13
+
+ -150.0000 -150.0000 -150.0000 -150.0000 -150.0000 -150.0000  -29.8242  -28.4771   25.9891   26.7485  -29.9996   14.3964   -5.9796
+
+  Columns 14 through 24
+
+   -7.7817   -7.4899   -7.5220   -5.9987   -4.9979  -13.3067  -13.4999  -14.8040  -15.0000  -15.0000  -15.0000
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.4163e+04
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      24162.5            0
+Initial point is a local minimum that satisfies the constraints.
+
+Optimization completed because at the initial point, the objective function is non-decreasing 
+in feasible directions to within the value of the optimality tolerance, and 
+constraints are satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 219.777364 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+ -150.0000 -150.0000 -150.0000 -150.0000 -150.0000 -150.0000  -29.8242  -28.4771   25.9891   26.7485  -29.9996   14.3964   -5.9796
+
+  Columns 14 through 24
+
+   -7.7817   -7.4899   -7.5220   -5.9987   -4.9979  -13.3067  -13.4999  -14.8040  -15.0000  -15.0000  -15.0000
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.8378e+04
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 27-Mar-2020 14:33:53
+
+ans =
+
+  Columns 1 through 13
+
+ -150.0000 -150.0000 -150.0000 -150.0000 -150.0000 -150.0000  -29.8242  -28.4771   25.9891   26.7485  -29.9996   14.3964   -5.9796
+
+  Columns 14 through 24
+
+   -7.7817   -7.4899   -7.5220   -5.9987   -4.9979  -13.3067  -13.4999  -14.8040  -15.0000  -15.0000  -15.0000
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.8378e+04
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49        28378            0
+Initial point is a local minimum that satisfies the constraints.
+
+Optimization completed because at the initial point, the objective function is non-decreasing 
+in feasible directions to within the value of the optimality tolerance, and 
+constraints are satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 212.287811 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+ -150.0000 -150.0000 -150.0000 -150.0000 -150.0000 -150.0000  -29.8242  -28.4771   25.9891   26.7485  -29.9996   14.3964   -5.9796
+
+  Columns 14 through 24
+
+   -7.7817   -7.4899   -7.5220   -5.9987   -4.9979  -13.3067  -13.4999  -14.8040  -15.0000  -15.0000  -15.0000
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.2249e+04
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 27-Mar-2020 14:37:25
+
+ans =
+
+  Columns 1 through 13
+
+ -150.0000 -150.0000 -150.0000 -150.0000 -150.0000 -150.0000  -29.8242  -28.4771   25.9891   26.7485  -29.9996   14.3964   -5.9796
+
+  Columns 14 through 24
+
+   -7.7817   -7.4899   -7.5220   -5.9987   -4.9979  -13.3067  -13.4999  -14.8040  -15.0000  -15.0000  -15.0000
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.2249e+04
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      32248.8            0
+Initial point is a local minimum that satisfies the constraints.
+
+Optimization completed because at the initial point, the objective function is non-decreasing 
+in feasible directions to within the value of the optimality tolerance, and 
+constraints are satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 204.965818 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+ -150.0000 -150.0000 -150.0000 -150.0000 -150.0000 -150.0000  -29.8242  -28.4771   25.9891   26.7485  -29.9996   14.3964   -5.9796
+
+  Columns 14 through 24
+
+   -7.7817   -7.4899   -7.5220   -5.9987   -4.9979  -13.3067  -13.4999  -14.8040  -15.0000  -15.0000  -15.0000
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.4245e+04
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 27-Mar-2020 14:40:50
+
+ans =
+
+  Columns 1 through 13
+
+ -150.0000 -150.0000 -150.0000 -150.0000 -150.0000 -150.0000  -29.8242  -28.4771   25.9891   26.7485  -29.9996   14.3964   -5.9796
+
+  Columns 14 through 24
+
+   -7.7817   -7.4899   -7.5220   -5.9987   -4.9979  -13.3067  -13.4999  -14.8040  -15.0000  -15.0000  -15.0000
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.4245e+04
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      34245.2            0
+Initial point is a local minimum that satisfies the constraints.
+
+Optimization completed because at the initial point, the objective function is non-decreasing 
+in feasible directions to within the value of the optimality tolerance, and 
+constraints are satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 198.962444 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+ -150.0000 -150.0000 -150.0000 -150.0000 -150.0000 -150.0000  -29.8242  -28.4771   25.9891   26.7485  -29.9996   14.3964   -5.9796
+
+  Columns 14 through 24
+
+   -7.7817   -7.4899   -7.5220   -5.9987   -4.9979  -13.3067  -13.4999  -14.8040  -15.0000  -15.0000  -15.0000
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.5781e+04
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 27-Mar-2020 14:44:09
+
+ans =
+
+  Columns 1 through 13
+
+ -150.0000 -150.0000 -150.0000 -150.0000 -150.0000 -150.0000  -29.8242  -28.4771   25.9891   26.7485  -29.9996   14.3964   -5.9796
+
+  Columns 14 through 24
+
+   -7.7817   -7.4899   -7.5220   -5.9987   -4.9979  -13.3067  -13.4999  -14.8040  -15.0000  -15.0000  -15.0000
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.5781e+04
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      35780.7            0
+Initial point is a local minimum that satisfies the constraints.
+
+Optimization completed because at the initial point, the objective function is non-decreasing 
+in feasible directions to within the value of the optimality tolerance, and 
+constraints are satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 195.998568 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+ -150.0000 -150.0000 -150.0000 -150.0000 -150.0000 -150.0000  -29.8242  -28.4771   25.9891   26.7485  -29.9996   14.3964   -5.9796
+
+  Columns 14 through 24
+
+   -7.7817   -7.4899   -7.5220   -5.9987   -4.9979  -13.3067  -13.4999  -14.8040  -15.0000  -15.0000  -15.0000
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.7567e+04
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 27-Mar-2020 14:47:25
+
+ans =
+
+  Columns 1 through 13
+
+ -150.0000 -150.0000 -150.0000 -150.0000 -150.0000 -150.0000  -29.8242  -28.4771   25.9891   26.7485  -29.9996   14.3964   -5.9796
+
+  Columns 14 through 24
+
+   -7.7817   -7.4899   -7.5220   -5.9987   -4.9979  -13.3067  -13.4999  -14.8040  -15.0000  -15.0000  -15.0000
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.7567e+04
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      37567.1            0
+Initial point is a local minimum that satisfies the constraints.
+
+Optimization completed because at the initial point, the objective function is non-decreasing 
+in feasible directions to within the value of the optimality tolerance, and 
+constraints are satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 189.827691 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+ -150.0000 -150.0000 -150.0000 -150.0000 -150.0000 -150.0000  -29.8242  -28.4771   25.9891   26.7485  -29.9996   14.3964   -5.9796
+
+  Columns 14 through 24
+
+   -7.7817   -7.4899   -7.5220   -5.9987   -4.9979  -13.3067  -13.4999  -14.8040  -15.0000  -15.0000  -15.0000
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.9500e+04
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 27-Mar-2020 14:50:35
+
+ans =
+
+  Columns 1 through 13
+
+ -150.0000 -150.0000 -150.0000 -150.0000 -150.0000 -150.0000  -29.8242  -28.4771   25.9891   26.7485  -29.9996   14.3964   -5.9796
+
+  Columns 14 through 24
+
+   -7.7817   -7.4899   -7.5220   -5.9987   -4.9979  -13.3067  -13.4999  -14.8040  -15.0000  -15.0000  -15.0000
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.9500e+04
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      39500.2            0
+Initial point is a local minimum that satisfies the constraints.
+
+Optimization completed because at the initial point, the objective function is non-decreasing 
+in feasible directions to within the value of the optimality tolerance, and 
+constraints are satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 189.711737 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+ -150.0000 -150.0000 -150.0000 -150.0000 -150.0000 -150.0000  -29.8242  -28.4771   25.9891   26.7485  -29.9996   14.3964   -5.9796
+
+  Columns 14 through 24
+
+   -7.7817   -7.4899   -7.5220   -5.9987   -4.9979  -13.3067  -13.4999  -14.8040  -15.0000  -15.0000  -15.0000
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 4.0478e+04
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 27-Mar-2020 14:53:44
+
+ans =
+
+  Columns 1 through 13
+
+ -150.0000 -150.0000 -150.0000 -150.0000 -150.0000 -150.0000  -29.8242  -28.4771   25.9891   26.7485  -29.9996   14.3964   -5.9796
+
+  Columns 14 through 24
+
+   -7.7817   -7.4899   -7.5220   -5.9987   -4.9979  -13.3067  -13.4999  -14.8040  -15.0000  -15.0000  -15.0000
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 4.0478e+04
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      40478.3            0
+Initial point is a local minimum that satisfies the constraints.
+
+Optimization completed because at the initial point, the objective function is non-decreasing 
+in feasible directions to within the value of the optimality tolerance, and 
+constraints are satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 186.074935 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+ -150.0000 -150.0000 -150.0000 -150.0000 -150.0000 -150.0000  -29.8242  -28.4771   25.9891   26.7485  -29.9996   14.3964   -5.9796
+
+  Columns 14 through 24
+
+   -7.7817   -7.4899   -7.5220   -5.9987   -4.9979  -13.3067  -13.4999  -14.8040  -15.0000  -15.0000  -15.0000
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.9886e+04
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 27-Mar-2020 14:56:50
+
+ans =
+
+  Columns 1 through 13
+
+ -150.0000 -150.0000 -150.0000 -150.0000 -150.0000 -150.0000  -29.8242  -28.4771   25.9891   26.7485  -29.9996   14.3964   -5.9796
+
+  Columns 14 through 24
+
+   -7.7817   -7.4899   -7.5220   -5.9987   -4.9979  -13.3067  -13.4999  -14.8040  -15.0000  -15.0000  -15.0000
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.9886e+04
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      39885.6            0
+Initial point is a local minimum that satisfies the constraints.
+
+Optimization completed because at the initial point, the objective function is non-decreasing 
+in feasible directions to within the value of the optimality tolerance, and 
+constraints are satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 175.422935 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+ -150.0000 -150.0000 -150.0000 -150.0000 -150.0000 -150.0000  -29.8242  -28.4771   25.9891   26.7485  -29.9996   14.3964   -5.9796
+
+  Columns 14 through 24
+
+   -7.7817   -7.4899   -7.5220   -5.9987   -4.9979  -13.3067  -13.4999  -14.8040  -15.0000  -15.0000  -15.0000
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.7867e+04
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 27-Mar-2020 14:59:45
+
+ans =
+
+  Columns 1 through 13
+
+ -150.0000 -150.0000 -150.0000 -150.0000 -150.0000 -150.0000  -29.8242  -28.4771   25.9891   26.7485  -29.9996   14.3964   -5.9796
+
+  Columns 14 through 24
+
+   -7.7817   -7.4899   -7.5220   -5.9987   -4.9979  -13.3067  -13.4999  -14.8040  -15.0000  -15.0000  -15.0000
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.7867e+04
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      37867.4            0
+Initial point is a local minimum that satisfies the constraints.
+
+Optimization completed because at the initial point, the objective function is non-decreasing 
+in feasible directions to within the value of the optimality tolerance, and 
+constraints are satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 173.227103 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+ -150.0000 -150.0000 -150.0000 -150.0000 -150.0000 -150.0000  -29.8242  -28.4771   25.9891   26.7485  -29.9996   14.3964   -5.9796
+
+  Columns 14 through 24
+
+   -7.7817   -7.4899   -7.5220   -5.9987   -4.9979  -13.3067  -13.4999  -14.8040  -15.0000  -15.0000  -15.0000
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.5083e+04
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 27-Mar-2020 15:02:38
+
+ans =
+
+  Columns 1 through 13
+
+ -150.0000 -150.0000 -150.0000 -150.0000 -150.0000 -150.0000  -29.8242  -28.4771   25.9891   26.7485  -29.9996   14.3964   -5.9796
+
+  Columns 14 through 24
+
+   -7.7817   -7.4899   -7.5220   -5.9987   -4.9979  -13.3067  -13.4999  -14.8040  -15.0000  -15.0000  -15.0000
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.5083e+04
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      35083.5            0
+Initial point is a local minimum that satisfies the constraints.
+
+Optimization completed because at the initial point, the objective function is non-decreasing 
+in feasible directions to within the value of the optimality tolerance, and 
+constraints are satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 170.350347 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+ -150.0000 -150.0000 -150.0000 -150.0000 -150.0000 -150.0000  -29.8242  -28.4771   25.9891   26.7485  -29.9996   14.3964   -5.9796
+
+  Columns 14 through 24
+
+   -7.7817   -7.4899   -7.5220   -5.9987   -4.9979  -13.3067  -13.4999  -14.8040  -15.0000  -15.0000  -15.0000
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.2398e+04
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 27-Mar-2020 15:05:28
+
+ans =
+
+  Columns 1 through 13
+
+ -150.0000 -150.0000 -150.0000 -150.0000 -150.0000 -150.0000  -29.8242  -28.4771   25.9891   26.7485  -29.9996   14.3964   -5.9796
+
+  Columns 14 through 24
+
+   -7.7817   -7.4899   -7.5220   -5.9987   -4.9979  -13.3067  -13.4999  -14.8040  -15.0000  -15.0000  -15.0000
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.2398e+04
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      32397.8            0
+Initial point is a local minimum that satisfies the constraints.
+
+Optimization completed because at the initial point, the objective function is non-decreasing 
+in feasible directions to within the value of the optimality tolerance, and 
+constraints are satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 164.032729 seconds.
+IdleTimeout has been reached.
+Parallel pool using the 'local' profile is shutting down.
+ic.p(1) = stance_ankle_p_out(end);
+    ic.w(1) = stance_ankle_w_out(end);
+    ic.p(2) = stance_knee_p_out(end);
+    ic.w(2) = stance_knee_w_out(end);
+    ic.p(3) = stance_hip_p_out(end);
+    ic.w(3) = stance_hip_w_out(end);
+    ic.p(4) = swing_ankle_p_out(end);
+    ic.w(4) = swing_ankle_w_out(end);
+    ic.p(5) = swing_knee_p_out(end);
+    ic.w(5) = swing_knee_w_out(end);
+    ic.p(6) = swing_hip_p_out(end);
+    ic.w(6) = swing_hip_w_out(end);
+    ic.planar.p(1) = Planar_joint_x_p_out(end);
+    ic.planar.w(1) = Planar_joint_x_v_out(end);
+    ic.planar.p(2) = Planar_joint_y_p_out(end);
+    ic.planar.w(2) = Planar_joint_y_v_out(end);
+    ic.planar.p(3) = Planar_joint_z_p_out(end);
+    ic.planar.w(3) = Planar_joint_z_w_out(end);
+    save(filename,'ic')
+%save final states as initial conditions file for next period
+filename = 'ds1_plant_FC';
+    ic.p(1) = stance_ankle_p_out(end);
+    ic.w(1) = stance_ankle_w_out(end);
+    ic.p(2) = stance_knee_p_out(end);
+    ic.w(2) = stance_knee_w_out(end);
+    ic.p(3) = stance_hip_p_out(end);
+    ic.w(3) = stance_hip_w_out(end);
+    ic.p(4) = swing_ankle_p_out(end);
+    ic.w(4) = swing_ankle_w_out(end);
+    ic.p(5) = swing_knee_p_out(end);
+    ic.w(5) = swing_knee_w_out(end);
+    ic.p(6) = swing_hip_p_out(end);
+    ic.w(6) = swing_hip_w_out(end);
+    ic.planar.p(1) = Planar_joint_x_p_out(end);
+    ic.planar.w(1) = Planar_joint_x_v_out(end);
+    ic.planar.p(2) = Planar_joint_y_p_out(end);
+    ic.planar.w(2) = Planar_joint_y_v_out(end);
+    ic.planar.p(3) = Planar_joint_z_p_out(end);
+    ic.planar.w(3) = Planar_joint_z_w_out(end);
+    save(filename,'ic')
+
+filename = 'ds1_nextoptIC_end';
+save(filename,'Planar_joint_x_p_out1','Planar_joint_x_v_out1','Planar_joint_y_p_out1','Planar_joint_y_v_out1','Planar_joint_z_p_out1','Planar_joint_z_w_out1','stance_ankle_p_out1','stance_ankle_w_out1','stance_hip_p_out1','stance_hip_w_out1','stance_knee_p_out1','stance_knee_w_out1','swing_ankle_p_out1','swing_ankle_w_out1','swing_hip_p_out1','swing_hip_w_out1','swing_knee_p_out1','swing_knee_w_out1');
+
+filename = 'ds1_controlinputhistory_end';
+save(filename,'u_stance_ankle_data','u_stance_knee_data','u_stance_hip_data','u_swing_ankle_data','u_swing_knee_data','u_swing_hip_data');
+
+cd(subdirectory)
