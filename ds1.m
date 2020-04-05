@@ -434,12 +434,18 @@ end
 video = [sim_file_dir '\' trialName '\ds1_sim_final'];
 smwritevideo('ds1_plant',video,'PlaybackSpeedRatio',0.5,'FrameRate',60,'FrameSize',[1280 720])
 
+save('ds1_plant_end') %save end plant iteration for plotting
+
+%add correction to stance_ankle_angle
+footLength = sdo.getValueFromModel(plant,'F_L');
+correctionAngle = atan2d(lead_toe_z.data(end),footLength);
+
 %save final states as initial conditions file for next period
-filename = 'ds1_plant_end';
-    ic.p(1) = stance_ankle_p_out(end);
+filename = 'ds1_plant_FC';
+    ic.p(1) = stance_ankle_p_out(end) + correctionAngle;
     ic.w(1) = stance_ankle_w_out(end);
     ic.p(2) = stance_knee_p_out(end);
-    ic.w(1) = stance_knee_w_out(end);
+    ic.w(2) = stance_knee_w_out(end);
     ic.p(3) = stance_hip_p_out(end);
     ic.w(3) = stance_hip_w_out(end);
     ic.p(4) = swing_ankle_p_out(end);
@@ -454,7 +460,7 @@ filename = 'ds1_plant_end';
     ic.planar.w(2) = Planar_joint_y_v_out(end);
     ic.planar.p(3) = Planar_joint_z_p_out(end);
     ic.planar.w(3) = Planar_joint_z_w_out(end);
-    save(filename, 'ic');
+    save(filename,'ic')
 
 filename = 'ds1_nextoptIC_end';
 save(filename,'Planar_joint_x_p_out1','Planar_joint_x_v_out1','Planar_joint_y_p_out1','Planar_joint_y_v_out1','Planar_joint_z_p_out1','Planar_joint_z_w_out1','stance_ankle_p_out1','stance_ankle_w_out1','stance_hip_p_out1','stance_hip_w_out1','stance_knee_p_out1','stance_knee_w_out1','swing_ankle_p_out1','swing_ankle_w_out1','swing_hip_p_out1','swing_hip_w_out1','swing_knee_p_out1','swing_knee_w_out1');
