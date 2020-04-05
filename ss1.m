@@ -38,7 +38,7 @@ sys = 'ss1_inter';
 open_system(sys);
 
 %open internal model, set initial conditions
-load([sim_file_dir '\' trialName '\DS1\ds1_plant_end'])
+load([sim_file_dir '\' trialName '\DS1\ds1_plant_FC'])
     sdo.setValueInModel(sys,'p_stance_ankle_i',ic.p(4));
     sdo.setValueInModel(sys,'w_stance_ankle_i',ic.w(4));
     sdo.setValueInModel(sys,'p_stance_knee_i',ic.p(5));
@@ -54,8 +54,7 @@ load([sim_file_dir '\' trialName '\DS1\ds1_plant_end'])
     save_system('ss1_inter');
 
 %get the design vars for the MPC optimization
-p = sdo.getParameterFromModel(sys,{'lagStanceAnkle','lagSwingAnkle','lagSwingKnee',...
-    'lagSwingHip','w_stance_ankle_i','w_swing_knee_i','w_swing_hip_i'});
+p = sdo.getParameterFromModel(sys,{'lagStanceAnkle','lagSwingAnkle','lagSwingKnee','lagSwingHip','w_stance_ankle_i','w_swing_knee_i','w_swing_hip_i'});
 
 %set design vars min and max
 p(1).Minimum = [-100 -300 -100 -30 -10 -100];
@@ -425,8 +424,10 @@ end
 video = [sim_file_dir '\' trialName '\ss1_sim_final'];
 smwritevideo('ss1_plant',video,'PlaybackSpeedRatio',0.5,'FrameRate',60,'FrameSize',[1280 720])
 
-%save all variables at heel strike of plant model into a file
-filename = 'ss1_plant_end';
+save('ss1_plant_end') %save end plant iteration for plotting
+
+%save final states as initial conditions file for next period
+filename = 'ss1_plant_FC';
     ic.p(1) = stance_ankle_p_out(end);
     ic.w(1) = stance_ankle_w_out(end);
     ic.p(2) = stance_knee_p_out(end);
@@ -445,7 +446,7 @@ filename = 'ss1_plant_end';
     ic.planar.w(2) = Planar_joint_y_v_out(end);
     ic.planar.p(3) = Planar_joint_z_p_out(end);
     ic.planar.w(3) = Planar_joint_z_w_out(end);
-    save(filename, 'ic');
+    save(filename,'ic')
 
 filename = 'ss1_nextoptIC_end';
 save(filename,'Planar_joint_x_p_out1','Planar_joint_x_v_out1','Planar_joint_y_p_out1','Planar_joint_y_v_out1','Planar_joint_z_p_out1','Planar_joint_z_w_out1','stance_ankle_p_out1','stance_ankle_w_out1','stance_hip_p_out1','stance_hip_w_out1','stance_knee_p_out1','stance_knee_w_out1','swing_ankle_p_out1','swing_ankle_w_out1','swing_hip_p_out1','swing_hip_w_out1','swing_knee_p_out1','swing_knee_w_out1');

@@ -425,8 +425,10 @@ end
 video = [sim_file_dir '\' trialName '\ss2_sim_final'];
 smwritevideo('ss2_plant',video,'PlaybackSpeedRatio',0.5,'FrameRate',60,'FrameSize',[1280 720])
 
+save('ss2_plant_end') %save end plant iteration for plotting
+
 %save final states as initial conditions file for next period
-filename = 'ss2_plant_end';
+filename = 'ss2_plant_FC';
     ic.p(1) = stance_ankle_p_out(end);
     ic.w(1) = stance_ankle_w_out(end);
     ic.p(2) = stance_knee_p_out(end);
