@@ -1,37 +1,43 @@
 %% SS 1
-global directory subdirectory ...
+global ss_predictionHorizon ds_predictionHorizon controlWindow timeStep...
+    directory subdirectory ...
     objfun_vers inter_vers plant_vers... 
     trialName sim_file_dir ds_plant_loc ds_inter_loc ss_plant_loc ss_inter_loc...
     complete_ds1
+
+cd([sim_file_dir '\' trialName]) %check directory location before creating new folder
 
 mkdir('SS1') %create a folder for gait period
 subdirectory = cd('SS1'); %open new folder
 
 %% begin single support 1
-delete(gcp('nocreate'))
+delete(gcp('nocreate')) %close any current par pool
 
 diary on %record the history of the command window
 diary SSCommandWindowHistory.txt
 
 tic %start a timer to record time of first iteration of optimization
 
-%Start the parallel computing
-parpool
+parpool %start the parallel computing
 
-% Open human gait plant model and internal MPC models
+%open internal and plant models, save to subdirectory
 open_system(ss_inter_loc);
 save_system(ss_inter_loc, 'ss1_inter');
+set_param('ss1_inter','StopTime',num2str(ss_predictionHorizon));
+save_system('ss1_inter');
+
 open_system(ss_plant_loc);
 save_system(ss_plant_loc, 'ss1_plant');
+set_param('ss1_plant','StopTime',num2str(ss_predictionHorizon));
+save_system('ss1_plant');
 
-% Current time is set to be 0
-tnow = 0;
+tnow = 0; %set current time to 0
 
 % Open internal model
 sys = 'ss1_inter';
 open_system(sys);
 
-%set internal model initial conditions
+%open internal model, set initial conditions
 load([sim_file_dir '\' trialName '\DS1\ds1_plant_end'])
     sdo.setValueInModel(sys,'p_stance_ankle_i',ic.p(4));
     sdo.setValueInModel(sys,'w_stance_ankle_i',ic.w(4));
@@ -45,13 +51,13 @@ load([sim_file_dir '\' trialName '\DS1\ds1_plant_end'])
     sdo.setValueInModel(sys,'w_swing_knee_i',ic.w(2));
     sdo.setValueInModel(sys,'p_swing_hip_i',ic.p(3));
     sdo.setValueInModel(sys,'w_swing_hip_i',ic.w(3));
-save_system('ss1_inter');
+    save_system('ss1_inter');
 
-% Get the design variables for the MPC optimization
+%get the design vars for the MPC optimization
 p = sdo.getParameterFromModel(sys,{'lagStanceAnkle','lagSwingAnkle','lagSwingKnee',...
     'lagSwingHip','w_stance_ankle_i','w_swing_knee_i','w_swing_hip_i'});
 
-% Set the maximum and minimum allowable values of the design variables
+%set design vars min and max
 p(1).Minimum = [-100 -300 -100 -30 -10 -100];
 p(2).Minimum = -20*ones(1,6);
 p(3).Minimum = -40*ones(1,6);
@@ -88,7 +94,7 @@ else
     p(7).Maximum = temp1;
 end
 
-% Set the scale of the design variables
+%set design vars scale
 p(1).Scale = [100 300 100 30 10 100];
 p(2).Scale = 20*ones(1,6);
 p(3).Scale = 40*ones(1,6);
@@ -97,20 +103,17 @@ p(5).Scale = abs(p(5).Value);
 p(6).Scale = abs(p(6).Value);
 p(7).Scale = abs(p(7).Value);
 
-% Create a simulation tester
-simulator = sdo.SimulationTest(sys);
+simulator = sdo.SimulationTest(sys); %create simulation tester
 
-% Define the optimization algorithm
+%define the optimization algorithm
 addpath(sim_file_dir);
 costfxn = str2func(['objfunSS_' objfun_vers]);
 evalDesign = @(p) costfxn(p,simulator);
 
-% Select options for the optimizer
+%select options for the optimizer
 opt = sdo.OptimizeOptions;
 opt.MethodOptions.Algorithm = 'interior-point';
 opt.MethodOptions.UseParallel = 'always';
-%opt.MethodOptions.DiffMaxChange = 4;
-%opt.MethodOptions.TypicalX = [];
 opt.MethodOptions.FinDiffType = 'central';
 opt.MethodOptions.Hessian = 'bfgs';
 opt.MethodOptions.TolFun = 0.1;
@@ -120,41 +123,40 @@ opt.MethodOptions.TolX = 0.02;
 opt.UseParallel = 'always';
 opt.OptimizedModel = sys;
 
-% Start the optimization
-[pOpt,optInfo] = sdo.optimize(evalDesign,p,opt);
+[pOpt,optInfo] = sdo.optimize(evalDesign,p,opt); %optimize p, control inputs
 
-save('ss1_inter_iter_1');
+save('ss1_inter_iter_1'); %save internal model iteration
 
-for i = 1:7
-    u(i,:) = pOpt(i).Value;
+for ii = 1:7
+    u(ii,:) = pOpt(ii).Value;
 end
 
-save('ss1_optimizedcontrolinput_iter_1','u');
+save('ss1_optimizedcontrolinput_iter_1','u'); %save optimized control inputs
 
 %set plant initial conditions
 load([sim_file_dir '\' trialName '\DS1\ds1_plant_end'])
-Plant = 'ss1_plant';
-sdo.setValueInModel(Plant,'p_stance_ankle',ic.p(4));
-sdo.setValueInModel(Plant,'p_stance_knee',ic.p(5));
-sdo.setValueInModel(Plant,'p_stance_hip',ic.p(6));
-sdo.setValueInModel(Plant,'p_swing_ankle',ic.p(1));
-sdo.setValueInModel(Plant,'p_swing_knee',ic.p(2));
-sdo.setValueInModel(Plant,'p_swing_hip',ic.p(3));
-sdo.setValueInModel(Plant,'w_stance_ankle',ic.w(4));
-sdo.setValueInModel(Plant,'w_stance_knee',ic.w(5));
-sdo.setValueInModel(Plant,'w_stance_hip',ic.w(6));
-sdo.setValueInModel(Plant,'w_swing_ankle',ic.w(1));
-sdo.setValueInModel(Plant,'w_swing_knee',ic.w(2));
-sdo.setValueInModel(Plant,'w_swing_hip',ic.w(3));
+plant = 'ss1_plant';
+sdo.setValueInModel(plant,'p_stance_ankle',ic.p(4));
+sdo.setValueInModel(plant,'p_stance_knee',ic.p(5));
+sdo.setValueInModel(plant,'p_stance_hip',ic.p(6));
+sdo.setValueInModel(plant,'p_swing_ankle',ic.p(1));
+sdo.setValueInModel(plant,'p_swing_knee',ic.p(2));
+sdo.setValueInModel(plant,'p_swing_hip',ic.p(3));
+sdo.setValueInModel(plant,'w_stance_ankle',ic.w(4));
+sdo.setValueInModel(plant,'w_stance_knee',ic.w(5));
+sdo.setValueInModel(plant,'w_stance_hip',ic.w(6));
+sdo.setValueInModel(plant,'w_swing_ankle',ic.w(1));
+sdo.setValueInModel(plant,'w_swing_knee',ic.w(2));
+sdo.setValueInModel(plant,'w_swing_hip',ic.w(3));
 
 %send optimized control input to plant
-sdo.setValueInModel(Plant,'u_stance_ankle',u(1,:));
-sdo.setValueInModel(Plant,'u_swing_ankle',u(2,:));
-sdo.setValueInModel(Plant,'u_swing_knee',u(3,:));
-sdo.setValueInModel(Plant,'u_swing_hip',u(4,:));
-sdo.setValueInModel(Plant,'w_stance_ankle',u(5));
-sdo.setValueInModel(Plant,'w_swing_knee',u(6));
-sdo.setValueInModel(Plant,'w_swing_hip',u(7));
+sdo.setValueInModel(plant,'u_stance_ankle',u(1,:));
+sdo.setValueInModel(plant,'u_swing_ankle',u(2,:));
+sdo.setValueInModel(plant,'u_swing_knee',u(3,:));
+sdo.setValueInModel(plant,'u_swing_hip',u(4,:));
+sdo.setValueInModel(plant,'w_stance_ankle',u(5));
+sdo.setValueInModel(plant,'w_swing_knee',u(6));
+sdo.setValueInModel(plant,'w_swing_hip',u(7));
 
 u_stance_ankle_data_timeseries = timeseries;
 u_stance_ankle_data_timeseries.Time = 0;
@@ -171,57 +173,58 @@ u_swing_hip_data_timeseries.Data = 0;
 
 clear u;
 
-%simulate plant model using the opitmized control inputs
-sim(Plant);
-save('ss1_plant_iter_1');
+sim(plant); %simulate plant model using the opitmized control inputs
+save('ss1_plant_iter_1'); %save plant iteration
+
+%save video of initial simulation
+video = [sim_file_dir '\' trialName '\ss1_sim_initial'];
+smwritevideo('ss1_plant',video,'PlaybackSpeedRatio',0.5,'FrameRate',60,'FrameSize',[1280 720])
 
 %save the states of the plant model at the end of the first time step
-stance_ankle_p_out1 = stance_ankle_p_out(831);
-stance_ankle_w_out1 = stance_ankle_w_out(831);
-stance_hip_p_out1 = stance_hip_p_out(831);
-stance_hip_w_out1 = stance_hip_w_out(831);
-stance_knee_p_out1 = stance_knee_p_out(831);
-stance_knee_w_out1 = stance_knee_w_out(831);
-swing_ankle_p_out1 = swing_ankle_p_out(831);
-swing_ankle_w_out1 = swing_ankle_w_out(831);
-swing_knee_p_out1 = swing_knee_p_out(831);
-swing_knee_w_out1 = swing_knee_w_out(831);
-swing_hip_p_out1 = swing_hip_p_out(831);
-swing_hip_w_out1 = swing_hip_w_out(831);
-Planar_joint_x_p_out1 = Planar_joint_x_p_out(831);
-Planar_joint_x_v_out1 = Planar_joint_x_v_out(831);
-Planar_joint_y_p_out1 = Planar_joint_y_p_out(831);
-Planar_joint_y_v_out1 = Planar_joint_y_v_out(831);
-Planar_joint_z_p_out1 = Planar_joint_z_p_out(831);
-Planar_joint_z_w_out1 = Planar_joint_z_w_out(831);
+stance_ankle_p_out1 = stance_ankle_p_out(controlWindow/timeStep + 1);
+stance_ankle_w_out1 = stance_ankle_w_out(controlWindow/timeStep + 1);
+stance_hip_p_out1 = stance_hip_p_out(controlWindow/timeStep + 1);
+stance_hip_w_out1 = stance_hip_w_out(controlWindow/timeStep + 1);
+stance_knee_p_out1 = stance_knee_p_out(controlWindow/timeStep + 1);
+stance_knee_w_out1 = stance_knee_w_out(controlWindow/timeStep + 1);
+swing_ankle_p_out1 = swing_ankle_p_out(controlWindow/timeStep + 1);
+swing_ankle_w_out1 = swing_ankle_w_out(controlWindow/timeStep + 1);
+swing_knee_p_out1 = swing_knee_p_out(controlWindow/timeStep + 1);
+swing_knee_w_out1 = swing_knee_w_out(controlWindow/timeStep + 1);
+swing_hip_p_out1 = swing_hip_p_out(controlWindow/timeStep + 1);
+swing_hip_w_out1 = swing_hip_w_out(controlWindow/timeStep + 1);
+Planar_joint_x_p_out1 = Planar_joint_x_p_out(controlWindow/timeStep + 1);
+Planar_joint_x_v_out1 = Planar_joint_x_v_out(controlWindow/timeStep + 1);
+Planar_joint_y_p_out1 = Planar_joint_y_p_out(controlWindow/timeStep + 1);
+Planar_joint_y_v_out1 = Planar_joint_y_v_out(controlWindow/timeStep + 1);
+Planar_joint_z_p_out1 = Planar_joint_z_p_out(controlWindow/timeStep + 1);
+Planar_joint_z_w_out1 = Planar_joint_z_w_out(controlWindow/timeStep + 1);
+
 
 save('ss1_nextoptIC_iter_1','Planar_joint_x_p_out1','Planar_joint_x_v_out1','Planar_joint_y_p_out1','Planar_joint_y_v_out1','Planar_joint_z_p_out1','Planar_joint_z_w_out1','stance_ankle_p_out1','stance_ankle_w_out1','stance_hip_p_out1','stance_hip_w_out1','stance_knee_p_out1','stance_knee_w_out1','swing_ankle_p_out1','swing_ankle_w_out1','swing_hip_p_out1','swing_hip_w_out1','swing_knee_p_out1','swing_knee_w_out1');
 save('ss1_controlinputhistory_iter_1','u_stance_ankle_data','u_stance_knee_data','u_stance_hip_data','u_swing_ankle_data','u_swing_knee_data','u_swing_hip_data');
 
 toc
 
-for i = 1:47
+for i = 1:(floor(ss_predictionHorizon/controlWindow) - 1)
     tic
     
-    % Clear all the variables except for the counter i
-    clearvars -except i directory subdirectory ...
+    %clear all variables except i and global vars
+    clearvars -except i ss_predictionHorizon ds_predictionHorizon controlWindow timeStep...
+    directory subdirectory ...
     objfun_vers inter_vers plant_vers... 
     trialName sim_file_dir ds_plant_loc ds_inter_loc ss_plant_loc ss_inter_loc...
     complete_ds1
+
+    tnow = controlWindow*i; %reset the current simulation time
     
-    % Regress the current simulation time
-    tnow = .0083*i;
-    
-    % Open human gait plant model and internal MPC model
+    %open internal model
     sys = 'ss1_inter';
     open_system(sys);
     
-    % Set the designed variables for the MPC optimization
-    filename = ['ss1_optimizedcontrolinput_iter_' num2str(i)];
-    load(filename); 
+    load(['ss1_optimizedcontrolinput_iter_' num2str(i)]); %set MPC design vars
     
-    % Set the maximum, minimum allowable values and the scales of the 
-    % design variables
+    %set design vars max, min, and scale
     p = sdo.getParameterFromModel(sys,{'lagStanceAnkle','lagSwingAnkle','lagSwingKnee','lagSwingHip'});
         p(1).Minimum = [u(1,1)-10 u(1,2)-30 u(1,3)-10 u(1,4)-3 u(1,5)-1 u(1,6)-1];
         p(2).Minimum = u(2,:)-2*ones(1,6);
@@ -285,10 +288,9 @@ for i = 1:47
     p(4).Value = u(4,:);
     
     %load saved states of the plant model at the end of the previous sample time
-    filename = ['ss1_nextoptIC_iter_' num2str(i)];
-    load(filename);
+    load(['ss1_nextoptIC_iter_' num2str(i)]);
     
-    % Define the initial condition for the internal MPC model for the next optimization step
+    %define the initial condition for the internal MPC model for the next optimization step
     sdo.setValueInModel(sys,'beginTime',tnow);
     sdo.setValueInModel(sys,'p_stance_ankle_i',stance_ankle_p_out1);
     sdo.setValueInModel(sys,'w_stance_ankle_i',stance_ankle_w_out1);
@@ -308,27 +310,21 @@ for i = 1:47
     sdo.setValueInModel(sys,'y_planar_v_i',Planar_joint_y_v_out1);
     sdo.setValueInModel(sys,'z_planar_p_i',Planar_joint_z_p_out1);
     sdo.setValueInModel(sys,'z_planar_v_i',Planar_joint_z_w_out1);
-    
-    save_system('ss1_inter');
+    save_system(sys);
 
-    % Create a simulation tester
-    simulator = sdo.SimulationTest(sys);
+    simulator = sdo.SimulationTest(sys); %create a simulation tester
     
-    % Define the optimization algorithm
+    %define the optimization algorithm
     addpath(sim_file_dir);
     costfxn = str2func(['objfunSS_' objfun_vers]);
     evalDesign = @(p) costfxn(p,simulator);
     
-    % Select options for the optimizer
+    %select options for the optimizer
     opt = sdo.OptimizeOptions;
         opt.MethodOptions.Algorithm = 'interior-point';
         opt.MethodOptions.UseParallel = 'always';
-        % opt.MethodOptions.DiffMaxChange = 2;
-        % opt.MethodOptions.TypicalX = u;
         opt.MethodOptions.FinDiffType = 'central';
         opt.MethodOptions.TolFun = 0.1;
-        % opt.MethodOptions.ScaleProblem = 'obj-and-constr';
-        % opt.MethodOptions.AlwaysHonorConstraints = 'none';
         opt.MethodOptions.ObjectiveLimit = 5;
         opt.MethodOptions.MaxIter = 20;
         opt.MethodOptions.TolX = 0.02;
@@ -341,85 +337,80 @@ for i = 1:47
     clear u_stance_ankle_data_end u_stance_hip_data_end u_stance_knee_data_end u_swing_ankle_data_end u_swing_hip_data_end u_swing_knee_data_end
     clear kk kkk laguerre_coefficient_no_count p1_Max p1_Min p_Max p_Min
   
-    [pOpt,optInfo] = sdo.optimize(evalDesign,p,opt);
+    [pOpt,optInfo] = sdo.optimize(evalDesign,p,opt); %optimize
     
-    filename = ['ss1_inter_iter_' num2str(i+1)];
-    save(filename)
+    save(['ss1_inter_iter_' num2str(i+1)]) %save internal model iteration
     
     for ii = 1:4
         u(ii,:) = pOpt(ii).Value;
     end
     
     filename = ['ss1_optimizedcontrolinput_iter_' num2str(i+1)];
-    save(filename,'u');
+    save(filename,'u'); %save optimized control inputs to be applied to plant
     
-    % Load the reuqired parameter to be able to run the plant model simulation
-    clearvars -except i directory subdirectory ...
+    %clear required parameters to be able to run the plant model simulation
+    clearvars -except i ss_predictionHorizon ds_predictionHorizon controlWindow timeStep...
+    directory subdirectory ...
     objfun_vers inter_vers plant_vers... 
     trialName sim_file_dir ds_plant_loc ds_inter_loc ss_plant_loc ss_inter_loc...
     complete_ds1
     
-    % load swing plant model
-    Plant = 'ss1_plant';
+    plant = 'ss1_plant'; %load plant
     
-    % load IC_for_next_opt
-    filename = ['ss1_optimizedcontrolinput_iter_' num2str(i+1)];
-    load(filename);
-    filename = ['ss1_controlinputhistory_iter_' num2str(i)];
-    load(filename);
+    %load initial conditions for next optimization
+    load(['ss1_optimizedcontrolinput_iter_' num2str(i+1)]);
+    load(['ss1_controlinputhistory_iter_' num2str(i)]);
     
-    % Simulate model and save the end states to be used as the initial conditions for the next time step
-    sdo.setValueInModel(Plant,'BeginTimePlantModel',i*.0083);
-    sdo.setValueInModel(Plant,'u_stance_ankle',u(1,:));
-    sdo.setValueInModel(Plant,'u_swing_ankle',u(2,:));
-    sdo.setValueInModel(Plant,'u_swing_knee',u(3,:));
-    sdo.setValueInModel(Plant,'u_swing_hip',u(4,:));
+    %simulate model and save the end states to be used as the initial conditions for the next time step
+    sdo.setValueInModel(plant,'BeginTimePlantModel',i*controlWindow);
+    sdo.setValueInModel(plant,'u_stance_ankle',u(1,:));
+    sdo.setValueInModel(plant,'u_swing_ankle',u(2,:));
+    sdo.setValueInModel(plant,'u_swing_knee',u(3,:));
+    sdo.setValueInModel(plant,'u_swing_hip',u(4,:));
     
     u_stance_ankle_data_timeseries = timeseries;
-    u_stance_ankle_data_timeseries.Time = 0:.00001:i*.0083;
-    u_stance_ankle_data_timeseries.Data = u_stance_ankle_data(1:(i*830+1));
+    u_stance_ankle_data_timeseries.Time = 0:timeStep:i*controlWindow;
+    u_stance_ankle_data_timeseries.Data = u_stance_ankle_data(1:(i*(controlWindow/timeStep)+1));
     u_swing_ankle_data_timeseries = timeseries;
-    u_swing_ankle_data_timeseries.Time = 0:.00001:i*.0083;
-    u_swing_ankle_data_timeseries.Data = u_swing_ankle_data(1:(i*830+1));
+    u_swing_ankle_data_timeseries.Time = 0:timeStep:i*controlWindow;
+    u_swing_ankle_data_timeseries.Data = u_swing_ankle_data(1:(i*(controlWindow/timeStep)+1));
     u_swing_knee_data_timeseries = timeseries;
-    u_swing_knee_data_timeseries.Time = 0:.00001:i*.0083;
-    u_swing_knee_data_timeseries.Data = u_swing_knee_data(1:(i*830+1));
+    u_swing_knee_data_timeseries.Time = 0:timeStep:i*controlWindow;
+    u_swing_knee_data_timeseries.Data = u_swing_knee_data(1:(i*(controlWindow/timeStep)+1));
     u_swing_hip_data_timeseries = timeseries;
-    u_swing_hip_data_timeseries.Time = 0:.00001:i*.0083;
-    u_swing_hip_data_timeseries.Data = u_swing_hip_data(1:(i*830+1));
+    u_swing_hip_data_timeseries.Time = 0:timeStep:i*controlWindow;
+    u_swing_hip_data_timeseries.Data = u_swing_hip_data(1:(i*(controlWindow/timeStep)+1));
     
-    clear u
-    clear u_stance_ankle_data u_stance_knee_data u_stance_hip_data u_swing_ankle_data u_swing_knee_data u_swing_hip_data
+    clear u u_stance_ankle_data u_stance_knee_data u_stance_hip_data u_swing_ankle_data u_swing_knee_data u_swing_hip_data
         
-    sim(Plant);
+    sim(plant); %simulate plant
     
-    % check if heel contact happens within iteration, if so, exit loop
-    if swing_heel_ground_contact(end) == 1 && length(swing_heel_ground_contact) <= (830*(i+1)+1)
+    %check if heel contact happens within iteration, if so, exit loop
+    if swing_heel_ground_contact(end) == 1 && length(swing_heel_ground_contact) <= ((controlWindow/timeStep)*(i+1)+1)
         break
     end
     
-    % Save all the variables after one iteration simulation of plant model into a file
-    filename = ['ss1_plant_iter_' num2str(i+1)];
-    save(filename);
+    save(['ss1_plant_iter_' num2str(i+1)]); %save plant iteration
     
-    stance_ankle_p_out1 = stance_ankle_p_out((i+1)*830+1);
-    stance_ankle_w_out1 = stance_ankle_w_out((i+1)*830+1);
-    stance_hip_p_out1 = stance_hip_p_out((i+1)*830+1);
-    stance_hip_w_out1 = stance_hip_w_out((i+1)*830+1);
-    stance_knee_p_out1 = stance_knee_p_out((i+1)*830+1);
-    stance_knee_w_out1 = stance_knee_w_out((i+1)*830+1);
-    swing_ankle_p_out1 = swing_ankle_p_out((i+1)*830+1);
-    swing_ankle_w_out1 = swing_ankle_w_out((i+1)*830+1);
-    swing_knee_p_out1 = swing_knee_p_out((i+1)*830+1);
-    swing_knee_w_out1 = swing_knee_w_out((i+1)*830+1);
-    swing_hip_p_out1 = swing_hip_p_out((i+1)*830+1);
-    swing_hip_w_out1 = swing_hip_w_out((i+1)*830+1);
-    Planar_joint_x_p_out1 = Planar_joint_x_p_out((i+1)*830+1);
-    Planar_joint_x_v_out1 = Planar_joint_x_v_out((i+1)*830+1);
-    Planar_joint_y_p_out1 = Planar_joint_y_p_out((i+1)*830+1);
-    Planar_joint_y_v_out1 = Planar_joint_y_v_out((i+1)*830+1);
-    Planar_joint_z_p_out1 = Planar_joint_z_p_out((i+1)*830+1);
-    Planar_joint_z_w_out1 = Planar_joint_z_w_out((i+1)*830+1);
+    %save final states and control input history
+    stance_ankle_p_out1 = stance_ankle_p_out((i+1)*(controlWindow/timeStep)+1);
+    stance_ankle_w_out1 = stance_ankle_w_out((i+1)*(controlWindow/timeStep)+1);
+    stance_hip_p_out1 = stance_hip_p_out((i+1)*(controlWindow/timeStep)+1);
+    stance_hip_w_out1 = stance_hip_w_out((i+1)*(controlWindow/timeStep)+1);
+    stance_knee_p_out1 = stance_knee_p_out((i+1)*(controlWindow/timeStep)+1);
+    stance_knee_w_out1 = stance_knee_w_out((i+1)*(controlWindow/timeStep)+1);
+    swing_ankle_p_out1 = swing_ankle_p_out((i+1)*(controlWindow/timeStep)+1);
+    swing_ankle_w_out1 = swing_ankle_w_out((i+1)*(controlWindow/timeStep)+1);
+    swing_knee_p_out1 = swing_knee_p_out((i+1)*(controlWindow/timeStep)+1);
+    swing_knee_w_out1 = swing_knee_w_out((i+1)*(controlWindow/timeStep)+1);
+    swing_hip_p_out1 = swing_hip_p_out((i+1)*(controlWindow/timeStep)+1);
+    swing_hip_w_out1 = swing_hip_w_out((i+1)*(controlWindow/timeStep)+1);
+    Planar_joint_x_p_out1 = Planar_joint_x_p_out((i+1)*(controlWindow/timeStep)+1);
+    Planar_joint_x_v_out1 = Planar_joint_x_v_out((i+1)*(controlWindow/timeStep)+1);
+    Planar_joint_y_p_out1 = Planar_joint_y_p_out((i+1)*(controlWindow/timeStep)+1);
+    Planar_joint_y_v_out1 = Planar_joint_y_v_out((i+1)*(controlWindow/timeStep)+1);
+    Planar_joint_z_p_out1 = Planar_joint_z_p_out((i+1)*(controlWindow/timeStep)+1);
+    Planar_joint_z_w_out1 = Planar_joint_z_w_out((i+1)*(controlWindow/timeStep)+1);
     
     filename = ['ss1_nextoptIC_iter_' num2str(i+1)];
     save(filename,'Planar_joint_x_p_out1','Planar_joint_x_v_out1','Planar_joint_y_p_out1','Planar_joint_y_v_out1','Planar_joint_z_p_out1','Planar_joint_z_w_out1','stance_ankle_p_out1','stance_ankle_w_out1','stance_hip_p_out1','stance_hip_w_out1','stance_knee_p_out1','stance_knee_w_out1','swing_ankle_p_out1','swing_ankle_w_out1','swing_hip_p_out1','swing_hip_w_out1','swing_knee_p_out1','swing_knee_w_out1');
@@ -428,48 +419,38 @@ for i = 1:47
     save(filename,'u_stance_ankle_data','u_stance_knee_data','u_stance_hip_data','u_swing_ankle_data','u_swing_knee_data','u_swing_hip_data');
     
     toc
-    
 end
 
+%save video of final simulation
+video = [sim_file_dir '\' trialName '\ss1_sim_final'];
+smwritevideo('ss1_plant',video,'PlaybackSpeedRatio',0.5,'FrameRate',60,'FrameSize',[1280 720])
 
-% Save all the variable at heel strike (or end of 50th iteration) of plant model into a file
-    filename = 'ss1_plant_end';
-    save(filename);
-        ic.p(1) = stance_ankle_p_out(end);
-        ic.w(1) = stance_ankle_w_out(end);
-        ic.p(2) = stance_knee_p_out(end);
-        ic.w(1) = stance_knee_w_out(end);
-        ic.p(3) = stance_hip_p_out(end);
-        ic.w(3) = stance_hip_w_out(end);
-        ic.p(4) = swing_ankle_p_out(end);
-        ic.w(4) = swing_ankle_w_out(end);
-        ic.p(5) = swing_knee_p_out(end);
-        ic.w(5) = swing_knee_w_out(end);
-        ic.p(6) = swing_hip_p_out(end);
-        ic.w(6) = swing_hip_w_out(end);
-        Planar_joint_x_p_out1 = Planar_joint_x_p_out(end);
-        Planar_joint_x_v_out1 = Planar_joint_x_v_out(end);
-        Planar_joint_y_p_out1 = Planar_joint_y_p_out(end);
-        Planar_joint_y_v_out1 = Planar_joint_y_v_out(end);
-        Planar_joint_z_p_out1 = Planar_joint_z_p_out(end);
-        Planar_joint_z_w_out1 = Planar_joint_z_w_out(end);
-        swing_heel_ground_contact1 = swing_heel_ground_contact(end);
-        Toe_L_x_ss = Toe_L_x;
-        Toe_L_y_ss = Toe_L_y;
-        Toe_L_z_ss = Toe_L_z;
-        Heel_L_z_ss = Heel_L_z;
-        Toe_R_x_ss = Toe_L_x;
-        Toe_R_y_ss = Toe_L_y;
-        Toe_R_z_ss = Toe_L_z;
-        Heel_R_z_ss = Heel_L_z;  
-    
-    filename = 'ss_1_nextoptIC_end';
-    save(filename,'Planar_joint_x_p_out1','Planar_joint_x_v_out1','Planar_joint_y_p_out1','Planar_joint_y_v_out1','Planar_joint_z_p_out1','Planar_joint_z_w_out1','stance_ankle_p_out1','stance_ankle_w_out1','stance_hip_p_out1','stance_hip_w_out1','stance_knee_p_out1','stance_knee_w_out1','swing_ankle_p_out1','swing_ankle_w_out1','swing_hip_p_out1','swing_hip_w_out1','swing_knee_p_out1','swing_knee_w_out1');
+%save all variables at heel strike of plant model into a file
+filename = 'ss1_plant_end';
+    ic.p(1) = stance_ankle_p_out(end);
+    ic.w(1) = stance_ankle_w_out(end);
+    ic.p(2) = stance_knee_p_out(end);
+    ic.w(1) = stance_knee_w_out(end);
+    ic.p(3) = stance_hip_p_out(end);
+    ic.w(3) = stance_hip_w_out(end);
+    ic.p(4) = swing_ankle_p_out(end);
+    ic.w(4) = swing_ankle_w_out(end);
+    ic.p(5) = swing_knee_p_out(end);
+    ic.w(5) = swing_knee_w_out(end);
+    ic.p(6) = swing_hip_p_out(end);
+    ic.w(6) = swing_hip_w_out(end);
+    ic.planar.p(1) = Planar_joint_x_p_out(end);
+    ic.planar.w(1) = Planar_joint_x_v_out(end);
+    ic.planar.p(2) = Planar_joint_y_p_out(end);
+    ic.planar.w(2) = Planar_joint_y_v_out(end);
+    ic.planar.p(3) = Planar_joint_z_p_out(end);
+    ic.planar.w(3) = Planar_joint_z_w_out(end);
+    save(filename, 'ic');
 
-    filename = 'ss_1_controlinputhistory_end';
-    save(filename,'u_stance_ankle_data','u_stance_knee_data','u_stance_hip_data','u_swing_ankle_data','u_swing_knee_data','u_swing_hip_data');
-    
-    filename = 'ss_1_feetlocation_end';
-    save(filename,'Toe_L_x_ss','Toe_L_y_ss','Toe_L_z_ss','Heel_L_z_ss','Toe_R_x_ss','Toe_R_y_ss','Toe_R_z_ss','Heel_R_z_ss');
-    
-    cd(subdirectory)
+filename = 'ss1_nextoptIC_end';
+save(filename,'Planar_joint_x_p_out1','Planar_joint_x_v_out1','Planar_joint_y_p_out1','Planar_joint_y_v_out1','Planar_joint_z_p_out1','Planar_joint_z_w_out1','stance_ankle_p_out1','stance_ankle_w_out1','stance_hip_p_out1','stance_hip_w_out1','stance_knee_p_out1','stance_knee_w_out1','swing_ankle_p_out1','swing_ankle_w_out1','swing_hip_p_out1','swing_hip_w_out1','swing_knee_p_out1','swing_knee_w_out1');
+
+filename = 'ss1_controlinputhistory_end';
+save(filename,'u_stance_ankle_data','u_stance_knee_data','u_stance_hip_data','u_swing_ankle_data','u_swing_knee_data','u_swing_hip_data');
+
+cd(subdirectory)
