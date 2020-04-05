@@ -22,7 +22,7 @@ icID = 'IC01'; %initial conditions .mat file identifier
 objfun_vers = 'v1'; %version of cost functions to use
 inter_vers = 'v1'; %version of internal models to use
 plant_vers = 'v1'; %version of plant models to use
-sim_file_dir = 'C:\Users\jess-local\OneDrive - Marquette University\Research\Simulations'; %location of models and cost functions
+sim_file_dir = pwd; %location of models and cost functions
 
 %% Plant and Internal Model Locations
 ds_plant_loc = [sim_file_dir '\ds_plant_' plant_vers '_i'];
@@ -44,7 +44,7 @@ try
     %check for completion of DS period 1 or run DS1
     if exist('complete_ds1','var') == 0
         addpath(sim_file_dir)
-        run ds1_v4 % run double support period 1
+        run ds1 % run double support period 1
         complete_ds1 = 1;
         cd(subdirectory)
     end
@@ -58,7 +58,7 @@ try
     cd([sim_file_dir '\' trialName])
     if exist('complete_ss1','var') == 0
         addpath(sim_file_dir)
-        run ss1_v3 % run double support period 1
+        run ss1 % run double support period 1
         complete_ss1 = 1;
         cd(subdirectory)
     end   
@@ -67,7 +67,7 @@ try
     cd([sim_file_dir '\' trialName])
     if exist('complete_ds2','var') == 0
         addpath(sim_file_dir)
-        run ds2_v3 % run double support period 1
+        run ds2 % run double support period 1
         complete_ds2 = 1;
         cd(subdirectory)
     end
@@ -76,7 +76,7 @@ try
     cd([sim_file_dir '\' trialName])
     if exist('complete_ss2','var') == 0
         addpath(sim_file_dir)
-        run ss2_v3 % run double support period 1
+        run ss2 % run double support period 1
         complete_ss2 = 1;
         cd(subdirectory)
     end         
