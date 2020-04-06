@@ -125,7 +125,7 @@ end
 save('ds2_optimizedcontrolinput_iter_1','u'); %save optimized control inputs
 
 %set plant initial conditions
-load([sim_file_dir '\' trialName '\SS1\ss1_plant_end'])
+load(icID)
 plant = 'ds2_plant';
 sdo.setValueInModel(plant,'p_stance_ankle',ic.p(1));
 sdo.setValueInModel(plant,'p_stance_knee',ic.p(2));

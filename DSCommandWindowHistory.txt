@@ -114,4 +114,103 @@ ic.p(3) = stance_hip_p_out(1)
 
 ic = 
 
-  <a href="matlab:helpPopup struct" style="font-weight:bold">st
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+         p: [14.9540 -2.5081 -24.9414 3.5241 -14.6270 23.8147]
+         w: [4.9486 13.9806 136.9000 15.4409 25.2069 -43.9335]
+    planar: [1×1 struct]
+
+ic.w(3) = stance_hip_w_out(1)
+
+ic = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+         p: [14.9540 -2.5081 -24.9414 3.5241 -14.6270 23.8147]
+         w: [4.9486 13.9806 2.6129 15.4409 25.2069 -43.9335]
+    planar: [1×1 struct]
+
+ic.p(4) = swing_ankle_p_out(1)
+
+ic = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+         p: [14.9540 -2.5081 -24.9414 4.1176 -14.6270 23.8147]
+         w: [4.9486 13.9806 2.6129 15.4409 25.2069 -43.9335]
+    planar: [1×1 struct]
+
+ic.w(4) = swing_ankle_w_out(1)
+
+ic = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+         p: [14.9540 -2.5081 -24.9414 4.1176 -14.6270 23.8147]
+         w: [4.9486 13.9806 2.6129 -56.5479 25.2069 -43.9335]
+    planar: [1×1 struct]
+
+ic.p(5) = swing_knee_p_out(1)
+
+ic = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+         p: [14.9540 -2.5081 -24.9414 4.1176 -3.4174 23.8147]
+         w: [4.9486 13.9806 2.6129 -56.5479 25.2069 -43.9335]
+    planar: [1×1 struct]
+
+ic.w(5) = swing_knee_w_out(1);
+ic.p(6) = swing_hip_p_out(1);
+ic.w(6) = swing_hip_w_out(1);
+ic.planar.p(1) = Planar_joint_x_p_out(1);
+ic.planar.p(1) = Planar_joint_x_p_out(1);
+ic.planar.p(2) = Planar_joint_y_p_out(1)
+
+ic = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+         p: [14.9540 -2.5081 -24.9414 4.1176 -3.4174 18.3001]
+         w: [4.9486 13.9806 2.6129 -56.5479 18.8943 74.5734]
+    planar: [1×1 struct]
+
+ic.planar.w(2) = Planar_joint_y_v_out(1)
+
+ic = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+         p: [14.9540 -2.5081 -24.9414 4.1176 -3.4174 18.3001]
+         w: [4.9486 13.9806 2.6129 -56.5479 18.8943 74.5734]
+    planar: [1×1 struct]
+
+ic.planar.p(3) = Planar_joint_z_p_out(1)
+
+ic = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+         p: [14.9540 -2.5081 -24.9414 4.1176 -3.4174 18.3001]
+         w: [4.9486 13.9806 2.6129 -56.5479 18.8943 74.5734]
+    planar: [1×1 struct]
+
+ic.planar.w(3) = Planar_joint_z_w_out(1)
+
+ic = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+         p: [14.9540 -2.5081 -24.9414 4.1176 -3.4174 18.3001]
+         w: [4.9486 13.9806 2.6129 -56.5479 18.8943 74.5734]
+    planar: [1×1 struct]
+
+save('IC_ds','ic')
+IdleTimeout has been reached.
+Parallel pool using the 'local' profile is shutting down.
+TestScript_SS
+[Warning: The value of local variables may have been changed to match the globals.  Future versions of MATLAB
+will require that you declare a variable to be global before you use that variable.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ss1', 'C:\Users\jess-local\GaitSimulation\ss1.m', 2)" style="font-weight:bold">ss1</a> (<a href="matlab: opentoline('C:\Users\jess-local\GaitSimulation\ss1.m',2,0)">line 2</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m', 91)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m',91,0)">line 91</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TestScript_SS', 'C:\Users\jess-local\GaitSimulation\TestScript_SS.m', 46)" style="font-weight:bold">TestScript_SS</a> (<a href="matlab: opentoline('C:\Users\jess-local\GaitSimulation\TestScript_SS.m',46,0)">line 46</a>)] 
