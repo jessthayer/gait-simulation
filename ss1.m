@@ -58,40 +58,19 @@ p = sdo.getParameterFromModel(sys,{'lagStanceAnkle','lagSwingAnkle','lagSwingKne
 
 %set design vars min and max
 p(1).Minimum = [-100 -300 -100 -30 -10 -100];
-p(2).Minimum = -20*ones(1,6);
-p(3).Minimum = -40*ones(1,6);
-p(4).Minimum = -55*ones(1,6);
 p(1).Maximum = [100 300 100 30 10 100];
+p(2).Minimum = -20*ones(1,6);
 p(2).Maximum = 20*ones(1,6);
+p(3).Minimum = -40*ones(1,6);
 p(3).Maximum = 40*ones(1,6);
+p(4).Minimum = -55*ones(1,6);
 p(4).Maximum = 55*ones(1,6);
-temp1 = p(5).Value*0.95;
-temp2 = p(5).Value*1.05;
-if temp1 < temp2
-    p(5).Minimum = temp1;
-    p(5).Maximum = temp2;
-else
-    p(5).Minimum = temp2;
-    p(5).Maximum = temp1;
-end
-temp1 = p(6).Value*0.8;
-temp2 = p(6).Value*1.2;
-if temp1 < temp2
-    p(6).Minimum = temp1;
-    p(6).Maximum = temp2;
-else
-    p(6).Minimum = temp2;
-    p(6).Maximum = temp1;
-end
-temp1 = p(7).Value*0.8;
-temp2 = p(7).Value*1.2;
-if temp1 < temp2
-    p(7).Minimum = temp1;
-    p(7).Maximum = temp2;
-else
-    p(7).Minimum = temp2;
-    p(7).Maximum = temp1;
-end
+p(5).Minimum = -265; %w_stance_ankle
+p(5).Maximum = 170;
+p(6).Minimum = -425; %w_stance_knee
+p(6).Maximum = 390;
+p(7).Minimum = -100; %w_stance_hip
+p(7).Maximum = 215;
 
 %set design vars scale
 p(1).Scale = [100 300 100 30 10 100];

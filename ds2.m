@@ -63,60 +63,25 @@ load([sim_file_dir '\' trialName '\SS1\ss1_plant_end'])
 p = sdo.getParameterFromModel(sys,{'lagStanceAnkle','lagStanceKnee','lagSwingAnkle','lagSwingKnee',...
     'w_stance_ankle_i', 'w_stance_knee_i','w_stance_hip_i','w_swing_knee_i','w_swing_hip_i'});
 
-% Set the maximum and minimum allowable values of the design variables
-p(1).Minimum = -150*ones(1,6);
-p(2).Minimum = -30*ones(1,6);
-p(3).Minimum = -8*ones(1,6);
-p(4).Minimum = -15*ones(1,6);
+%set design vars min and max
+p(1).Minimum = -150*ones(1,6); %lagStanceAnkle
 p(1).Maximum = 150*ones(1,6);
+p(2).Minimum = -30*ones(1,6); %lagStanceKnee
 p(2).Maximum = 30*ones(1,6);
+p(3).Minimum = -8*ones(1,6); %lagSwingAnkle
 p(3).Maximum = 8*ones(1,6);
+p(4).Minimum = -15*ones(1,6); %lagSwingKnee
 p(4).Maximum = 15*ones(1,6);
-temp1 = p(5).Value*0.9;
-temp2 = p(5).Value*1.1;
-if temp1 < temp2
-    p(5).Minimum = temp1;
-    p(5).Maximum = temp2;
-else
-    p(5).Minimum = temp2;
-    p(5).Maximum = temp1;
-end
-temp1 = p(6).Value*0.9;
-temp2 = p(6).Value*1.1;
-if temp1 < temp2
-    p(6).Minimum = temp1;
-    p(6).Maximum = temp2;
-else
-    p(6).Minimum = temp2;
-    p(6).Maximum = temp1;
-end
-temp1 = p(7).Value*0.9;
-temp2 = p(7).Value*1.1;
-if temp1 < temp2
-    p(7).Minimum = temp1;
-    p(7).Maximum = temp2;
-else
-    p(7).Minimum = temp2;
-    p(7).Maximum = temp1;
-end
-temp1 = p(8).Value*0.9;
-temp2 = p(8).Value*1.1;
-if temp1 < temp2
-    p(8).Minimum = temp1;
-    p(8).Maximum = temp2;
-else
-    p(8).Minimum = temp2;
-    p(8).Maximum = temp1;
-end
-temp1 = p(9).Value*0.9;
-temp2 = p(9).Value*1.1;
-if temp1 < temp2
-    p(9).Minimum = temp1;
-    p(9).Maximum = temp2;
-else
-    p(9).Minimum = temp2;
-    p(9).Maximum = temp1;
-end
+p(5).Minimum = -265; %w_stance_ankle
+p(5).Maximum = 170;
+p(6).Minimum = -425; %w_stance_knee
+p(6).Maximum = 390;
+p(7).Minimum = -100; %w_stance_hip
+p(7).Maximum = 215;
+p(8).Minimum = -425; %w_swing_knee
+p(8).Maximum = 390;
+p(9).Minimum = -100; %w_swing_hip
+p(9).Maximum = 215;
 
 % Set the scale of the design variables
 p(1).Scale = 150*ones(1,6);

@@ -71,16 +71,16 @@ p(3).Minimum = -8*ones(1,6); %lagSwingAnkle
 p(3).Maximum = 8*ones(1,6);
 p(4).Minimum = -15*ones(1,6); %lagSwingKnee
 p(4).Maximum = 15*ones(1,6);
-p(5).Minimum = -265; %w_stance_ankle
-p(5).Maximum = 170;
-p(6).Minimum = -425; %w_stance_knee
-p(6).Maximum = 390;
-p(7).Minimum = -100; %w_stance_hip
-p(7).Maximum = 215;
-p(8).Minimum = -425; %w_swing_knee
-p(8).Maximum = 390;
-p(9).Minimum = -100; %w_swing_hip
-p(9).Maximum = 215;
+p(5).Minimum = temp1; %w_stance_ankle
+p(5).Maximum = temp2;
+p(6).Minimum = temp2; %w_stance_knee
+p(6).Maximum = temp1;
+p(7).Minimum = temp2; %w_stance_hip
+p(7).Maximum = temp1;
+p(8).Minimum = temp2; %w_swing_knee
+p(8).Maximum = temp1;
+p(9).Minimum = temp2; %w_swing_hip
+p(9).Maximum = temp1;
 
 %set design vars scale
 p(1).Scale = 150*ones(1,6);
