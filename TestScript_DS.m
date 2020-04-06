@@ -1,4 +1,4 @@
-%% TEST SCRIPT v0
+%% Double Support Period Test Script
 % Test components of main script
 %%
 clc, clear all
@@ -9,19 +9,18 @@ global ss_predictionHorizon ds_predictionHorizon controlWindow timeStep...
 
 %% MPC and Simulation Parameters
 % assuming GC time of 1.2s (long for avg GC), SS should be about 38%, DS about 12%
-ss_predictionHorizon = 0.4560; %s, will be set as stop time within models as a character vector
 ds_predictionHorizon = 0.1660; %s
 controlWindow = 0.0083; %s, consistent with Mo-Cap sampling rate, 120Hz
 timeStep = 0.0001; %s
 
 %% *EDIT THESE PARAMETERS ONLY* Define IC and Subject Parameters and Model Versions
 subjID = 'Subj04'; %subject identifier consistent with parameter .mat file
-icID = 'IC01'; %initial conditions .mat file identifier
-sim_file_dir = 'C:\Users\8842thayerj\OneDrive - Marquette University\Research\Simulations'; %location of models and cost functions
+sim_file_dir = pwd; %location of models and cost functions
+icID = [sim_file_dir '\IC_ds']; %initial conditions .mat file identifier
 
 %desired test
 test.name = 'doubleSupportConstraints';
-test.code = 'ds1_v3';
+test.code = 'ds1';
 test.costfxn = 'v1';
 test.inter = 'vx';
 test.plant = 'vx';
@@ -34,8 +33,6 @@ plant_vers = test.plant; %version of plant models to use
 %plant and Internal Model Locations
 ds_plant_loc = [sim_file_dir '\ds_plant_' plant_vers '_i'];
 ds_inter_loc = [sim_file_dir '\ds_inter_' inter_vers '_i'];
-ss_plant_loc = [sim_file_dir '\ss_plant_' plant_vers '_i'];
-ss_inter_loc = [sim_file_dir '\ss_inter_' inter_vers '_i'];
 
 %% Create Directory for Gait Cycle and Open 
 trialName = [test.name '-' datestr(now,'mm-dd-yyyy HH-MM') '-objfun_' objfun_vers '-inter_' inter_vers '-plant_' plant_vers];

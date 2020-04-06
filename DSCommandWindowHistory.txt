@@ -1,0 +1,117 @@
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 12).
+
+ans = 
+
+ <a href="matlab: helpPopup parallel.Pool" style="font-weight:bold">Pool</a> with properties: 
+
+            Connected: true
+           NumWorkers: 12
+              Cluster: <a href="matlab: parallel.internal.display.Displayer.displayObject('1F8B0800000000000000AD54C14E0231102D2B4B2451A217C3D10F50829ED48B2286A861C120460F9B60C12AAB65BBB64BA2378E7E8A473FC34FF0E2DD239F60CB76DDD25D408393BCB4333B6FA6339D2D489D58804B8EE39523C3B1C8B10A0249FDAC696095EBE742DFE0F0208518235C705C1F5117E2C28DC33C0C9F0B953EC665DC67DC6CA11E727D12C63F56E22FCBB8A6D4333257984FE8F960FB6928DF428878EB99285E568B277C866614CF903A50EA3D3323BE91C057CF63F2FA4DA98B55F4228CB368FEAE6FA2E68A83D125859E8768AB25F9EFE9881FE54BEE8BF0CFA726D7FDA5F91BD2B6C0C1D3806B8E81C41BC787FC1E4AF3D943E008FA1024DCE3C44B073149CB9CB32495A0AB3603C4EBD17D54C929AB3A6F696957EF774D89B322F59F123B41E9852AE9401CC42B1A7F9B97BCD49F38CE28B9E5571F3BEF29699FFB84C23B2412F90E71037BADDFBB24F4015136EEDF408F7D87225677B1E3A2AAD3412E73DC3BE1DFEC52046F347F71EE9D197D08E73AEC83D07150F6883F98C1AF697CA197F7EC0BC64F6FDF23C63647D1EC92E789C9B21B04F6F8996D0BFA5D5124B3AD52B35A3AB4476E2DD9F9D63D6933BBB15DDCDA85F13A3233FA9F95F6408A07A3FB53F859633ADF90BBF9F20EF775FE92C6D7E7D91CE3C7DF65DD4FE7EBF992E61480F139FD6FFE0B98FE2E5F01B5CF81AEBECBEA7F3BCFBB2CE41B1567301CE0060000')">local</a>
+        AttachedFiles: {}
+    AutoAddClientPath: true
+          IdleTimeout: 30 minutes (30 minutes remaining)
+          SpmdEnabled: true
+
+plant='ds1_plant
+ plant='ds1_plant
+       
+{Error: Character vector is not terminated properly.
+} 
+plant='ds1_plant'
+
+plant =
+
+    'ds1_plant'
+
+sim(plant)
+{Error due to multiple causes.
+Caused by:
+    Invalid setting in '<a href="matlab:open_and_hilite_hyperlink ('ds1_plant/lag_ankle_actuation/Subsystem/From Workspace','error')">ds1_plant/lag_ankle_actuation/Subsystem/From Workspace</a>' for parameter
+    'VariableName'.
+        Error evaluating parameter <a href="matlab:Simulink.internal.OpenBlockParamsDialog(['ds1_plant/lag_ankle_actuation/Subsystem/From Workspace'],'VariableName');">'VariableName'</a> in '<a href="matlab:open_and_hilite_hyperlink ('ds1_plant/lag_ankle_actuation/Subsystem/From Workspace','error')">ds1_plant/lag_ankle_actuation/Subsystem/From
+        Workspace</a>'
+            Undefined function or variable 'u_stance_ankle_data_timeseries'.
+                Variable 'u_stance_ankle_data_timeseries' does not exist.
+                Suggested Actions:
+                    • Load a file into base workspace. - <a href="matlab:slprivate('robustVarRefHotlink_cb', 'loadFile', 'ds1_plant', 'u_stance_ankle_data_timeseries')">Fix</a>
+                    • Create a new variable. - <a href="matlab:slprivate('robustVarRefHotlink_cb', 'createEntry', 'u_stance_ankle_data_timeseries', 'ds1_plant', '', 'normal', 'VariableName', 'ds1_plant/lag_ankle_actuation/Subsystem/From Workspace', ' ')">Fix</a>
+    Invalid setting in '<a href="matlab:open_and_hilite_hyperlink ('ds1_plant/lag_knee_actuation/Subsystem/From Workspace','error')">ds1_plant/lag_knee_actuation/Subsystem/From Workspace</a>' for parameter
+    'VariableName'.
+        Error evaluating parameter <a href="matlab:Simulink.internal.OpenBlockParamsDialog(['ds1_plant/lag_knee_actuation/Subsystem/From Workspace'],'VariableName');">'VariableName'</a> in '<a href="matlab:open_and_hilite_hyperlink ('ds1_plant/lag_knee_actuation/Subsystem/From Workspace','error')">ds1_plant/lag_knee_actuation/Subsystem/From
+        Workspace</a>'
+            Undefined function or variable 'u_stance_knee_data_timeseries'.
+                Variable 'u_stance_knee_data_timeseries' does not exist.
+                Suggested Actions:
+                    • Load a file into base workspace. - <a href="matlab:slprivate('robustVarRefHotlink_cb', 'loadFile', 'ds1_plant', 'u_stance_knee_data_timeseries')">Fix</a>
+                    • Create a new variable. - <a href="matlab:slprivate('robustVarRefHotlink_cb', 'createEntry', 'u_stance_knee_data_timeseries', 'ds1_plant', '', 'normal', 'VariableName', 'ds1_plant/lag_knee_actuation/Subsystem/From Workspace', ' ')">Fix</a>
+    Invalid setting in '<a href="matlab:open_and_hilite_hyperlink ('ds1_plant/lead_ankle_actuation/Subsystem/From Workspace','error')">ds1_plant/lead_ankle_actuation/Subsystem/From Workspace</a>' for parameter
+    'VariableName'.
+        Error evaluating parameter <a href="matlab:Simulink.internal.OpenBlockParamsDialog(['ds1_plant/lead_ankle_actuation/Subsystem/From Workspace'],'VariableName');">'VariableName'</a> in '<a href="matlab:open_and_hilite_hyperlink ('ds1_plant/lead_ankle_actuation/Subsystem/From Workspace','error')">ds1_plant/lead_ankle_actuation/Subsystem/From
+        Workspace</a>'
+            Undefined function or variable 'u_swing_ankle_data_timeseries'.
+                Variable 'u_swing_ankle_data_timeseries' does not exist.
+                Suggested Actions:
+                    • Load a file into base workspace. - <a href="matlab:slprivate('robustVarRefHotlink_cb', 'loadFile', 'ds1_plant', 'u_swing_ankle_data_timeseries')">Fix</a>
+                    • Create a new variable. - <a href="matlab:slprivate('robustVarRefHotlink_cb', 'createEntry', 'u_swing_ankle_data_timeseries', 'ds1_plant', '', 'normal', 'VariableName', 'ds1_plant/lead_ankle_actuation/Subsystem/From Workspace', ' ')">Fix</a>
+    Invalid setting in '<a href="matlab:open_and_hilite_hyperlink ('ds1_plant/lead_knee_actuation/Subsystem/From Workspace','error')">ds1_plant/lead_knee_actuation/Subsystem/From Workspace</a>' for parameter
+    'VariableName'.
+        Error evaluating parameter <a href="matlab:Simulink.internal.OpenBlockParamsDialog(['ds1_plant/lead_knee_actuation/Subsystem/From Workspace'],'VariableName');">'VariableName'</a> in '<a href="matlab:open_and_hilite_hyperlink ('ds1_plant/lead_knee_actuation/Subsystem/From Workspace','error')">ds1_plant/lead_knee_actuation/Subsystem/From
+        Workspace</a>'
+            Undefined function or variable 'u_swing_knee_data_timeseries'.
+                Variable 'u_swing_knee_data_timeseries' does not exist.
+                Suggested Actions:
+                    • Load a file into base workspace. - <a href="matlab:slprivate('robustVarRefHotlink_cb', 'loadFile', 'ds1_plant', 'u_swing_knee_data_timeseries')">Fix</a>
+                    • Create a new variable. - <a href="matlab:slprivate('robustVarRefHotlink_cb', 'createEntry', 'u_swing_knee_data_timeseries', 'ds1_plant', '', 'normal', 'VariableName', 'ds1_plant/lead_knee_actuation/Subsystem/From Workspace', ' ')">Fix</a>
+} 
+uiimport('C:\Users\jess-local\GaitSimulation\GCSubj04_04-05-2020 18-11-IC01-objfun_v1-inter_v1-plant_v1\DS1\ds1_plant_end.mat',1)
+if system_dependent('IsDebugMode')==1, dbquit; end
+filename = 'ds1_plant_FC';
+    ic.p(1) = stance_ankle_p_out(end) + correctionAngle;
+{Undefined function or variable 'correctionAngle'.
+} 
+ic.p(1) = stance_ankle_p_out(1)
+
+ic = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+         p: [14.9540 -0.7197 -19.0752 3.5241 -14.6270 23.8147]
+         w: [-15.2000 -386.2000 136.9000 15.4409 25.2069 -43.9335]
+    planar: [1×1 struct]
+
+    ic.w(1) = stance_ankle_w_out(1)
+
+ic = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+         p: [14.9540 -0.7197 -19.0752 3.5241 -14.6270 23.8147]
+         w: [4.9486 -386.2000 136.9000 15.4409 25.2069 -43.9335]
+    planar: [1×1 struct]
+
+ic.p(2) = stance_knee_p_out(1)
+
+ic = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+         p: [14.9540 -2.5081 -19.0752 3.5241 -14.6270 23.8147]
+         w: [4.9486 -386.2000 136.9000 15.4409 25.2069 -43.9335]
+    planar: [1×1 struct]
+
+ic.w(2) = stance_knee_w_out(1)
+
+ic = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+         p: [14.9540 -2.5081 -19.0752 3.5241 -14.6270 23.8147]
+         w: [4.9486 13.9806 136.9000 15.4409 25.2069 -43.9335]
+    planar: [1×1 struct]
+
+ic.p(3) = stance_hip_p_out(1)
+
+ic = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">st
