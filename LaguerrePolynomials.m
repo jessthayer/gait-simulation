@@ -23,7 +23,7 @@ lag.ss.polyfit2 = polyfit(trajec.sstime,trajec.ss(:,2),8);
 lag.ss.p2 = polyval(lag.ss.polyfit2,x);
 lag.ss.polyfit3 = polyfit(trajec.sstime,trajec.ss(:,3),8);
 lag.ss.p3 = polyval(lag.ss.polyfit3,x);
-lag.ss.polyfit4 = polyfit(trajec.sstime,trajec.ss(:,4),9);
+lag.ss.polyfit4 = polyfit(trajec.sstime,trajec.ss(:,4),8);
 lag.ss.p4 = polyval(lag.ss.polyfit4,x);
 
 %plot data and laguerre polyfit constants curve-fits
@@ -37,7 +37,7 @@ end
 %% generate discrete laguerre functions
 %formulation from Wang2009, utilizing a discrete laguerre network
 %statespace representation
-a = 0.5;
+a = 0.8;
 beta = 1 - a.^2;
 
 A_l = [a 0 0 0 0 0; beta a 0 0 0 0; -a*beta beta a 0 0 0;...
