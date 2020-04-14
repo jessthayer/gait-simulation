@@ -68,8 +68,8 @@ p(4).Minimum = -55*ones(1,6);
 p(4).Maximum = 55*ones(1,6);
 p(5).Minimum = -265; %w_stance_ankle
 p(5).Maximum = 170;
-p(6).Minimum = 425; %w_stance_knee (sign is flipped from winters convention)
-p(6).Maximum = -390;
+p(6).Minimum = -390; %w_stance_knee (sign is flipped from winters convention)
+p(6).Maximum = 425;
 p(7).Minimum = -100; %w_stance_hip
 p(7).Maximum = 215;
 
