@@ -57,6 +57,7 @@ load(icID)
 p = sdo.getParameterFromModel(sys,{'lagStanceAnkle','lagSwingAnkle','lagSwingKnee','lagSwingHip','w_stance_ankle_i','w_swing_knee_i','w_swing_hip_i'});
 
 %set design vars min and max
+%velocity min/max from winters data
 p(1).Minimum = [-100 -300 -100 -30 -10 -100];
 p(1).Maximum = [100 300 100 30 10 100];
 p(2).Minimum = -20*ones(1,6);
@@ -67,8 +68,8 @@ p(4).Minimum = -55*ones(1,6);
 p(4).Maximum = 55*ones(1,6);
 p(5).Minimum = -265; %w_stance_ankle
 p(5).Maximum = 170;
-p(6).Minimum = -425; %w_stance_knee
-p(6).Maximum = 390;
+p(6).Minimum = 425; %w_stance_knee (sign is flipped from winters convention)
+p(6).Maximum = -390;
 p(7).Minimum = -100; %w_stance_hip
 p(7).Maximum = 215;
 

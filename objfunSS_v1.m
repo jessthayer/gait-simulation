@@ -21,7 +21,7 @@ VerticalPosEnd21 = get(simulator.LoggedData,'PredictedVerticalPosEnd');
 stepLength_target = 0.700; % [meters]
 
 % define design objectives
-design.F = 2*(stepLength_target-stepLength)^2*100000 %F — Value of the cost (objective) evaluated at p. The solver minimizes F.
+design.F = 2*(stepLength_target-stepLength)^2*10e6 %F — Value of the cost (objective) evaluated at p. The solver minimizes F.
 design.Cleq = [-VerticalPos21;VerticalPosEnd21-0.01]; %Cleq — Value of the nonlinear inequality constraint violations evaluated at p. The solver satisfies Cleq(p) <= 0.
 % design.Cleq = [-swing_toe_z; -swing_heel_z]; %Cleq — Value of the nonlinear inequality constraint violations evaluated at p. The solver satisfies Cleq(p) <= 0.
 

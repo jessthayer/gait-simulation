@@ -1,0 +1,203 @@
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 12).
+
+ans = 
+
+ <a href="matlab: helpPopup parallel.Pool" style="font-weight:bold">Pool</a> with properties: 
+
+            Connected: true
+           NumWorkers: 12
+              Cluster: <a href="matlab: parallel.internal.display.Displayer.displayObject('1F8B0800000000000000AD54C14E0231102D2B4B2451A217C3D10F50829ED48B2286A861C120460F9B60C12AAB65BBB64BA2378E7E8A473FC34FF0E2DD239F60CB76DDD25D408393BCB4333B6FA6339D2D489D58804B8EE39523C3B1C8B10A0249FDAC696095EBE742DFE0F0208518235C705C1F5117E2C28DC33C0C9F0B953EC665DC67DC6CA11E727D12C63F56E22FCBB8A6D4333257984FE8F960FB6928DF428878EB99285E568B277C866614CF903A50EA3D3323BE91C057CF63F2FA4DA98B55F4228CB368FEAE6FA2E68A83D125859E8768AB25F9EFE9881FE54BEE8BF0CFA726D7FDA5F91BD2B6C0C1D3806B8E81C41BC787FC1E4AF3D943E008FA1024DCE3C44B073149CB9CB32495A0AB3603C4EBD17D54C929AB3A6F696957EF774D89B322F59F123B41E9852AE9401CC42B1A7F9B97BCD49F38CE28B9E5571F3BEF29699FFB84C23B2412F90E71037BADDFBB24F4015136EEDF408F7D87225677B1E3A2AAD3412E73DC3BE1DFEC52046F347F71EE9D197D08E73AEC83D07150F6883F98C1AF697CA197F7EC0BC64F6FDF23C63647D1EC92E789C9B21B04F6F8996D0BFA5D5124B3AD52B35A3AB4476E2DD9F9D63D6933BBB15DDCDA85F13A3233FA9F95F6408A07A3FB53F859633ADF90BBF9F20EF775FE92C6D7E7D91CE3C7DF65DD4FE7EBF992E61480F139FD6FFE0B98FE2E5F01B5CF81AEBECBEA7F3BCFBB2CE41B1567301CE0060000')">local</a>
+        AttachedFiles: {}
+    AutoAddClientPath: true
+          IdleTimeout: 30 minutes (30 minutes remaining)
+          SpmdEnabled: true
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.5611e+07
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 14-Apr-2020 14:15:57
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.5611e+07
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     55  3.56106e+07       0.2654
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.8477e+07
+
+    1    110  2.84771e+07        0.286         9.06     2.01e+06
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.8375e+07
+
+    2    165  2.83753e+07       0.2894        0.387     2.72e+06
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.8282e+07
+
+    3    220   2.8282e+07       0.2908         1.48     2.72e+06
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.8278e+07
+
+    4    275  2.82781e+07       0.2907       0.0207     2.67e+06
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 476.369572 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.2250e+07
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 14-Apr-2020 14:23:08
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.2250e+07
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49    1.225e+07       0.3386
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.1735e+07
+
+    1     98  1.17349e+07        0.347         2.45     1.91e+06
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.1745e+07
+
+    2    147  1.17451e+07       0.3469       0.0089     1.87e+06
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 441.597061 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.0064e+07
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 14-Apr-2020 14:30:27
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.0064e+07
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49  1.00643e+07       0.3673
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 9.9523e+06
+
+Removing data from parallel workers...
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('parallel.internal.queue.JavaBackedFuture/waitScalar', 'C:\Program Files\MATLAB\R2019a\toolbox\distcomp\cluster\+parallel\+internal\+queue\JavaBackedFuture.m', 215)" style="font-weight:bold">parallel.internal.queue.JavaBackedFuture/waitScalar</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\distcomp\cluster\+parallel\+internal\+queue\JavaBackedFuture.m',215,0)">line 215</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('parallel.Future>@(o)waitScalar(o,predicate,waitGranularity,deadline)')" style="font-weight:bold">parallel.Future>@(o)waitScalar(o,predicate,waitGranularity,deadline)</a>
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('parallel.Future/wait', 'C:\Program Files\MATLAB\R2019a\toolbox\distcomp\cluster\+parallel\@Future\Future.m', 295)" style="font-weight:bold">parallel.Future/wait</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\distcomp\cluster\+parallel\@Future\Future.m',295,0)">line 295</a>)
+            ret = all(arrayfun(@(o) waitScalar(o, predicate, waitGranularity, deadline), ...
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Simulink.Simulation.Future/fetchSingleOutputCaptureError', 'C:\Program Files\MATLAB\R2019a\toolbox\simulink\simulink\+Simulink\+Simulation\Future.p', 268)" style="font-weight:bold">Simulink.Simulation.Future/fetchSingleOutputCaptureError</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\simulink\simulink\+Simulink\+Simulation\Future.p',268,0)">line 268</a>)
+                wait(F, 'finished', 0.01);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Simulink.Simulation.Future>@(F)F.fetchSingleOutputCaptureError()', 'C:\Program Files\MATLAB\R2019a\toolbox\simulink\simulink\+Simulink\+Simulation\Future.p', 200)" style="font-weight:bold">Simulink.Simulation.Future>@(F)F.fetchSingleOutputCaptureError()</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\simulink\simulink\+Simulink\+Simulation\Future.p',200,0)">line 200</a>)
+            simOut = arrayfun(@(F) F.fetchSingleOutputCaptureError(), obj);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Simulink.Simulation.Future/Simulink.SimulationOutput', 'C:\Program Files\MATLAB\R2019a\toolbox\simulink\simulink\+Simulink\+Simulation\Future.p', 200)" style="font-weight:bold">Simulink.Simulation.Future/Simulink.SimulationOutput</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\simulink\simulink\+Simulink\+Simulation\Future.p',200,0)">line 200</a>)
+            simOut = arrayfun(@(F) F.fetchSingleOutputCaptureError(), obj);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Simulink.Simulation.Future/fetchSingleOutput', 'C:\Program Files\MATLAB\R2019a\toolbox\simulink\simulink\+Simulink\+Simulation\Future.p', 247)" style="font-weight:bold">Simulink.Simulation.Future/fetchSingleOutput</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\simulink\simulink\+Simulink\+Simulation\Future.p',247,0)">line 247</a>)
+            out = Simulink.SimulationOutput(obj);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Simulink.Simulation.Future>@(F)F.fetchSingleOutput()', 'C:\Program Files\MATLAB\R2019a\toolbox\simulink\simulink\+Simulink\+Simulation\Future.p', 179)" style="font-weight:bold">Simulink.Simulation.Future>@(F)F.fetchSingleOutput()</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\simulink\simulink\+Simulink\+Simulation\Future.p',179,0)">line 179</a>)
+            out = arrayfun(@(F) F.fetchSingleOutput(), obj);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Simulink.Simulation.Future/fetchOutputs', 'C:\Program Files\MATLAB\R2019a\toolbox\simulink\simulink\+Simulink\+Simulation\Future.p', 179)" style="font-weight:bold">Simulink.Simulation.Future/fetchOutputs</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\simulink\simulink\+Simulink\+Simulation\Future.p',179,0)">line 179</a>)
+            out = arrayfun(@(F) F.fetchSingleOutput(), obj);
+
+In MultiSim.internal.SimulationRunnerParallelBase/assignOutputsOnSimManager
+
+In Simulink.SimulationManager/executeSims
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Simulink.SimulationManagerEngine/executeSims', 'C:\Program Files\MATLAB\R2019a\toolbox\simulink\simulink\+Simulink\SimulationManagerEngine.m', 50)" style="font-weight:bold">Simulink.SimulationManagerEngine/executeSims</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\simulink\simulink\+Simulink\SimulationManagerEngine.m',50,0)">line 50</a>)
+            out = obj.SimulationManager.executeSims(fh);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon/evalRequirementGradients', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 442)" style="font-weight:bold">sdo.solvers.fmincon/evalRequirementGradients</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',442,0)">line 442</a>)
+                    simLog = executeSims(this.SimManagerEngine,fcn,simin);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon/constrFcn', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 391)" style="font-weight:bold">sdo.solvers.fmincon/constrFcn</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',391,0)">line 391</a>)
+                    g = evalRequirementGradients(this,x,Log,GradLog);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon>@(x)constrFcn(this,x,Log,GradLog)')" style="font-weight:bold">sdo.solvers.fmincon>@(x)constrFcn(this,x,Log,GradLog)</a>
+
+In barrier
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fmincon', 'C:\Program Files\MATLAB\R2019a\toolbox\shared\optimlib\fmincon.p', 824)" style="font-weight:bold">fmincon</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\shared\optimlib\fmincon.p',824,0)">line 824</a>)
+    [X,FVAL,EXITFLAG,OUTPUT,LAMBDA,GRAD,HESSIAN] = barrier(funfcn,X,A,B,Aeq,Beq,l,u,confcn,options.HessFcn, ...
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon/minimize', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 196)" style="font-weight:bold">sdo.solvers.fmincon/minimize</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',196,0)">line 196</a>)
+            [x, fval, exitflag, output, lambda, grad] = fmincon(@(x) costFcn(this,x,Log,GradLog), x0, ...
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.absSolver/run', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m', 9
