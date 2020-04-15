@@ -35,8 +35,7 @@ for i = 1:4
 end
 
 %% generate discrete laguerre functions
-%formulation from Wang2009, utilizing a discrete laguerre network
-%statespace representation
+%formulation from Wang2009, utilizing a discrete laguerre network state-space representation
 a = 0.8;
 beta = 1 - a.^2;
 
