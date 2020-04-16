@@ -112,21 +112,9 @@ end
 
 save('ss1_optimizedcontrolinput_iter_1','u'); %save optimized control inputs
 
-%set plant initial conditions
-load(icID)
+% Open plant
 plant = 'ss1_plant';
-sdo.setValueInModel(plant,'p_stance_ankle',ic.p(4));
-sdo.setValueInModel(plant,'p_stance_knee',ic.p(5));
-sdo.setValueInModel(plant,'p_stance_hip',ic.p(6));
-sdo.setValueInModel(plant,'p_swing_ankle',ic.p(1));
-sdo.setValueInModel(plant,'p_swing_knee',ic.p(2));
-sdo.setValueInModel(plant,'p_swing_hip',ic.p(3));
-sdo.setValueInModel(plant,'w_stance_ankle',ic.w(4));
-sdo.setValueInModel(plant,'w_stance_knee',ic.w(5));
-sdo.setValueInModel(plant,'w_stance_hip',ic.w(6));
-sdo.setValueInModel(plant,'w_swing_ankle',ic.w(1));
-sdo.setValueInModel(plant,'w_swing_knee',ic.w(2));
-sdo.setValueInModel(plant,'w_swing_hip',ic.w(3));
+open_system(plant);
 
 %send optimized control input to plant
 sdo.setValueInModel(plant,'u_stance_ankle',u(1,:));
@@ -151,6 +139,22 @@ u_swing_hip_data_timeseries.Time = 0;
 u_swing_hip_data_timeseries.Data = 0;
 
 clear u;
+
+%set plant initial conditions
+load(icID)
+    sdo.setValueInModel(plant,'p_stance_ankle',ic.p(4));
+    sdo.setValueInModel(plant,'w_stance_ankle',ic.w(4));
+    sdo.setValueInModel(plant,'p_stance_knee',ic.p(5));
+    sdo.setValueInModel(plant,'w_stance_knee',ic.w(5));
+    sdo.setValueInModel(plant,'p_stance_hip',ic.p(6));
+    sdo.setValueInModel(plant,'w_stance_hip',ic.w(6));
+    sdo.setValueInModel(plant,'p_swing_ankle',ic.p(1));
+    sdo.setValueInModel(plant,'w_swing_ankle',ic.w(1));
+    sdo.setValueInModel(plant,'p_swing_knee',ic.p(2));
+    sdo.setValueInModel(plant,'w_swing_knee',ic.w(2));
+    sdo.setValueInModel(plant,'p_swing_hip',ic.p(3));
+    sdo.setValueInModel(plant,'w_swing_hip',ic.w(3));
+    save_system('ss1_plant');
 
 sim(plant); %simulate plant model using the opitmized control inputs
 save('ss1_plant_iter_1'); %save plant iteration

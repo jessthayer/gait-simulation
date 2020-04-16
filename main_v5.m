@@ -10,7 +10,7 @@ global icID ss_predictionHorizon ds_predictionHorizon controlWindow timeStep...
 %% MPC and Simulation Parameters
 % assuming GC time of 1.2s (long for avg GC), SS should be about 38%, DS about 12%
 ss_predictionHorizon = 0.4560; %s, will be set as stop time within models as a character vector
-ds_predictionHorizon = 0.1660; %s
+ds_predictionHorizon = 0.1600; %s
 controlWindow = 0.0083; %s, consistent with Mo-Cap sampling rate, 120Hz
 timeStep = 0.0001; %s
 
