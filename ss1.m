@@ -99,6 +99,7 @@ opt.MethodOptions.TolFun = 0.1;
 opt.MethodOptions.ObjectiveLimit = 5;
 opt.MethodOptions.MaxIter = 10;
 opt.MethodOptions.TolX = 0.02;
+opt.MethodOptions.Display = 'iter'
 opt.UseParallel = 'always';
 opt.OptimizedModel = sys;
 

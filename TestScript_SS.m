@@ -21,9 +21,9 @@ icID = [sim_file_dir '\IC_ss']; %initial conditions .mat file identifier
 %desired test
 test.name = 'singleSupportConstraints';
 test.code = 'ss1';
-test.costfxn = 'v1';
-test.inter = 'v1';
-test.plant = 'v1';
+test.costfxn = 'vtest';
+test.inter = 'vtest';
+test.plant = 'vtest';
 
 %desired model versions
 objfun_vers = test.costfxn; %version of cost functions to use
