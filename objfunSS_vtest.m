@@ -15,7 +15,7 @@ for i = length(HCflag)
         stepLength = stepLength21(i);
         return
     else
-        stepLength = 0;
+        stepLength = -0.7;
     end
 end
 
