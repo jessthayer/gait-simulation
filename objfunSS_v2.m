@@ -34,6 +34,6 @@ dynamic_effort = sum(dynamic_effort21(:))
 
 % define design objectives
 design.F = dynamic_effort %F — Value of the cost (objective) evaluated at p. The solver minimizes F.
-design.Cleq = [-VerticalPos21; -swingToeZ; ((stepLength_target-stepLength)-0.05*stepLength)]; %Cleq — Value of the nonlinear inequality constraint violations evaluated at p. The solver satisfies Cleq(p) <= 0.
-
+design.Cleq = [-VerticalPos21; ((stepLength_target-stepLength)-0.05*stepLength)]; %Cleq — Value of the nonlinear inequality constraint violations evaluated at p. The solver satisfies Cleq(p) <= 0.
+%-swingToeZ;
 end
