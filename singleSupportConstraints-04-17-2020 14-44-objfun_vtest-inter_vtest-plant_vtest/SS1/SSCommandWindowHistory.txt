@@ -317,4 +317,19 @@ In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.
 In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.absSolver/run', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m', 992)" style="font-weight:bold">sdo.solvers.absSolver/run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m',992,0)">line 992</a>)
 					[p,status,iOut] = minimize(this);
 
-In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.optimize', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.optimize', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\optimize.m', 124)" style="font-weight:bold">sdo.optimize</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\optimize.m',124,0)">line 124</a>)
+      [p,infoOut] = run(solver);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ss1', 'C:\Users\jess-local\GaitSimulation\ss1.m', 324)" style="font-weight:bold">ss1</a> (<a href="matlab: opentoline('C:\Users\jess-local\GaitSimulation\ss1.m',324,0)">line 324</a>)
+    [pOpt,optInfo] = sdo.optimize(evalDesign,p,opt); %optimize
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m', 91)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m',91,0)">line 91</a>)
+evalin('caller', strcat(script, ';'));
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TestScript_SS', 'C:\Users\jess-local\GaitSimulation\TestScript_SS.m', 46)" style="font-weight:bold">TestScript_SS</a> (<a href="matlab: opentoline('C:\Users\jess-local\GaitSimulation\TestScript_SS.m',46,0)">line 46</a>)
+    run(test.code)  % run test
+} 
+IdleTimeout has been reached.
+Parallel pool using the 'local' profile is shutting down.
+uiopen('C:\Users\jess-local\GaitSimulation\ss_inter_v3_i.slx',1)
+TestScript_SS
