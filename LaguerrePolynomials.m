@@ -1,17 +1,16 @@
 %% Laguerre Polynomial Development
 %find polyfit constants to give best initial guess from Winter2009 norm data
 
-clc, clear all, close all
+close all
 %% Single Support Period
 %% generate polynomial fit data for normal ambulator
 %add winters data
 filename = 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Winters Gait Data.xlsx';
 trajec.ss(:,1) = xlsread(filename,'M29:M56'); %stance ankle (13 timesteps after RHS - 27 timesteps later)
 trajec.ss(:,2) = xlsread(filename,'M2:M29'); %swing ankle (RTO - RHS)
-trajec.ss(:,3) = xlsread(filename,'N2:N29'); %swing knee (RTO - RHS)
+trajec.ss(:,3) = -xlsread(filename,'N2:N29'); %swing knee (RTO - RHS)
 trajec.ss(:,4) = xlsread(filename,'O2:O29'); %swing hip  (RTO - RHS)
 trajec.sstime = xlsread(filename,'C2:C29'); %time  (RTO - RHS)
-
 
 %add polyfit data
 %the polyfits act as a baseline trajectory from which the laguerre function
@@ -26,12 +25,29 @@ lag.ss.p3 = polyval(lag.ss.polyfit3,x);
 lag.ss.polyfit4 = polyfit(trajec.sstime,trajec.ss(:,4),8);
 lag.ss.p4 = polyval(lag.ss.polyfit4,x);
 
+%add mpc torques
+inter = 'C:\Users\jess-local\GaitSimulation\singleSupportConstraints-04-20-2020 13-10-objfun_v2-inter_v1-plant_v1\SS1\ss1_inter_iter_12';
+load(inter)
+controlinput = 'C:\Users\jess-local\GaitSimulation\singleSupportConstraints-04-20-2020 13-10-objfun_v2-inter_v1-plant_v1\SS1\ss1_controlinputhistory_iter_12';
+load(controlinput)
+sdo.setValueInModel(sys,'lagStanceAnkle',u(1,:));
+sdo.setValueInModel(sys,'lagSwingAnkle',u(2,:));
+sdo.setValueInModel(sys,'lagSwingKnee',u(3,:));
+sdo.setValueInModel(sys,'lagSwingHip',u(4,:));
+sim(sys)
+tq = (0:1:(length(MPCTorqueStanceAnkle)-1))*timeStep;
+lag.ss.mpc1 = MPCTorqueStanceAnkle;
+lag.ss.mpc2 = MPCTorqueSwingAnkle;
+lag.ss.mpc3 = MPCTorqueSwingKnee;
+lag.ss.mpc4 = MPCTorqueSwingHip;
+
 %plot data and laguerre polyfit constants curve-fits
 for i = 1:4
     subplot(str2num(['41' num2str(i)]))
     hold on
     p = eval(['lag.ss.p' num2str(i)]);
-    plot(trajec.sstime,trajec.ss(:,i),'.',x,p) %,x,sun.ss.fit(:,i)
+    mpc = eval(['lag.ss.mpc' num2str(i)]);
+    plot(trajec.sstime,trajec.ss(:,i),'.',x,p,tq,mpc,'--') %,x,sun.ss.fit(:,i)
 end
 
 %% generate discrete laguerre functions
