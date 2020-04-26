@@ -8,7 +8,7 @@ close all
 filename = 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Winters Gait Data.xlsx';
 trajec.ss(:,1) = xlsread(filename,'M29:M56'); %stance ankle (13 timesteps after RHS - 27 timesteps later)
 trajec.ss(:,2) = xlsread(filename,'M2:M29'); %swing ankle (RTO - RHS)
-trajec.ss(:,3) = -xlsread(filename,'N2:N29'); %swing knee (RTO - RHS)
+trajec.ss(:,3) = xlsread(filename,'N2:N29'); %swing knee (RTO - RHS)
 trajec.ss(:,4) = xlsread(filename,'O2:O29'); %swing hip  (RTO - RHS)
 trajec.sstime = xlsread(filename,'C2:C29'); %time  (RTO - RHS)
 
@@ -26,9 +26,9 @@ lag.ss.polyfit4 = polyfit(trajec.sstime,trajec.ss(:,4),8);
 lag.ss.p4 = polyval(lag.ss.polyfit4,x);
 
 %add mpc torques
-inter = 'C:\Users\jess-local\GaitSimulation\singleSupportConstraints-04-20-2020 13-10-objfun_v2-inter_v1-plant_v1\SS1\ss1_inter_iter_12';
+inter = 'C:\Users\jess-local\OneDrive - Marquette University\Research\Simulations\singleSupportConstraints-04-20-2020 13-10-objfun_v2-inter_v1-plant_v1\SS1\ss1_inter_iter_1';
 load(inter)
-controlinput = 'C:\Users\jess-local\GaitSimulation\singleSupportConstraints-04-20-2020 13-10-objfun_v2-inter_v1-plant_v1\SS1\ss1_controlinputhistory_iter_12';
+controlinput = 'C:\Users\jess-local\OneDrive - Marquette University\Research\Simulations\singleSupportConstraints-04-20-2020 13-10-objfun_v2-inter_v1-plant_v1\SS1\ss1_optimizedcontrolinput_iter_1';
 load(controlinput)
 sdo.setValueInModel(sys,'lagStanceAnkle',u(1,:));
 sdo.setValueInModel(sys,'lagSwingAnkle',u(2,:));
@@ -38,16 +38,22 @@ sim(sys)
 tq = (0:1:(length(MPCTorqueStanceAnkle)-1))*timeStep;
 lag.ss.mpc1 = MPCTorqueStanceAnkle;
 lag.ss.mpc2 = MPCTorqueSwingAnkle;
-lag.ss.mpc3 = MPCTorqueSwingKnee;
+lag.ss.mpc3 = -MPCTorqueSwingKnee;
 lag.ss.mpc4 = MPCTorqueSwingHip;
+lag.ss.torque1 = torque1;
+lag.ss.torque2 = torque2;
+lag.ss.torque3 = torque3;
+lag.ss.torque4 = torque4;
 
-%plot data and laguerre polyfit constants curve-fits
+%% plot data and laguerre polyfit constants curve-fits
 for i = 1:4
     subplot(str2num(['41' num2str(i)]))
     hold on
     p = eval(['lag.ss.p' num2str(i)]);
     mpc = eval(['lag.ss.mpc' num2str(i)]);
+    torque = eval(['lag.ss.torque' num2str(i)]);
     plot(trajec.sstime,trajec.ss(:,i),'.',x,p,tq,mpc,'--') %,x,sun.ss.fit(:,i)
+    plot(torque.time,torque.data(:,3))
 end
 
 %% generate discrete laguerre functions

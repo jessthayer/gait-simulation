@@ -1,0 +1,403 @@
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 12).
+
+ans = 
+
+ <a href="matlab: helpPopup parallel.Pool" style="font-weight:bold">Pool</a> with properties: 
+
+            Connected: true
+           NumWorkers: 12
+              Cluster: <a href="matlab: parallel.internal.display.Displayer.displayObject('1F8B0800000000000000AD54C14E0231102D2B4B2451A217C3D10F50829ED48B2286A861C120460F9B60C12AAB65BBB64BA2378E7E8A473FC34FF0E2DD239F60CB76DDD25D408393BCB4333B6FA6339D2D489D58804B8EE39523C3B1C8B10A0249FDAC696095EBE742DFE0F0208518235C705C1F5117E2C28DC33C0C9F0B953EC665DC67DC6CA11E727D12C63F56E22FCBB8A6D4333257984FE8F960FB6928DF428878EB99285E568B277C866614CF903A50EA3D3323BE91C057CF63F2FA4DA98B55F4228CB368FEAE6FA2E68A83D125859E8768AB25F9EFE9881FE54BEE8BF0CFA726D7FDA5F91BD2B6C0C1D3806B8E81C41BC787FC1E4AF3D943E008FA1024DCE3C44B073149CB9CB32495A0AB3603C4EBD17D54C929AB3A6F696957EF774D89B322F59F123B41E9852AE9401CC42B1A7F9B97BCD49F38CE28B9E5571F3BEF29699FFB84C23B2412F90E71037BADDFBB24F4015136EEDF408F7D87225677B1E3A2AAD3412E73DC3BE1DFEC52046F347F71EE9D197D08E73AEC83D07150F6883F98C1AF697CA197F7EC0BC64F6FDF23C63647D1EC92E789C9B21B04F6F8996D0BFA5D5124B3AD52B35A3AB4476E2DD9F9D63D6933BBB15DDCDA85F13A3233FA9F95F6408A07A3FB53F859633ADF90BBF9F20EF775FE92C6D7E7D91CE3C7DF65DD4FE7EBF992E61480F139FD6FFE0B98FE2E5F01B5CF81AEBECBEA7F3BCFBB2CE41B1567301CE0060000')">local</a>
+        AttachedFiles: {}
+    AutoAddClientPath: true
+          IdleTimeout: 30 minutes (30 minutes remaining)
+          SpmdEnabled: true
+
+
+opt = 
+
+  <a href="matlab:helpPopup sdo.OptimizeOptions" style="font-weight:bold">OptimizeOptions</a> with properties:
+
+                      Method: 'fmincon'
+               MethodOptions: [1×1 optim.options.Fmincon]
+                    Restarts: 0
+              StopIfFeasible: 'on'
+                     GradFcn: 'off'
+                 UseParallel: 0
+    ParallelPathDependencies: {}
+    ParallelFileDependencies: {}
+              OptimizedModel: ''
+
+
+dynamic_effort =
+
+   3.0439e+10
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.0439e+10
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Apr-2020 23:32:27
+
+dynamic_effort =
+
+   3.0439e+10
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.0439e+10
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     55   3.0439e+10        1.435
+
+dynamic_effort =
+
+   2.7328e+10
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.7328e+10
+
+    1    110  2.73284e+10        1.435         1.06     5.47e+10
+
+dynamic_effort =
+
+   1.2122e+10
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.2122e+10
+
+    2    165  1.21221e+10        1.435         2.12     3.42e+10
+
+dynamic_effort =
+
+   8.8317e+09
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.8317e+09
+
+    3    220  8.83173e+09        1.435         3.64     3.05e+10
+
+dynamic_effort =
+
+   7.7826e+09
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 7.7826e+09
+
+    4    275  7.78261e+09        1.435        0.472     2.52e+10
+
+dynamic_effort =
+
+   7.8554e+08
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 7.8554e+08
+
+    5    330  7.85537e+08        1.435          1.4     2.41e+09
+
+dynamic_effort =
+
+   7.8374e+08
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 7.8374e+08
+
+    6    385  7.83739e+08        1.435        0.171     2.35e+09
+
+dynamic_effort =
+
+   7.8141e+08
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 7.8141e+08
+
+    7    440  7.81408e+08        1.435        0.014     2.35e+09
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+IdleTimeout has been reached.
+Parallel pool using the 'local' profile is shutting down.
+LaguerrePolynomials
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('load')" style="font-weight:bold">load</a>
+Unable to read file 'C:\Users\jess-local\GaitSimulation\singleSupportConstraints-04-20-2020
+13-10-objfun_v2-inter_v1-plant_v1\SS1\ss1_inter_iter_12'. No such file or directory.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('LaguerrePolynomials', 'C:\Users\jess-local\GaitSimulation\LaguerrePolynomials.m', 30)" style="font-weight:bold">LaguerrePolynomials</a> (<a href="matlab: opentoline('C:\Users\jess-local\GaitSimulation\LaguerrePolynomials.m',30,0)">line 30</a>)
+load(inter)
+} 
+LaguerrePolynomials
+{Undefined function or variable 'u'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('LaguerrePolynomials', 'C:\Users\jess-local\GaitSimulation\LaguerrePolynomials.m', 33)" style="font-weight:bold">LaguerrePolynomials</a> (<a href="matlab: opentoline('C:\Users\jess-local\GaitSimulation\LaguerrePolynomials.m',33,0)">line 33</a>)
+sdo.setValueInModel(sys,'lagStanceAnkle',u(1,:));
+} 
+uiimport('C:\Users\jess-local\OneDrive - Marquette University\Research\Simulations\singleSupportConstraints-04-20-2020 13-10-objfun_v2-inter_v1-plant_v1\SS1\ss1_controlinputhistory_iter_12.mat',1)
+uiimport('C:\Users\jess-local\OneDrive - Marquette University\Research\Simulations\singleSupportConstraints-04-20-2020 13-10-objfun_v2-inter_v1-plant_v1\SS1\ss1_optimizedcontrolinput_iter_12.mat',1)
+LaguerrePolynomials
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.setValueInModel', 'C:\Program Files\MATLAB\R2019a\toolbox\shared\slcontrollib\+sdo\setValueInModel.m', 50)" style="font-weight:bold">sdo.setValueInModel</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\shared\slcontrollib\+sdo\setValueInModel.m',50,0)">line 50</a>)
+The "ModelName" argument must be the name of an open Simulink model.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('LaguerrePolynomials', 'C:\Users\jess-local\GaitSimulation\LaguerrePolynomials.m', 33)" style="font-weight:bold">LaguerrePolynomials</a> (<a href="matlab: opentoline('C:\Users\jess-local\GaitSimulation\LaguerrePolynomials.m',33,0)">line 33</a>)
+sdo.setValueInModel(sys,'lagStanceAnkle',u(1,:));
+} 
+clc, clear all close all
+LaguerrePolynomials
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.setValueInModel', 'C:\Program Files\MATLAB\R2019a\toolbox\shared\slcontrollib\+sdo\setValueInModel.m', 50)" style="font-weight:bold">sdo.setValueInModel</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\shared\slcontrollib\+sdo\setValueInModel.m',50,0)">line 50</a>)
+The "ModelName" argument must be the name of an open Simulink model.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('LaguerrePolynomials', 'C:\Users\jess-local\GaitSimulation\LaguerrePolynomials.m', 33)" style="font-weight:bold">LaguerrePolynomials</a> (<a href="matlab: opentoline('C:\Users\jess-local\GaitSimulation\LaguerrePolynomials.m',33,0)">line 33</a>)
+sdo.setValueInModel(sys,'lagStanceAnkle',u(1,:));
+} 
+uiopen('C:\Users\jess-local\OneDrive - Marquette University\Research\Simulations\singleSupportConstraints-04-20-2020 13-10-objfun_v2-inter_v1-plant_v1\SS1\ss1_inter.slx',1)
+LaguerrePolynomials
+LaguerrePolynomials
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('LaguerrePolynomials', 'C:\Users\jess-local\GaitSimulation\LaguerrePolynomials.m', 37)" style="font-weight:bold">LaguerrePolynomials</a> (<a href="matlab: opentoline('C:\Users\jess-local\GaitSimulation\LaguerrePolynomials.m',37,0)">line 37</a>)
+Cannot start a new command line simulation while a simulation has started for the same model.
+} 
+LaguerrePolynomials
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('timeseries/plot', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\timeseries\@timeseries\plot.m', 27)" style="font-weight:bold">timeseries/plot</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\timeseries\@timeseries\plot.m',27,0)">line 27</a>)
+The plot method can only be used for a single timeseries object
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('LaguerrePolynomials', 'C:\Users\jess-local\GaitSimulation\LaguerrePolynomials.m', 55)" style="font-weight:bold">LaguerrePolynomials</a> (<a href="matlab: opentoline('C:\Users\jess-local\GaitSimulation\LaguerrePolynomials.m',55,0)">line 55</a>)
+    plot(trajec.sstime,trajec.ss(:,i),'.',x,p,tq,mpc,'--',tq,torque) %,x,sun.ss.fit(:,i)
+} 
+LaguerrePolynomials
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('timeseries/plot', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\timeseries\@timeseries\plot.m', 27)" style="font-weight:bold">timeseries/plot</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\timeseries\@timeseries\plot.m',27,0)">line 27</a>)
+The plot method can only be used for a single timeseries object
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('LaguerrePolynomials', 'C:\Users\jess-local\GaitSimulation\LaguerrePolynomials.m', 56)" style="font-weight:bold">LaguerrePolynomials</a> (<a href="matlab: opentoline('C:\Users\jess-local\GaitSimulation\LaguerrePolynomials.m',56,0)">line 56</a>)
+    plot(tq,torque)
+} 
+LaguerrePolynomials
+LaguerrePolynomials
+{Undefined unary operator '-' for input arguments of type 'timeseries'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('LaguerrePolynomials', 'C:\Users\jess-local\GaitSimulation\LaguerrePolynomials.m', 45)" style="font-weight:bold">LaguerrePolynomials</a> (<a href="matlab: opentoline('C:\Users\jess-local\GaitSimulation\LaguerrePolynomials.m',45,0)">line 45</a>)
+lag.ss.torque3 = -torque3;
+} 
+LaguerrePolynomials
+LaguerrePolynomials
+LaguerrePolynomials
+{Index exceeds the number of array elements (1).
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('LaguerrePolynomials', 'C:\Users\jess-local\GaitSimulation\LaguerrePolynomials.m', 56)" style="font-weight:bold">LaguerrePolynomials</a> (<a href="matlab: opentoline('C:\Users\jess-local\GaitSimulation\LaguerrePolynomials.m',56,0)">line 56</a>)
+    plot(torque('Data:3'))
+} 
+LaguerrePolynomials
+LaguerrePolynomials
+LaguerrePolynomials
+LaguerrePolynomials
+uiopen('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',1)
+trajectory_4_SSP
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as a
+cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 10)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',10,0)">line 10</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as a
+cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 15)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',15,0)">line 15</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as a
+cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 17)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',17,0)">line 17</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as a
+cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 19)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',19,0)">line 19</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 21)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',21,0)">line 21</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 23)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',23,0)">line 23</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 25)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',25,0)">line 25</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 27)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',27,0)">line 27</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 33)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',33,0)">line 33</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 38)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',38,0)">line 38</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 40)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',40,0)">line 40</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 42)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',42,0)">line 42</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 44)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',44,0)">line 44</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 46)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',46,0)">line 46</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 48)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',48,0)">line 48</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 50)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',50,0)">line 50</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 56)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',56,0)">line 56</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 61)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',61,0)">line 61</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 63)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',63,0)">line 63</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 65)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',65,0)">line 65</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 67)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',67,0)">line 67</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 69)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',69,0)">line 69</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 71)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',71,0)">line 71</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 73)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',73,0)">line 73</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 79)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',79,0)">line 79</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 84)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',84,0)">line 84</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 86)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',86,0)">line 86</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 88)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',88,0)">line 88</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 90)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',90,0)">line 90</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 92)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',92,0)">line 92</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 94)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',94,0)">line 94</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 96)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',96,0)">line 96</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 102)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',102,0)">line 102</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 107)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',107,0)">line 107</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 109)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',109,0)">line 109</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 111)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',111,0)">line 111</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 113)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',113,0)">line 113</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 115)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',115,0)">line 115</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 117)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',117,0)">line 117</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 119)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',119,0)">line 119</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 125)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',125,0)">line 125</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 130)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',130,0)">line 130</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 132)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',132,0)">line 132</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 134)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',134,0)">line 134</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 136)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',136,0)">line 136</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 138)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',138,0)">line 138</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 140)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',140,0)">line 140</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 142)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',142,0)">line 142</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 149)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',149,0)">line 149</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 157)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',157,0)">line 157</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 165)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',165,0)">line 165</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 173)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',173,0)">line 173</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 181)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',181,0)">line 181</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 197)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',197,0)">line 197</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 205)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',205,0)">line 205</a>)] 
+[Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in as
+a cell.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 213)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',213,0)">line 213</a>)] 
+uiopen('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\AverageJointTrajec.m',1)
