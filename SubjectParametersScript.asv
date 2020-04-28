@@ -21,9 +21,9 @@ param.interASIS = 0.32; %ASIS to ASIS (m)
 param.thighProx = 0.66; %thigh proximal circumference (m)
 param.thighDist = 0.45; %thigh distal circumference (m)
 param.malHeight = 0.07; %height of malleolus\ankle joint from ground (m)
-param.footLength = 0.25; %length of foot, measured from AFO (m)
-param.rockerLength = 0.185; %length from heel to ball of foot, measured from AFO (m)
-param.footWidth = 0.10; %width of ball of foot, measured from AFO (m)
+param.footLength = 0.27; %length of foot, measured from AFO (m)
+param.rockerLength = 0.20; %length from heel to ball of foot, measured from AFO (m)
+param.footWidth = 0.09; %width of ball of foot, measured from AFO (m)
 
 %% create simulation parameters
 param.var(1) = "bodymass"; param.val(1) = param.weight;
