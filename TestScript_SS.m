@@ -14,12 +14,12 @@ controlWindow = 0.0083; %s, consistent with Mo-Cap sampling rate, 120Hz
 timeStep = 0.0001; %s
 
 %% *EDIT THESE PARAMETERS ONLY* Define IC and Subject Parameters and Model Versions
-subjID = 'Subject_1'; %subject identifier consistent with parameter .mat file
+subjID = 'Subject_2'; %subject identifier consistent with parameter .mat file
 sim_file_dir = pwd; %location of models and cost functions
 icID = [sim_file_dir '\IC_ss']; %initial conditions .mat file identifier
 
 %desired test
-test.name = 'singleSupportConstraints';
+test.name = 'subjectParameterTest';
 test.code = 'ss1';
 test.costfxn = 'v2';
 test.inter = 'v1';

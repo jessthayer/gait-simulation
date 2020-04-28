@@ -47,18 +47,18 @@ open_system(sys);
 
 %open internal model, set initial conditions
 load(icID)
-    sdo.setValueInModel(sys,'p_stance_ankle_i',ic.p(4));
-    sdo.setValueInModel(sys,'w_stance_ankle_i',ic.w(4));
-    sdo.setValueInModel(sys,'p_stance_knee_i',ic.p(5));
-    sdo.setValueInModel(sys,'w_stance_knee_i',ic.w(5));
-    sdo.setValueInModel(sys,'p_stance_hip_i',ic.p(6));
-    sdo.setValueInModel(sys,'w_stance_hip_i',ic.w(6));
-    sdo.setValueInModel(sys,'p_swing_ankle_i',ic.p(1));
-    sdo.setValueInModel(sys,'w_swing_ankle_i',ic.w(1));
-    sdo.setValueInModel(sys,'p_swing_knee_i',ic.p(2));
-    sdo.setValueInModel(sys,'w_swing_knee_i',ic.w(2));
-    sdo.setValueInModel(sys,'p_swing_hip_i',ic.p(3));
-    sdo.setValueInModel(sys,'w_swing_hip_i',ic.w(3));
+    sdo.setValueInModel(sys,'p_stance_ankle',ic.p(4));
+    sdo.setValueInModel(sys,'w_stance_ankle',ic.w(4));
+    sdo.setValueInModel(sys,'p_stance_knee',ic.p(5));
+    sdo.setValueInModel(sys,'w_stance_knee',ic.w(5));
+    sdo.setValueInModel(sys,'p_stance_hip',ic.p(6));
+    sdo.setValueInModel(sys,'w_stance_hip',ic.w(6));
+    sdo.setValueInModel(sys,'p_swing_ankle',ic.p(1));
+    sdo.setValueInModel(sys,'w_swing_ankle',ic.w(1));
+    sdo.setValueInModel(sys,'p_swing_knee',ic.p(2));
+    sdo.setValueInModel(sys,'w_swing_knee',ic.w(2));
+    sdo.setValueInModel(sys,'p_swing_hip',ic.p(3));
+    sdo.setValueInModel(sys,'w_swing_hip',ic.w(3));
     save_system('ss1_inter');
 
 %get the design vars for the MPC optimization
