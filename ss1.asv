@@ -24,7 +24,6 @@ parpool %start the parallel computing
 open_system(ss_inter_loc);
 save_system(ss_inter_loc, 'ss1_inter');
 set_param('ss1_inter','StopTime',num2str(ss_predictionHorizon));
-load([sim_file_dir '\Param_' subjID])
 for k = 1:22 %write subject parameters
     sdo.setValueInModel('ss1_inter',param.var(k),param.val(k))
 end
@@ -33,7 +32,6 @@ save_system('ss1_inter');
 open_system(ss_plant_loc);
 save_system(ss_plant_loc, 'ss1_plant');
 set_param('ss1_plant','StopTime',num2str(ss_predictionHorizon));
-load([sim_file_dir '\Param_' subjID])
 for k = 1:22 %write subject parameters
     sdo.setValueInModel('ss1_plant',param.var(k),param.val(k))
 end

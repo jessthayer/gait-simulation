@@ -2,7 +2,7 @@
 % Test components of main script
 %%
 clc, clear all
-global icID ss_predictionHorizon controlWindow timeStep...
+global icID subjID ss_predictionHorizon controlWindow timeStep...
     directory...
     objfun_vers inter_vers plant_vers... 
     trialName sim_file_dir ss_plant_loc ss_inter_loc
@@ -14,7 +14,7 @@ controlWindow = 0.0083; %s, consistent with Mo-Cap sampling rate, 120Hz
 timeStep = 0.0001; %s
 
 %% *EDIT THESE PARAMETERS ONLY* Define IC and Subject Parameters and Model Versions
-subjID = 'Subj04'; %subject identifier consistent with parameter .mat file
+subjID = 'Subject_1'; %subject identifier consistent with parameter .mat file
 sim_file_dir = pwd; %location of models and cost functions
 icID = [sim_file_dir '\IC_ss']; %initial conditions .mat file identifier
 
