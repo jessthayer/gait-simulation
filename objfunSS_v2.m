@@ -6,13 +6,9 @@ simulator = sim(simulator);
 
 % obtain the step length optimization results
 stepLength21 = get(simulator.LoggedData,'PredictedStepLength');
-dynamic_effort21 = get(simulator.LoggedData, 'Dynamic_Effort');
 VerticalPos21 = get(simulator.LoggedData,'PredictedVerticalPos');
 swingToeZ = get(simulator.LoggedData,'swing_toe_z');
 HCflag = get(simulator.LoggedData,'Flag');
-
-% define bodymass
-bodymass = 86.2; % [kg] %THIS SHOULD BE CALLED FROM THE MODEL
 
 for i = length(HCflag)
     if HCflag(i) == 1
@@ -33,7 +29,7 @@ stepLength_target = 0.700; % [meters]
 dynamic_effort = sum(dynamic_effort21(:))
 
 % define design objectives
-design.F = dynamic_effort %F — Value of the cost (objective) evaluated at p. The solver minimizes F.
+design.F = ((stepLength_target-stepLength)-0.05*stepLength) %F — Value of the cost (objective) evaluated at p. The solver minimizes F.
 design.Cleq = [-VerticalPos21; ((stepLength_target-stepLength)-0.05*stepLength)]; %Cleq — Value of the nonlinear inequality constraint violations evaluated at p. The solver satisfies Cleq(p) <= 0.
 %-swingToeZ;
 end

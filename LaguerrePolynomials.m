@@ -58,27 +58,28 @@ end
 
 %% generate polynomial fit data for subject 2 from gait analysis data
 %add gait study data
+clc, clear all, clf(3)
+
 load('gaitAnalysis_Subject_2.mat')
-trajec.ss(:,1) = patient_mean.L_ANK_X; %stance ankle (13 timesteps after RHS - 27 timesteps later)
-trajec.ss(:,2) = patient_mean.L_ANK_X; %swing ankle (RTO - RHS)
-trajec.ss(:,3) = patient_mean.L_KNEE_X; %swing knee (RTO - RHS)
-trajec.ss(:,4) = patient_mean.L_HIP_X; %swing hip  (RTO - RHS)
-trajec.sstime = linspace(0,1.2,101)'; %time  (RTO - RHS)
+trajec.ss(:,1) = patient_mean.L_ANK_MX(12:50); %stance ankle (12 timesteps after HS - 39 timesteps later)
+trajec.ss(:,2) = patient_mean.L_ANK_MX(62:100); %swing ankle (LTO - LHS)
+trajec.ss(:,3) = patient_mean.L_KNEE_MX(62:100); %swing knee (LTO - LHS)
+trajec.ss(:,4) = patient_mean.L_HIP_MX(62:100); %swing hip  (LTO - LHS)
+trajec.sstime = linspace(0,0.39*1.2,39)'; %time  (LTO - LHS)
 
 %add polyfit data
 %the polyfits act as a baseline trajectory from which the laguerre function
 %formulation deviates, they should be a close approximation of winters data
 x = trajec.sstime;
-lag.ss.polyfit1 = polyfit(trajec.sstime,trajec.ss(:,1),10);
+lag.ss.polyfit1 = polyfit(trajec.sstime,trajec.ss(:,1),3);
 lag.ss.p1 = polyval(lag.ss.polyfit1,x);
-lag.ss.polyfit2 = polyfit(trajec.sstime,trajec.ss(:,2),10);
+lag.ss.polyfit2 = polyfit(trajec.sstime,trajec.ss(:,2),7);
 lag.ss.p2 = polyval(lag.ss.polyfit2,x);
-lag.ss.polyfit3 = polyfit(trajec.sstime,trajec.ss(:,3),6);
+lag.ss.polyfit3 = polyfit(trajec.sstime,trajec.ss(:,3),8);
 lag.ss.p3 = polyval(lag.ss.polyfit3,x);
 lag.ss.polyfit4 = polyfit(trajec.sstime,trajec.ss(:,4),6);
 lag.ss.p4 = polyval(lag.ss.polyfit4,x);
 
-clf(3)
 figure(3)
 for i = 1:4
     subplot(str2num(['41' num2str(i)]))
