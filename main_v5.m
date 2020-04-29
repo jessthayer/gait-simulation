@@ -1,4 +1,4 @@
-%% MAIN SCRIPT V4
+%% MAIN SCRIPT
 % Generate full Gait Cycle, Combine Joint Angle Trajectories
 %%
 clc, clear all
@@ -15,7 +15,7 @@ controlWindow = 0.0083; %s, consistent with Mo-Cap sampling rate, 120Hz
 timeStep = 0.0001; %s
 
 %% *EDIT THESE PARAMETERS ONLY* Define IC and Subject Parameters and Model Versions
-subjID = 'Subj04'; %subject identifier consistent with parameter .mat file
+subjID = 'Subject_2'; %subject identifier consistent with parameter .mat file
 icID = 'IC01'; %initial conditions .mat file identifier
 
 %desired model versions

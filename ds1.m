@@ -23,11 +23,19 @@ parpool %start the parallel computing
 open_system(ds_inter_loc);
 save_system(ds_inter_loc, 'ds1_inter');
 set_param('ds1_inter','StopTime',num2str(ds_predictionHorizon));
+load([sim_file_dir '\Param_' subjID])
+for k = 1:22 %write subject parameters
+    sdo.setValueInModel('ds1_inter',param.var(k),param.val(k))
+end
 save_system('ds1_inter');
 
 open_system(ds_plant_loc);
 save_system(ds_plant_loc, 'ds1_plant');
 set_param('ds1_plant','StopTime',num2str(ds_predictionHorizon));
+load([sim_file_dir '\Param_' subjID])
+for k = 1:22 %write subject parameters
+    sdo.setValueInModel('ds1_plant',param.var(k),param.val(k))
+end
 save_system('ds1_plant');
 
 tnow = 0; %set current time to 0
@@ -59,8 +67,7 @@ open_system(sys);
 %     save_system('ds2_inter');
 
 %get design vars for the MPC optimization
-p = sdo.getParameterFromModel(sys,{'lagStanceAnkle','lagStanceKnee','lagSwingAnkle','lagSwingKnee',...
-    'w_stance_ankle_i', 'w_stance_knee_i','w_stance_hip_i','w_swing_knee_i','w_swing_hip_i'});
+p = sdo.getParameterFromModel(sys,{'lagStanceAnkle','lagStanceKnee','lagSwingAnkle','lagSwingKnee','w_stance_ankle_i', 'w_stance_knee_i','w_stance_hip_i','w_swing_knee_i','w_swing_hip_i'});
 
 %set design vars min and max
 p(1).Minimum = -150*ones(1,6); %lagStanceAnkle
