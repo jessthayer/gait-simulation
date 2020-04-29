@@ -25,9 +25,6 @@ end
 % define desired step length
 stepLength_target = 0.700; % [meters]
 
-% define dynamic effort
-dynamic_effort = sum(dynamic_effort21(:))
-
 % define design objectives
 design.F = ((stepLength_target-stepLength)-0.05*stepLength) %F — Value of the cost (objective) evaluated at p. The solver minimizes F.
 design.Cleq = [-VerticalPos21; ((stepLength_target-stepLength)-0.05*stepLength)]; %Cleq — Value of the nonlinear inequality constraint violations evaluated at p. The solver satisfies Cleq(p) <= 0.

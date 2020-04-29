@@ -58,7 +58,7 @@ end
 
 %% generate polynomial fit data for subject 2 from gait analysis data
 %add gait study data
-clc, clear all, clf(3)
+clc, clear all
 
 load('gaitAnalysis_Subject_2.mat')
 trajec.ss(:,1) = patient_mean.L_ANK_MX(12:50); %stance ankle (12 timesteps after HS - 39 timesteps later)
