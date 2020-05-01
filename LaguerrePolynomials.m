@@ -97,7 +97,7 @@ A_l = [a 0 0 0 0 0; beta a 0 0 0 0; -a*beta beta a 0 0 0;...
     a^2*beta -a*beta  beta a 0 0; -a^3*beta a^2*beta -a*beta beta a 0;...
     a^4*beta -a^3*beta a^2*beta -a*beta beta a];
 
-L_0 = [1; -a; a^2; -a^3; a^4; -a^5];
+L_0 = sqrt(beta)*[1; -a; a^2; -a^3; a^4; -a^5];
 
 t_end = 0.500;
 dt = 0.005;
@@ -112,4 +112,8 @@ end
 figure(2)
 plot(t,L)
 legend('l_1','l_2','l_3','l_4','l_5','l_6')
+ylabel('Amplitude')
+xlabel('Sampling Instant, k')
+title('Laguerre Functions, M=6, a=0.8')
+grid on
 
