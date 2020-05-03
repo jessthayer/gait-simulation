@@ -22,8 +22,8 @@ icID = [sim_file_dir '\IC_ss']; %initial conditions .mat file identifier
 test.name = 'subjectParameterTest';
 test.code = 'ss1';
 test.costfxn = 'v2';
-test.inter = 'v1';
-test.plant = 'v1';
+test.inter = 'vtest3';
+test.plant = 'vtest3';
 
 %desired model versions
 objfun_vers = test.costfxn; %version of cost functions to use

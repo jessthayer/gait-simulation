@@ -13,7 +13,6 @@ HCflag = get(simulator.LoggedData,'Flag');
 for i = length(HCflag)
     if HCflag(i) == 1
         stepLength = stepLength21(i);
-        return
     else
         stepLength = -0.7;
     end
