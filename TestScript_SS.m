@@ -19,11 +19,11 @@ sim_file_dir = pwd; %location of models and cost functions
 icID = [sim_file_dir '\IC_ss']; %initial conditions .mat file identifier
 
 %desired test
-test.name = 'subjectParameterTest';
+test.name = 'ModelTorqueTest';
 test.code = 'ss1';
 test.costfxn = 'v2';
-test.inter = 'vtest3';
-test.plant = 'vtest3';
+test.inter = 'jointActuationOff';
+test.plant = 'jointActuationOff';
 
 %desired model versions
 objfun_vers = test.costfxn; %version of cost functions to use
