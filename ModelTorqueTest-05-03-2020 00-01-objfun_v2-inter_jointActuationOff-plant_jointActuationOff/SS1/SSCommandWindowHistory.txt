@@ -1658,4 +1658,14 @@ design =
 Converged to an infeasible point.
 
 fmincon stopped because the size of the current step is less than
-the value of the step size tolerance 
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 217.393189 seconds.
+IdleTimeout has been reached.
+Parallel pool using the 'local' profile is shutting down.
+uiopen('C:\Users\jess-local\GaitSimulation\ss_inter_passiveActuation_i.slx',1)
+uiopen('C:\Users\jess-local\GaitSimulation\ss_plant_passiveActuation_i.slx',1)
+clc, clear all, close all
+TestScript_SS

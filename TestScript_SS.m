@@ -22,8 +22,8 @@ icID = [sim_file_dir '\IC_ss']; %initial conditions .mat file identifier
 test.name = 'ModelTorqueTest';
 test.code = 'ss1';
 test.costfxn = 'v2';
-test.inter = 'jointActuationOff';
-test.plant = 'jointActuationOff';
+test.inter = 'allActuation';
+test.plant = 'allActuation';
 
 %desired model versions
 objfun_vers = test.costfxn; %version of cost functions to use
