@@ -1,0 +1,1665 @@
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 4).
+
+ans = 
+
+ <a href="matlab: helpPopup parallel.Pool" style="font-weight:bold">Pool</a> with properties: 
+
+            Connected: true
+           NumWorkers: 4
+              Cluster: <a href="matlab: parallel.internal.display.Displayer.displayObject('1F8B0800000000000000AD54CD4EC240105E2A2592A8D18BE1E80318A2C6037A51C41835540C62F4D0041758A1BA74EBB62472F3E8A378F4317C042FDE3DF208EED2A95DB655343AC99776A6F3CDDF4E17658E2C246441E0492027302BB08442C97C3EB3C8AAD4CEA4BE2AE0618E2925B4E8B801E12EA6C58EE37B140F8B07034A2B74E00BB345FAC40D5814FF50893F0F714DD073902BCA27F542F8FA6628DF22C8782BB9385E5E8B277D46661CCF001D29FD9E9A31DF48E1ABF598A27F1374F994B388E2CC9A3F9B9BECF9C0A1E48263CF23BCD904FE4B36E6C7F9D2E722FD0B99AFFB7ED7FC0DB0CD088834E84AE001F02CF00ADF23690C3D82F6718051CA397E79E8282159C8394D3229BA6A3350B21FDD479505E5A9EE5B16ECEAF92E2B711641FF6CB11DB65EACB236A661BC35E377FB5200FD5EE094B36B71F4897A8F59EB2C601C77894C1438CC0DED2783FE05E3B784FB93FE7572377038F16B2E755C5275DAC4F51DB72BFD1B3D4E7047F3977597A6CC21DAEB680E52A761DB63FEC3147E4DE34BBDB26D9FFBA27ABB54DADC087A7848F88D5DF63CB95A769DE1BE28DAB670D0935DFAB6556E54CB7BF6386B1346DFBC612DDFAE6FACAD6FE1441FB929F3CF831DAADA1D9F9FC2CF1BDFF30D78FB5BDED18ECE9FD3F8FA3E9B13FCE4BDACFBE97C3D5FDA9E2234B9A7FFCD7F44DFDFCB97489D73A8ABF7B2FADFFEE55E96F201F22352F3E0060000')">local</a>
+        AttachedFiles: {}
+    AutoAddClientPath: true
+          IdleTimeout: 30 minutes (30 minutes remaining)
+          SpmdEnabled: true
+
+
+opt = 
+
+  <a href="matlab:helpPopup sdo.OptimizeOptions" style="font-weight:bold">OptimizeOptions</a> with properties:
+
+                      Method: 'fmincon'
+               MethodOptions: [1×1 optim.options.Fmincon]
+                    Restarts: 0
+              StopIfFeasible: 'on'
+                     GradFcn: 'off'
+                 UseParallel: 0
+    ParallelPathDependencies: {}
+    ParallelFileDependencies: {}
+              OptimizedModel: ''
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 18:18:16
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     55        1.435        1.435
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+    1    165        1.435        1.435       0.0222            0
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 684.437686 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 18:28:55
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49        1.435        1.435
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 377.908303 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 18:35:11
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49        1.435        1.435
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 369.227830 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 18:41:20
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49        1.435        1.435
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 365.637878 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 18:47:25
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49        1.435        1.435
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 360.902248 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 18:53:25
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49        1.435        1.435
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 354.554928 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 18:59:20
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49        1.435        1.435
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 350.823651 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 19:05:11
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49        1.435        1.435
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 347.691663 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 19:10:58
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49        1.435        1.435
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 343.651470 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 19:16:42
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49        1.435        1.435
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 339.657246 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 19:22:21
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49        1.435        1.435
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 338.490358 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 19:28:00
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49        1.435        1.435
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 351.864208 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.3914
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 19:33:52
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.3914
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49     0.391427       0.3914
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 353.182475 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.4169
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 19:39:45
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.4169
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49     0.416919       0.4169
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 351.599620 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.4429
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 19:45:37
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.4429
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49     0.442861       0.4429
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 342.996333 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.4391
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 19:51:19
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.4391
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49     0.439136       0.4391
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 321.732515 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.4658
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 19:56:40
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.4658
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49     0.465817       0.4658
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 317.597092 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.4928
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 20:01:57
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.4928
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49     0.492816       0.4928
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 313.888129 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.5201
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 20:07:11
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.5201
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49     0.520141       0.5201
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 304.034024 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.5478
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 20:12:15
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.5478
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49     0.547831       0.5478
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 299.944046 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.5438
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 20:17:14
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.5438
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49     0.543783       0.5438
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 296.580978 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.5718
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 20:22:11
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.5718
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49     0.571803       0.5718
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 293.740259 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.6002
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 20:27:04
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.6002
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49     0.600211       0.6002
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 292.332327 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.6290
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 20:31:56
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.6290
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49     0.628991        0.629
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 286.306245 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.6581
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 20:36:42
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.6581
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49     0.658116       0.6581
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 285.412924 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.6876
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 20:41:28
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.6876
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49     0.687555       0.6876
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 278.593465 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.6836
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 20:46:06
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.6836
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49     0.683608       0.6836
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 274.162614 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.7134
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 20:50:40
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.7134
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49     0.713406       0.7134
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 273.100328 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.7435
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 20:55:13
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.7435
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49     0.743452       0.7435
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 266.318580 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.7737
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 20:59:39
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.7737
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49     0.773684       0.7737
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 263.430003 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.8040
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 21:04:02
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.8040
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49     0.804039        0.804
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 261.029658 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.8344
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 21:08:23
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.8344
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49     0.834446       0.8344
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 256.452532 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.8310
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 21:12:39
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.8310
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49     0.831037        0.831
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 263.866239 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.8615
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 21:17:03
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.8615
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49     0.861536       0.8615
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 247.182875 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.8919
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 21:21:10
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 0.8919
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49     0.891946       0.8919
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 251.568764 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 21:25:21
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49        1.435        1.435
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 242.334240 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 21:29:23
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49        1.435        1.435
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 240.872650 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 21:33:24
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49        1.435        1.435
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 231.919544 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 21:37:16
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49        1.435        1.435
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 233.724108 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 21:41:09
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49        1.435        1.435
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 227.788805 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 21:44:57
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49        1.435        1.435
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 222.860958 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 21:48:39
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49        1.435        1.435
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 219.320061 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 21:52:18
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49        1.435        1.435
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 217.052301 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 21:55:56
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49        1.435        1.435
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 217.207621 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 21:59:33
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49        1.435        1.435
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 216.323997 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 22:03:10
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49        1.435        1.435
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 219.439090 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 22:06:49
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49        1.435        1.435
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 216.189354 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 22:10:25
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49        1.435        1.435
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 208.712865 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 22:13:53
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49        1.435        1.435
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 202.354975 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 22:17:15
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49        1.435        1.435
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 195.929170 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 22:20:30
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49        1.435        1.435
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 193.125104 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 22:23:44
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49        1.435        1.435
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 195.818083 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 22:27:00
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49        1.435        1.435
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 192.543283 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 03-May-2020 22:30:12
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49        1.435        1.435
+Converged to an infea

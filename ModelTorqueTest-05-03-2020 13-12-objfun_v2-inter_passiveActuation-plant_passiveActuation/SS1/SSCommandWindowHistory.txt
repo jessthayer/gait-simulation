@@ -1658,4 +1658,10 @@ design =
 Converged to an infeasible point.
 
 fmincon stopped because the size of the current step is less than
-the value of the step size tolera
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 200.680713 seconds.
+TestScript_SS
+Parallel pool using the 'local' profile is shutting down.
