@@ -1962,3 +1962,3915 @@ design =
 
 Converged to an infeasible point.
 
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 209.201152 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 04-May-2020 00:00:32
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49        1.435        1.435
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 204.285253 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 04-May-2020 00:03:56
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49        1.435        1.435
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4350
+
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 199.456355 seconds.
+IdleTimeout has been reached.
+Parallel pool using the 'local' profile is shutting down.
+clc,clear all, close all
+uiopen('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\GaitCycle_Plot_Code_v2.m',1)
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+GaitCycle_Plot_Code_v2
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('load')" style="font-weight:bold">load</a>
+Unable to read file 'C:\Users\jess-local\OneDrive - Marquette
+University\Research\Simulations\ModelTorqueTest-05-03-2020
+19-40-objfun_v2-inter_jointLimActuationOff-plant_jointLimActuationOff\DS1\ds1_plant_end'. No such
+file or directory.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('GaitCycle_Plot_Code_v2', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\GaitCycle_Plot_Code_v2.m', 45)" style="font-weight:bold">GaitCycle_Plot_Code_v2</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\GaitCycle_Plot_Code_v2.m',45,0)">line 45</a>)
+    model.m(i).ds1 = load([sim_file_dir '\' trajec.m(i).trialName '\DS1\ds1_plant_end']);
+} 
+GaitCycle_Plot_Code_v2
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('load')" style="font-weight:bold">load</a>
+Unable to read file 'C:\Users\jess-local\GaitSimulation\ModelTorqueTest-05-03-2020
+19-40-objfun_v2-inter_jointLimActuationOff-plant_jointLimActuationOff\DS1\ds1_plant_end'. No such file
+or directory.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('GaitCycle_Plot_Code_v2', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\GaitCycle_Plot_Code_v2.m', 45)" style="font-weight:bold">GaitCycle_Plot_Code_v2</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\GaitCycle_Plot_Code_v2.m',45,0)">line 45</a>)
+    model.m(i).ds1 = load([sim_file_dir '\' trajec.m(i).trialName '\DS1\ds1_plant_end']);
+} 
+Reference to non-existent field 't'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TorqueTest_Plot_Code', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m', 75)" style="font-weight:bold">TorqueTest_Plot_Code</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',75,0)">line 75</a>)
+    plot(trajec.m(j).t,trajec.m(j).stanceankle, color(j)) %plot joint trajectory
+
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+{Reference to non-existent field 'TO'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TorqueTest_Plot_Code', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m', 76)" style="font-weight:bold">TorqueTest_Plot_Code</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',76,0)">line 76</a>)
+    xline(trajec.m(j).TO, color(j)) %plot vertical line at toe-off
+} 
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+{Index exceeds the number of array elements (1).
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TorqueTest_Plot_Code', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m', 42)" style="font-weight:bold">TorqueTest_Plot_Code</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',42,0)">line 42</a>)
+    model.m(i).ss1 = load([sim_file_dir '\' trajec.m(i).trialName '\SS1\ss1_plant_end']);
+} 
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+{Index exceeds the number of array elements (6).
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TorqueTest_Plot_Code', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m', 71)" style="font-weight:bold">TorqueTest_Plot_Code</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',71,0)">line 71</a>)
+    plot(trajec.m(j).t,trajec.m(j).stanceankle, color(j)) %plot joint trajectory
+} 
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('load')" style="font-weight:bold">load</a>
+Unable to open file
+"C:\Users\jess-local\GaitSimulation\C:\Users\jess-local\GaitSimulation\ModelTorqueTest-05-03-2020
+23-07-objfun_v2-inter_passiveActuationOff-plant_passiveActuationOff\SS1\ss1_plant_end" for output.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TorqueTest_Plot_Code', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m', 42)" style="font-weight:bold">TorqueTest_Plot_Code</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',42,0)">line 42</a>)
+    model.m(i).ss1 = load([sim_file_dir '\' trajec.m(i).trialName '\SS1\ss1_plant_end']);
+} 
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+{Undefined function or variable 'BasePolyTorqueStanceAnkle'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TorqueTest_Plot_Code', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m', 56)" style="font-weight:bold">TorqueTest_Plot_Code</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',56,0)">line 56</a>)
+    torque.m(i).stanceankle = [BasePolyTorqueStanceAnkle'; HardStopTorqueStanceAnkle';
+    JointLimitTorqueStanceAnkle'; LaguerreTorqueStanceAnkle';MPCTorqueStanceAnkle'];
+} 
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+
+j =
+
+     1
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>process_inputs', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 578)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',578,0)">line 578</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 322)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',322,0)">line 322</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 273)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',273,0)">line 273</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TorqueTest_Plot_Code', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m', 147)" style="font-weight:bold">TorqueTest_Plot_Code</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',147,0)">line 147</a>)] 
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+
+j =
+
+     1
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>process_inputs', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 578)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',578,0)">line 578</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 322)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',322,0)">line 322</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 273)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',273,0)">line 273</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TorqueTest_Plot_Code', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m', 147)" style="font-weight:bold">TorqueTest_Plot_Code</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',147,0)">line 147</a>)] 
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+
+j =
+
+     1
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>process_inputs', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 578)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',578,0)">line 578</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 322)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',322,0)">line 322</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 273)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',273,0)">line 273</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TorqueTest_Plot_Code', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m', 146)" style="font-weight:bold">TorqueTest_Plot_Code</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',146,0)">line 146</a>)] 
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+
+j =
+
+     1
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>process_inputs', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 578)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',578,0)">line 578</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 322)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',322,0)">line 322</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 273)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',273,0)">line 273</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TorqueTest_Plot_Code', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m', 146)" style="font-weight:bold">TorqueTest_Plot_Code</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',146,0)">line 146</a>)] 
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+
+j =
+
+     1
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>process_inputs', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 578)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',578,0)">line 578</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 322)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',322,0)">line 322</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 273)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',273,0)">line 273</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TorqueTest_Plot_Code', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m', 146)" style="font-weight:bold">TorqueTest_Plot_Code</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',146,0)">line 146</a>)] 
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>process_inputs', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 578)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',578,0)">line 578</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 322)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',322,0)">line 322</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 273)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',273,0)">line 273</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TorqueTest_Plot_Code', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m', 73)" style="font-weight:bold">TorqueTest_Plot_Code</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',73,0)">line 73</a>)] 
+
+j =
+
+     1
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>process_inputs', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 578)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',578,0)">line 578</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 322)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',322,0)">line 322</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 273)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',273,0)">line 273</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TorqueTest_Plot_Code', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m', 146)" style="font-weight:bold">TorqueTest_Plot_Code</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',146,0)">line 146</a>)] 
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+
+j =
+
+     1
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>process_inputs', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 578)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',578,0)">line 578</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 322)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',322,0)">line 322</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 273)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',273,0)">line 273</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TorqueTest_Plot_Code', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m', 145)" style="font-weight:bold">TorqueTest_Plot_Code</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',145,0)">line 145</a>)] 
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+
+j =
+
+     1
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>process_inputs', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 578)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',578,0)">line 578</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 322)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',322,0)">line 322</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 273)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',273,0)">line 273</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TorqueTest_Plot_Code', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m', 145)" style="font-weight:bold">TorqueTest_Plot_Code</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',145,0)">line 145</a>)] 
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+
+j =
+
+     1
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>process_inputs', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 578)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',578,0)">line 578</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 322)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',322,0)">line 322</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 273)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',273,0)">line 273</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TorqueTest_Plot_Code', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m', 145)" style="font-weight:bold">TorqueTest_Plot_Code</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',145,0)">line 145</a>)] 
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+
+j =
+
+     1
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>process_inputs', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 578)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',578,0)">line 578</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 322)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',322,0)">line 322</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 273)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',273,0)">line 273</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TorqueTest_Plot_Code', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m', 146)" style="font-weight:bold">TorqueTest_Plot_Code</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',146,0)">line 146</a>)] 
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plot')" style="font-weight:bold">plot</a>
+Data must be a single matrix Y or a list of pairs X,Y.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TorqueTest_Plot_Code', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m', 165)" style="font-weight:bold">TorqueTest_Plot_Code</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',165,0)">line 165</a>)
+    plot(trajec.m(j).t,torque.m(j).stanceankle(k,:), color(j))
+} 
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+{Unable to perform assignment because the left and right sides have a different number of elements.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TorqueTest_Plot_Code', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m', 138)" style="font-weight:bold">TorqueTest_Plot_Code</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',138,0)">line 138</a>)
+    color(1) = [rgb(c,1) rgb(c,2) rgb(c,3)];
+} 
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+{Unable to perform assignment because the left and right sides have a different number of elements.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TorqueTest_Plot_Code', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m', 138)" style="font-weight:bold">TorqueTest_Plot_Code</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',138,0)">line 138</a>)
+    color(c) = [rgb(c,1) rgb(c,2) rgb(c,3)];
+} 
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+{Unable to perform assignment because the indices on the left side are not compatible with the size of the right side.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TorqueTest_Plot_Code', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m', 67)" style="font-weight:bold">TorqueTest_Plot_Code</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',67,0)">line 67</a>)
+    color(c) = [rgb(c,1) rgb(c,2) rgb(c,3)];
+} 
+[rgb(c,1) rgb(c,2) rgb(c,3)]
+
+ans =
+
+         0         0    0.6667
+
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TorqueTest_Plot_Code', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m', 70)" style="font-weight:bold">TorqueTest_Plot_Code</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',70,0)">line 70</a>)
+Dimensions of arrays being concatenated are not consistent.
+
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plot')" style="font-weight:bold">plot</a>
+Invalid data argument.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TorqueTest_Plot_Code', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m', 76)" style="font-weight:bold">TorqueTest_Plot_Code</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',76,0)">line 76</a>)
+    plot(trajec.m(j).t,trajec.m(j).stanceankle, color(j),'LineWidth',0.5) %plot joint trajectory
+} 
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plot')" style="font-weight:bold">plot</a>
+Data must be a single matrix Y or a list of pairs X,Y.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TorqueTest_Plot_Code', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m', 76)" style="font-weight:bold">TorqueTest_Plot_Code</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',76,0)">line 76</a>)
+    plot(trajec.m(j).t,trajec.m(j).stanceankle, color{j},'LineWidth',0.5) %plot joint trajectory
+} 
+help plot
+ <strong>plot</strong>   Linear plot. 
+    <strong>plot</strong>(X,Y) plots vector Y versus vector X. If X or Y is a matrix,
+    then the vector is plotted versus the rows or columns of the matrix,
+    whichever line up.  If X is a scalar and Y is a vector, disconnected
+    line objects are created and plotted as discrete points vertically at
+    X.
+ 
+    <strong>plot</strong>(Y) plots the columns of Y versus their index.
+    If Y is complex, <strong>plot</strong>(Y) is equivalent to <strong>plot</strong>(real(Y),imag(Y)).
+    In all other uses of <strong>plot</strong>, the imaginary part is ignored.
+ 
+    Various line types, plot symbols and colors may be obtained with
+    <strong>plot</strong>(X,Y,S) where S is a character string made from one element
+    from any or all the following 3 columns:
+ 
+           b     blue          .     point              -     solid
+           g     green         o     circle             :     dotted
+           r     red           x     x-mark             -.    dashdot 
+           c     cyan          +     plus               --    dashed   
+           m     magenta       *     star             (none)  no line
+           y     yellow        s     square
+           k     black         d     diamond
+           w     white         v     triangle (down)
+                               ^     triangle (up)
+                               <     triangle (left)
+                               >     triangle (right)
+                               p     pentagram
+                               h     hexagram
+                          
+    For example, <strong>plot</strong>(X,Y,'c+:') plots a cyan dotted line with a plus 
+    at each data point; <strong>plot</strong>(X,Y,'bd') plots blue diamond at each data 
+    point but does not draw any line.
+ 
+    <strong>plot</strong>(X1,Y1,S1,X2,Y2,S2,X3,Y3,S3,...) combines the plots defined by
+    the (X,Y,S) triples, where the X's and Y's are vectors or matrices 
+    and the S's are strings.  
+ 
+    For example, <strong>plot</strong>(X,Y,'y-',X,Y,'go') plots the data twice, with a
+    solid yellow line interpolating green circles at the data points.
+ 
+    The <strong>plot</strong> command, if no color is specified, makes automatic use of
+    the colors specified by the axes ColorOrder property.  By default,
+    <strong>plot</strong> cycles through the colors in the ColorOrder property.  For
+    monochrome systems, <strong>plot</strong> cycles over the axes LineStyleOrder property.
+ 
+    Note that RGB colors in the ColorOrder property may differ from
+    similarly-named colors in the (X,Y,S) triples.  For example, the 
+    second axes ColorOrder property is medium green with RGB [0 .5 0],
+    while <strong>plot</strong>(X,Y,'g') plots a green line with RGB [0 1 0].
+ 
+    If you do not specify a marker type, <strong>plot</strong> uses no marker. 
+    If you do not specify a line style, <strong>plot</strong> uses a solid line.
+ 
+    <strong>plot</strong>(AX,...) plots into the axes with handle AX.
+ 
+    <strong>plot</strong> returns a column vector of handles to lineseries objects, one
+    handle per plotted line. 
+ 
+    The X,Y pairs, or X,Y,S triples, can be followed by 
+    parameter/value pairs to specify additional properties 
+    of the lines. For example, <strong>plot</strong>(X,Y,'LineWidth',2,'Color',[.6 0 0]) 
+    will create a plot with a dark red line width of 2 points.
+ 
+    Example
+       x = -pi:pi/10:pi;
+       y = tan(sin(x)) - sin(tan(x));
+       plot(x,y,'--rs','LineWidth',2,...
+                       'MarkerEdgeColor','k',...
+                       'MarkerFaceColor','g',...
+                       'MarkerSize',10)
+ 
+    See also <a href="matlab:help plottools">plottools</a>, <a href="matlab:help semilogx">semilogx</a>, <a href="matlab:help semilogy">semilogy</a>, <a href="matlab:help loglog">loglog</a>, <a href="matlab:help plotyy">plotyy</a>, <a href="matlab:help plot3">plot3</a>, <a href="matlab:help grid">grid</a>,
+    <a href="matlab:help title">title</a>, <a href="matlab:help xlabel">xlabel</a>, <a href="matlab:help ylabel">ylabel</a>, <a href="matlab:help axis">axis</a>, <a href="matlab:help axes">axes</a>, <a href="matlab:help hold">hold</a>, <a href="matlab:help legend">legend</a>, <a href="matlab:help subplot">subplot</a>, <a href="matlab:help scatter">scatter</a>.
+
+    <a href="matlab:doc plot">Reference page for plot</a>
+    <a href="matlab:matlab.internal.language.introspective.overloads.displayOverloads('plot')">Other functions named plot</a>
+
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plot')" style="font-weight:bold">plot</a>
+Data must be a single matrix Y or a list of pairs X,Y.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TorqueTest_Plot_Code', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m', 76)" style="font-weight:bold">TorqueTest_Plot_Code</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',76,0)">line 76</a>)
+    plot(trajec.m(j).t,trajec.m(j).stanceankle, color{j},'LineWidth',1) %plot joint trajectory
+} 
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plot')" style="font-weight:bold">plot</a>
+Data must be a single matrix Y or a list of pairs X,Y.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TorqueTest_Plot_Code', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m', 76)" style="font-weight:bold">TorqueTest_Plot_Code</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',76,0)">line 76</a>)
+    plot(trajec.m(j).t,trajec.m(j).stanceankle, color{j}) %plot joint trajectory
+} 
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plot')" style="font-weight:bold">plot</a>
+Invalid color value.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TorqueTest_Plot_Code', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m', 76)" style="font-weight:bold">TorqueTest_Plot_Code</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',76,0)">line 76</a>)
+    plot(trajec.m(j).t,trajec.m(j).stanceankle,'color',color{j}) %plot joint trajectory
+} 
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+{Undefined function or variable 'rgb'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TorqueTest_Plot_Code', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m', 76)" style="font-weight:bold">TorqueTest_Plot_Code</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',76,0)">line 76</a>)
+    plot(trajec.m(j).t,trajec.m(j).stanceankle,'color',rgb(j,:)) %plot joint trajectory
+} 
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plot')" style="font-weight:bold">plot</a>
+Data must be a single matrix Y or a list of pairs X,Y.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TorqueTest_Plot_Code', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m', 88)" style="font-weight:bold">TorqueTest_Plot_Code</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',88,0)">line 88</a>)
+    plot(trajec.m(j).t,trajec.m(j).stanceknee, color{j})
+} 
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+
+j =
+
+     1
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>process_inputs', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 578)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',578,0)">line 578</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 322)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',322,0)">line 322</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 273)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',273,0)">line 273</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TorqueTest_Plot_Code', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m', 147)" style="font-weight:bold">TorqueTest_Plot_Code</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',147,0)">line 147</a>)] 
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+
+j =
+
+     1
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>process_inputs', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 578)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',578,0)">line 578</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 322)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',322,0)">line 322</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 273)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',273,0)">line 273</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TorqueTest_Plot_Code', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m', 147)" style="font-weight:bold">TorqueTest_Plot_Code</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',147,0)">line 147</a>)] 
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+
+j =
+
+     1
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>process_inputs', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 578)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',578,0)">line 578</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 322)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',322,0)">line 322</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 273)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',273,0)">line 273</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TorqueTest_Plot_Code', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m', 141)" style="font-weight:bold">TorqueTest_Plot_Code</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',141,0)">line 141</a>)] 
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+
+j =
+
+     1
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>process_inputs', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 578)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',578,0)">line 578</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 322)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',322,0)">line 322</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 273)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',273,0)">line 273</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TorqueTest_Plot_Code', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m', 141)" style="font-weight:bold">TorqueTest_Plot_Code</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',141,0)">line 141</a>)] 
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+
+j =
+
+     1
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>process_inputs', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 578)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',578,0)">line 578</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 322)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',322,0)">line 322</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 273)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',273,0)">line 273</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TorqueTest_Plot_Code', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m', 141)" style="font-weight:bold">TorqueTest_Plot_Code</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',141,0)">line 141</a>)] 
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+
+j =
+
+     1
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>process_inputs', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 578)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',578,0)">line 578</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 322)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',322,0)">line 322</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 273)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',273,0)">line 273</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TorqueTest_Plot_Code', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m', 141)" style="font-weight:bold">TorqueTest_Plot_Code</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',141,0)">line 141</a>)] 
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+help plot
+ <strong>plot</strong>   Linear plot. 
+    <strong>plot</strong>(X,Y) plots vector Y versus vector X. If X or Y is a matrix,
+    then the vector is plotted versus the rows or columns of the matrix,
+    whichever line up.  If X is a scalar and Y is a vector, disconnected
+    line objects are created and plotted as discrete points vertically at
+    X.
+ 
+    <strong>plot</strong>(Y) plots the columns of Y versus their index.
+    If Y is complex, <strong>plot</strong>(Y) is equivalent to <strong>plot</strong>(real(Y),imag(Y)).
+    In all other uses of <strong>plot</strong>, the imaginary part is ignored.
+ 
+    Various line types, plot symbols and colors may be obtained with
+    <strong>plot</strong>(X,Y,S) where S is a character string made from one element
+    from any or all the following 3 columns:
+ 
+           b     blue          .     point              -     solid
+           g     green         o     circle             :     dotted
+           r     red           x     x-mark             -.    dashdot 
+           c     cyan          +     plus               --    dashed   
+           m     magenta       *     star             (none)  no line
+           y     yellow        s     square
+           k     black         d     diamond
+           w     white         v     triangle (down)
+                               ^     triangle (up)
+                               <     triangle (left)
+                               >     triangle (right)
+                               p     pentagram
+                               h     hexagram
+                          
+    For example, <strong>plot</strong>(X,Y,'c+:') plots a cyan dotted line with a plus 
+    at each data point; <strong>plot</strong>(X,Y,'bd') plots blue diamond at each data 
+    point but does not draw any line.
+ 
+    <strong>plot</strong>(X1,Y1,S1,X2,Y2,S2,X3,Y3,S3,...) combines the plots defined by
+    the (X,Y,S) triples, where the X's and Y's are vectors or matrices 
+    and the S's are strings.  
+ 
+    For example, <strong>plot</strong>(X,Y,'y-',X,Y,'go') plots the data twice, with a
+    solid yellow line interpolating green circles at the data points.
+ 
+    The <strong>plot</strong> command, if no color is specified, makes automatic use of
+    the colors specified by the axes ColorOrder property.  By default,
+    <strong>plot</strong> cycles through the colors in the ColorOrder property.  For
+    monochrome systems, <strong>plot</strong> cycles over the axes LineStyleOrder property.
+ 
+    Note that RGB colors in the ColorOrder property may differ from
+    similarly-named colors in the (X,Y,S) triples.  For example, the 
+    second axes ColorOrder property is medium green with RGB [0 .5 0],
+    while <strong>plot</strong>(X,Y,'g') plots a green line with RGB [0 1 0].
+ 
+    If you do not specify a marker type, <strong>plot</strong> uses no marker. 
+    If you do not specify a line style, <strong>plot</strong> uses a solid line.
+ 
+    <strong>plot</strong>(AX,...) plots into the axes with handle AX.
+ 
+    <strong>plot</strong> returns a column vector of handles to lineseries objects, one
+    handle per plotted line. 
+ 
+    The X,Y pairs, or X,Y,S triples, can be followed by 
+    parameter/value pairs to specify additional properties 
+    of the lines. For example, <strong>plot</strong>(X,Y,'LineWidth',2,'Color',[.6 0 0]) 
+    will create a plot with a dark red line width of 2 points.
+ 
+    Example
+       x = -pi:pi/10:pi;
+       y = tan(sin(x)) - sin(tan(x));
+       plot(x,y,'--rs','LineWidth',2,...
+                       'MarkerEdgeColor','k',...
+                       'MarkerFaceColor','g',...
+                       'MarkerSize',10)
+ 
+    See also <a href="matlab:help plottools">plottools</a>, <a href="matlab:help semilogx">semilogx</a>, <a href="matlab:help semilogy">semilogy</a>, <a href="matlab:help loglog">loglog</a>, <a href="matlab:help plotyy">plotyy</a>, <a href="matlab:help plot3">plot3</a>, <a href="matlab:help grid">grid</a>,
+    <a href="matlab:help title">title</a>, <a href="matlab:help xlabel">xlabel</a>, <a href="matlab:help ylabel">ylabel</a>, <a href="matlab:help axis">axis</a>, <a href="matlab:help axes">axes</a>, <a href="matlab:help hold">hold</a>, <a href="matlab:help legend">legend</a>, <a href="matlab:help subplot">subplot</a>, <a href="matlab:help scatter">scatter</a>.
+
+    <a href="matlab:doc plot">Reference page for plot</a>
+    <a href="matlab:matlab.internal.language.introspective.overloads.displayOverloads('plot')">Other functions named plot</a>
+
+Error: <a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',70,86)">File: TorqueTest_Plot_Code.m Line: 70 Column: 86
+</a>Invalid expression. When calling a function or indexing a variable, use parentheses. Otherwise, check for mismatched
+delimiters.
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('clf', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\graphics\clf.m', 36)" style="font-weight:bold">clf</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\graphics\clf.m',36,0)">line 36</a>)
+Figure input must be a valid scalar figure.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TorqueTest_Plot_Code', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m', 63)" style="font-weight:bold">TorqueTest_Plot_Code</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',63,0)">line 63</a>)
+clf(1)
+} 
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>process_inputs', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 578)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',578,0)">line 578</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 322)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',322,0)">line 322</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p', 273)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\scribe\legend.p',273,0)">line 273</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TorqueTest_Plot_Code', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m', 71)" style="font-weight:bold">TorqueTest_Plot_Code</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',71,0)">line 71</a>)] 
+
+line =
+
+    '---------------'
+
+[Warning: Ignoring extra legend entries.] 
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('vga')" style="font-weight:bold">vga</a>
+Too many input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TorqueTest_Plot_Code', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m', 64)" style="font-weight:bold">TorqueTest_Plot_Code</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',64,0)">line 64</a>)
+rgb = vga(9);
+
+clc, clear all, close all
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('clf', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\graphics\clf.m', 36)" style="font-weight:bold">clf</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\graphics\clf.m',36,0)">line 36</a>)
+Figure input must be a valid scalar figure.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TorqueTest_Plot_Code', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m', 63)" style="font-weight:bold">TorqueTest_Plot_Code</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',63,0)">line 63</a>)
+clf(1)
+} 
+opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\graphics\clf.m',36,0)
+opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',63,0)
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+
+j =
+
+     3
+
+Undefined function 'color' for input arguments of type 'double'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TorqueTest_Plot_Code', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m', 142)" style="font-weight:bold">TorqueTest_Plot_Code</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',142,0)">line 142</a>)
+    plot(trajec.m(j).t,torque.m(j).stanceankle(k,:), color(j))
+
+
+j =
+
+     3
+
+Undefined function 'color' for input arguments of type 'double'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TorqueTest_Plot_Code', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m', 152)" style="font-weight:bold">TorqueTest_Plot_Code</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',152,0)">line 152</a>)
+    plot(trajec.m(j).t,torque.m(j).swinghip(k,:), color(j)) %plot joint trajectory
+
+
+j =
+
+     3
+
+
+j =
+
+     3
+
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+
+j =
+
+     3
+
+
+j =
+
+     3
+
+
+j =
+
+     3
+
+
+j =
+
+     3
+
+
+j =
+
+     3
+
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+
+j =
+
+     3
+
+uiopen('C:\Users\jess-local\GaitSimulation\ss1.m',1)
+uiopen('C:\Users\jess-local\GaitSimulation\main_v5.m',1)
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('clf', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\graphics\clf.m', 36)" style="font-weight:bold">clf</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\graphics\clf.m',36,0)">line 36</a>)
+Figure input must be a valid scalar figure.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TorqueTest_Plot_Code', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m', 131)" style="font-weight:bold">TorqueTest_Plot_Code</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',131,0)">line 131</a>)
+clf(2)
+} 
+opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\TorqueTest_Plot_Code.m',131,0)
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
+TorqueTest_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×2 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×3 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×4 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×5 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×6 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×7 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×8 struct]
+
