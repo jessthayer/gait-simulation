@@ -14,16 +14,16 @@ controlWindow = 0.0083; %s, consistent with Mo-Cap sampling rate, 120Hz
 timeStep = 0.0001; %s
 
 %% *EDIT THESE PARAMETERS ONLY* Define IC and Subject Parameters and Model Versions
-subjID = 'Subj04'; %subject identifier consistent with parameter .mat file
+subjID = 'Subject_4'; %subject identifier consistent with parameter .mat file
 sim_file_dir = pwd; %location of models and cost functions
 icID = [sim_file_dir '\IC_ds']; %initial conditions .mat file identifier
 
 %desired test
-test.name = 'doubleSupportConstraints';
+test.name = 'doubleSupportOptTargets';
 test.code = 'ds1';
 test.costfxn = 'v1';
-test.inter = 'vx';
-test.plant = 'vx';
+test.inter = 'v1';
+test.plant = 'v1';
 
 %desired model versions
 objfun_vers = test.costfxn; %version of cost functions to use

@@ -408,13 +408,13 @@ smwritevideo('ds1_plant',video,'PlaybackSpeedRatio',0.5,'FrameRate',60,'FrameSiz
 
 save('ds1_plant_end') %save end plant iteration for plotting
 
-%add correction to stance_ankle_angle
-footLength = sdo.getValueFromModel(plant,'F_L');
-correctionAngle = atan2d(lead_toe_z.data(end),footLength);
+% %add correction to stance_ankle_angle
+% footLength = sdo.getValueFromModel(plant,'F_L');
+% correctionAngle = atan2d(lead_toe_z.data(end),footLength);
 
 %save final states as initial conditions file for next period
 filename = 'ds1_plant_FC';
-    ic.p(1) = stance_ankle_p_out(end) + correctionAngle;
+    ic.p(1) = stance_ankle_p_out(end) %+ correctionAngle;
     ic.w(1) = stance_ankle_w_out(end);
     ic.p(2) = stance_knee_p_out(end);
     ic.w(2) = stance_knee_w_out(end);
