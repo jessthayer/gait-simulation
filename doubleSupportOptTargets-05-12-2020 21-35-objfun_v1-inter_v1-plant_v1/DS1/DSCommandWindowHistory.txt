@@ -1,0 +1,5744 @@
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 4).
+
+ans = 
+
+ <a href="matlab: helpPopup parallel.Pool" style="font-weight:bold">Pool</a> with properties: 
+
+            Connected: true
+           NumWorkers: 4
+              Cluster: <a href="matlab: parallel.internal.display.Displayer.displayObject('1F8B0800000000000000AD54CD4EC240105E2A2592A8D18BE1E80318A2C6037A51C41835540C62F4D0041758A1BA74EBB62472F3E8A378F4317C042FDE3DF208EED2A95DB655343AC99776A6F3CDDF4E17658E2C246441E0492027302BB08442C97C3EB3C8AAD4CEA4BE2AE0618E2925B4E8B801E12EA6C58EE37B140F8B07034A2B74E00BB345FAC40D5814FF50893F0F714DD073902BCA27F542F8FA6628DF22C8782BB9385E5E8B277D46661CCF001D29FD9E9A31DF48E1ABF598A27F1374F994B388E2CC9A3F9B9BECF9C0A1E48263CF23BCD904FE4B36E6C7F9D2E722FD0B99AFFB7ED7FC0DB0CD088834E84AE001F02CF00ADF23690C3D82F6718051CA397E79E8282159C8394D3229BA6A3350B21FDD479505E5A9EE5B16ECEAF92E2B711641FF6CB11DB65EACB236A661BC35E377FB5200FD5EE094B36B71F4897A8F59EB2C601C77894C1438CC0DED2783FE05E3B784FB93FE7572377038F16B2E755C5275DAC4F51DB72BFD1B3D4E7047F3977597A6CC21DAEB680E52A761DB63FEC3147E4DE34BBDB26D9FFBA27ABB54DADC087A7848F88D5DF63CB95A769DE1BE28DAB670D0935DFAB6556E54CB7BF6386B1346DFBC612DDFAE6FACAD6FE1441FB929F3CF831DAADA1D9F9FC2CF1BDFF30D78FB5BDED18ECE9FD3F8FA3E9B13FCE4BDACFBE97C3D5FDA9E2234B9A7FFCD7F44DFDFCB97489D73A8ABF7B2FADFFEE55E96F201F22352F3E0060000')">local</a>
+        AttachedFiles: {}
+    AutoAddClientPath: true
+          IdleTimeout: 30 minutes (30 minutes remaining)
+          SpmdEnabled: true
+
+
+ans =
+
+  Columns 1 through 21
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 22 through 24
+
+     0     0     0
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.4040e+04
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 12-May-2020 21:36:51
+
+ans =
+
+  Columns 1 through 21
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 22 through 24
+
+     0     0     0
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.4040e+04
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     59      34040.5            0
+
+ans =
+
+  Columns 1 through 13
+
+   -2.7335   -2.7368   -2.7374   -2.7376   -2.7378   -2.7379   -0.5462   -0.5470   -0.5469   -0.5467   -0.5466   -0.5465   -0.1413
+
+  Columns 14 through 24
+
+    0.1428    0.1431    0.1432    0.1432    0.1432    0.2695    0.2713    0.2710    0.2713    0.2714    0.2720
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.2473e+06
+
+
+ans =
+
+  Columns 1 through 13
+
+   -1.3667   -1.3684   -1.3687   -1.3688   -1.3689   -1.3690   -0.2731   -0.2735   -0.2734   -0.2734   -0.2733   -0.2732   -0.0707
+
+  Columns 14 through 24
+
+    0.0714    0.0715    0.0716    0.0716    0.0716    0.1347    0.1357    0.1355    0.1356    0.1357    0.1360
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 4.2460e+05
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.6834   -0.6842   -0.6843   -0.6844   -0.6845   -0.6845   -0.1365   -0.1367   -0.1367   -0.1367   -0.1366   -0.1366   -0.0353
+
+  Columns 14 through 24
+
+    0.0357    0.0358    0.0358    0.0358    0.0358    0.0674    0.0678    0.0678    0.0678    0.0678    0.0680
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.6057e+04
+
+    1    236      16057.4            0          9.6        9e+03
+
+ans =
+
+  Columns 1 through 13
+
+    5.0119    1.3933    1.1152   -1.6877   -2.0332   -2.2719   -0.4116   -1.2947   -1.3823   -1.6073   -1.7189   -0.4612    7.9598
+
+  Columns 14 through 24
+
+   -0.6745    5.7645    5.5526    4.9500    0.0139   -3.8591   -2.0256   -2.4187    0.6779    0.6848    0.6026
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.8069e+04
+
+
+ans =
+
+  Columns 1 through 13
+
+    2.1643    0.3546    0.2154   -1.1861   -1.3588   -1.4782   -0.2741   -0.7157   -0.7595   -0.8720   -0.9278   -0.2989    3.9622
+
+  Columns 14 through 24
+
+   -0.3194    2.9001    2.7942    2.4929    0.0249   -1.8959   -0.9789   -1.1755    0.3729    0.3763    0.3353
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.9710e+04
+
+
+ans =
+
+  Columns 1 through 13
+
+    0.7405   -0.1648   -0.2345   -0.9352   -1.0216   -1.0813   -0.2053   -0.4262   -0.4481   -0.5043   -0.5322   -0.2178    1.9635
+
+  Columns 14 through 24
+
+   -0.1419    1.4679    1.4150    1.2644    0.0303   -0.9143   -0.4555   -0.5539    0.2203    0.2221    0.2016
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.7516e+04
+
+
+ans =
+
+  Columns 1 through 13
+
+    0.0285   -0.4245   -0.4594   -0.8098   -0.8530   -0.8829   -0.1709   -0.2815   -0.2924   -0.3205   -0.3344   -0.1772    0.9641
+
+  Columns 14 through 24
+
+   -0.0531    0.7519    0.7254    0.6501    0.0331   -0.4234   -0.1938   -0.2431    0.1441    0.1450    0.1348
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.6917e+04
+
+
+ans =
+
+  Columns 1 through 13
+
+   70.1970   40.8939   32.4660  -67.1134  -87.3612  -99.6511   -3.1000  -20.4129  -20.7022  -20.2802  -19.9460   -4.3197    6.9998
+
+  Columns 14 through 24
+
+   -0.8648    7.9602    7.9320    7.1757    0.0175   -6.8727   -6.1520   -6.6297    1.9230    2.0260    2.2846
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.3520e+04
+
+    2    531      13519.5            0         2.78     1.03e+04
+
+ans =
+
+  Columns 1 through 13
+
+   68.5155   40.6959    9.1863  -71.9138  -88.9968 -100.7088   -2.9479  -21.7816  -23.4240  -22.8258  -22.1450   -6.9446    7.8453
+
+  Columns 14 through 24
+
+   -0.9051    7.9620    7.9404    7.9959   -0.0215   -6.4788   -5.7890   -6.3067    2.0023    2.1060    2.3654
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 7.9968e+03
+
+    3    590      7996.77            0         2.69     7.31e+03
+
+ans =
+
+  Columns 1 through 13
+
+   71.6559   41.2429   30.6639  -67.3817  -86.5623  -99.3329   -3.8842  -27.1668  -29.8550  -28.8249  -29.9607   -7.2821    7.7728
+
+  Columns 14 through 24
+
+   -1.0550    7.9498    7.9018    7.9892   -0.0387   -4.9606   -3.9658   -4.1495    2.0002    2.1073    2.3616
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 543.6052
+
+    4    649      543.605            0         11.5      3.3e+03
+
+ans =
+
+  Columns 1 through 13
+
+   71.6063   41.2355   30.5540  -67.4098  -86.5735  -99.3395   -3.8813  -27.1558  -29.8539  -28.8199  -29.9603   -7.2700    7.7750
+
+  Columns 14 through 24
+
+   -1.0551    7.9499    7.9022    7.9999   -0.0393   -4.9629   -3.9675   -4.1539    2.0005    2.1075    2.3618
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 542.5666
+
+    5    708      542.567            0       0.0078     3.31e+03
+Local minimum possible. Constraints satisfied.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance and constraints are 
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 3011.713427 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+   71.6063   41.2355   30.5540  -67.4098  -86.5735  -99.3395   -3.8813  -27.1558  -29.8539  -28.8199  -29.9603   -7.2700    7.7750
+
+  Columns 14 through 24
+
+   -1.0551    7.9499    7.9022    7.9999   -0.0393   -4.9629   -3.9675   -4.1539    2.0005    2.1075    2.3618
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 788.0465
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 12-May-2020 22:25:55
+
+ans =
+
+  Columns 1 through 13
+
+   71.6063   41.2355   30.5540  -67.4098  -86.5735  -99.3395   -3.8813  -27.1558  -29.8539  -28.8199  -29.9603   -7.2700    7.7750
+
+  Columns 14 through 24
+
+   -1.0551    7.9499    7.9022    7.9999   -0.0393   -4.9629   -3.9675   -4.1539    2.0005    2.1075    2.3618
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 788.0509
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      788.051            0
+
+ans =
+
+  Columns 1 through 13
+
+   61.1224   30.4686   19.5924  -77.9838  -97.0936 -109.8325   -3.9571  -28.8993  -29.8775  -29.2157  -29.9386   -5.3573    7.3404
+
+  Columns 14 through 24
+
+   -1.7661    7.9628    7.9316    7.9807   -1.0343   -5.9813   -5.0259   -5.2137    0.9979    1.0839    1.3586
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 294.9207
+
+    1     98      294.921            0         1.24         66.6
+
+ans =
+
+  Columns 1 through 13
+
+   60.4974   29.8929   19.0481  -78.5915  -97.6905 -110.4386   -3.9872  -29.0876  -29.8840  -29.3416  -29.9326   -5.0945    7.9209
+
+  Columns 14 through 24
+
+   -1.7716    7.9643    7.9364    7.9820   -1.0340   -6.0222   -5.0912   -5.2670    0.7384    0.6236    0.8643
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 266.7185
+
+    2    147      266.718            0        0.212         61.3
+
+ans =
+
+  Columns 1 through 13
+
+   59.2036   28.6401   18.0542  -79.8983  -98.9632 -111.7175   -3.9787  -29.2506  -29.8951  -29.5710  -29.9185   -4.9689    7.1999
+
+  Columns 14 through 24
+
+   -1.7009    7.9681    7.9370    7.9758   -1.0319   -6.0728   -5.2598   -5.4053    0.5017    0.6185    0.8721
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 228.2759
+
+    3    196      228.276            0        0.132           40
+
+ans =
+
+  Columns 1 through 13
+
+   59.1231   28.5584   17.9755  -79.9806  -99.0465 -111.8049   -3.9854  -29.2855  -29.8981  -29.5769  -29.9168   -4.9306    7.1832
+
+  Columns 14 through 24
+
+   -1.6975    7.9684    7.9392    7.9761   -1.0393   -6.0830   -5.2686   -5.4147    0.5018    0.6184    0.8720
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 227.2557
+
+    4    245      227.256            0      0.00949         73.4
+
+ans =
+
+  Columns 1 through 13
+
+   57.7310   27.2594   16.5597  -81.3068 -100.3836 -113.2229   -4.4271  -29.9964  -29.9607  -29.6511  -29.5042   -4.3590    7.2863
+
+  Columns 14 through 24
+
+   -1.7382    7.9684    7.9951    7.9880   -1.0376   -6.2815   -5.4024   -5.5495    0.5029    0.6132    0.8783
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 190.5534
+
+    5    294      190.553            0        0.114         72.8
+
+ans =
+
+  Columns 1 through 13
+
+   57.6341   27.1740   16.4748  -81.4005 -100.4849 -113.3157   -4.3177  -29.9950  -29.9624  -29.6781  -26.9730   -4.3533    7.1447
+
+  Columns 14 through 24
+
+   -1.5838    7.9710    7.9950    7.9884   -1.0375   -6.2944   -5.4077   -5.5580    0.5030    0.6131    0.8771
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 187.5566
+
+    6    343      187.557            0        0.116           76
+
+ans =
+
+  Columns 1 through 13
+
+   57.4254   27.0071   16.2960  -81.5905 -100.6923 -113.4985   -4.3611  -29.9917  -29.9665  -29.7352  -27.0433   -4.3292    7.1428
+
+  Columns 14 through 24
+
+   -1.5406    7.9752    7.9948    7.9903   -1.0375   -6.3206   -5.4163   -5.5748    0.5031    0.6125    0.8619
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 183.6598
+
+    7    392       183.66            0       0.0241         46.5
+
+ans =
+
+  Columns 1 through 13
+
+   57.0003   26.4670   15.9667  -82.0975 -101.2451 -114.0530   -4.4479  -29.9908  -29.9862  -29.7737  -27.0879   -4.3327    7.5848
+
+  Columns 14 through 24
+
+   -1.5417    7.9522    7.9987    7.9886   -1.0393   -6.3996   -5.4325   -5.6535    0.5035    0.6111    0.8624
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 171.9593
+
+    8    441      171.959            0        0.062         29.2
+
+ans =
+
+  Columns 1 through 13
+
+   56.9608   26.4332   15.9070  -82.1379 -101.2885 -114.0936   -4.4582  -29.9905  -29.9863  -29.8565  -27.0437   -4.3316    7.5481
+
+  Columns 14 through 24
+
+   -1.5599    7.9998    7.9984    7.9887   -1.0391   -6.4097   -5.4399   -5.6533    0.5035    0.6110    0.8624
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 170.7188
+
+    9    490      170.719            0       0.0124         55.3
+
+ans =
+
+  Columns 1 through 13
+
+   56.7290   26.3136   15.6503  -82.3135 -101.4791 -114.2489   -4.5209  -29.9870  -29.9879  -29.9554  -27.0254   -4.4469    7.5273
+
+  Columns 14 through 24
+
+   -1.5929    7.9744    7.9973    7.9967   -1.0384   -6.4626   -5.4591   -5.6526    0.5038    0.6108    0.8626
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 166.4646
+
+   10    539      166.465            0       0.0251         55.2
+
+ans =
+
+  Columns 1 through 13
+
+   56.6069   26.2705   15.5950  -82.3811 -101.5443 -114.3094   -4.7694  -29.9869  -29.9875  -29.9410  -27.0482   -4.5153    7.5313
+
+  Columns 14 through 24
+
+   -1.6077    7.9611    7.9969    7.9961   -1.0383   -6.4568   -5.4649   -5.6523    0.5038    0.6105    0.8629
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 166.5274
+
+
+ans =
+
+  Columns 1 through 13
+
+   56.6680   26.2920   15.6227  -82.3473 -101.5117 -114.2791   -4.6451  -29.9870  -29.9877  -29.9482  -27.0368   -4.4811    7.5293
+
+  Columns 14 through 24
+
+   -1.6003    7.9678    7.9971    7.9964   -1.0383   -6.4597   -5.4620   -5.6525    0.5038    0.6107    0.8628
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 165.8860
+
+   11    637      165.886            0       0.0188         55.2
+
+ans =
+
+  Columns 1 through 13
+
+   56.6355   26.2552   15.5748  -82.3888 -101.5525 -114.3173   -6.8702  -29.9847  -29.9858  -29.9345  -27.0329   -4.6936    7.5322
+
+  Columns 14 through 24
+
+   -1.6039    7.9796    7.9963    7.9955   -1.0381   -6.4585   -5.4646   -5.6521    0.5038    0.6104    0.8631
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 165.9233
+
+
+ans =
+
+  Columns 1 through 13
+
+   56.6518   26.2736   15.5987  -82.3680 -101.5321 -114.2982   -5.7577  -29.9858  -29.9867  -29.9414  -27.0349   -4.5874    7.5308
+
+  Columns 14 through 24
+
+   -1.6021    7.9737    7.9967    7.9959   -1.0382   -6.4591   -5.4633   -5.6523    0.5038    0.6105    0.8629
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 166.3032
+
+
+ans =
+
+  Columns 1 through 13
+
+   56.6599   26.2828   15.6107  -82.3576 -101.5219 -114.2887   -5.2014  -29.9864  -29.9872  -29.9448  -27.0359   -4.5342    7.5300
+
+  Columns 14 through 24
+
+   -1.6012    7.9707    7.9969    7.9962   -1.0383   -6.4594   -5.4627   -5.6524    0.5038    0.6106    0.8629
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 167.1230
+
+
+ans =
+
+  Columns 1 through 13
+
+   56.6639   26.2874   15.6167  -82.3525 -101.5168 -114.2839   -4.9233  -29.9867  -29.9875  -29.9465  -27.0364   -4.5077    7.5297
+
+  Columns 14 through 24
+
+   -1.6008    7.9692    7.9970    7.9963   -1.0383   -6.4596   -5.4623   -5.6524    0.5038    0.6106    0.8628
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 167.0144
+
+
+ans =
+
+  Columns 1 through 13
+
+   56.6402   26.2559   15.5753  -82.3881 -101.5514 -114.3168   -6.8702  -29.9853  -29.9864  -29.9350  -27.0356   -4.6962    7.5280
+
+  Columns 14 through 24
+
+   -1.6025    7.9779    7.9965    7.9959   -1.0382   -6.4591   -5.4645   -5.6522    0.5038    0.6104    0.8631
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 165.9440
+
+
+ans =
+
+  Columns 1 through 13
+
+   56.6598   26.2679   15.5840  -82.3775 -101.5442 -114.3064   -4.7373  -29.9869  -29.9877  -29.9476  -27.0376   -4.5496    7.5116
+
+  Columns 14 through 24
+
+   -1.5992    7.9703    7.9971    7.9964   -1.0383   -6.4597   -5.4625   -5.6525    0.5038    0.6106    0.8628
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 166.1163
+
+
+ans =
+
+  Columns 1 through 13
+
+   56.6640   26.2801   15.6032  -82.3622 -101.5278 -114.2926   -4.6903  -29.9869  -29.9877  -29.9479  -27.0367   -4.5148    7.5020
+
+  Columns 14 through 24
+
+   -1.5975    7.9691    7.9971    7.9964   -1.0383   -6.4597   -5.4623   -5.6525    0.5038    0.6107    0.8628
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 166.8480
+
+
+ans =
+
+  Columns 1 through 13
+
+   56.6662   26.2864   15.6130  -82.3544 -101.5195 -114.2856   -4.6664  -29.9869  -29.9877  -29.9480  -27.0362   -4.4971    7.4970
+
+  Columns 14 through 24
+
+   -1.5966    7.9685    7.9971    7.9964   -1.0383   -6.4597   -5.4621   -5.6525    0.5038    0.6107    0.8628
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 167.3450
+
+
+ans =
+
+  Columns 1 through 13
+
+   56.6674   26.2898   15.6184  -82.3501 -101.5148 -114.2818   -4.6532  -29.9869  -29.9877  -29.9481  -27.0360   -4.4874    7.4943
+
+  Columns 14 through 24
+
+   -1.5961    7.9681    7.9971    7.9964   -1.0383   -6.4597   -5.4621   -5.6525    0.5038    0.6107    0.8628
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 167.0466
+
+
+ans =
+
+  Columns 1 through 13
+
+   56.6677   26.2910   15.6207  -82.3485 -101.5131 -114.2803   -4.6486  -29.9870  -29.9877  -29.9482  -27.0363   -4.4839    7.5098
+
+  Columns 14 through 24
+
+   -1.5955    7.9679    7.9971    7.9964   -1.0383   -6.4597   -5.4620   -5.6525    0.5038    0.6107    0.8628
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 167.0760
+
+
+ans =
+
+  Columns 1 through 13
+
+   56.6678   26.2916   15.6217  -82.3479 -101.5124 -114.2797   -4.6467  -29.9870  -29.9877  -29.9482  -27.0366   -4.4825    7.5200
+
+  Columns 14 through 24
+
+   -1.5951    7.9678    7.9971    7.9964   -1.0383   -6.4597   -5.4620   -5.6525    0.5038    0.6107    0.8628
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 167.0895
+
+
+ans =
+
+  Columns 1 through 13
+
+   56.6679   26.2918   15.6223  -82.3475 -101.5119 -114.2793   -4.6456  -29.9870  -29.9877  -29.9482  -27.0368   -4.4817    7.5257
+
+  Columns 14 through 24
+
+   -1.5949    7.9678    7.9971    7.9964   -1.0383   -6.4597   -5.4620   -5.6525    0.5038    0.6107    0.8628
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 167.0964
+
+
+ans =
+
+  Columns 1 through 13
+
+   56.6679   26.2920   15.6226  -82.3473 -101.5118 -114.2792   -4.6452  -29.9870  -29.9877  -29.9482  -27.0368   -4.4813    7.5283
+
+  Columns 14 through 24
+
+   -1.5968    7.9678    7.9971    7.9964   -1.0383   -6.4597   -5.4620   -5.6525    0.5038    0.6107    0.8628
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 167.1016
+
+
+ans =
+
+  Columns 1 through 13
+
+   56.6680   26.2920   15.6226  -82.3473 -101.5117 -114.2792   -4.6452  -29.9870  -29.9877  -29.9482  -27.0368   -4.4812    7.5288
+
+  Columns 14 through 24
+
+   -1.5986    7.9678    7.9971    7.9964   -1.0383   -6.4597   -5.4620   -5.6525    0.5038    0.6107    0.8628
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 165.8832
+
+   12   1323      165.883            0     0.000864         7.65
+Local minimum possible. Constraints satisfied.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance and constraints are 
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 4941.469798 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+   56.6680   26.2920   15.6226  -82.3473 -101.5117 -114.2792   -4.6452  -29.9870  -29.9877  -29.9482  -27.0368   -4.4812    7.5288
+
+  Columns 14 through 24
+
+   -1.5986    7.9678    7.9971    7.9964   -1.0383   -6.4597   -5.4620   -5.6525    0.5038    0.6107    0.8628
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 573.0954
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 12-May-2020 23:48:14
+
+ans =
+
+  Columns 1 through 13
+
+   56.6680   26.2920   15.6226  -82.3473 -101.5117 -114.2792   -4.6452  -29.9870  -29.9877  -29.9482  -27.0368   -4.4812    7.5288
+
+  Columns 14 through 24
+
+   -1.5986    7.9678    7.9971    7.9964   -1.0383   -6.4597   -5.4620   -5.6525    0.5038    0.6107    0.8628
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 572.7258
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      572.726            0
+
+ans =
+
+  Columns 1 through 13
+
+   43.8571   12.6965    1.3286  -95.2992 -114.4148 -127.1540   -2.6433  -29.9813  -29.9697  -29.9551  -29.2858   -2.9088    7.4065
+
+  Columns 14 through 24
+
+   -0.9303    7.9725    7.9895    7.9913   -1.7439   -7.3249   -6.7009   -6.9365   -0.8816   -0.8818   -0.5881
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 229.3865
+
+    1     98      229.386            0         1.46          327
+
+ans =
+
+  Columns 1 through 13
+
+   43.2461   12.2717    1.0974  -95.6824 -114.6172 -127.1712   -2.7597  -29.9677  -29.9485  -29.9494  -29.6657   -4.2820    7.3213
+
+  Columns 14 through 24
+
+   -0.9641    7.9700    7.9820    7.9853   -1.2647   -7.6280   -6.8447   -7.0496   -0.9957   -0.8784   -0.6033
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 221.8720
+
+    2    147      221.872            0        0.309          336
+
+ans =
+
+  Columns 1 through 13
+
+   43.1295   12.2090    1.0657  -95.7834 -114.7058 -127.2598   -2.7328  -29.9646  -29.9462  -29.9478  -29.6734   -5.0890    7.3135
+
+  Columns 14 through 24
+
+   -0.9554    7.9692    7.9810    7.9844   -0.0444   -7.6374   -6.8647   -7.0601   -0.9937   -0.8783   -0.6055
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 216.7222
+
+    3    196      216.722            0        0.608          304
+
+ans =
+
+  Columns 1 through 13
+
+   42.9379   12.1089    1.0198  -95.9162 -114.7890 -127.2726   -2.7781  -29.9557  -29.9408  -29.9452  -29.7039   -7.4692    7.3020
+
+  Columns 14 through 24
+
+   -0.9684    7.9674    7.9791    7.9823   -0.1917   -7.6974   -6.8805   -7.0758   -0.9886   -0.8775   -0.6084
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 215.5556
+
+    4    245      215.556            0        0.327          294
+
+ans =
+
+  Columns 1 through 13
+
+   42.1905   11.7211    0.9029  -96.4287 -115.0794 -127.1547   -3.0665  -29.9103  -29.9117  -29.9341  -29.8082   -5.3504    7.2652
+
+  Columns 14 through 24
+
+   -1.0512    7.9536    7.9735    7.9706   -0.1653   -7.8182   -6.9427   -7.1396   -0.9820   -0.8735   -0.6115
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 213.3533
+
+    5    294      213.353            0        0.289         17.4
+
+ans =
+
+  Columns 1 through 13
+
+   41.8464   11.3431    0.6840  -97.2955 -116.4354 -122.7179   -4.0287  -29.2429  -29.8957  -29.9323  -29.8410   -6.8760    7.2692
+
+  Columns 14 through 24
+
+   -1.2809    7.9387    7.9738    7.9604   -0.1433   -7.7900   -6.9412   -7.1424   -0.9878   -0.8721   -0.6138
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 208.3667
+
+    6    343      208.367            0         0.26         63.8
+
+ans =
+
+  Columns 1 through 13
+
+   41.8374   11.3380    0.6229  -97.2923 -116.4176 -120.4922   -4.0579  -28.8166  -29.9027  -29.9389  -29.8896   -7.2883    7.2679
+
+  Columns 14 through 24
+
+   -1.2932    7.9705    7.9726    7.9794   -0.1048   -7.7738   -6.9383   -7.1424   -0.9858   -0.8728   -0.6253
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 207.6761
+
+
+ans =
+
+  Columns 1 through 13
+
+   41.8419   11.3405    0.6535  -97.2939 -116.4265 -121.6050   -4.0433  -29.0297  -29.8992  -29.9356  -29.8653   -7.0822    7.2686
+
+  Columns 14 through 24
+
+   -1.2870    7.9546    7.9732    7.9699   -0.1240   -7.7819   -6.9397   -7.1424   -0.9868   -0.8725   -0.6196
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 207.7479
+
+    7    441      207.748            0       0.0316         44.8
+
+ans =
+
+  Columns 1 through 13
+
+   41.8443   11.3394    0.6546  -97.2942 -116.4252 -116.7731   -4.0097  -28.9752  -29.9009  -29.9342  -29.8679   -7.1681    7.2694
+
+  Columns 14 through 24
+
+   -0.8556    7.9507    7.9709    7.9685   -0.0387   -7.8283   -6.9387   -7.1423   -0.9862   -0.8724   -0.6225
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 208.2863
+
+
+ans =
+
+  Columns 1 through 13
+
+   41.8431   11.3400    0.6540  -97.2940 -116.4259 -119.1890   -4.0265  -29.0025  -29.9000  -29.9349  -29.8666   -7.1251    7.2690
+
+  Columns 14 through 24
+
+   -1.0713    7.9527    7.9721    7.9692   -0.0814   -7.8051   -6.9392   -7.1424   -0.9865   -0.8724   -0.6210
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 207.7696
+
+
+ans =
+
+  Columns 1 through 13
+
+   41.8425   11.3403    0.6538  -97.2940 -116.4262 -120.3970   -4.0349  -29.0161  -29.8996  -29.9352  -29.8659   -7.1037    7.2688
+
+  Columns 14 through 24
+
+   -1.1792    7.9536    7.9726    7.9696   -0.1027   -7.7935   -6.9395   -7.1424   -0.9867   -0.8724   -0.6203
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 207.8945
+
+
+ans =
+
+  Columns 1 through 13
+
+   41.8422   11.3404    0.6536  -97.2939 -116.4264 -121.0010   -4.0391  -29.0229  -29.8994  -29.9354  -29.8656   -7.0929    7.2687
+
+  Columns 14 through 24
+
+   -1.2331    7.9541    7.9729    7.9698   -0.1134   -7.7877   -6.9396   -7.1424   -0.9868   -0.8725   -0.6199
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 207.8920
+
+
+ans =
+
+  Columns 1 through 13
+
+   41.8431   11.3405    0.6536  -97.2935 -116.4255 -118.6772   -4.0713  -29.0157  -29.8986  -29.9351  -29.8655   -7.1187    7.2684
+
+  Columns 14 through 24
+
+   -1.1816    7.9542    7.9730    7.9697   -0.0387   -7.7765   -6.9397   -7.1424   -0.9865   -0.8724   -0.6196
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 207.6306
+
+
+ans =
+
+  Columns 1 through 13
+
+   41.8425   11.3405    0.6535  -97.2937 -116.4260 -120.1411   -4.0573  -29.0227  -29.8989  -29.9354  -29.8654   -7.1005    7.2685
+
+  Columns 14 through 24
+
+   -1.2343    7.9544    7.9731    7.9698   -0.0814   -7.7792   -6.9397   -7.1424   -0.9867   -0.8724   -0.6196
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 207.7418
+
+
+ans =
+
+  Columns 1 through 13
+
+   41.8422   11.3405    0.6535  -97.2938 -116.4262 -120.8731   -4.0503  -29.0262  -29.8990  -29.9355  -29.8653   -7.0913    7.2685
+
+  Columns 14 through 24
+
+   -1.2607    7.9545    7.9732    7.9699   -0.1027   -7.7805   -6.9397   -7.1424   -0.9867   -0.8725   -0.6196
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 207.8785
+
+
+ans =
+
+  Columns 1 through 13
+
+   41.8420   11.3405    0.6535  -97.2938 -116.4264 -121.2390   -4.0468  -29.0280  -29.8991  -29.9356  -29.8653   -7.0867    7.2685
+
+  Columns 14 through 24
+
+   -1.2738    7.9546    7.9732    7.9699   -0.1134   -7.7812   -6.9397   -7.1424   -0.9868   -0.8725   -0.6196
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 208.0358
+
+
+ans =
+
+  Columns 1 through 13
+
+   41.8420   11.3405    0.6535  -97.2939 -116.4264 -121.4220   -4.0451  -29.0288  -29.8992  -29.9356  -29.8653   -7.0844    7.2685
+
+  Columns 14 through 24
+
+   -1.2804    7.9546    7.9732    7.9699   -0.1187   -7.7815   -6.9397   -7.1424   -0.9868   -0.8725   -0.6196
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 207.6826
+
+    8    882      207.683            0      0.00393         9.17
+
+ans =
+
+  Columns 1 through 13
+
+   41.6824   11.2996    0.6441  -97.3394 -116.5009 -118.2513   -3.8727  -29.0922  -29.9794  -29.9856  -29.9673   -7.4474    7.2785
+
+  Columns 14 through 24
+
+   -0.8009    7.9868    7.9924    7.9903   -0.1235   -7.9535   -6.9560   -7.1505   -0.9956   -0.8859   -0.6353
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.9294
+
+    9    931      206.929            0        0.195         67.8
+
+ans =
+
+  Columns 1 through 13
+
+   41.6964   11.3012    0.6227  -97.3357 -116.4919 -120.5428   -4.1731  -29.2540  -29.9812  -29.9867  -29.9740   -7.4250    7.2814
+
+  Columns 14 through 24
+
+   -1.1007    7.9889    7.9942    7.9942   -0.1164   -7.9428   -6.9575   -7.1504   -0.9947   -0.8860   -0.6344
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.3744
+
+   10    980      206.374            0        0.123         60.3
+
+ans =
+
+  Columns 1 through 13
+
+   41.7049   11.3021    0.6343  -97.3354 -116.4922 -120.5422   -4.2026  -29.3042  -29.9816  -29.9864  -29.9752   -7.4206    7.2748
+
+  Columns 14 through 24
+
+   -1.1856    7.9911    7.9950    7.9945   -0.1132   -7.9357   -6.9579   -7.1503   -0.9941   -0.8860   -0.6344
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.4035
+
+   11   1029      206.404            0        0.033         3.99
+
+ans =
+
+  Columns 1 through 13
+
+   41.7082   11.3022    0.6290  -97.3354 -116.4921 -120.5161   -4.3095  -29.3066  -29.9816  -29.9864  -29.9751   -7.4199    7.2711
+
+  Columns 14 through 24
+
+   -1.2737    7.9908    7.9949    7.9945   -0.1106   -7.9320   -6.9579   -7.1503   -0.9939   -0.8860   -0.6344
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.3963
+
+   12   1078      206.396            0       0.0367         9.36
+
+ans =
+
+  Columns 1 through 13
+
+   41.7137   11.3023    0.6283  -97.3353 -116.4919 -120.1970   -5.1008  -29.3097  -29.9815  -29.9864  -29.9739   -7.4193    7.2601
+
+  Columns 14 through 24
+
+   -2.2215    7.9907    7.9949    7.9945   -0.0756   -7.9393   -6.9579   -7.1503   -0.9938   -0.8860   -0.6343
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.6765
+
+
+ans =
+
+  Columns 1 through 13
+
+   41.7109   11.3023    0.6287  -97.3353 -116.4920 -120.3565   -4.7052  -29.3082  -29.9816  -29.9864  -29.9745   -7.4196    7.2656
+
+  Columns 14 through 24
+
+   -1.7476    7.9908    7.9949    7.9945   -0.0931   -7.9356   -6.9579   -7.1503   -0.9938   -0.8860   -0.6344
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.6880
+
+
+ans =
+
+  Columns 1 through 13
+
+   41.7096   11.3023    0.6288  -97.3353 -116.4921 -120.4363   -4.5073  -29.3074  -29.9816  -29.9864  -29.9748   -7.4197    7.2684
+
+  Columns 14 through 24
+
+   -1.5107    7.9908    7.9949    7.9945   -0.1018   -7.9338   -6.9579   -7.1503   -0.9939   -0.8860   -0.6344
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.3880
+
+   13   1225      206.388            0       0.0949         21.3
+
+ans =
+
+  Columns 1 through 13
+
+   41.7139   11.3021    0.6283  -97.3353 -116.4919 -120.2330   -4.2208  -29.3168  -29.9819  -29.9864  -29.9741   -7.4239    7.2776
+
+  Columns 14 through 24
+
+   -1.2469    7.9903    7.9948    7.9944   -0.1099   -7.9373   -6.9578   -7.1503   -0.9939   -0.8860   -0.6343
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.6192
+
+
+ans =
+
+  Columns 1 through 13
+
+   41.7117   11.3022    0.6286  -97.3353 -116.4920 -120.3347   -4.3640  -29.3121  -29.9817  -29.9864  -29.9745   -7.4218    7.2730
+
+  Columns 14 through 24
+
+   -1.3788    7.9906    7.9949    7.9944   -0.1058   -7.9356   -6.9579   -7.1503   -0.9939   -0.8860   -0.6344
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.3986
+
+
+ans =
+
+  Columns 1 through 13
+
+   41.7107   11.3022    0.6287  -97.3353 -116.4920 -120.3855   -4.4357  -29.3098  -29.9817  -29.9864  -29.9746   -7.4208    7.2707
+
+  Columns 14 through 24
+
+   -1.4447    7.9907    7.9949    7.9945   -0.1038   -7.9347   -6.9579   -7.1503   -0.9939   -0.8860   -0.6344
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.3933
+
+
+ans =
+
+  Columns 1 through 13
+
+   41.7101   11.3022    0.6288  -97.3353 -116.4920 -120.4109   -4.4715  -29.3086  -29.9816  -29.9864  -29.9747   -7.4202    7.2695
+
+  Columns 14 through 24
+
+   -1.4777    7.9907    7.9949    7.9945   -0.1028   -7.9342   -6.9579   -7.1503   -0.9939   -0.8860   -0.6344
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.3905
+
+
+ans =
+
+  Columns 1 through 13
+
+   41.7132   11.3022    0.6286  -97.3353 -116.4920 -120.2308   -4.2303  -29.3095  -29.9818  -29.9864  -29.9740   -7.4220    7.2678
+
+  Columns 14 through 24
+
+   -1.2447    7.9905    7.9949    7.9944   -0.1099   -7.9377   -6.9579   -7.1503   -0.9939   -0.8860   -0.6344
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.6202
+
+
+ans =
+
+  Columns 1 through 13
+
+   41.7093   11.3022    0.6288  -97.3354 -116.4921 -120.5832   -4.5234  -29.3072  -29.9816  -29.9864  -29.9749   -7.4203    7.2676
+
+  Columns 14 through 24
+
+   -1.3666    7.9907    7.9949    7.9945   -0.1081   -7.9331   -6.9579   -7.1503   -0.9939   -0.8860   -0.6344
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.3898
+
+
+ans =
+
+  Columns 1 through 13
+
+   41.7095   11.3023    0.6288  -97.3353 -116.4921 -120.7744   -4.5133  -29.3074  -29.9816  -29.9864  -29.9748   -7.4199    7.2681
+
+  Columns 14 through 24
+
+   -1.4541    7.9907    7.9949    7.9945   -0.1064   -7.9336   -6.9579   -7.1503   -0.9939   -0.8860   -0.6344
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.3810
+
+   14   1568      206.381            0        0.022        0.828
+
+ans =
+
+  Columns 1 through 13
+
+   41.6750   11.2945    0.6252  -97.3435 -116.5055 -120.5510   -4.3796  -29.6094  -29.9962  -29.9954  -29.9926   -7.4598    7.2785
+
+  Columns 14 through 24
+
+   -1.4282    7.9956    7.9981    7.9977   -0.1037   -7.9504   -6.9607   -7.1518   -0.9962   -0.8883   -0.6363
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.4700
+
+
+ans =
+
+  Columns 1 through 13
+
+   41.6922   11.2984    0.6270  -97.3394 -116.4988 -120.6627   -4.4464  -29.4584  -29.9889  -29.9909  -29.9837   -7.4399    7.2733
+
+  Columns 14 through 24
+
+   -1.4412    7.9932    7.9965    7.9961   -0.1051   -7.9420   -6.9593   -7.1510   -0.9950   -0.8871   -0.6353
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.2718
+
+   15   1666      206.272            0       0.0117         29.6
+
+ans =
+
+  Columns 1 through 13
+
+   41.6910   11.2971    0.6257  -97.3412 -116.5019 -119.4373   -3.9470  -29.5812  -29.9908  -29.9930  -29.9857   -7.4505    7.2965
+
+  Columns 14 through 24
+
+   -1.3192    7.9951    7.9973    7.9971   -0.1005   -7.9596   -6.9598   -7.1514   -0.9953   -0.8876   -0.6358
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.6421
+
+
+ans =
+
+  Columns 1 through 13
+
+   41.6916   11.2977    0.6264  -97.3403 -116.5003 -120.0500   -4.1967  -29.5198  -29.9899  -29.9920  -29.9847   -7.4452    7.2849
+
+  Columns 14 through 24
+
+   -1.3802    7.9941    7.9969    7.9966   -0.1028   -7.9508   -6.9595   -7.1512   -0.9952   -0.8874   -0.6355
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.6823
+
+
+ans =
+
+  Columns 1 through 13
+
+   41.6919   11.2980    0.6267  -97.3399 -116.4995 -120.3564   -4.3216  -29.4891  -29.9894  -29.9914  -29.9842   -7.4425    7.2791
+
+  Columns 14 through 24
+
+   -1.4107    7.9937    7.9967    7.9963   -0.1039   -7.9464   -6.9594   -7.1511   -0.9951   -0.8873   -0.6354
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.5790
+
+
+ans =
+
+  Columns 1 through 13
+
+   41.6921   11.2982    0.6269  -97.3396 -116.4991 -120.5096   -4.3840  -29.4737  -29.9891  -29.9912  -29.9840   -7.4412    7.2762
+
+  Columns 14 through 24
+
+   -1.4259    7.9934    7.9966    7.9962   -0.1045   -7.9442   -6.9594   -7.1511   -0.9951   -0.8872   -0.6354
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.2718
+
+
+ans =
+
+  Columns 1 through 13
+
+   41.6947   11.2974    0.6259  -97.3408 -116.5010 -119.1844   -3.8473  -29.5422  -29.9903  -29.9925  -29.9841   -7.4483    7.2762
+
+  Columns 14 through 24
+
+   -1.2988    7.9945    7.9971    7.9968   -0.0999   -7.9596   -6.9597   -7.1513   -0.9952   -0.8875   -0.6356
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.5171
+
+
+ans =
+
+  Columns 1 through 13
+
+   41.6930   11.2980    0.6266  -97.3400 -116.4997 -118.6563   -4.2074  -29.4944  -29.9895  -29.9916  -29.9840   -7.4437    7.2741
+
+  Columns 14 through 24
+
+   -1.2567    7.9938    7.9968    7.9964   -0.0985   -7.9490   -6.9595   -7.1512   -0.9951   -0.8873   -0.6355
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.6450
+
+
+ans =
+
+  Columns 1 through 13
+
+   41.6922   11.2983    0.6269  -97.3395 -116.4990 -118.9702   -4.4086  -29.4664  -29.9891  -29.9911  -29.9838   -7.4409    7.2731
+
+  Columns 14 through 24
+
+   -1.3048    7.9933    7.9966    7.9962   -0.0997   -7.9431   -6.9593   -7.1511   -0.9951   -0.8872   -0.6354
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.5932
+
+
+ans =
+
+  Columns 1 through 13
+
+   41.6922   11.2983    0.6270  -97.3394 -116.4988 -119.4727   -4.4423  -29.4599  -29.9889  -29.9909  -29.9837   -7.4400    7.2733
+
+  Columns 14 through 24
+
+   -1.4355    7.9932    7.9965    7.9961   -0.1013   -7.9421   -6.9593   -7.1511   -0.9950   -0.8871   -0.6353
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.1946
+
+   16   2058      206.195            0      0.00966         67.4
+
+ans =
+
+  Columns 1 through 13
+
+   41.6813   11.2968    0.6226  -97.3412 -116.5016 -119.0130   -4.6062  -29.5740  -29.9911  -29.9929  -29.9884   -7.4553    7.2479
+
+  Columns 14 through 24
+
+   -1.5141    7.9952    7.9973    7.9971   -0.0999   -7.9409   -6.9600   -7.1514   -0.9952   -0.8876   -0.6358
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.5333
+
+
+ans =
+
+  Columns 1 through 13
+
+   41.6867   11.2976    0.6248  -97.3403 -116.5002 -119.2428   -4.5242  -29.5170  -29.9900  -29.9919  -29.9861   -7.4477    7.2606
+
+  Columns 14 through 24
+
+   -1.4748    7.9942    7.9969    7.9966   -0.1006   -7.9415   -6.9596   -7.1512   -0.9951   -0.8874   -0.6355
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.4827
+
+
+ans =
+
+  Columns 1 through 13
+
+   41.6895   11.2980    0.6259  -97.3399 -116.4995 -119.3577   -4.4832  -29.4885  -29.9895  -29.9914  -29.9849   -7.4438    7.2670
+
+  Columns 14 through 24
+
+   -1.4551    7.9937    7.9967    7.9963   -0.1009   -7.9418   -6.9595   -7.1511   -0.9951   -0.8873   -0.6354
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.6997
+
+
+ans =
+
+  Columns 1 through 13
+
+   41.6908   11.2982    0.6265  -97.3397 -116.4992 -119.4152   -4.4627  -29.4742  -29.9892  -29.9912  -29.9843   -7.4419    7.2702
+
+  Columns 14 through 24
+
+   -1.4453    7.9935    7.9966    7.9962   -0.1011   -7.9419   -6.9594   -7.1511   -0.9951   -0.8872   -0.6354
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.6966
+
+
+ans =
+
+  Columns 1 through 13
+
+   41.6834   11.2970    0.6259  -97.3412 -116.5017 -118.1149   -4.7300  -29.5517  -29.9911  -29.9928  -29.9885   -7.4560    7.2640
+
+  Columns 14 through 24
+
+   -1.6531    7.9943    7.9972    7.9968   -0.0973   -7.9362   -6.9598   -7.1514   -0.9953   -0.8876   -0.6357
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.5016
+
+
+ans =
+
+  Columns 1 through 13
+
+   41.6886   11.2978    0.6265  -97.3402 -116.5000 -118.2467   -4.5552  -29.4989  -29.9899  -29.9917  -29.9857   -7.4467    7.2697
+
+  Columns 14 through 24
+
+   -1.6411    7.9937    7.9968    7.9964   -0.0975   -7.9398   -6.9595   -7.1512   -0.9951   -0.8873   -0.6355
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.4909
+
+
+ans =
+
+  Columns 1 through 13
+
+   41.6920   11.2983    0.6270  -97.3395 -116.4989 -118.6397   -4.4422  -29.4639  -29.9890  -29.9910  -29.9839   -7.4405    7.2734
+
+  Columns 14 through 24
+
+   -1.6056    7.9933    7.9966    7.9961   -0.0987   -7.9422   -6.9593   -7.1511   -0.9951   -0.8872   -0.6354
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.6726
+
+
+ans =
+
+  Columns 1 through 13
+
+   41.6921   11.2983    0.6270  -97.3395 -116.4988 -119.5101   -4.4427  -29.4615  -29.9890  -29.9910  -29.9838   -7.4402    7.2734
+
+  Columns 14 through 24
+
+   -1.5273    7.9932    7.9965    7.9961   -0.1016   -7.9421   -6.9593   -7.1511   -0.9950   -0.8872   -0.6353
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.1891
+
+   17   2450      206.189            0       0.0353         36.5
+
+ans =
+
+  Columns 1 through 13
+
+   41.6927   11.2968    0.6258  -97.3411 -116.5016 -122.4976   -3.7482  -29.6356  -29.9914  -29.9937  -29.9852   -7.4359    7.3576
+
+  Columns 14 through 24
+
+   -1.4753    7.9971    7.9977    7.9977   -0.1111   -7.9596   -6.9600   -7.1513   -0.9953   -0.8877   -0.6358
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.5374
+
+
+ans =
+
+  Columns 1 through 13
+
+   41.6921   11.2982    0.6269  -97.3396 -116.4991 -119.7667   -4.3831  -29.4764  -29.9892  -29.9912  -29.9839   -7.4398    7.2806
+
+  Columns 14 through 24
+
+   -1.5228    7.9936    7.9966    7.9963   -0.1024   -7.9436   -6.9594   -7.1511   -0.9951   -0.8872   -0.6354
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.1511
+
+   18   2548      206.151            0      0.00831           45
+
+ans =
+
+  Columns 1 through 13
+
+   41.6879   11.2975    0.6263  -97.3407 -116.5009 -120.3488   -4.1298  -29.5451  -29.9903  -29.9924  -29.9857   -7.4810    7.2877
+
+  Columns 14 through 24
+
+   -1.5142    7.9953    7.9971    7.9967   -0.1040   -7.9493   -6.9598   -7.1513   -0.9952   -0.8879   -0.6361
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.5407
+
+
+ans =
+
+  Columns 1 through 13
+
+   41.6900   11.2979    0.6266  -97.3402 -116.5000 -120.0577   -4.2565  -29.5108  -29.9897  -29.9918  -29.9848   -7.4604    7.2842
+
+  Columns 14 through 24
+
+   -1.5185    7.9944    7.9968    7.9965   -0.1032   -7.9465   -6.9596   -7.1512   -0.9951   -0.8876   -0.6357
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.5870
+
+
+ans =
+
+  Columns 1 through 13
+
+   41.6911   11.2980    0.6267  -97.3399 -116.4995 -119.9122   -4.3198  -29.4936  -29.9895  -29.9915  -29.9844   -7.4501    7.2824
+
+  Columns 14 through 24
+
+   -1.5207    7.9940    7.9967    7.9964   -0.1028   -7.9450   -6.9595   -7.1511   -0.9951   -0.8874   -0.6356
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.7083
+
+
+ans =
+
+  Columns 1 through 13
+
+   41.6916   11.2981    0.6268  -97.3397 -116.4993 -119.8394   -4.3514  -29.4850  -29.9893  -29.9914  -29.9841   -7.4450    7.2815
+
+  Columns 14 through 24
+
+   -1.5217    7.9938    7.9967    7.9963   -0.1026   -7.9443   -6.9594   -7.1511   -0.9951   -0.8873   -0.6355
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.4337
+
+
+ans =
+
+  Columns 1 through 13
+
+   41.6912   11.2981    0.6268  -97.3398 -116.4994 -120.1985   -4.2534  -29.4868  -29.9894  -29.9914  -29.9842   -7.4480    7.2802
+
+  Columns 14 through 24
+
+   -1.5116    7.9938    7.9967    7.9963   -0.1030   -7.9455   -6.9594   -7.1511   -0.9951   -0.8873   -0.6355
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.2164
+
+
+ans =
+
+  Columns 1 through 13
+
+   41.6917   11.2981    0.6268  -97.3397 -116.4993 -120.1381   -4.3205  -29.4814  -29.9893  -29.9913  -29.9841   -7.4438    7.2804
+
+  Columns 14 through 24
+
+   -1.5122    7.9937    7.9967    7.9963   -0.1028   -7.9445   -6.9594   -7.1511   -0.9951   -0.8873   -0.6354
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.6000
+
+
+ans =
+
+  Columns 1 through 13
+
+   41.6920   11.2982    0.6269  -97.3397 -116.4992 -120.1058   -4.3565  -29.4786  -29.9892  -29.9913  -29.9840   -7.4415    7.2805
+
+  Columns 14 through 24
+
+   -1.5125    7.9936    7.9967    7.9963   -0.1027   -7.9440   -6.9594   -7.1511   -0.9951   -0.8872   -0.6354
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.6079
+
+
+ans =
+
+  Columns 1 through 13
+
+   41.6921   11.2982    0.6269  -97.3396 -116.4991 -120.0656   -4.3811  -29.4766  -29.9892  -29.9912  -29.9839   -7.4400    7.2806
+
+  Columns 14 through 24
+
+   -1.5223    7.9936    7.9966    7.9963   -0.1026   -7.9437   -6.9594   -7.1511   -0.9951   -0.8872   -0.6354
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.6114
+
+
+ans =
+
+  Columns 1 through 13
+
+   41.6921   11.2982    0.6269  -97.3396 -116.4991 -119.9167   -4.3821  -29.4765  -29.9892  -29.9912  -29.9839   -7.4399    7.2806
+
+  Columns 14 through 24
+
+   -1.5226    7.9936    7.9966    7.9963   -0.1024   -7.9437   -6.9594   -7.1511   -0.9951   -0.8872   -0.6354
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.7216
+
+
+ans =
+
+  Columns 1 through 13
+
+   41.6921   11.2982    0.6269  -97.3396 -116.4991 -119.8377   -4.3827  -29.4765  -29.9892  -29.9912  -29.9839   -7.4399    7.2806
+
+  Columns 14 through 24
+
+   -1.5227    7.9936    7.9966    7.9963   -0.1022   -7.9436   -6.9594   -7.1511   -0.9951   -0.8872   -0.6354
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 206.4397
+
+Local minimum possible. Constraints satisfied.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance and constraints are 
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 10992.162186 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+   41.6921   11.2982    0.6269  -97.3396 -116.4991 -119.7667   -4.3831  -29.4764  -29.9892  -29.9912  -29.9839   -7.4398    7.2806
+
+  Columns 14 through 24
+
+   -1.5228    7.9936    7.9966    7.9963   -0.1024   -7.9436   -6.9594   -7.1511   -0.9951   -0.8872   -0.6354
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 553.8287
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 13-May-2020 02:51:26
+
+ans =
+
+  Columns 1 through 13
+
+   41.6921   11.2982    0.6269  -97.3396 -116.4991 -119.7667   -4.3831  -29.4764  -29.9892  -29.9912  -29.9839   -7.4398    7.2806
+
+  Columns 14 through 24
+
+   -1.5228    7.9936    7.9966    7.9963   -0.1024   -7.9436   -6.9594   -7.1511   -0.9951   -0.8872   -0.6354
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 553.8297
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49       553.83            0
+
+ans =
+
+  Columns 1 through 13
+
+   30.1679   -1.8867  -14.2981 -108.9984 -128.0870 -131.3455   -4.3962  -28.7904  -29.5239  -29.9723  -29.9715   -9.3669    7.2287
+
+  Columns 14 through 24
+
+   -1.5330    7.9588    7.9890    7.9901    0.5051   -8.5268   -7.9755   -8.2904   -2.3157   -2.1550   -1.9275
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 362.0684
+
+    1     98      362.068            0         1.59          500
+
+ans =
+
+  Columns 1 through 13
+
+   29.5929   -3.1243  -14.3055 -109.3801 -126.7261 -129.2317   -4.3928  -28.3156  -28.6479  -29.9394  -29.9478   -9.9725    7.1681
+
+  Columns 14 through 24
+
+   -1.5297    7.9088    7.9761    7.9817   -0.0425   -7.7828   -8.2947   -8.5443   -2.4013   -2.2994   -2.1343
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 350.0644
+
+    2    147      350.064            0        0.526          387
+
+ans =
+
+  Columns 1 through 13
+
+   29.0241   -3.6317  -14.3193 -110.2199 -121.4782 -115.5789   -4.3995  -28.1893  -28.6486  -29.9118  -29.9220  -10.2661    7.1250
+
+  Columns 14 through 24
+
+   -1.5193    7.8263    7.9627    7.9769    0.1779   -9.0291   -8.3991   -8.6429   -2.4733   -2.3701   -2.1206
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 322.6112
+
+    3    196      322.611            0         0.27         71.8
+
+ans =
+
+  Columns 1 through 13
+
+   28.9196   -3.6339  -14.3234 -110.3414 -122.4789 -111.4087   -4.4019  -28.1883  -28.9272  -29.9151  -29.9220  -10.2664    7.1238
+
+  Columns 14 through 24
+
+   -1.5176    7.7955    7.9637    7.9774    0.0356   -9.4416   -8.4016   -8.6427   -2.4743   -2.3703   -2.1195
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 321.0747
+
+    4    245      321.075            0         0.14         27.6
+
+ans =
+
+  Columns 1 through 13
+
+   28.1247   -3.6698  -14.3472 -111.7624 -127.4941 -104.7999   -4.3829  -28.2280  -28.8484  -29.9080  -29.9252  -10.2591    7.1323
+
+  Columns 14 through 24
+
+   -1.5245    7.1927    7.9576    7.9834    0.0747   -9.3349   -8.3956   -8.6385   -2.4837   -2.3730   -2.1212
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 315.3735
+
+    5    294      315.373            0        0.106         40.1
+
+ans =
+
+  Columns 1 through 13
+
+   26.6993   -3.6571  -14.3339 -112.1305 -126.9464 -106.9706   -4.4119  -28.2519  -28.8729  -29.8751  -29.9193  -10.2188    7.1452
+
+  Columns 14 through 24
+
+   -1.5356    7.3921    7.9863    7.9785    0.1263   -9.1595   -8.3997   -8.6347   -2.4840   -2.3732   -2.1196
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 314.8151
+
+    6    343      314.815            0       0.0644         71.9
+
+ans =
+
+  Columns 1 through 13
+
+   27.0284   -3.6089  -14.3232 -112.2877 -130.6589 -105.1237   -4.3911  -28.2580  -28.8808  -29.8797  -29.9136  -10.2347    7.1477
+
+  Columns 14 through 24
+
+   -1.5511    7.5815    7.9651    7.9741    0.0833   -8.7395   -8.3811   -8.6352   -2.4832   -2.3726   -2.1192
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 313.0673
+
+    7    392      313.067            0       0.0717         87.6
+
+ans =
+
+  Columns 1 through 13
+
+   27.0582   -3.5907  -14.3235 -112.2882 -131.4949 -105.1126   -4.3954  -28.2572  -28.8811  -29.8793  -29.9143  -10.2360    7.1476
+
+  Columns 14 through 24
+
+   -1.5523    7.5659    7.9644    7.9741    0.0813   -8.1547   -8.3852   -8.6352   -2.4832   -2.3729   -2.1191
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 314.2090
+
+
+ans =
+
+  Columns 1 through 13
+
+   27.0433   -3.5998  -14.3234 -112.2880 -131.0769 -105.1182   -4.3933  -28.2576  -28.8809  -29.8795  -29.9139  -10.2353    7.1477
+
+  Columns 14 through 24
+
+   -1.5517    7.5737    7.9648    7.9741    0.0823   -8.4471   -8.3832   -8.6352   -2.4832   -2.3727   -2.1191
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 313.1576
+
+
+ans =
+
+  Columns 1 through 13
+
+   27.0359   -3.6044  -14.3233 -112.2878 -130.8679 -105.1209   -4.3922  -28.2578  -28.8809  -29.8796  -29.9137  -10.2350    7.1477
+
+  Columns 14 through 24
+
+   -1.5514    7.5776    7.9649    7.9741    0.0828   -8.5933   -8.3821   -8.6352   -2.4832   -2.3727   -2.1192
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 313.1103
+
+
+ans =
+
+  Columns 1 through 13
+
+   27.0322   -3.6067  -14.3233 -112.2878 -130.7634 -105.1223   -4.3917  -28.2579  -28.8808  -29.8797  -29.9137  -10.2348    7.1477
+
+  Columns 14 through 24
+
+   -1.5513    7.5795    7.9650    7.9741    0.0831   -8.6664   -8.3816   -8.6352   -2.4832   -2.3726   -2.1192
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 313.0868
+
+
+ans =
+
+  Columns 1 through 13
+
+   27.0284   -3.6089  -14.3232 -112.2877 -130.6589 -105.1236   -4.3911  -28.2580  -28.8808  -29.8797  -29.9136  -10.2347    7.1477
+
+  Columns 14 through 24
+
+   -1.5511    7.5816    7.9651    7.9741    0.1039   -8.7392   -8.3811   -8.6352   -2.4832   -2.3726   -2.1192
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 314.1713
+
+
+ans =
+
+  Columns 1 through 13
+
+   27.0284   -3.6089  -14.3232 -112.2877 -130.6589 -105.1237   -4.3911  -28.2580  -28.8808  -29.8797  -29.9136  -10.2347    7.1477
+
+  Columns 14 through 24
+
+   -1.5511    7.5815    7.9651    7.9741    0.0936   -8.7393   -8.3811   -8.6352   -2.4832   -2.3726   -2.1192
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 313.0401
+
+    8    686       313.04            0      0.00932         59.1
+
+ans =
+
+  Columns 1 through 13
+
+   27.0708   -3.3602  -14.3357 -112.2913 -131.2690 -104.8857   -4.3947  -28.2429  -28.8182  -29.9250  -29.9336  -10.2478    7.1415
+
+  Columns 14 through 24
+
+   -1.5474    7.5406    7.9676    7.9777    0.0876   -8.8722   -8.4039   -8.6366   -2.4855   -2.3796   -2.1288
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 313.3071
+
+
+ans =
+
+  Columns 1 through 13
+
+   27.0287   -3.6075  -14.3233 -112.2877 -130.6625 -105.1223   -4.3912  -28.2579  -28.8804  -29.8800  -29.9137  -10.2347    7.1476
+
+  Columns 14 through 24
+
+   -1.5511    7.5813    7.9652    7.9741    0.0936   -8.7401   -8.3813   -8.6352   -2.4833   -2.3726   -2.1192
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 313.0404
+
+Local minimum possible. Constraints satisfied.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance and constraints are 
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 2832.174061 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+   27.0284   -3.6089  -14.3232 -112.2877 -130.6589 -105.1237   -4.3911  -28.2580  -28.8808  -29.8797  -29.9136  -10.2347    7.1477
+
+  Columns 14 through 24
+
+   -1.5511    7.5815    7.9651    7.9741    0.0936   -8.7393   -8.3811   -8.6352   -2.4832   -2.3726   -2.1192
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 711.4863
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 13-May-2020 03:38:38
+
+ans =
+
+  Columns 1 through 13
+
+   27.0284   -3.6089  -14.3232 -112.2877 -130.6589 -105.1237   -4.3911  -28.2580  -28.8808  -29.8797  -29.9136  -10.2347    7.1477
+
+  Columns 14 through 24
+
+   -1.5511    7.5815    7.9651    7.9741    0.0936   -8.7393   -8.3811   -8.6352   -2.4832   -2.3726   -2.1192
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 711.4863
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      711.486            0
+
+ans =
+
+  Columns 1 through 13
+
+   16.1243  -17.5475  -26.2077 -122.9957 -141.3125 -115.7782   -4.3911  -28.0258  -28.4981  -29.5706  -29.9147  -12.3140    7.1228
+
+  Columns 14 through 24
+
+   -1.5511    7.4673    7.9373    7.9740   -0.9014   -8.2295   -9.3743   -9.6382   -3.5837   -3.4930   -1.2188
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 519.5862
+
+    1     98      519.586            0         1.38          340
+
+ans =
+
+  Columns 1 through 13
+
+   18.1127  -17.7534  -28.6630 -124.3187 -141.1729 -114.2260   -4.3911  -27.7868  -28.1446  -29.2047  -29.9133  -12.4772    7.0954
+
+  Columns 14 through 24
+
+   -1.5511    7.3586    7.9233    7.9672   -0.9008   -8.4680   -9.6602   -9.8961   -3.9812   -3.5989   -3.0772
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 488.0359
+
+    2    147      488.036            0        0.536          381
+
+ans =
+
+  Columns 1 through 13
+
+   18.0924  -17.7553  -28.6673 -124.3292 -141.1711 -114.1955   -4.3912  -27.7837  -28.1408  -29.2021  -29.9135  -12.4789    7.0948
+
+  Columns 14 through 24
+
+   -1.5511    7.3569    7.9247    7.9670   -0.9008   -8.4738   -9.6601   -9.8989   -3.9812   -3.6006   -3.6165
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 486.5589
+
+    3    196      486.559            0        0.149          382
+
+ans =
+
+  Columns 1 through 13
+
+   19.1134  -17.9287  -29.1912 -125.4396 -140.5297 -109.5667   -4.3913  -27.6743  -27.9985  -28.9739  -29.9258  -12.6163    7.0813
+
+  Columns 14 through 24
+
+   -1.5511    7.3115    7.9840    7.9588   -0.9003   -9.4910   -9.7153  -10.1340   -3.9755   -3.7451   -3.3447
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 474.0134
+
+    4    245      474.013            0        0.143          173
+
+ans =
+
+  Columns 1 through 13
+
+   21.2985  -18.0758  -29.2043 -125.8052 -141.2771  -98.1205   -4.3911  -27.6787  -28.0045  -28.9727  -29.9245  -12.7888    7.0827
+
+  Columns 14 through 24
+
+   -1.5511    7.3151    7.9536    7.9839   -0.8990  -10.2356   -9.7899  -10.1291   -3.9755   -3.7813   -3.3970
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 459.8650
+
+    5    294      459.865            0        0.133         51.6
+
+ans =
+
+  Columns 1 through 13
+
+   18.6173  -18.1129  -29.2709 -126.4915 -143.1149  -96.4715   -4.3910  -27.6557  -27.9802  -28.9381  -29.9316  -12.8711    7.0787
+
+  Columns 14 through 24
+
+   -1.5511    7.3051    7.5688    7.9758   -0.8982   -9.8869   -9.8807  -10.1197   -3.9760   -3.8197   -3.5210
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 455.5206
+
+    6    343      455.521            0       0.0966         65.9
+
+ans =
+
+  Columns 1 through 13
+
+   17.0506  -18.6065  -29.2812 -126.7997 -144.3920  -93.9424   -4.3910  -27.6455  -27.9703  -28.9334  -29.9076  -13.0349    7.0768
+
+  Columns 14 through 24
+
+   -1.5511    7.3006    7.3931    7.9637   -0.9007   -9.9026   -9.8743  -10.1161   -3.9735   -3.8221   -3.5637
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 452.7068
+
+    7    392      452.707            0       0.0584         75.7
+
+ans =
+
+  Columns 1 through 13
+
+   17.1116  -18.6027  -29.2825 -126.8193 -144.4302  -90.1428   -4.3910  -27.6454  -27.9704  -28.9329  -29.9022  -13.0179    7.0769
+
+  Columns 14 through 24
+
+   -1.5511    7.3007    7.3777    7.9666   -0.9008   -9.9224   -9.8733  -10.1160   -3.9731   -3.8236   -3.5630
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 448.5817
+
+    8    441      448.582            0       0.0318         86.4
+
+ans =
+
+  Columns 1 through 13
+
+   17.4461  -18.5885  -29.2831 -126.8867 -144.5662  -90.2099   -4.3909  -27.6395  -26.4015  -28.1124  -29.8881  -13.0355    7.0756
+
+  Columns 14 through 24
+
+   -1.5511    7.9965    7.3879    7.9659   -0.8990   -9.7914   -9.8692  -10.1154   -3.9722   -3.8328   -3.5857
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 450.3884
+
+
+ans =
+
+  Columns 1 through 13
+
+   17.2788  -18.5956  -29.2828 -126.8530 -144.4982  -90.1763   -4.3910  -27.6424  -27.1859  -28.5226  -29.8952  -13.0267    7.0762
+
+  Columns 14 through 24
+
+   -1.5511    7.6486    7.3828    7.9663   -0.8999   -9.8569   -9.8713  -10.1157   -3.9727   -3.8282   -3.5743
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 448.3940
+
+    9    539      448.394            0       0.0532         58.5
+
+ans =
+
+  Columns 1 through 13
+
+   17.1604  -18.5794  -29.2880 -126.9524 -144.8175  -90.2564   -4.3909  -27.6389  -27.0314  -28.3234  -29.9083  -13.2336    7.0756
+
+  Columns 14 through 24
+
+   -1.5512    7.6920    7.3653    7.9708   -0.8975   -9.8108   -9.8662  -10.1165   -3.9738   -3.8354   -3.5804
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 448.9117
+
+
+ans =
+
+  Columns 1 through 13
+
+   17.2196  -18.5875  -29.2854 -126.9027 -144.6579  -90.2164   -4.3909  -27.6407  -27.1087  -28.4230  -29.9017  -13.1302    7.0759
+
+  Columns 14 through 24
+
+   -1.5511    7.6703    7.3741    7.9686   -0.8987   -9.8338   -9.8687  -10.1161   -3.9732   -3.8318   -3.5774
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 449.3279
+
+
+ans =
+
+  Columns 1 through 13
+
+   17.2492  -18.5915  -29.2841 -126.8779 -144.5781  -90.1964   -4.3909  -27.6416  -27.1473  -28.4728  -29.8984  -13.0784    7.0761
+
+  Columns 14 through 24
+
+   -1.5511    7.6595    7.3784    7.9674   -0.8993   -9.8454   -9.8700  -10.1159   -3.9730   -3.8300   -3.5759
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 450.3627
+
+
+ans =
+
+  Columns 1 through 13
+
+   17.2640  -18.5936  -29.2835 -126.8654 -144.5381  -90.1864   -4.3910  -27.6420  -27.1666  -28.4977  -29.8968  -13.0526    7.0761
+
+  Columns 14 through 24
+
+   -1.5511    7.6540    7.3806    7.9668   -0.8996   -9.8511   -9.8706  -10.1158   -3.9728   -3.8291   -3.5751
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 448.2869
+
+   10    735      448.287            0      0.00249         43.1
+
+ans =
+
+  Columns 1 through 13
+
+   17.0212  -18.5964  -29.2881 -126.9375 -144.7515  -90.1776   -4.3908  -27.6409  -26.8363  -28.8056  -29.9222  -13.2337    7.0759
+
+  Columns 14 through 24
+
+   -1.5512    7.7643    7.3541    7.9731   -0.8976   -9.8083   -9.8705  -10.1181   -3.9746   -3.8361   -3.5939
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 448.7610
+
+
+ans =
+
+  Columns 1 through 13
+
+   17.1426  -18.5950  -29.2858 -126.9015 -144.6448  -90.1820   -4.3909  -27.6414  -27.0015  -28.6517  -29.9095  -13.1432    7.0760
+
+  Columns 14 through 24
+
+   -1.5511    7.7092    7.3674    7.9700   -0.8986   -9.8297   -9.8706  -10.1169   -3.9737   -3.8326   -3.5845
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 449.2006
+
+
+ans =
+
+  Columns 1 through 13
+
+   17.2033  -18.5943  -29.2846 -126.8835 -144.5915  -90.1842   -4.3909  -27.6417  -27.0840  -28.5747  -29.9032  -13.0979    7.0761
+
+  Columns 14 through 24
+
+   -1.5511    7.6816    7.3740    7.9684   -0.8991   -9.8404   -9.8706  -10.1164   -3.9733   -3.8309   -3.5798
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 450.2462
+
+
+ans =
+
+  Columns 1 through 13
+
+   17.2337  -18.5939  -29.2841 -126.8744 -144.5648  -90.1853   -4.3909  -27.6419  -27.1253  -28.5362  -29.9000  -13.0752    7.0761
+
+  Columns 14 through 24
+
+   -1.5511    7.6678    7.3773    7.9676   -0.8994   -9.8458   -9.8706  -10.1161   -3.9730   -3.8300   -3.5774
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 450.3578
+
+
+ans =
+
+  Columns 1 through 13
+
+   16.2508  -18.5941  -29.2919 -127.1535 -145.6533  -90.1848   -4.3908  -27.6408  -26.8669  -28.8374  -29.9147  -13.1820    7.0759
+
+  Columns 14 through 24
+
+   -1.5512    7.7443    7.2858    7.9740   -0.8981   -9.8012   -9.8706  -10.1180   -3.9743   -3.8486   -3.6072
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 445.5031
+
+   11    980      445.503            0        0.037            4
+
+ans =
+
+  Columns 1 through 13
+
+   15.0428  -18.5909  -29.3097 -127.2263 -145.6566  -90.1400   -4.3903  -27.6157  -26.8592  -28.0233  -29.9567  -13.2020    7.0702
+
+  Columns 14 through 24
+
+   -1.5504    7.7359    7.2138    7.9994   -0.8951  -10.0024   -9.8722  -10.1269   -3.9792   -3.8686   -3.6191
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 446.2221
+
+
+ans =
+
+  Columns 1 through 13
+
+   15.6468  -18.5925  -29.3008 -127.1899 -145.6549  -90.1624   -4.3906  -27.6282  -26.8630  -28.4303  -29.9357  -13.1920    7.0730
+
+  Columns 14 through 24
+
+   -1.5508    7.7401    7.2498    7.9867   -0.8966   -9.9018   -9.8714  -10.1224   -3.9767   -3.8586   -3.6132
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 446.5076
+
+
+ans =
+
+  Columns 1 through 13
+
+   15.9488  -18.5933  -29.2963 -127.1717 -145.6541  -90.1736   -4.3907  -27.6345  -26.8649  -28.6339  -29.9252  -13.1870    7.0745
+
+  Columns 14 through 24
+
+   -1.5510    7.7422    7.2678    7.9804   -0.8973   -9.8515   -9.8710  -10.1202   -3.9755   -3.8536   -3.6102
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 447.5645
+
+
+ans =
+
+  Columns 1 through 13
+
+   16.0998  -18.5937  -29.2941 -127.1626 -145.6537  -90.1792   -4.3908  -27.6377  -26.8659  -28.7356  -29.9199  -13.1845    7.0752
+
+  Columns 14 through 24
+
+   -1.5511    7.7432    7.2768    7.9772   -0.8977   -9.8263   -9.8708  -10.1191   -3.9749   -3.8511   -3.6087
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 447.7212
+
+
+ans =
+
+  Columns 1 through 13
+
+   14.6515  -18.5925  -29.3101 -127.2258 -145.6538  -90.1560   -4.3903  -27.6283  -26.8844  -28.0323  -29.9560  -13.2021    7.0727
+
+  Columns 14 through 24
+
+   -1.5504    7.7384    7.2097    7.9999   -0.8954  -10.0117   -9.8716  -10.1268   -3.9789   -3.8685   -3.6190
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 445.3667
+
+   12   1225      445.367            0       0.0524         23.5
+
+ans =
+
+  Columns 1 through 13
+
+   13.8683  -18.5959  -29.3125 -127.2374 -145.6547  -90.1509   -4.3920  -27.6303  -26.5282  -27.8830  -29.9709  -13.2084    7.0778
+
+  Columns 14 through 24
+
+   -1.5521    7.7737    7.2594    7.9999   -0.8497  -10.2382   -9.8773  -10.1289   -3.9799   -3.8692   -3.6190
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 446.2058
+
+
+ans =
+
+  Columns 1 through 13
+
+   14.2599  -18.5942  -29.3113 -127.2316 -145.6542  -90.1534   -4.3912  -27.6293  -26.7063  -27.9576  -29.9634  -13.2052    7.0752
+
+  Columns 14 through 24
+
+   -1.5513    7.7561    7.2346    7.9999   -0.8725  -10.1249   -9.8744  -10.1278   -3.9794   -3.8689   -3.6190
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 444.8840
+
+   13   1323      444.884            0       0.0265         50.2
+
+ans =
+
+  Columns 1 through 13
+
+   13.9512  -18.5955  -29.3118 -127.2349 -145.6543  -90.1528   -4.3920  -27.6293  -26.5748  -27.8732  -29.9788  -13.2052    7.0774
+
+  Columns 14 through 24
+
+   -1.5521    7.7793    7.2628    7.9999   -0.8510  -10.2387   -9.8802  -10.1291   -3.9798   -3.8692   -3.6190
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 446.5935
+
+
+ans =
+
+  Columns 1 through 13
+
+   14.1055  -18.5948  -29.3115 -127.2332 -145.6543  -90.1531   -4.3916  -27.6293  -26.6405  -27.9154  -29.9711  -13.2052    7.0763
+
+  Columns 14 through 24
+
+   -1.5517    7.7677    7.2487    7.9999   -0.8618  -10.1818   -9.8773  -10.1285   -3.9796   -3.8690   -3.6190
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 444.7973
+
+   14   1421      444.797            0       0.0124         34.3
+
+ans =
+
+  Columns 1 through 13
+
+   13.7058  -18.5967  -29.3127 -127.2394 -145.6544  -90.1516   -4.3923  -27.6286  -26.4653  -27.9704  -29.9868  -13.2053    7.0779
+
+  Columns 14 through 24
+
+   -1.5524    7.8035    7.2553    7.9999   -0.8416  -10.2266   -9.8811  -10.1303   -3.9801   -3.8695   -3.6190
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 446.6019
+
+
+ans =
+
+  Columns 1 through 13
+
+   13.9057  -18.5958  -29.3121 -127.2363 -145.6543  -90.1523   -4.3919  -27.6289  -26.5529  -27.9429  -29.9790  -13.2053    7.0771
+
+  Columns 14 through 24
+
+   -1.5520    7.7856    7.2520    7.9999   -0.8517  -10.2042   -9.8792  -10.1294   -3.9799   -3.8693   -3.6190
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 446.3208
+
+
+ans =
+
+  Columns 1 through 13
+
+   14.0056  -18.5953  -29.3118 -127.2348 -145.6543  -90.1527   -4.3918  -27.6291  -26.5967  -27.9292  -29.9750  -13.2052    7.0767
+
+  Columns 14 through 24
+
+   -1.5519    7.7766    7.2503    7.9999   -0.8567  -10.1930   -9.8783  -10.1289   -3.9797   -3.8691   -3.6190
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 446.3952
+
+
+ans =
+
+  Columns 1 through 13
+
+   14.0556  -18.5951  -29.3117 -127.2340 -145.6543  -90.1529   -4.3917  -27.6292  -26.6186  -27.9223  -29.9731  -13.2052    7.0765
+
+  Columns 14 through 24
+
+   -1.5518    7.7722    7.2495    7.9999   -0.8592  -10.1874   -9.8778  -10.1287   -3.9797   -3.8691   -3.6190
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 444.7723
+
+   15   1617      444.772            0      0.00282         44.1
+
+ans =
+
+  Columns 1 through 13
+
+   14.0555  -18.6037  -29.3213 -127.2730 -145.6576  -90.1323   -4.3915  -27.6183  -26.7369  -28.3306  -29.9817  -13.2307    7.0745
+
+  Columns 14 through 24
+
+   -1.5518    7.8873    7.2040    8.0000   -0.8549  -10.0163   -9.8806  -10.1328   -3.9830   -3.8716   -3.6191
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 446.0061
+
+
+ans =
+
+  Columns 1 through 13
+
+   14.0555  -18.5994  -29.3165 -127.2535 -145.6560  -90.1426   -4.3916  -27.6237  -26.6777  -28.1264  -29.9774  -13.2180    7.0755
+
+  Columns 14 through 24
+
+   -1.5518    7.8297    7.2268    7.9999   -0.8571  -10.1019   -9.8792  -10.1308   -3.9813   -3.8703   -3.6191
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 446.5134
+
+
+ans =
+
+  Columns 1 through 13
+
+   14.0555  -18.5972  -29.3141 -127.2437 -145.6551  -90.1478   -4.3916  -27.6265  -26.6482  -28.0244  -29.9752  -13.2116    7.0760
+
+  Columns 14 through 24
+
+   -1.5518    7.8010    7.2381    7.9999   -0.8581  -10.1447   -9.8785  -10.1297   -3.9805   -3.8697   -3.6190
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 446.3492
+
+
+ans =
+
+  Columns 1 through 13
+
+   14.0556  -18.5961  -29.3129 -127.2389 -145.6547  -90.1503   -4.3916  -27.6278  -26.6334  -27.9733  -29.9742  -13.2084    7.0763
+
+  Columns 14 through 24
+
+   -1.5518    7.7866    7.2438    7.9999   -0.8587  -10.1660   -9.8781  -10.1292   -3.9801   -3.8694   -3.6190
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 444.7370
+
+   16   1813      444.737            0       0.0034         42.3
+
+ans =
+
+  Columns 1 through 13
+
+   14.0774  -18.6008  -29.3161 -127.2547 -145.6559  -90.1433   -4.3916  -27.6201  -26.8900  -27.7416  -29.9790  -13.2198    7.0751
+
+  Columns 14 through 24
+
+   -1.5519    7.8154    7.2409    7.9999   -0.8602  -10.2389   -9.8784  -10.1301   -3.9811   -3.8706   -3.6191
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 446.2942
+
+
+ans =
+
+  Columns 1 through 13
+
+   14.0665  -18.5985  -29.3145 -127.2468 -145.6553  -90.1468   -4.3916  -27.6239  -26.7617  -27.8575  -29.9766  -13.2141    7.0757
+
+  Columns 14 through 24
+
+   -1.5518    7.8010    7.2423    7.9999   -0.8594  -10.2025   -9.8783  -10.1296   -3.9806   -3.8700   -3.6190
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 446.3394
+
+
+ans =
+
+  Columns 1 through 13
+
+   14.0610  -18.5973  -29.3137 -127.2428 -145.6550  -90.1486   -4.3916  -27.6259  -26.6976  -27.9154  -29.9754  -13.2113    7.0760
+
+  Columns 14 through 24
+
+   -1.5518    7.7938    7.2431    7.9999   -0.8591  -10.1843   -9.8782  -10.1294   -3.9803   -3.8697   -3.6190
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 446.3621
+
+
+ans =
+
+  Columns 1 through 13
+
+   14.0583  -18.5967  -29.3133 -127.2409 -145.6549  -90.1495   -4.3916  -27.6269  -26.6655  -27.9444  -29.9748  -13.2098    7.0761
+
+  Columns 14 through 24
+
+   -1.5518    7.7902    7.2434    7.9999   -0.8589  -10.1752   -9.8782  -10.1293   -3.9802   -3.8695   -3.6190
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 444.7257
+
+   17   2009      444.726            0      0.00177         42.3
+
+ans =
+
+  Columns 1 through 13
+
+   14.0910  -18.6000  -29.3129 -127.2479 -145.6555  -90.1460   -4.3969  -27.6181  -26.9608  -27.7519  -29.9749  -13.2154    7.0755
+
+  Columns 14 through 24
+
+   -1.5519    7.8332    7.2425    7.9999   -0.8616  -10.2390   -9.8785  -10.1295   -3.9806   -3.8701   -3.6190
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 444.7041
+
+   18   2058      444.704            0       0.0146         43.9
+
+ans =
+
+  Columns 1 through 13
+
+   14.0913  -18.6000  -29.3129 -127.2480 -145.6555  -90.1459   -4.3970  -27.6180  -26.9647  -27.7504  -29.9750  -13.2155    7.0754
+
+  Columns 14 through 24
+
+   -1.5519    7.8339    7.2423    7.9999   -0.8616  -10.2393   -9.8785  -10.1295   -3.9806   -3.8701   -3.6190
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 444.7034
+
+Local minimum possible. Constraints satisfied.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance and constraints are 
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 7261.472750 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+   14.0910  -18.6000  -29.3129 -127.2479 -145.6555  -90.1460   -4.3969  -27.6181  -26.9608  -27.7519  -29.9749  -13.2154    7.0755
+
+  Columns 14 through 24
+
+   -1.5519    7.8332    7.2425    7.9999   -0.8616  -10.2390   -9.8785  -10.1295   -3.9806   -3.8701   -3.6190
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 876.2769
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 13-May-2020 05:39:38
+
+ans =
+
+  Columns 1 through 13
+
+   14.0910  -18.6000  -29.3129 -127.2479 -145.6555  -90.1460   -4.3969  -27.6181  -26.9608  -27.7519  -29.9749  -13.2154    7.0755
+
+  Columns 14 through 24
+
+   -1.5519    7.8332    7.2425    7.9999   -0.8616  -10.2390   -9.8785  -10.1295   -3.9806   -3.8701   -3.6190
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 876.2770
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      876.277            0
+
+ans =
+
+  Columns 1 through 13
+
+    0.0785  -33.5250  -43.7719 -141.0360 -147.8060 -103.9084   -4.3968  -27.4801  -26.9611  -27.6100  -29.9545  -15.7244    7.0593
+
+  Columns 14 through 24
+
+   -1.5521    7.5509    7.1936    7.9998    0.0713  -10.3816   -9.5836  -11.3857   -5.3745   -5.2624   -5.0203
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 583.7438
+
+    1     98      583.744            0         1.03          632
+
+ans =
+
+  Columns 1 through 13
+
+   -0.7579  -33.5236  -43.8759 -141.2493 -148.0421 -104.0188   -4.3968  -27.4518  -26.9611  -27.5787  -29.9151  -15.7378    7.0559
+
+  Columns 14 through 24
+
+   -1.5521    7.5240    7.1832    7.9997   -0.1096   -8.7472   -9.4431  -11.4164   -5.3875   -5.2832   -5.0357
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 581.1065
+
+    2    147      581.106            0        0.173          592
+
+ans =
+
+  Columns 1 through 13
+
+   -0.7125  -33.5210  -43.8890 -141.2812 -148.0674 -103.9956   -4.3968  -27.4454  -26.9611  -27.5712  -29.9125  -15.7384    7.0551
+
+  Columns 14 through 24
+
+   -1.5521    7.5183    7.3057    7.9997   -0.1256   -8.8064   -8.3839  -11.4211   -5.3924   -5.2868   -5.0402
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 580.8609
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.7352  -33.5223  -43.8824 -141.2652 -148.0547 -104.0072   -4.3968  -27.4486  -26.9611  -27.5750  -29.9138  -15.7381    7.0555
+
+  Columns 14 through 24
+
+   -1.5521    7.5212    7.2444    7.9997   -0.1176   -8.7768   -8.9135  -11.4188   -5.3900   -5.2850   -5.0380
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 576.0100
+
+    3    245       576.01            0       0.0474          641
+
+ans =
+
+  Columns 1 through 13
+
+   -0.6839  -33.5167  -43.9086 -141.3266 -148.1023 -103.9722   -4.3968  -27.4359  -26.9611  -27.5600  -29.9054  -15.7244    7.0538
+
+  Columns 14 through 24
+
+   -1.5520    7.5101    7.4009    7.9997   -0.1065   -8.8411   -8.3812  -11.4201   -5.3975   -5.2907   -5.0435
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 578.7115
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.7096  -33.5195  -43.8955 -141.2959 -148.0785 -103.9897   -4.3968  -27.4422  -26.9611  -27.5675  -29.9096  -15.7312    7.0547
+
+  Columns 14 through 24
+
+   -1.5521    7.5156    7.3227    7.9997   -0.1121   -8.8089   -8.6473  -11.4194   -5.3937   -5.2878   -5.0407
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 578.8552
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.7224  -33.5209  -43.8890 -141.2806 -148.0666 -103.9984   -4.3968  -27.4454  -26.9611  -27.5712  -29.9117  -15.7347    7.0551
+
+  Columns 14 through 24
+
+   -1.5521    7.5184    7.2836    7.9997   -0.1148   -8.7929   -8.7804  -11.4191   -5.3918   -5.2864   -5.0394
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 580.7299
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.7288  -33.5216  -43.8857 -141.2729 -148.0607 -104.0028   -4.3968  -27.4470  -26.9611  -27.5731  -29.9127  -15.7364    7.0553
+
+  Columns 14 through 24
+
+   -1.5521    7.5198    7.2640    7.9997   -0.1162   -8.7848   -8.8469  -11.4189   -5.3909   -5.2857   -5.0387
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 575.9744
+
+    4    441      575.974            0      0.00643          643
+
+ans =
+
+  Columns 1 through 13
+
+    0.8550  -33.5170  -43.9709 -141.5069 -148.2288 -104.0977   -4.3968  -27.3966  -26.9611  -27.5136  -29.9342  -15.3617    7.0489
+
+  Columns 14 through 24
+
+   -1.5519    7.4760    6.8906    7.9996   -0.0725   -9.0631   -8.3809  -11.1976   -5.4001   -5.3042   -5.0119
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 578.0066
+
+
+ans =
+
+  Columns 1 through 13
+
+    0.0631  -33.5193  -43.9283 -141.3899 -148.1448 -104.0503   -4.3968  -27.4218  -26.9611  -27.5433  -29.9235  -15.5491    7.0521
+
+  Columns 14 through 24
+
+   -1.5520    7.4979    7.0773    7.9997   -0.0944   -8.9240   -8.6139  -11.3083   -5.3955   -5.2949   -5.0253
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 576.5839
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.3328  -33.5205  -43.9070 -141.3314 -148.1027 -104.0265   -4.3968  -27.4344  -26.9611  -27.5582  -29.9181  -15.6427    7.0537
+
+  Columns 14 through 24
+
+   -1.5520    7.5088    7.1706    7.9997   -0.1053   -8.8544   -8.7304  -11.3636   -5.3932   -5.2903   -5.0320
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 579.0149
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.5308  -33.5210  -43.8963 -141.3022 -148.0817 -104.0147   -4.3968  -27.4407  -26.9611  -27.5657  -29.9154  -15.6895    7.0545
+
+  Columns 14 through 24
+
+   -1.5521    7.5143    7.2173    7.9997   -0.1108   -8.8196   -8.7887  -11.3913   -5.3921   -5.2880   -5.0353
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 578.9883
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.7054  -33.5213  -43.9347 -141.6595 -148.4965 -104.0187   -4.3968  -27.4458  -26.9611  -27.5717  -29.9130  -15.7069    7.0551
+
+  Columns 14 through 24
+
+   -1.5521    7.5190    7.2620    7.9997   -0.1159   -8.7852   -8.8204  -11.4023   -5.3948   -5.2902   -5.0354
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 575.5722
+
+    5    686      575.572            0       0.0055          437
+
+ans =
+
+  Columns 1 through 13
+
+   -0.5764  -33.5186  -44.0040 -141.7769 -148.8462 -103.5540   -4.3967  -27.4158  -26.9611  -27.5365  -29.6718  -15.6558    7.0512
+
+  Columns 14 through 24
+
+   -1.5520    7.4958    7.5333    7.9943   -0.1236  -10.2712   -8.8641  -11.4376   -5.4801   -5.3002   -5.0606
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 576.2538
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.7037  -33.5213  -43.9356 -141.6611 -148.5012 -104.0125   -4.3968  -27.4454  -26.9611  -27.5713  -29.9098  -15.7062    7.0551
+
+  Columns 14 through 24
+
+   -1.5521    7.5187    7.2656    7.9997   -0.1160   -8.8050   -8.8210  -11.4028   -5.3959   -5.2904   -5.0358
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 575.5445
+
+    6    784      575.545            0      0.00176          450
+
+ans =
+
+  Columns 1 through 13
+
+   -0.4591  -33.5184  -43.9838 -141.7509 -148.7602 -103.0567   -4.3966  -27.4239  -26.9611  -27.5457  -29.7492  -16.0580    7.0523
+
+  Columns 14 through 24
+
+   -1.5520    7.5025    7.7632    7.9956   -0.1299  -10.0463   -8.9468  -11.5555   -5.4801   -5.2998   -5.0767
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 574.2241
+
+    7    833      574.224            0        0.128           98
+
+ans =
+
+  Columns 1 through 13
+
+   -0.3901  -33.5253  -44.0071 -141.7866 -148.8638 -101.7981   -4.3966  -27.4139  -26.9611  -27.5339  -29.6783  -16.2146    7.0509
+
+  Columns 14 through 24
+
+   -1.5520    7.4949    7.7280    7.9928   -0.1338  -10.1707   -9.0137  -11.5685   -5.4780   -5.3024   -5.0799
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 575.3428
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.4246  -33.5218  -43.9954 -141.7687 -148.8120 -102.4274   -4.3966  -27.4189  -26.9611  -27.5398  -29.7137  -16.1363    7.0516
+
+  Columns 14 through 24
+
+   -1.5520    7.4987    7.7456    7.9942   -0.1319  -10.1085   -8.9803  -11.5620   -5.4790   -5.3011   -5.0783
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 571.7885
+
+    8    931      571.789            0       0.0103           40
+
+ans =
+
+  Columns 1 through 13
+
+   -0.3692  -33.5466  -44.1649 -141.9605 -149.4458 -100.2941   -4.3964  -27.4065  -26.9613  -27.5377  -29.7475  -16.1598    7.0498
+
+  Columns 14 through 24
+
+   -1.5519    7.4896    7.6022    8.0000   -0.1337  -10.7822   -9.2515  -11.5087   -5.4775   -5.3279   -5.0718
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 571.9701
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.3969  -33.5342  -44.0802 -141.8646 -149.1289 -101.3608   -4.3965  -27.4127  -26.9612  -27.5387  -29.7306  -16.1481    7.0507
+
+  Columns 14 through 24
+
+   -1.5520    7.4942    7.6739    7.9971   -0.1328  -10.4453   -9.1159  -11.5353   -5.4783   -5.3145   -5.0751
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 570.8452
+
+    9   1029      570.845            0       0.0342          202
+
+ans =
+
+  Columns 1 through 13
+
+   -0.2932  -33.5729  -44.2414 -142.0374 -149.9956  -98.6168   -4.3965  -27.3997  -26.9615  -27.5381  -29.7458  -16.0081    7.0489
+
+  Columns 14 through 24
+
+   -1.5520    7.4846    7.5178    7.9980   -0.1382  -10.7890   -9.3463  -11.5904   -5.4774   -5.3378   -5.1083
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 569.2212
+
+   10   1078      569.221            0       0.0506          407
+
+ans =
+
+  Columns 1 through 13
+
+   -0.1104  -33.5682  -44.2597 -142.0752 -149.9942  -75.2634   -4.3972  -27.3837  -26.9616  -27.5255  -29.7444  -13.2910    7.0458
+
+  Columns 14 through 24
+
+   -1.5523    7.4751    7.1023    7.9968   -0.1641  -11.0504  -10.5539  -11.5642   -5.4750   -5.3380   -5.1067
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 578.9779
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.2018  -33.5705  -44.2505 -142.0563 -149.9949  -86.9401   -4.3968  -27.3917  -26.9615  -27.5318  -29.7451  -14.6496    7.0473
+
+  Columns 14 through 24
+
+   -1.5521    7.4798    7.3101    7.9974   -0.1512  -10.9197   -9.9501  -11.5773   -5.4762   -5.3379   -5.1075
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 570.3819
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.2475  -33.5717  -44.2459 -142.0469 -149.9953  -92.7784   -4.3967  -27.3957  -26.9615  -27.5349  -29.7455  -15.3289    7.0481
+
+  Columns 14 through 24
+
+   -1.5521    7.4822    7.4140    7.9977   -0.1447  -10.8544   -9.6482  -11.5839   -5.4768   -5.3378   -5.1079
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 563.4472
+
+   11   1225      563.447            0       0.0759          293
+
+ans =
+
+  Columns 1 through 13
+
+   -0.1864  -33.5700  -44.2428 -142.0634 -149.9951  -80.3381   -4.3959  -27.3932  -26.9616  -27.5383  -29.7409  -13.5545    7.0477
+
+  Columns 14 through 24
+
+   -1.5518    7.4800    7.5006    7.9970   -0.1580  -10.8243  -10.1949  -11.6293   -5.4772   -5.3368   -5.1093
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 574.3517
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.2169  -33.5709  -44.2444 -142.0551 -149.9952  -86.5583   -4.3963  -27.3945  -26.9615  -27.5366  -29.7432  -14.4417    7.0479
+
+  Columns 14 through 24
+
+   -1.5519    7.4811    7.4573    7.9973   -0.1514  -10.8393   -9.9216  -11.6066   -5.4770   -5.3373   -5.1086
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 570.7606
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.2322  -33.5713  -44.2452 -142.0510 -149.9952  -89.6684   -4.3965  -27.3951  -26.9615  -27.5358  -29.7443  -14.8853    7.0480
+
+  Columns 14 through 24
+
+   -1.5520    7.4817    7.4356    7.9975   -0.1480  -10.8468   -9.7849  -11.5952   -5.4769   -5.3376   -5.1083
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 570.4247
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.2398  -33.5715  -44.2455 -142.0489 -149.9953  -91.2234   -4.3966  -27.3954  -26.9615  -27.5353  -29.7449  -15.1071    7.0481
+
+  Columns 14 through 24
+
+   -1.5520    7.4819    7.4248    7.9976   -0.1464  -10.8506   -9.7166  -11.5896   -5.4769   -5.3377   -5.1081
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 567.3744
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.1026  -33.5696  -44.2657 -142.2468 -149.9952  -76.4255   -4.3971  -27.3912  -26.9616  -27.5336  -29.7472  -13.4244    7.0474
+
+  Columns 14 through 24
+
+   -1.5521    7.4792    7.3986    7.9976   -0.1655  -10.8686  -10.4815  -11.5876   -5.4766   -5.3373   -5.1080
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 573.7725
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.0854  -33.5712  -44.2551 -142.1966 -149.9953  -83.5601   -4.3967  -27.3942  -26.9615  -27.5350  -29.7490  -14.7494    7.0479
+
+  Columns 14 through 24
+
+   -1.5520    7.4812    7.4129    7.9976   -0.1589  -10.8582  -10.2748  -11.5864   -5.4768   -5.3406   -5.1083
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 567.7070
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.1756  -33.5715  -44.2505 -142.1218 -149.9953  -88.2961   -4.3967  -27.3950  -26.9615  -27.5350  -29.7470  -15.0385    7.0480
+
+  Columns 14 through 24
+
+   -1.5521    7.4817    7.4135    7.9977   -0.1513  -10.8563   -9.9840  -11.5851   -5.4768   -5.3392   -5.1081
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 562.2659
+
+   12   1568      562.266            0        0.055         70.4
+
+ans =
+
+  Columns 1 through 13
+
+   -0.2894  -33.5748  -44.2534 -142.1432 -149.9950  -86.7182   -4.3946  -27.3864  -26.9620  -27.5595  -29.7431  -13.9788    7.0473
+
+  Columns 14 through 24
+
+   -1.5514    7.4720    7.3499    7.9976   -0.1482  -10.9116   -9.7296  -11.6293   -5.4771   -5.3426   -5.1100
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 566.9659
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.2325  -33.5731  -44.2520 -142.1325 -149.9952  -87.5071   -4.3956  -27.3907  -26.9617  -27.5472  -29.7450  -14.5086    7.0476
+
+  Columns 14 through 24
+
+   -1.5517    7.4768    7.3817    7.9976   -0.1498  -10.8839   -9.8568  -11.6072   -5.4769   -5.3409   -5.1090
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 566.0950
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.2041  -33.5723  -44.2512 -142.1271 -149.9952  -87.9016   -4.3962  -27.3928  -26.9616  -27.5411  -29.7460  -14.7736    7.0478
+
+  Columns 14 through 24
+
+   -1.5519    7.4793    7.3976    7.9976   -0.1505  -10.8701   -9.9204  -11.5962   -5.4769   -5.3401   -5.1086
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 567.5042
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.1898  -33.5719  -44.2509 -142.1244 -149.9952  -88.0988   -4.3964  -27.3939  -26.9616  -27.5380  -29.7465  -14.9060    7.0479
+
+  Columns 14 through 24
+
+   -1.5520    7.4805    7.4056    7.9976   -0.1509  -10.8632   -9.9522  -11.5907   -5.4768   -5.3396   -5.1083
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 562.4639
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.3653  -33.5738  -44.2654 -142.2472 -149.9952  -86.5343   -4.3965  -27.3924  -26.9616  -27.5364  -29.7435  -13.5264    7.0477
+
+  Columns 14 through 24
+
+   -1.5520    7.4797    7.4049    7.9976   -0.1464  -10.8674   -9.5816  -11.5873   -5.4769   -5.3467   -5.1099
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 564.7157
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.3166  -33.5727  -44.2574 -142.1800 -149.9953  -89.5257   -4.3966  -27.3939  -26.9615  -27.5356  -29.7444  -14.3412    7.0479
+
+  Columns 14 through 24
+
+   -1.5520    7.4808    7.4068    7.9977   -0.1453  -10.8624   -9.6276  -11.5855   -5.4769   -5.3426   -5.1089
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 565.5426
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.2714  -33.5720  -44.2524 -142.1385 -149.9953  -90.7834   -4.3967  -27.3947  -26.9615  -27.5352  -29.7453  -14.8424    7.0480
+
+  Columns 14 through 24
+
+   -1.5520    7.4815    7.4087    7.9977   -0.1456  -10.8590   -9.7047  -11.5846   -5.4768   -5.3401   -5.1083
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 566.7429
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.2402  -33.5717  -44.2511 -142.1276 -149.9953  -89.9573   -4.3967  -27.3949  -26.9615  -27.5350  -29.7458  -14.9583    7.0480
+
+  Columns 14 through 24
+
+   -1.5520    7.4816    7.4114    7.9977   -0.1470  -10.8574   -9.8918  -11.5848   -5.4768   -5.3395   -5.1082
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 561.9077
+
+   13   1960      561.908            0       0.0187          395
+
+ans =
+
+  Columns 1 through 13
+
+   -0.3091  -33.5998  -44.2821 -142.1950 -149.9937  -96.2115   -4.3986  -27.3402  -26.9620  -27.5220  -29.7407  -15.4334    7.0411
+
+  Columns 14 through 24
+
+   -1.5525    7.4420    6.9391    7.9461   -0.1378  -11.1202   -9.6176  -11.5808   -5.4798   -5.3441   -5.1141
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 564.3927
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.2416  -33.5723  -44.2518 -142.1289 -149.9952  -90.0830   -4.3967  -27.3938  -26.9615  -27.5348  -29.7457  -14.9678    7.0479
+
+  Columns 14 through 24
+
+   -1.5521    7.4808    7.4019    7.9966   -0.1468  -10.8627   -9.8863  -11.5847   -5.4769   -5.3396   -5.1083
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 561.8634
+
+   14   2058      561.863            0      0.00191          395
+
+ans =
+
+  Columns 1 through 13
+
+   -0.2184  -33.5756  -44.2494 -142.1305 -149.9953  -90.6692   -4.3973  -27.3884  -26.9617  -28.4405  -29.7459  -15.1524    7.0467
+
+  Columns 14 through 24
+
+   -1.5522    7.4775    7.0562    8.0000   -0.1465  -10.8596   -9.9149  -11.5874   -5.4777   -5.3343   -5.1088
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 561.5995
+
+   15   2107      561.599            0       0.0543          384
+
+ans =
+
+  Columns 1 through 13
+
+   -0.1741  -33.5804  -44.2743 -142.1722 -149.9941  -86.5035   -4.3952  -27.3769  -26.9620  -29.5534  -29.7458  -14.6402    7.0464
+
+  Columns 14 through 24
+
+   -1.5515    7.4640    6.9859    7.9891   -0.1527  -10.7921   -9.8680  -11.5864   -5.4797   -5.3699   -5.1109
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 565.7956
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.1963  -33.5780  -44.2619 -142.1513 -149.9947  -88.5864   -4.3962  -27.3826  -26.9619  -28.9970  -29.7459  -14.8963    7.0466
+
+  Columns 14 through 24
+
+   -1.5518    7.4707    7.0211    7.9945   -0.1496  -10.8259   -9.8915  -11.5869   -5.4787   -5.3521   -5.1098
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 566.8478
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.2073  -33.5768  -44.2556 -142.1409 -149.9950  -89.6278   -4.3967  -27.3855  -26.9618  -28.7187  -29.7459  -15.0244    7.0467
+
+  Columns 14 through 24
+
+   -1.5520    7.4741    7.0387    7.9973   -0.1481  -10.8427   -9.9032  -11.5872   -5.4782   -5.3432   -5.1093
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 561.7650
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.2129  -33.5762  -44.2525 -142.1357 -149.9952  -90.1485   -4.3970  -27.3870  -26.9617  -28.5796  -29.7459  -15.0884    7.0467
+
+  Columns 14 through 24
+
+   -1.5521    7.4758    7.0474    7.9986   -0.1473  -10.8512   -9.9091  -11.5873   -5.4780   -5.3387   -5.1090
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 561.6690
+
+   16   2303      561.669            0      0.00804          395
+
+ans =
+
+  Columns 1 through 13
+
+   -0.1724  -33.5849  -44.2739 -142.1680 -149.9945  -89.2090   -4.3964  -27.3521  -26.9623  -28.0721  -29.7447  -15.2065    7.0424
+
+  Columns 14 through 24
+
+   -1.5518    7.4519    6.7411    7.9990   -0.1494  -10.6961   -9.9558  -11.5783   -5.4783   -5.3699   -5.1106
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 561.1477
+
+   17   2352      561.148            0       0.0461          106
+
+ans =
+
+  Columns 1 through 13
+
+   -0.1749  -33.5900  -44.2813 -142.1981 -149.9941  -89.6621   -4.3978  -27.3136  -26.9627  -29.9904  -29.7398  -15.3517    7.0365
+
+  Columns 14 through 24
+
+   -1.5521    7.4267    7.2254    7.9985   -0.1507  -10.6396   -9.9325  -11.5266   -5.4795   -5.3662   -5.1162
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 565.6832
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.1737  -33.5874  -44.2776 -142.1830 -149.9943  -89.4356   -4.3971  -27.3329  -26.9625  -29.0312  -29.7422  -15.2791    7.0395
+
+  Columns 14 through 24
+
+   -1.5520    7.4393    6.9833    7.9987   -0.1501  -10.6679   -9.9441  -11.5524   -5.4789   -5.3681   -5.1134
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 565.8280
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.1731  -33.5862  -44.2757 -142.1755 -149.9944  -89.3223   -4.3968  -27.3425  -26.9624  -28.5516  -29.7435  -15.2428    7.0410
+
+  Columns 14 through 24
+
+   -1.5519    7.4456    6.8622    7.9989   -0.1498  -10.6820   -9.9500  -11.5654   -5.4786   -5.3690   -5.1120
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 561.0732
+
+   18   2499      561.073            0       0.0222          391
+
+ans =
+
+  Columns 1 through 13
+
+   -0.1804  -33.5881  -44.2763 -142.1826 -149.9945  -90.5717   -4.4010  -27.2687  -26.9631  -29.9928  -29.7404  -15.5510    7.0272
+
+  Columns 14 through 24
+
+   -1.5531    7.4047    7.1498    7.9988   -0.1526  -10.4531   -9.7755  -11.4792   -5.4790   -5.3692   -5.1136
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 565.5382
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.1767  -33.5871  -44.2760 -142.1791 -149.9944  -89.9470   -4.3989  -27.3056  -26.9627  -29.2722  -29.7420  -15.3969    7.0341
+
+  Columns 14 through 24
+
+   -1.5525    7.4251    7.0060    7.9988   -0.1512  -10.5676   -9.8627  -11.5223   -5.4788   -5.3691   -5.1128
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 560.8815
+
+   19   2597      560.881            0       0.0347          395
+
+ans =
+
+  Columns 1 through 13
+
+   -0.1885  -33.5902  -44.2740 -142.1821 -149.9948  -91.5882   -4.4036  -27.2814  -26.9629  -29.9964  -29.7381  -15.7664    7.0276
+
+  Columns 14 through 24
+
+   -1.5539    7.4138    7.0970    7.9989   -0.1542  -10.3436   -9.6442  -11.4184   -5.4792   -5.3692   -5.1142
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 565.3937
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.1826  -33.5886  -44.2750 -142.1806 -149.9946  -90.7676   -4.4013  -27.2935  -26.9628  -29.6343  -29.7400  -15.5816    7.0309
+
+  Columns 14 through 24
+
+   -1.5532    7.4195    7.0515    7.9989   -0.1527  -10.4556   -9.7535  -11.4703   -5.4790   -5.3691   -5.1135
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 565.5182
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.1797  -33.5879  -44.2755 -142.1798 -149.9945  -90.3573   -4.4001  -27.2996  -26.9628  -29.4532  -29.7410  -15.4893    7.0325
+
+  Columns 14 through 24
+
+   -1.5529    7.4223    7.0288    7.9989   -0.1519  -10.5116   -9.8081  -11.4963   -5.4789   -5.3691   -5.1132
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 565.6056
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.1782  -33.5875  -44.2758 -142.1794 -149.9945  -90.1521   -4.3995  -27.3026  -26.9628  -29.3627  -29.7415  -15.4431    7.0333
+
+  Columns 14 through 24
+
+   -1.5527    7.4237    7.0174    7.9988   -0.1515  -10.5396   -9.8354  -11.5093   -5.4789   -5.3691   -5.1130
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 565.6544
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.2353  -33.5873  -44.2825 -142.2118 -149.9944  -95.1423   -4.3985  -27.3167  -26.9626  -29.2256  -29.7281  -15.9066    7.0362
+
+  Columns 14 through 24
+
+   -1.5524    7.4310    6.9368    7.9988   -0.1537  -10.3447   -9.0099  -11.3720   -5.4788   -5.3691   -5.1133
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 563.9923
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.2259  -33.5872  -44.2788 -142.1937 -149.9944  -93.3196   -4.3987  -27.3100  -26.9627  -29.2482  -29.7369  -15.5073    7.0349
+
+  Columns 14 through 24
+
+   -1.5525    7.4275    6.9927    7.9988   -0.1514  -10.5983   -9.2896  -11.4524   -5.4788   -5.3691   -5.1130
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 563.9023
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.2153  -33.5871  -44.2769 -142.1838 -149.9944  -92.0519   -4.3989  -27.3064  -26.9627  -29.2668  -29.7407  -15.3959    7.0342
+
+  Columns 14 through 24
+
+   -1.5525    7.4255    7.0041    7.9988   -0.1499  -10.7606   -9.5435  -11.4990   -5.4788   -5.3691   -5.1128
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 565.6265
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.1970  -33.5871  -44.2763 -142.1808 -149.9944  -90.8960   -4.3989  -27.3056  -26.9627  -29.2723  -29.7414  -15.4072    7.0341
+
+  Columns 14 through 24
+
+   -1.5525    7.4252    7.0024    7.9988   -0.1506  -10.7096   -9.7145  -11.5140   -5.4788   -5.3691   -5.1128
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 565.6045
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.1859  -33.5871  -44.2762 -142.1799 -149.9944  -90.2619   -4.3989  -27.3056  -26.9627  -29.2722  -29.7417  -15.4037    7.0341
+
+  Columns 14 through 24
+
+   -1.5525    7.4251    7.0046    7.9988   -0.1514  -10.6411   -9.7828  -11.5182   -5.4788   -5.3691   -5.1128
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 565.6745
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.1801  -33.5871  -44.2761 -142.1794 -149.9944  -89.9464   -4.3989  -27.3056  -26.9627  -29.2721  -29.7419  -15.4016    7.0341
+
+  Columns 14 through 24
+
+   -1.5525    7.4251    7.0057    7.9988   -0.1517  -10.6047   -9.8194  -11.5204   -5.4788   -5.3691   -5.1128
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 565.7205
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.1776  -33.5871  -44.2761 -142.1792 -149.9944  -89.9473   -4.3989  -27.3056  -26.9627  -29.2721  -29.7419  -15.3992    7.0341
+
+  Columns 14 through 24
+
+   -1.5525    7.4251    7.0059    7.9988   -0.1514  -10.5862   -9.8410  -11.5214   -5.4788   -5.3691   -5.1128
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 560.8883
+
+
+ans =
+
+  Columns 1 through 13
+
+   -0.1764  -33.5871  -44.2761 -142.1792 -149.9944  -89.9478   -4.3989  -27.3056  -26.9627  -29.2722  -29.7420  -15.3981    7.0341
+
+  Columns 14 through 24
+
+   -1.5525    7.4251    7.0059    7.9988   -0.1513  -10.5769   -9.8519  -11.5218   -5.4788   -5.3691   -5.1128
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 560.8849
+
+Local minimum possible. Constraints satisfied.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance and constraints are 
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 10654.659926 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+   -0.1767  -33.5871  -44.2760 -142.1791 -149.9944  -89.9470   -4.3989  -27.3056  -26.9627  -29.2722  -29.7420  -15.3969    7.0341
+
+  Columns 14 through 24
+
+   -1.5525    7.4251    7.0060    7.9988   -0.1512  -10.5676   -9.8627  -11.5223   -5.4788   -5.3691   -5.1128
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 993.3514
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 13-May-2020 08:37:13
+
+ans =
+
+  Columns 1 through 13
+
+   -0.1767  -33.5871  -44.2760 -142.1791 -149.9944  -89.9470   -4.3989  -27.3056  -26.9627  -29.2722  -29.7420  -15.3969    7.0341
+
+  Columns 14 through 24
+
+   -1.5525    7.4251    7.0060    7.9988   -0.1512  -10.5676   -9.8627  -11.5223   -5.4788   -5.3691   -5.1128
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 993.3514
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      993.351            0
+
+ans =
+
+  Columns 1 through 13
+
+   -9.2139  -48.5121  -59.0047 -146.9326 -149.9930 -104.3356   -4.3984  -27.2358  -26.9628  -28.5415  -28.7063  -16.5608    7.0267
+
+  Columns 14 through 24
+
+   -1.5528    7.3214    7.0048    7.5404   -0.0796  -10.6101   -8.5443  -10.1055   -6.9157   -6.7863   -6.5436
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 712.0767
+
+    1     98      712.077            0        0.837          528
+
+ans =
+
+  Columns 1 through 13
+
+  -14.8229  -48.5244  -59.0746 -147.6248 -149.9926 -104.4936   -4.3982  -27.2185  -26.9628  -28.4420  -28.6237  -12.4177    7.0247
+
+  Columns 14 through 24
+
+   -1.5529    7.2977    7.0044    7.5273   -0.0359  -10.6207   -8.5041  -10.0869   -6.9298   -6.8013   -6.5729
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 695.0833
+
+    2    147      695.083            0        0.435          447
+
+ans =
+
+  Columns 1 through 13
+
+  -15.1498  -48.5348  -59.1291 -148.2869 -149.9916 -104.5455   -4.3982  -27.2010  -26.9628  -28.3471  -28.5469  -12.8903    7.0227
+
+  Columns 14 through 24
+
+   -1.5529    7.2744    7.0041    7.5183   -0.0098  -10.6272   -8.5038  -10.0771   -6.9508   -6.7945   -6.6126
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 674.0914
+
+    3    196      674.091            0       0.0416          362
+
+ans =
+
+  Columns 1 through 13
+
+  -15.1093  -48.5509  -59.1615 -148.6912 -149.9909 -104.5713   -4.3983  -27.1901  -26.9628  -28.2983  -28.5113  -12.9045    7.0215
+
+  Columns 14 through 24
+
+   -1.5529    7.2604    7.0039    7.5147    0.0191  -10.6311   -8.5314  -10.0669   -6.9594   -6.8687   -6.6120
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 700.5534
+
+
+ans =
+
+  Columns 1 through 13
+
+  -15.1295  -48.5428  -59.1453 -148.4890 -149.9913 -104.5584   -4.3982  -27.1955  -26.9628  -28.3227  -28.5291  -12.8974    7.0221
+
+  Columns 14 through 24
+
+   -1.5529    7.2674    7.0040    7.5165    0.0046  -10.6292   -8.5176  -10.0720   -6.9551   -6.8316   -6.6123
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 682.6506
+
+
+ans =
+
+  Columns 1 through 13
+
+  -15.1396  -48.5388  -59.1372 -148.3879 -149.9915 -104.5519   -4.3982  -27.1982  -26.9628  -28.3349  -28.5380  -12.8939    7.0224
+
+  Columns 14 through 24
+
+   -1.5529    7.2709    7.0041    7.5174   -0.0026  -10.6282   -8.5107  -10.0746   -6.9529   -6.8131   -6.6124
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 685.4933
+
+
+ans =
+
+  Columns 1 through 13
+
+  -15.1447  -48.5368  -59.1332 -148.3374 -149.9916 -104.5487   -4.3982  -27.1996  -26.9628  -28.3410  -28.5424  -12.8921    7.0226
+
+  Columns 14 through 24
+
+   -1.5529    7.2727    7.0041    7.5179   -0.0062  -10.6277   -8.5073  -10.0759   -6.9519   -6.8038   -6.6125
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 685.8862
+
+
+ans =
+
+  Columns 1 through 13
+
+  -15.1452  -48.5493  -59.1625 -149.5715 -149.9913 -104.5658   -4.3983  -27.1942  -26.9628  -28.3180  -28.5258  -12.9037    7.0220
+
+  Columns 14 through 24
+
+   -1.5529    7.2658    7.0040    7.5161    0.0198  -10.6296   -8.5243  -10.0684   -6.9591   -6.8687   -6.6126
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 674.3097
+
+
+ans =
+
+  Columns 1 through 13
+
+  -15.1497  -48.5347  -59.1339 -149.4445 -149.9916 -104.5492   -4.3982  -27.2008  -26.9628  -28.3463  -28.5463  -12.8926    7.0227
+
+  Columns 14 through 24
+
+   -1.5529    7.2742    7.0041    7.5183   -0.0087  -10.6272   -8.5044  -10.0796   -6.9522   -6.8001   -6.6126
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 675.8141
+
+
+ans =
+
+  Columns 1 through 13
+
+  -15.1497  -48.5348  -59.1315 -148.8662 -149.9916 -104.5473   -4.3982  -27.2009  -26.9628  -28.3467  -28.5466  -12.8915    7.0227
+
+  Columns 14 through 24
+
+   -1.5529    7.2743    7.0041    7.5183   -0.0093  -10.6272   -8.5041  -10.0783   -6.9515   -6.7972   -6.6126
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 673.6841
+
+    4    539      673.684            0      0.00391          294
+
+ans =
+
+  Columns 1 through 13
+
+  -15.1504  -48.0951  -59.2753 -148.9381 -149.9914 -104.5611   -4.3982  -27.1983  -26.9628  -28.3342  -28.5373  -12.9333    7.0225
+
+  Columns 14 through 24
+
+   -1.5529    7.2711    7.0041    7.5172   -0.0168  -10.6279   -8.5144  -10.0792   -6.9515   -6.8038   -6.6076
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 686.1019
+
+
+ans =
+
+  Columns 1 through 13
+
+  -15.1497  -48.5291  -59.1333 -148.8671 -149.9916 -104.5475   -4.3982  -27.2008  -26.9628  -28.3465  -28.5465  -12.8920    7.0227
+
+  Columns 14 through 24
+
+   -1.5529    7.2743    7.0041    7.5183   -0.0094  -10.6272   -8.5043  -10.0783   -6.9515   -6.7973   -6.6125
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 673.6780
+
+    5    637      673.678            0     0.000151          317
+Local minimum possible. Constraints satisfied.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance and constraints are 
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 2139.013766 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -15.1497  -48.5291  -59.1333 -148.8671 -149.9916 -104.5475   -4.3982  -27.2008  -26.9628  -28.3465  -28.5465  -12.8920    7.0227
+
+  Columns 14 through 24
+
+   -1.5529    7.2743    7.0041    7.5183   -0.0094  -10.6272   -8.5043  -10.0783   -6.9515   -6.7973   -6.6125
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 79.3390
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 13-May-2020 09:12:52
+
+ans =
+
+  Columns 1 through 13
+
+  -15.1497  -48.5291  -59.1333 -148.8671 -149.9916 -104.5475   -4.3982  -27.2008  -26.9628  -28.3465  -28.5465  -12.8920    7.0227
+
+  Columns 14 through 24
+
+   -1.5529    7.2743    7.0041    7.5183   -0.0094  -10.6272   -8.5043  -10.0783   -6.9515   -6.7973   -6.6125
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 79.3390
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49       79.339            0
+
+ans =
+
+  Columns 1 through 13
+
+  -20.8815  -62.5205  -74.0511 -149.4237 -149.9858 -119.4725   -4.3982  -27.1530  -26.9628  -27.9941  -28.1272  -12.9028    7.0175
+
+  Columns 14 through 24
+
+   -1.5529    7.2082    7.0031    7.3796   -0.0094  -10.6269   -8.4973  -10.0080   -6.5925   -6.1305   -5.6648
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 17.7803
+
+    1     98      17.7803            0        0.404          433
+
+ans =
+
+  Columns 1 through 13
+
+  -23.6455  -62.7744  -74.0160 -149.6274 -149.9731 -119.4894   -4.3980  -27.1024  -26.9627  -27.6690  -27.7624  -12.9022    7.0117
+
+  Columns 14 through 24
+
+   -1.5529    7.1396    7.0022    7.2570   -0.0094  -10.6266   -8.4907   -9.9484   -6.3619   -5.6673   -5.3095
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 17.1766
+
+    2    147      17.1766            0        0.122         8.99
+
+ans =
+
+  Columns 1 through 13
+
+  -28.6735  -63.4988  -74.1302 -149.9981 -149.9991 -119.5452   -4.3979  -27.0986  -26.9628  -27.6532  -27.7463  -12.9110    7.0111
+
+  Columns 14 through 24
+
+   -1.5529    7.1333    7.0020    7.2487   -0.0093  -10.6263   -8.4829   -9.8756   -6.1077   -5.4778   -5.1914
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 16.1148
+
+    3    196      16.1148            0        0.172         4.96
+
+ans =
+
+  Columns 1 through 13
+
+  -30.1141  -63.5226  -74.1319 -149.9995 -149.9996 -119.5469   -4.3980  -27.1015  -26.9628  -27.6669  -27.7612  -12.9430    7.0115
+
+  Columns 14 through 24
+
+   -1.5529    7.1379    7.0020    7.2554   -0.0090  -10.6251   -8.4598   -9.6437   -5.7286   -5.3444   -5.1265
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 16.0351
+
+    4    245      16.0351            0       0.0709         0.85
+
+ans =
+
+  Columns 1 through 13
+
+  -30.0851  -63.5229  -74.1320 -149.9995 -149.9996 -119.5470   -4.3980  -27.1030  -26.9628  -27.6757  -27.7738  -13.0097    7.0118
+
+  Columns 14 through 24
+
+   -1.5528    7.1406    7.0021    7.2599   -0.0088  -10.6221   -8.4082   -9.1571   -5.4880   -5.3088   -5.1174
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 16.0196
+
+    5    294      16.0196            0       0.0514        0.544
+
+ans =
+
+  Columns 1 through 13
+
+  -30.0843  -63.5230  -74.1320 -149.9995 -149.9996 -119.5470   -4.3980  -27.1020  -26.9628  -27.6743  -27.7765  -13.0937    7.0118
+
+  Columns 14 through 24
+
+   -1.5528    7.1399    7.0022    7.2599   -0.0085  -10.6181   -8.3424   -8.7097   -5.4823   -5.3065   -5.1166
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 16.0166
+
+    6    343      16.0166            0       0.0396       0.0971
+Local minimum found that satisfies the constraints.
+
+Optimization completed because the objective function is non-decreasing in 
+feasible directions, to within the value of the optimality tolerance,
+and constraints are satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 1155.469157 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -30.0843  -63.5230  -74.1320 -149.9995 -149.9996 -119.5470   -4.3980  -27.1020  -26.9628  -27.6743  -27.7765  -13.0937    7.0118
+
+  Columns 14 through 24
+
+   -1.5528    7.1399    7.0022    7.2599   -0.0085  -10.6181   -8.3424   -8.7097   -5.4823   -5.3065   -5.1166
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 379.2483
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 13-May-2020 09:32:07
+
+ans =
+
+  Columns 1 through 13
+
+  -30.0843  -63.5230  -74.1320 -149.9995 -149.9996 -119.5470   -4.3980  -27.1020  -26.9628  -27.6743  -27.7765  -13.0937    7.0118
+
+  Columns 14 through 24
+
+   -1.5528    7.1399    7.0022    7.2599   -0.0085  -10.6181   -8.3424   -8.7097   -5.4823   -5.3065   -5.1166
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 379.2483
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      379.248            0
+
+ans =
+
+  Columns 1 through 13
+
+  -38.1513  -77.8397  -89.0570 -149.9925 -149.9947 -134.4693   -4.3980  -27.0777  -26.9628  -27.5107  -27.5868  -13.0947    7.0091
+
+  Columns 14 through 24
+
+   -1.5527    7.1073    7.0017    7.1976   -0.0090  -10.6199   -8.3852   -9.1730   -6.4314   -6.6142   -6.5382
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 240.7443
+
+    1     98      240.744            0        0.458          347
+
+ans =
+
+  Columns 1 through 13
+
+  -43.0238  -78.2983  -89.0825 -149.9835 -149.9884 -134.5303   -4.3980  -27.0523  -26.9632  -27.3415  -27.3924  -13.0955    7.0061
+
+  Columns 14 through 24
+
+   -1.5524    7.0717    7.0013    7.1327   -0.0080  -10.6214   -8.4247   -9.4263   -6.8890   -6.7884   -6.6066
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 239.2602
+
+    2    147       239.26            0        0.133        0.457
+Local minimum found that satisfies the constraints.
+
+Optimization completed because the objective function is non-decreasing in 
+feasible directions, to within the value of the optimality tolerance,
+and constraints are satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 529.823729 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -43.0238  -78.2983  -89.0825 -149.9835 -149.9884 -134.5303   -4.3980  -27.0523  -26.9632  -27.3415  -27.3924  -13.0955    7.0061
+
+  Columns 14 through 24
+
+   -1.5524    7.0717    7.0013    7.1327   -0.0080  -10.6214   -8.4247   -9.4263   -6.8890   -6.7884   -6.6066
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.0221e+03
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 13-May-2020 09:40:57
+
+ans =
+
+  Columns 1 through 13
+
+  -43.0238  -78.2983  -89.0825 -149.9835 -149.9884 -134.5303   -4.3980  -27.0523  -26.9632  -27.3415  -27.3924  -13.0955    7.0061
+
+  Columns 14 through 24
+
+   -1.5524    7.0717    7.0013    7.1327   -0.0080  -10.6214   -8.4247   -9.4263   -6.8890   -6.7884   -6.6066
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.0221e+03
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      1022.14            0
+
+ans =
+
+  Columns 1 through 13
+
+  -51.4228  -92.6013 -103.9750 -149.9861 -149.9907 -149.4553   -4.3980  -27.0399  -26.9632  -27.2601  -27.2987  -13.0957    7.0047
+
+  Columns 14 through 24
+
+   -1.5524    7.0551    7.0010    7.1017   -0.0080  -10.6224   -8.4496   -9.7349   -7.7567   -8.0813   -8.0340
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 800.2762
+
+    1     98      800.276            0        0.377          327
+
+ans =
+
+  Columns 1 through 13
+
+  -56.3292  -93.1564 -104.0526 -149.9866 -149.9917 -149.5300   -4.3980  -27.0267  -26.9630  -27.1753  -27.2009  -13.0947    7.0032
+
+  Columns 14 through 24
+
+   -1.5523    7.0373    7.0007    7.0687   -0.0092  -10.6233   -8.4742   -9.9741   -8.2663   -8.2754   -8.1008
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 797.9880
+
+    2    147      797.988            0         0.11        0.364
+Local minimum found that satisfies the constraints.
+
+Optimization completed because the objective function is non-decreasing in 
+feasible directions, to within the value of the optimality tolerance,
+and constraints are satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 514.344299 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -56.3292  -93.1564 -104.0526 -149.9866 -149.9917 -149.5300   -4.3980  -27.0267  -26.9630  -27.1753  -27.2009  -13.0947    7.0032
+
+  Columns 14 through 24
+
+   -1.5523    7.0373    7.0007    7.0687   -0.0092  -10.6233   -8.4742   -9.9741   -8.2663   -8.2754   -8.1008
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.9868e+03
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 13-May-2020 09:49:31
+
+ans =
+
+  Columns 1 through 13
+
+  -56.3292  -93.1564 -104.0526 -149.9866 -149.9917 -149.5300   -4.3980  -27.0267  -26.9630  -27.1753  -27.2009  -13.0947    7.0032
+
+  Columns 14 through 24
+
+   -1.5523    7.0373    7.0007    7.0687   -0.0092  -10.6233   -8.4742   -9.9741   -8.2663   -8.2754   -8.1008
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.9868e+03
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      1986.85            0
+
+ans =
+
+  Columns 1 through 13
+
+  -64.2194 -107.4082 -118.9776 -149.9932 -149.9958 -149.7643   -4.3980  -27.0266  -26.9631  -27.1747  -27.2003  -13.0944    7.0032
+
+  Columns 14 through 24
+
+   -1.5523    7.0372    7.0007    7.0686   -0.0083  -10.6237   -8.4860  -10.1365   -8.9518   -9.4987   -9.5149
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.9236e+03
+
+    1     98      1923.59            0        0.296          113
+
+ans =
+
+  Columns 1 through 13
+
+  -70.7809 -108.1527 -119.0519 -149.9976 -149.9985 -149.9199   -4.3980  -27.0265  -26.9629  -27.1749  -27.1996  -13.0940    7.0031
+
+  Columns 14 through 24
+
+   -1.5523    7.0371    7.0008    7.0682   -0.0099  -10.6250   -8.5076  -10.4274   -9.6151   -9.7719   -9.6001
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.9190e+03
+
+    2    147      1919.05            0        0.121         34.7
+
+ans =
+
+  Columns 1 through 13
+
+  -71.3223 -108.1544 -119.0522 -149.9996 -149.9998 -149.9907   -4.3980  -27.0260  -26.9628  -27.1713  -27.1954  -13.0924    7.0031
+
+  Columns 14 through 24
+
+   -1.5523    7.0369    7.0013    7.0655   -0.0143  -10.6270   -8.5772  -11.0943   -9.7655   -9.7745   -9.6005
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.9177e+03
+
+    3    196      1917.67            0       0.0612         7.37
+
+ans =
+
+  Columns 1 through 13
+
+  -71.3022 -108.1544 -119.0522 -149.9999 -149.9999 -149.9994   -4.3980  -27.0247  -26.9634  -27.1550  -27.1960  -13.0910    7.0030
+
+  Columns 14 through 24
+
+   -1.5523    7.0330    7.0025    7.0643   -0.0115  -10.6384   -8.7385  -11.4722   -9.7623   -9.7746   -9.6006
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.9175e+03
+
+    4    245       1917.5            0       0.0368        0.543
+Local minimum found that satisfies the constraints.
+
+Optimization completed because the objective function is non-decreasing in 
+feasible directions, to within the value of the optimality tolerance,
+and constraints are satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 793.557544 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -71.3022 -108.1544 -119.0522 -149.9999 -149.9999 -149.9994   -4.3980  -27.0247  -26.9634  -27.1550  -27.1960  -13.0910    7.0030
+
+  Columns 14 through 24
+
+   -1.5523    7.0330    7.0025    7.0643   -0.0115  -10.6384   -8.7385  -11.4722   -9.7623   -9.7746   -9.6006
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.6622e+03
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 13-May-2020 10:02:45
+
+ans =
+
+  Columns 1 through 13
+
+  -71.3022 -108.1544 -119.0522 -149.9999 -149.9999 -149.9994   -4.3980  -27.0247  -26.9634  -27.1550  -27.1960  -13.0910    7.0030
+
+  Columns 14 through 24
+
+   -1.5523    7.0330    7.0025    7.0643   -0.0115  -10.6384   -8.7385  -11.4722   -9.7623   -9.7746   -9.6006
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.6622e+03
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      3662.24            0
+
+ans =
+
+  Columns 1 through 13
+
+  -78.6084 -122.3149 -133.9772 -149.9999 -149.9999 -149.9997   -4.3980  -27.0247  -26.9634  -27.1548  -27.1953  -13.0917    7.0030
+
+  Columns 14 through 24
+
+   -1.5523    7.0329    7.0027    7.0641   -0.0081  -10.6383   -8.7435  -11.5499  -10.4060  -10.8646  -10.9765
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.6083e+03
+
+    1     98      3608.31            0        0.247          126
+
+ans =
+
+  Columns 1 through 13
+
+  -85.3154 -123.1502 -134.0518 -149.9999 -150.0000 -149.9999   -4.3980  -27.0246  -26.9634  -27.1539  -27.1944  -13.0928    7.0030
+
+  Columns 14 through 24
+
+   -1.5523    7.0328    7.0032    7.0638   -0.0031  -10.6391   -8.7535  -11.6968  -10.9630  -11.2631  -11.0999
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.6068e+03
+
+    2    147       3606.8            0          0.1         38.4
+
+ans =
+
+  Columns 1 through 13
+
+  -86.2973 -123.1521 -134.0519 -149.9999 -150.0000 -150.0000   -4.3980  -27.0241  -26.9634  -27.1546  -27.1940  -13.0986    7.0029
+
+  Columns 14 through 24
+
+   -1.5523    7.0323    7.0023    7.0635   -0.0046  -10.6400   -8.7849  -12.1603  -11.2306  -11.2731  -11.1002
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.6067e+03
+
+    3    196      3606.72            0       0.0445         7.34
+
+ans =
+
+  Columns 1 through 13
+
+  -86.2676 -123.1521 -134.0519 -149.9999 -150.0000 -150.0000   -4.3980  -27.0227  -26.9634  -27.1338  -27.1483  -13.1059    7.0028
+
+  Columns 14 through 24
+
+   -1.5523    7.0306    7.0019    7.0584    0.0067  -10.6452   -8.8784  -12.9682  -11.2549  -11.2732  -11.1002
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.6067e+03
+
+    4    245      3606.71            0        0.064        0.223
+Local minimum found that satisfies the constraints.
+
+Optimization completed because the objective function is non-decreasing in 
+feasible directions, to within the value of the optimality tolerance,
+and constraints are satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 757.641052 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -86.2676 -123.1521 -134.0519 -149.9999 -150.0000 -150.0000   -4.3980  -27.0227  -26.9634  -27.1338  -27.1483  -13.1059    7.0028
+
+  Columns 14 through 24
+
+   -1.5523    7.0306    7.0019    7.0584    0.0067  -10.6452   -8.8784  -12.9682  -11.2549  -11.2732  -11.1002
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 5.8946e+03
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 13-May-2020 10:15:22
+
+ans =
+
+  Columns 1 through 13
+
+  -86.2676 -123.1521 -134.0519 -149.9999 -150.0000 -150.0000   -4.3980  -27.0227  -26.9634  -27.1338  -27.1483  -13.1059    7.0028
+
+  Columns 14 through 24
+
+   -1.5523    7.0306    7.0019    7.0584    0.0067  -10.6452   -8.8784  -12.9682  -11.2549  -11.2732  -11.1002
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 5.8946e+03
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      5894.63            0
+
+ans =
+
+  Columns 1 through 13
+
+  -92.6851 -137.1436 -148.9769 -149.9999 -150.0000 -150.0000   -4.3980  -27.0226  -26.9634  -27.1338  -27.1479  -13.1060    7.0028
+
+  Columns 14 through 24
+
+   -1.5523    7.0305    7.0019    7.0584    0.0094  -10.6452   -8.8800  -13.0002  -11.5652  -12.1369  -12.3945
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 5.8494e+03
+
+    1     98      5849.41            0          0.2          124
+
+ans =
+
+  Columns 1 through 13
+
+  -99.4865 -138.1471 -149.0510 -149.9999 -150.0000 -150.0000   -4.3980  -27.0225  -26.9634  -27.1341  -27.1488  -13.1053    7.0027
+
+  Columns 14 through 24
+
+   -1.5523    7.0304    7.0022    7.0577    0.0058  -10.6463   -8.8830  -13.0618  -12.0418  -12.7154  -12.5985
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 5.8481e+03
+
+    2    147      5848.12            0       0.0911         39.5
+
+ans =
+
+  Columns 1 through 13
+
+ -101.2587 -138.1493 -149.0515 -149.9999 -150.0000 -150.0000   -4.3980  -27.0222  -26.9634  -27.1328  -27.1520  -13.1149    7.0027
+
+  Columns 14 through 24
+
+   -1.5523    7.0299    7.0059    7.0607    0.0042  -10.6469   -8.8907  -13.2664  -12.6402  -12.7702  -12.5996
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 5.8480e+03
+
+    3    196      5848.02            0       0.0522         3.55
+Local minimum found that satisfies the constraints.
+
+Optimization completed because the objective function is non-decreasing in 
+feasible directions, to within the value of the optimality tolerance,
+and constraints are satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 599.566680 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+ -101.2587 -138.1493 -149.0515 -149.9999 -150.0000 -150.0000   -4.3980  -27.0222  -26.9634  -27.1328  -27.1520  -13.1149    7.0027
+
+  Columns 14 through 24
+
+   -1.5523    7.0299    7.0059    7.0607    0.0042  -10.6469   -8.8907  -13.2664  -12.6402  -12.7702  -12.5996
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.5879e+03
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 13-May-2020 10:25:21
+
+ans =
+
+  Columns 1 through 13
+
+ -101.2587 -138.1493 -149.0515 -149.9999 -150.0000 -150.0000   -4.3980  -27.0222  -26.9634  -27.1328  -27.1520  -13.1149    7.0027
+
+  Columns 14 through 24
+
+   -1.5523    7.0299    7.0059    7.0607    0.0042  -10.6469   -8.8907  -13.2664  -12.6402  -12.7702  -12.5996
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.5879e+03
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      8587.88            0
+
+ans =
+
+  Columns 1 through 13
+
+ -108.2398 -149.9407 -149.6758 -149.9999 -150.0000 -150.0000   -4.3980  -27.0221  -26.9634  -27.1323  -27.1520  -13.1148    7.0027
+
+  Columns 14 through 24
+
+   -1.5523    7.0299    7.0059    7.0607   -0.0006  -10.6469   -8.8911  -13.2807  -12.7996  -13.4957  -14.0713
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.5819e+03
+
+    1     98      8581.92            0        0.153         9.63
+
+ans =
+
+  Columns 1 through 13
+
+ -114.6200 -149.9931 -149.9099 -149.9999 -150.0000 -150.0000   -4.3980  -27.0220  -26.9634  -27.1316  -27.1524  -13.1129    7.0027
+
+  Columns 14 through 24
+
+   -1.5523    7.0297    7.0059    7.0604    0.0020  -10.6470   -8.8924  -13.3072  -13.0641  -14.1273  -14.0995
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.5812e+03
+
+    2    147      8581.19            0       0.0731         2.63
+Local minimum found that satisfies the constraints.
+
+Optimization completed because the objective function is non-decreasing in 
+feasible directions, to within the value of the optimality tolerance,
+and constraints are satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 454.575472 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+ -114.6200 -149.9931 -149.9099 -149.9999 -150.0000 -150.0000   -4.3980  -27.0220  -26.9634  -27.1316  -27.1524  -13.1129    7.0027
+
+  Columns 14 through 24
+
+   -1.5523    7.0297    7.0059    7.0604    0.0020  -10.6470   -8.8924  -13.3072  -13.0641  -14.1273  -14.0995
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.1565e+04
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 13-May-2020 10:32:55
+
+ans =
+
+  Columns 1 through 13
+
+ -114.6200 -149.9931 -149.9099 -149.9999 -150.0000 -150.0000   -4.3980  -27.0220  -26.9634  -27.1316  -27.1524  -13.1129    7.0027
+
+  Columns 14 through 24
+
+   -1.5523    7.0297    7.0059    7.0604    0.0020  -10.6470   -8.8924  -13.3072  -13.0641  -14.1273  -14.0995
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.1565e+04
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      11565.4            0
+Initial point is a local minimum that satisfies the constraints.
+
+Optimization completed because at the initial point, the objective function is non-decreasing 
+in feasible directions to within the value of the optimality tolerance, and 
+constraints are satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 195.769780 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+ -114.6200 -149.9931 -149.9099 -149.9999 -150.0000 -150.0000   -4.3980  -27.0220  -26.9634  -27.1316  -27.1524  -13.1129    7.0027
+
+  Columns 14 through 24
+
+   -1.5523    7.0297    7.0059    7.0604    0.0020  -10.6470   -8.8924  -13.3072  -13.0641  -14.1273  -14.0995
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4594e+04
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 13-May-2020 10:36:11
+
+ans =
+
+  Columns 1 through 13
+
+ -114.6200 -149.9931 -149.9099 -149.9999 -150.0000 -150.0000   -4.3980  -27.0220  -26.9634  -27.1316  -27.1524  -13.1129    7.0027
+
+  Columns 14 through 24
+
+   -1.5523    7.0297    7.0059    7.0604    0.0020  -10.6470   -8.8924  -13.3072  -13.0641  -14.1273  -14.0995
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4594e+04
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      14593.7            0
+Initial point is a local minimum that satisfies the constraints.
+
+Optimization completed because at the initial point, the objective function is non-decreasing 
+in feasible directions to within the value of the optimality tolerance, and 
+constraints are satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 191.868823 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+ -114.6200 -149.9931 -149.9099 -149.9999 -150.0000 -150.0000   -4.3980  -27.0220  -26.9634  -27.1316  -27.1524  -13.1129    7.0027
+
+  Columns 14 through 24
+
+   -1.5523    7.0297    7.0059    7.0604    0.0020  -10.6470   -8.8924  -13.3072  -13.0641  -14.1273  -14.0995
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.7463e+04
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 13-May-2020 10:39:22
+
+ans =
+
+  Columns 1 through 13
+
+ -114.6200 -149.9931 -149.9099 -149.9999 -150.0000 -150.0000   -4.3980  -27.0220  -26.9634  -27.1316  -27.1524  -13.1129    7.0027
+
+  Columns 14 through 24
+
+   -1.5523    7.0297    7.0059    7.0604    0.0020  -10.6470   -8.8924  -13.3072  -13.0641  -14.1273  -14.0995
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.7463e+04
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      17463.1            0
+Initial point is a local minimum that satisfies the constraints.
+
+Optimization completed because at the initial point, the objective function is non-decreasing 
+in feasible directions to within the value of the optimality tolerance, and 
+constraints are satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 183.128197 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+ -114.6200 -149.9931 -149.9099 -149.9999 -150.0000 -150.0000   -4.3980  -27.0220  -26.9634  -27.1316  -27.1524  -13.1129    7.0027
+
+  Columns 14 through 24
+
+   -1.5523    7.0297    7.0059    7.0604    0.0020  -10.6470   -8.8924  -13.3072  -13.0641  -14.1273  -14.0995
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.6969e+04
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 13-May-2020 10:42:25
+
+ans =
+
+  Columns 1 through 13
+
+ -114.6200 -149.9931 -149.9099 -149.9999 -150.0000 -150.0000   -4.3980  -27.0220  -26.9634  -27.1316  -27.1524  -13.1129    7.0027
+
+  Columns 14 through 24
+
+   -1.5523    7.0297    7.0059    7.0604    0.0020  -10.6470   -8.8924  -13.3072  -13.0641  -14.1273  -14.0995
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.6969e+04
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      16969.4            0
+Initial point is a local minimum that satisfies the constraints.
+
+Optimization completed because at the initial point, the objective function is non-decreasing 
+in feasible directions to within the value of the optimality tolerance, and 
+constraints are satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 175.883557 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+ -114.6200 -149.9931 -149.9099 -149.9999 -150.0000 -150.0000   -4.3980  -27.0220  -26.9634  -27.1316  -27.1524  -13.1129    7.0027
+
+  Columns 14 through 24
+
+   -1.5523    7.0297    7.0059    7.0604    0.0020  -10.6470   -8.8924  -13.3072  -13.0641  -14.1273  -14.0995
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.8642e+04
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 13-May-2020 10:45:21
+
+ans =
+
+  Columns 1 through 13
+
+ -114.6200 -149.9931 -149.9099 -149.9999 -150.0000 -150.0000   -4.3980  -27.0220  -26.9634  -27.1316  -27.1524  -13.1129    7.0027
+
+  Columns 14 through 24
+
+   -1.5523    7.0297    7.0059    7.0604    0.0020  -10.6470   -8.8924  -13.3072  -13.0641  -14.1273  -14.0995
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.8642e+04
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      18641.9            0
+Initial point is a local minimum that satisfies the constraints.
+
+Optimization completed because at the initial point, the objective function is non-decreasing 
+in feasible directions to within the value of the optimality tolerance, and 
+constraints are satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 172.542313 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+ -114.6200 -149.9931 -149.9099 -149.9999 -150.0000 -150.0000   -4.3980  -27.0220  -26.9634  -27.1316  -27.1524  -13.1129    7.0027
+
+  Columns 14 through 24
+
+   -1.5523    7.0297    7.0059    7.0604    0.0020  -10.6470   -8.8924  -13.3072  -13.0641  -14.1273  -14.0995
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.9244e+04
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 13-May-2020 10:48:13
+
+ans =
+
+  Columns 1 through 13
+
+ -114.6200 -149.9931 -149.9099 -149.9999 -150.0000 -150.0000   -4.3980  -27.0220  -26.9634  -27.1316  -27.1524  -13.1129    7.0027
+
+  Columns 14 through 24
+
+   -1.5523    7.0297    7.0059    7.0604    0.0020  -10.6470   -8.8924  -13.3072  -13.0641  -14.1273  -14.0995
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.9244e+04
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      19243.9            0
+Initial point is a local minimum that satisfies the constraints.
+
+Optimization completed because at the initial point, the objective function is non-decreasing 
+in feasible directions to within the value of the optimality tolerance, and 
+constraints are satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 170.551374 seconds.
+
+ic = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    p: 0.4314
+
+IdleTimeout has been reached.
+Parallel pool using the 'local' profile is shutting down.
