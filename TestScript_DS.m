@@ -21,9 +21,9 @@ icID = [sim_file_dir '\IC_ds']; %initial conditions .mat file identifier
 %desired test
 test.name = 'doubleSupportOptTargets';
 test.code = 'ds1';
-test.costfxn = 'dynamicEffort';
+test.costfxn = 'COMEnergy';
 test.inter = 'v2';
-test.plant = 'v2';
+test.plant = 'v1';
 
 %desired model versions
 objfun_vers = test.costfxn; %version of cost functions to use
