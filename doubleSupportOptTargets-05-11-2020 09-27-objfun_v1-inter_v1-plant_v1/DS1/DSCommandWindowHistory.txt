@@ -8011,4 +8011,33 @@ as a cell.]
 [> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 205)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',205,0)">line 205</a>)] 
 [Warning: Variable 'itf' originally saved as a COM.C3DServer_C3D cannot be instantiated as an object and will be read in
 as a cell.] 
-[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 213)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',213,0)
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trajectory_4_SSP', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m', 213)" style="font-weight:bold">trajectory_4_SSP</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Normal Gait Data\Normal Gait Testing 4\trajectory_4_SSP.m',213,0)">line 213</a>)] 
+DS1_Plot_Code
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    norm: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    norm: [1×1 struct]
+       m: [1×1 struct]
+
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    norm: [1×1 struct]
+       m: [1×2 struct]
+
+uiopen('C:\Users\jess-local\OneDrive - Marquette University\Research\Simulations\Summer 2018 Simulations\Main_18\objfunSS.m',1)
+uiopen('C:\Users\jess-local\OneDrive - Marquette University\Research\Simulations\Summer 2018 Simulations\Main_30\objfunSS.m',1)
+uiopen('C:\Users\jess-local\OneDrive - Marquette University\Research\Simulations\Summer 2018 Simulations\Main_14\objfunSS.m',1)
+uiopen('C:\Users\jess-local\OneDrive - Marquette University\Research\Simulations\Summer 2018 Simulations\Main_35\objfunSS.m',1)
+TestScript_DS
