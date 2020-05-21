@@ -45,9 +45,28 @@ mkdir(trialName) %create a folder to work in
 directory = cd(trialName); %save return filepath as variable
 
 try 
-    addpath(directory)
-    run(test.code)
-    run('ds1') % run test
+    %check for completion of SS period 1 or run SS1
+    cd([sim_file_dir '\' trialName])
+    if exist('complete_ss1','var') == 0
+        addpath(sim_file_dir)
+        run ss1 % run double support period 1
+        complete_ss1 = 1;
+        cd(directory)
+    end   
+    
+    %check for completion of DS period 2 or run DS2
+    cd([sim_file_dir '\' trialName])
+    if exist('complete_ds2','var') == 0
+        addpath(sim_file_dir)
+        icID = [sim_file_dir '\' trialName '\SS1\ss1_plant_end'];
+        run ds2 % run double support period 1
+        complete_ds2 = 1;
+        cd(subdirectory)
+    end
+    
+    clearvars -except directory subdirectory ...
+    objfun_vers inter_vers plant_vers... 
+    trialName sim_file_dir ds_plant_loc ds_inter_loc ss_plant_loc ss_inter_loc
     cd(directory)
 
 catch ME
