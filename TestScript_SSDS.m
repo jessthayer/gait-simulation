@@ -21,10 +21,9 @@ icID = [sim_file_dir '\IC_ss_sunModel']; %initial conditions .mat file identifie
 
 %desired test
 test.name = 'SSDS-OptTargets';
-test.code = 'ss1';
 test.costfxn = 'v1';
-test.inter = 'hardStopOff';
-test.plant = 'v2';
+test.inter = 'v1';
+test.plant = 'v1';
 
 %desired model versions
 objfun_vers = test.costfxn; %version of cost functions to use
@@ -47,22 +46,16 @@ directory = cd(trialName); %save return filepath as variable
 try 
     %check for completion of SS period 1 or run SS1
     cd([sim_file_dir '\' trialName])
-    if exist('complete_ss1','var') == 0
         addpath(sim_file_dir)
         run ss1 % run double support period 1
-        complete_ss1 = 1;
         cd(directory)
-    end   
     
     %check for completion of DS period 2 or run DS2
     cd([sim_file_dir '\' trialName])
-    if exist('complete_ds2','var') == 0
         addpath(sim_file_dir)
         icID = [sim_file_dir '\' trialName '\SS1\ss1_plant_end'];
         run ds2 % run double support period 1
-        complete_ds2 = 1;
         cd(subdirectory)
-    end
     
     clearvars -except directory subdirectory ...
     objfun_vers inter_vers plant_vers... 
