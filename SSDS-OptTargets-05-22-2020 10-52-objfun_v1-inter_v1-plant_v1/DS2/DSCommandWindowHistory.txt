@@ -1,0 +1,522 @@
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 4).
+
+ans = 
+
+ <a href="matlab: helpPopup parallel.Pool" style="font-weight:bold">Pool</a> with properties: 
+
+            Connected: true
+           NumWorkers: 4
+              Cluster: <a href="matlab: parallel.internal.display.Displayer.displayObject('1F8B0800000000000000AD54CD4EC240105E2A2592A8D18BE1E80318A2C6037A51C41835540C62F4D0041758A1BA74EBB62472F3E8A378F4317C042FDE3DF208EED2A95DB655343AC99776A6F3CDDF4E17658E2C246441E0492027302BB08442C97C3EB3C8AAD4CEA4BE2AE0618E2925B4E8B801E12EA6C58EE37B140F8B07034A2B74E00BB345FAC40D5814FF50893F0F714DD073902BCA27F542F8FA6628DF22C8782BB9385E5E8B277D46661CCF001D29FD9E9A31DF48E1ABF598A27F1374F994B388E2CC9A3F9B9BECF9C0A1E48263CF23BCD904FE4B36E6C7F9D2E722FD0B99AFFB7ED7FC0DB0CD088834E84AE001F02CF00ADF23690C3D82F6718051CA397E79E8282159C8394D3229BA6A3350B21FDD479505E5A9EE5B16ECEAF92E2B711641FF6CB11DB65EACB236A661BC35E377FB5200FD5EE094B36B71F4897A8F59EB2C601C77894C1438CC0DED2783FE05E3B784FB93FE7572377038F16B2E755C5275DAC4F51DB72BFD1B3D4E7047F3977597A6CC21DAEB680E52A761DB63FEC3147E4DE34BBDB26D9FFBA27ABB54DADC087A7848F88D5DF63CB95A769DE1BE28DAB670D0935DFAB6556E54CB7BF6386B1346DFBC612DDFAE6FACAD6FE1441FB929F3CF831DAADA1D9F9FC2CF1BDFF30D78FB5BDED18ECE9FD3F8FA3E9B13FCE4BDACFBE97C3D5FDA9E2234B9A7FFCD7F44DFDFCB97489D73A8ABF7B2FADFFEE55E96F201F22352F3E0060000')">local</a>
+        AttachedFiles: {}
+    AutoAddClientPath: true
+          IdleTimeout: 30 minutes (30 minutes remaining)
+          SpmdEnabled: true
+
+[Warning: The file containing block diagram '<a href="matlab:open_system ('ss1_inter')">ss1_inter</a>' is shadowed by a file of the same name higher on the MATLAB path. This can
+cause unexpected behavior. For more information see <a href="matlab:helpview([docroot '/toolbox/simulink/helptargets.map'], 'shadowing')">"Avoiding Problems with Shadowed Files"</a> in the Simulink documentation.
+
+The file containing the block diagram is: C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\SSDS-OptTargets-05-22-2020
+10-52-objfun_v1-inter_v1-plant_v1\SS1\ss1_inter.slx.
+The file higher on the MATLAB path is: C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\SSDS-OptTargets-05-22-2020
+09-29-objfun_v1-inter_v1-plant_v1\SS1\ss1_inter.slx] 
+[> In Simulink.findVars
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sldodialogs.getModelVariables', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldoguis\+sldodialogs\getModelVariables.m', 32)" style="font-weight:bold">sldodialogs.getModelVariables</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldoguis\+sldodialogs\getModelVariables.m',32,0)">line 32</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.getParameterFromModel>lGetAllVariables', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\getParameterFromModel.m', 104)" style="font-weight:bold">sdo.getParameterFromModel>lGetAllVariables</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\getParameterFromModel.m',104,0)">line 104</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.getParameterFromModel', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\getParameterFromModel.m', 55)" style="font-weight:bold">sdo.getParameterFromModel</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\getParameterFromModel.m',55,0)">line 55</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ds2', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\ds2.m', 63)" style="font-weight:bold">ds2</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\ds2.m',63,0)">line 63</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m', 91)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m',91,0)">line 91</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TestScript_SSDS', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\TestScript_SSDS.m', 57)" style="font-weight:bold">TestScript_SSDS</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\TestScript_SSDS.m',57,0)">line 57</a>)] 
+[Warning: The file containing block diagram '<a href="matlab:open_system ('ss1_plant')">ss1_plant</a>' is shadowed by a file of the same name higher on the MATLAB path. This can
+cause unexpected behavior. For more information see <a href="matlab:helpview([docroot '/toolbox/simulink/helptargets.map'], 'shadowing')">"Avoiding Problems with Shadowed Files"</a> in the Simulink documentation.
+
+The file containing the block diagram is: C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\SSDS-OptTargets-05-22-2020
+10-52-objfun_v1-inter_v1-plant_v1\SS1\ss1_plant.slx.
+The file higher on the MATLAB path is: C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\SSDS-OptTargets-05-22-2020
+09-29-objfun_v1-inter_v1-plant_v1\SS1\ss1_plant.slx] 
+[> In Simulink.findVars
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sldodialogs.getModelVariables', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldoguis\+sldodialogs\getModelVariables.m', 32)" style="font-weight:bold">sldodialogs.getModelVariables</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldoguis\+sldodialogs\getModelVariables.m',32,0)">line 32</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.getParameterFromModel>lGetAllVariables', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\getParameterFromModel.m', 104)" style="font-weight:bold">sdo.getParameterFromModel>lGetAllVariables</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\getParameterFromModel.m',104,0)">line 104</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.getParameterFromModel', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\getParameterFromModel.m', 55)" style="font-weight:bold">sdo.getParameterFromModel</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\getParameterFromModel.m',55,0)">line 55</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ds2', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\ds2.m', 63)" style="font-weight:bold">ds2</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\ds2.m',63,0)">line 63</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m', 91)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m',91,0)">line 91</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TestScript_SSDS', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\TestScript_SSDS.m', 57)" style="font-weight:bold">TestScript_SSDS</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\TestScript_SSDS.m',57,0)">line 57</a>)] 
+[Warning: The file containing block diagram '<a href="matlab:open_system ('ss1_inter')">ss1_inter</a>' is shadowed by a file of the same name higher on the MATLAB path. This can
+cause unexpected behavior. For more information see <a href="matlab:helpview([docroot '/toolbox/simulink/helptargets.map'], 'shadowing')">"Avoiding Problems with Shadowed Files"</a> in the Simulink documentation.
+
+The file containing the block diagram is: C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\SSDS-OptTargets-05-22-2020
+10-52-objfun_v1-inter_v1-plant_v1\SS1\ss1_inter.slx.
+The file higher on the MATLAB path is: C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\SSDS-OptTargets-05-22-2020
+09-29-objfun_v1-inter_v1-plant_v1\SS1\ss1_inter.slx] 
+[> In Simulink.SimulationInput/sim
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.SimulationTest/sim', 'C:\Program Files\MATLAB\R2019a\toolbox\shared\slcontrollib\+sdo\SimulationTest.m', 717)" style="font-weight:bold">sdo.SimulationTest/sim</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\shared\slcontrollib\+sdo\SimulationTest.m',717,0)">line 717</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('objfunDS_v1', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\objfunDS_v1.m', 5)" style="font-weight:bold">objfunDS_v1</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\objfunDS_v1.m',5,0)">line 5</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ds2>@(p)costfxn(p,simulator)')" style="font-weight:bold">ds2>@(p)costfxn(p,simulator)</a>
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.absSolver/configure', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m', 843)" style="font-weight:bold">sdo.solvers.absSolver/configure</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m',843,0)">line 843</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 48)" style="font-weight:bold">sdo.solvers.fmincon</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',48,0)">line 48</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.absSolver.createSolver', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m', 1136)" style="font-weight:bold">sdo.solvers.absSolver.createSolver</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m',1136,0)">line 1136</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.optimize', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\optimize.m', 111)" style="font-weight:bold">sdo.optimize</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\optimize.m',111,0)">line 111</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ds2', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\ds2.m', 117)" style="font-weight:bold">ds2</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\ds2.m',117,0)">line 117</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m', 91)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m',91,0)">line 91</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TestScript_SSDS', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\TestScript_SSDS.m', 57)" style="font-weight:bold">TestScript_SSDS</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\TestScript_SSDS.m',57,0)">line 57</a>)] 
+[Warning: The file containing block diagram '<a href="matlab:open_system ('ss1_plant')">ss1_plant</a>' is shadowed by a file of the same name higher on the MATLAB path. This can
+cause unexpected behavior. For more information see <a href="matlab:helpview([docroot '/toolbox/simulink/helptargets.map'], 'shadowing')">"Avoiding Problems with Shadowed Files"</a> in the Simulink documentation.
+
+The file containing the block diagram is: C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\SSDS-OptTargets-05-22-2020
+10-52-objfun_v1-inter_v1-plant_v1\SS1\ss1_plant.slx.
+The file higher on the MATLAB path is: C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\SSDS-OptTargets-05-22-2020
+09-29-objfun_v1-inter_v1-plant_v1\SS1\ss1_plant.slx] 
+[> In Simulink.SimulationInput/sim
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.SimulationTest/sim', 'C:\Program Files\MATLAB\R2019a\toolbox\shared\slcontrollib\+sdo\SimulationTest.m', 717)" style="font-weight:bold">sdo.SimulationTest/sim</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\shared\slcontrollib\+sdo\SimulationTest.m',717,0)">line 717</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('objfunDS_v1', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\objfunDS_v1.m', 5)" style="font-weight:bold">objfunDS_v1</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\objfunDS_v1.m',5,0)">line 5</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ds2>@(p)costfxn(p,simulator)')" style="font-weight:bold">ds2>@(p)costfxn(p,simulator)</a>
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.absSolver/configure', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m', 843)" style="font-weight:bold">sdo.solvers.absSolver/configure</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m',843,0)">line 843</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 48)" style="font-weight:bold">sdo.solvers.fmincon</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',48,0)">line 48</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.absSolver.createSolver', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m', 1136)" style="font-weight:bold">sdo.solvers.absSolver.createSolver</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m',1136,0)">line 1136</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.optimize', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\optimize.m', 111)" style="font-weight:bold">sdo.optimize</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\optimize.m',111,0)">line 111</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ds2', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\ds2.m', 117)" style="font-weight:bold">ds2</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\ds2.m',117,0)">line 117</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m', 91)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m',91,0)">line 91</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TestScript_SSDS', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\TestScript_SSDS.m', 57)" style="font-weight:bold">TestScript_SSDS</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\TestScript_SSDS.m',57,0)">line 57</a>)] 
+
+ans =
+
+  Columns 1 through 21
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 22 through 24
+
+     0     0     0
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.1254e+05
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 23-May-2020 02:25:29
+[Warning: The file containing block diagram '<a href="matlab:open_system ('ss1_inter')">ss1_inter</a>' is shadowed by a file of the same name higher on the MATLAB path. This can
+cause unexpected behavior. For more information see <a href="matlab:helpview([docroot '/toolbox/simulink/helptargets.map'], 'shadowing')">"Avoiding Problems with Shadowed Files"</a> in the Simulink documentation.
+
+The file containing the block diagram is: C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\SSDS-OptTargets-05-22-2020
+10-52-objfun_v1-inter_v1-plant_v1\SS1\ss1_inter.slx.
+The file higher on the MATLAB path is: C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\SSDS-OptTargets-05-22-2020
+09-29-objfun_v1-inter_v1-plant_v1\SS1\ss1_inter.slx] 
+[> In Simulink.SimulationInput/sim
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.SimulationTest/sim', 'C:\Program Files\MATLAB\R2019a\toolbox\shared\slcontrollib\+sdo\SimulationTest.m', 717)" style="font-weight:bold">sdo.SimulationTest/sim</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\shared\slcontrollib\+sdo\SimulationTest.m',717,0)">line 717</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('objfunDS_v1', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\objfunDS_v1.m', 5)" style="font-weight:bold">objfunDS_v1</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\objfunDS_v1.m',5,0)">line 5</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ds2>@(p)costfxn(p,simulator)')" style="font-weight:bold">ds2>@(p)costfxn(p,simulator)</a>
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.absSolver/evalRequirements', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m', 350)" style="font-weight:bold">sdo.solvers.absSolver/evalRequirements</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m',350,0)">line 350</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon/evalRequirements', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 285)" style="font-weight:bold">sdo.solvers.fmincon/evalRequirements</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',285,0)">line 285</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon/costFcn', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 317)" style="font-weight:bold">sdo.solvers.fmincon/costFcn</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',317,0)">line 317</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon>@(x)costFcn(this,x,Log,GradLog)')" style="font-weight:bold">sdo.solvers.fmincon>@(x)costFcn(this,x,Log,GradLog)</a>
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fmincon', 'C:\Program Files\MATLAB\R2019a\toolbox\shared\optimlib\fmincon.p', 561)" style="font-weight:bold">fmincon</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\shared\optimlib\fmincon.p',561,0)">line 561</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon/minimize', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 196)" style="font-weight:bold">sdo.solvers.fmincon/minimize</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',196,0)">line 196</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.absSolver/run', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m', 992)" style="font-weight:bold">sdo.solvers.absSolver/run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m',992,0)">line 992</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.optimize', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\optimize.m', 124)" style="font-weight:bold">sdo.optimize</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\optimize.m',124,0)">line 124</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ds2', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\ds2.m', 117)" style="font-weight:bold">ds2</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\ds2.m',117,0)">line 117</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m', 91)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m',91,0)">line 91</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TestScript_SSDS', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\TestScript_SSDS.m', 57)" style="font-weight:bold">TestScript_SSDS</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\TestScript_SSDS.m',57,0)">line 57</a>)] 
+[Warning: The file containing block diagram '<a href="matlab:open_system ('ss1_plant')">ss1_plant</a>' is shadowed by a file of the same name higher on the MATLAB path. This can
+cause unexpected behavior. For more information see <a href="matlab:helpview([docroot '/toolbox/simulink/helptargets.map'], 'shadowing')">"Avoiding Problems with Shadowed Files"</a> in the Simulink documentation.
+
+The file containing the block diagram is: C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\SSDS-OptTargets-05-22-2020
+10-52-objfun_v1-inter_v1-plant_v1\SS1\ss1_plant.slx.
+The file higher on the MATLAB path is: C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\SSDS-OptTargets-05-22-2020
+09-29-objfun_v1-inter_v1-plant_v1\SS1\ss1_plant.slx] 
+[> In Simulink.SimulationInput/sim
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.SimulationTest/sim', 'C:\Program Files\MATLAB\R2019a\toolbox\shared\slcontrollib\+sdo\SimulationTest.m', 717)" style="font-weight:bold">sdo.SimulationTest/sim</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\shared\slcontrollib\+sdo\SimulationTest.m',717,0)">line 717</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('objfunDS_v1', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\objfunDS_v1.m', 5)" style="font-weight:bold">objfunDS_v1</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\objfunDS_v1.m',5,0)">line 5</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ds2>@(p)costfxn(p,simulator)')" style="font-weight:bold">ds2>@(p)costfxn(p,simulator)</a>
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.absSolver/evalRequirements', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m', 350)" style="font-weight:bold">sdo.solvers.absSolver/evalRequirements</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m',350,0)">line 350</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon/evalRequirements', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 285)" style="font-weight:bold">sdo.solvers.fmincon/evalRequirements</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',285,0)">line 285</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon/costFcn', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 317)" style="font-weight:bold">sdo.solvers.fmincon/costFcn</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',317,0)">line 317</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon>@(x)costFcn(this,x,Log,GradLog)')" style="font-weight:bold">sdo.solvers.fmincon>@(x)costFcn(this,x,Log,GradLog)</a>
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fmincon', 'C:\Program Files\MATLAB\R2019a\toolbox\shared\optimlib\fmincon.p', 561)" style="font-weight:bold">fmincon</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\shared\optimlib\fmincon.p',561,0)">line 561</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon/minimize', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 196)" style="font-weight:bold">sdo.solvers.fmincon/minimize</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',196,0)">line 196</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.absSolver/run', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m', 992)" style="font-weight:bold">sdo.solvers.absSolver/run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m',992,0)">line 992</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.optimize', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\optimize.m', 124)" style="font-weight:bold">sdo.optimize</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\optimize.m',124,0)">line 124</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ds2', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\ds2.m', 117)" style="font-weight:bold">ds2</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\ds2.m',117,0)">line 117</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m', 91)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m',91,0)">line 91</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TestScript_SSDS', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\TestScript_SSDS.m', 57)" style="font-weight:bold">TestScript_SSDS</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\TestScript_SSDS.m',57,0)">line 57</a>)] 
+
+ans =
+
+  Columns 1 through 21
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 22 through 24
+
+     0     0     0
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.1254e+05
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     59       112545            0
+[Warning: The file containing block diagram '<a href="matlab:open_system ('ss1_inter')">ss1_inter</a>' is shadowed by a file of the same name higher on the MATLAB path. This can
+cause unexpected behavior. For more information see <a href="matlab:helpview([docroot '/toolbox/simulink/helptargets.map'], 'shadowing')">"Avoiding Problems with Shadowed Files"</a> in the Simulink documentation.
+
+The file containing the block diagram is: C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\SSDS-OptTargets-05-22-2020
+10-52-objfun_v1-inter_v1-plant_v1\SS1\ss1_inter.slx.
+The file higher on the MATLAB path is: C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\SSDS-OptTargets-05-22-2020
+09-29-objfun_v1-inter_v1-plant_v1\SS1\ss1_inter.slx] 
+[> In Simulink.SimulationInput/sim
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.SimulationTest/sim', 'C:\Program Files\MATLAB\R2019a\toolbox\shared\slcontrollib\+sdo\SimulationTest.m', 717)" style="font-weight:bold">sdo.SimulationTest/sim</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\shared\slcontrollib\+sdo\SimulationTest.m',717,0)">line 717</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('objfunDS_v1', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\objfunDS_v1.m', 5)" style="font-weight:bold">objfunDS_v1</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\objfunDS_v1.m',5,0)">line 5</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ds2>@(p)costfxn(p,simulator)')" style="font-weight:bold">ds2>@(p)costfxn(p,simulator)</a>
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.absSolver/evalRequirements', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m', 350)" style="font-weight:bold">sdo.solvers.absSolver/evalRequirements</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m',350,0)">line 350</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon/evalRequirements', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 285)" style="font-weight:bold">sdo.solvers.fmincon/evalRequirements</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',285,0)">line 285</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon/constrFcn', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 366)" style="font-weight:bold">sdo.solvers.fmincon/constrFcn</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',366,0)">line 366</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon>@(x)constrFcn(this,x,Log,GradLog)')" style="font-weight:bold">sdo.solvers.fmincon>@(x)constrFcn(this,x,Log,GradLog)</a>
+  In barrier
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fmincon', 'C:\Program Files\MATLAB\R2019a\toolbox\shared\optimlib\fmincon.p', 824)" style="font-weight:bold">fmincon</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\shared\optimlib\fmincon.p',824,0)">line 824</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon/minimize', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 196)" style="font-weight:bold">sdo.solvers.fmincon/minimize</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',196,0)">line 196</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.absSolver/run', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m', 992)" style="font-weight:bold">sdo.solvers.absSolver/run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m',992,0)">line 992</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.optimize', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\optimize.m', 124)" style="font-weight:bold">sdo.optimize</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\optimize.m',124,0)">line 124</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ds2', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\ds2.m', 117)" style="font-weight:bold">ds2</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\ds2.m',117,0)">line 117</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m', 91)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m',91,0)">line 91</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TestScript_SSDS', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\TestScript_SSDS.m', 57)" style="font-weight:bold">TestScript_SSDS</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\TestScript_SSDS.m',57,0)">line 57</a>)] 
+[Warning: The file containing block diagram '<a href="matlab:open_system ('ss1_plant')">ss1_plant</a>' is shadowed by a file of the same name higher on the MATLAB path. This can
+cause unexpected behavior. For more information see <a href="matlab:helpview([docroot '/toolbox/simulink/helptargets.map'], 'shadowing')">"Avoiding Problems with Shadowed Files"</a> in the Simulink documentation.
+
+The file containing the block diagram is: C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\SSDS-OptTargets-05-22-2020
+10-52-objfun_v1-inter_v1-plant_v1\SS1\ss1_plant.slx.
+The file higher on the MATLAB path is: C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\SSDS-OptTargets-05-22-2020
+09-29-objfun_v1-inter_v1-plant_v1\SS1\ss1_plant.slx] 
+[> In Simulink.SimulationInput/sim
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.SimulationTest/sim', 'C:\Program Files\MATLAB\R2019a\toolbox\shared\slcontrollib\+sdo\SimulationTest.m', 717)" style="font-weight:bold">sdo.SimulationTest/sim</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\shared\slcontrollib\+sdo\SimulationTest.m',717,0)">line 717</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('objfunDS_v1', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\objfunDS_v1.m', 5)" style="font-weight:bold">objfunDS_v1</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\objfunDS_v1.m',5,0)">line 5</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ds2>@(p)costfxn(p,simulator)')" style="font-weight:bold">ds2>@(p)costfxn(p,simulator)</a>
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.absSolver/evalRequirements', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m', 350)" style="font-weight:bold">sdo.solvers.absSolver/evalRequirements</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m',350,0)">line 350</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon/evalRequirements', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 285)" style="font-weight:bold">sdo.solvers.fmincon/evalRequirements</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',285,0)">line 285</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon/constrFcn', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 366)" style="font-weight:bold">sdo.solvers.fmincon/constrFcn</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',366,0)">line 366</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon>@(x)constrFcn(this,x,Log,GradLog)')" style="font-weight:bold">sdo.solvers.fmincon>@(x)constrFcn(this,x,Log,GradLog)</a>
+  In barrier
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fmincon', 'C:\Program Files\MATLAB\R2019a\toolbox\shared\optimlib\fmincon.p', 824)" style="font-weight:bold">fmincon</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\shared\optimlib\fmincon.p',824,0)">line 824</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon/minimize', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 196)" style="font-weight:bold">sdo.solvers.fmincon/minimize</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',196,0)">line 196</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.absSolver/run', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m', 992)" style="font-weight:bold">sdo.solvers.absSolver/run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m',992,0)">line 992</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.optimize', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\optimize.m', 124)" style="font-weight:bold">sdo.optimize</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\optimize.m',124,0)">line 124</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ds2', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\ds2.m', 117)" style="font-weight:bold">ds2</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\ds2.m',117,0)">line 117</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m', 91)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m',91,0)">line 91</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TestScript_SSDS', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\TestScript_SSDS.m', 57)" style="font-weight:bold">TestScript_SSDS</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\TestScript_SSDS.m',57,0)">line 57</a>)] 
+
+ans =
+
+  Columns 1 through 13
+
+   -3.5424   -3.4200    3.5096   -3.4466    3.5323    3.5015    0.7078    0.7092    0.7086    0.7077    0.7060    0.6996   -0.1244
+
+  Columns 14 through 24
+
+   -0.1013    0.0605    0.0584    0.0402    0.0473   -0.3555   -0.3555   -0.3392   -0.3495   -0.3521   -0.3532
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.3333e+05
+
+[Warning: The file containing block diagram '<a href="matlab:open_system ('ss1_inter')">ss1_inter</a>' is shadowed by a file of the same name higher on the MATLAB path. This can
+cause unexpected behavior. For more information see <a href="matlab:helpview([docroot '/toolbox/simulink/helptargets.map'], 'shadowing')">"Avoiding Problems with Shadowed Files"</a> in the Simulink documentation.
+
+The file containing the block diagram is: C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\SSDS-OptTargets-05-22-2020
+10-52-objfun_v1-inter_v1-plant_v1\SS1\ss1_inter.slx.
+The file higher on the MATLAB path is: C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\SSDS-OptTargets-05-22-2020
+09-29-objfun_v1-inter_v1-plant_v1\SS1\ss1_inter.slx] 
+[> In Simulink.SimulationInput/sim
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.SimulationTest/sim', 'C:\Program Files\MATLAB\R2019a\toolbox\shared\slcontrollib\+sdo\SimulationTest.m', 717)" style="font-weight:bold">sdo.SimulationTest/sim</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\shared\slcontrollib\+sdo\SimulationTest.m',717,0)">line 717</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('objfunDS_v1', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\objfunDS_v1.m', 5)" style="font-weight:bold">objfunDS_v1</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\objfunDS_v1.m',5,0)">line 5</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ds2>@(p)costfxn(p,simulator)')" style="font-weight:bold">ds2>@(p)costfxn(p,simulator)</a>
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.absSolver/evalRequirements', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m', 350)" style="font-weight:bold">sdo.solvers.absSolver/evalRequirements</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m',350,0)">line 350</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon/evalRequirements', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 285)" style="font-weight:bold">sdo.solvers.fmincon/evalRequirements</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',285,0)">line 285</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon/constrFcn', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 366)" style="font-weight:bold">sdo.solvers.fmincon/constrFcn</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',366,0)">line 366</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon>@(x)constrFcn(this,x,Log,GradLog)')" style="font-weight:bold">sdo.solvers.fmincon>@(x)constrFcn(this,x,Log,GradLog)</a>
+  In barrier
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fmincon', 'C:\Program Files\MATLAB\R2019a\toolbox\shared\optimlib\fmincon.p', 824)" style="font-weight:bold">fmincon</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\shared\optimlib\fmincon.p',824,0)">line 824</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon/minimize', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 196)" style="font-weight:bold">sdo.solvers.fmincon/minimize</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',196,0)">line 196</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.absSolver/run', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m', 992)" style="font-weight:bold">sdo.solvers.absSolver/run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m',992,0)">line 992</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.optimize', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\optimize.m', 124)" style="font-weight:bold">sdo.optimize</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\optimize.m',124,0)">line 124</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ds2', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\ds2.m', 117)" style="font-weight:bold">ds2</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\ds2.m',117,0)">line 117</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m', 91)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m',91,0)">line 91</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TestScript_SSDS', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\TestScript_SSDS.m', 57)" style="font-weight:bold">TestScript_SSDS</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\TestScript_SSDS.m',57,0)">line 57</a>)] 
+[Warning: The file containing block diagram '<a href="matlab:open_system ('ss1_plant')">ss1_plant</a>' is shadowed by a file of the same name higher on the MATLAB path. This can
+cause unexpected behavior. For more information see <a href="matlab:helpview([docroot '/toolbox/simulink/helptargets.map'], 'shadowing')">"Avoiding Problems with Shadowed Files"</a> in the Simulink documentation.
+
+The file containing the block diagram is: C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\SSDS-OptTargets-05-22-2020
+10-52-objfun_v1-inter_v1-plant_v1\SS1\ss1_plant.slx.
+The file higher on the MATLAB path is: C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\SSDS-OptTargets-05-22-2020
+09-29-objfun_v1-inter_v1-plant_v1\SS1\ss1_plant.slx] 
+[> In Simulink.SimulationInput/sim
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.SimulationTest/sim', 'C:\Program Files\MATLAB\R2019a\toolbox\shared\slcontrollib\+sdo\SimulationTest.m', 717)" style="font-weight:bold">sdo.SimulationTest/sim</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\shared\slcontrollib\+sdo\SimulationTest.m',717,0)">line 717</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('objfunDS_v1', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\objfunDS_v1.m', 5)" style="font-weight:bold">objfunDS_v1</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\objfunDS_v1.m',5,0)">line 5</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ds2>@(p)costfxn(p,simulator)')" style="font-weight:bold">ds2>@(p)costfxn(p,simulator)</a>
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.absSolver/evalRequirements', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m', 350)" style="font-weight:bold">sdo.solvers.absSolver/evalRequirements</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m',350,0)">line 350</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon/evalRequirements', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 285)" style="font-weight:bold">sdo.solvers.fmincon/evalRequirements</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',285,0)">line 285</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon/constrFcn', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 366)" style="font-weight:bold">sdo.solvers.fmincon/constrFcn</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',366,0)">line 366</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon>@(x)constrFcn(this,x,Log,GradLog)')" style="font-weight:bold">sdo.solvers.fmincon>@(x)constrFcn(this,x,Log,GradLog)</a>
+  In barrier
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fmincon', 'C:\Program Files\MATLAB\R2019a\toolbox\shared\optimlib\fmincon.p', 824)" style="font-weight:bold">fmincon</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\shared\optimlib\fmincon.p',824,0)">line 824</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon/minimize', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 196)" style="font-weight:bold">sdo.solvers.fmincon/minimize</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',196,0)">line 196</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.absSolver/run', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m', 992)" style="font-weight:bold">sdo.solvers.absSolver/run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m',992,0)">line 992</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.optimize', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\optimize.m', 124)" style="font-weight:bold">sdo.optimize</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\optimize.m',124,0)">line 124</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ds2', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\ds2.m', 117)" style="font-weight:bold">ds2</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\ds2.m',117,0)">line 117</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m', 91)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m',91,0)">line 91</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TestScript_SSDS', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\TestScript_SSDS.m', 57)" style="font-weight:bold">TestScript_SSDS</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\TestScript_SSDS.m',57,0)">line 57</a>)] 
+
+ans =
+
+  Columns 1 through 13
+
+   -1.7712   -1.7100    1.7548   -1.7233    1.7661    1.7508    0.3539    0.3546    0.3543    0.3539    0.3530    0.3498   -0.0622
+
+  Columns 14 through 24
+
+   -0.0506    0.0303    0.0292    0.0201    0.0237   -0.1778   -0.1778   -0.1696   -0.1748   -0.1761   -0.1766
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 6.1707e+04
+
+    1    177      61706.9            0         10.6     1.31e+06
+[Warning: The file containing block diagram '<a href="matlab:open_system ('ss1_inter')">ss1_inter</a>' is shadowed by a file of the same name higher on the MATLAB path. This can
+cause unexpected behavior. For more information see <a href="matlab:helpview([docroot '/toolbox/simulink/helptargets.map'], 'shadowing')">"Avoiding Problems with Shadowed Files"</a> in the Simulink documentation.
+
+The file containing the block diagram is: C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\SSDS-OptTargets-05-22-2020
+10-52-objfun_v1-inter_v1-plant_v1\SS1\ss1_inter.slx.
+The file higher on the MATLAB path is: C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\SSDS-OptTargets-05-22-2020
+09-29-objfun_v1-inter_v1-plant_v1\SS1\ss1_inter.slx] 
+[> In Simulink.SimulationInput/sim
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.SimulationTest/sim', 'C:\Program Files\MATLAB\R2019a\toolbox\shared\slcontrollib\+sdo\SimulationTest.m', 717)" style="font-weight:bold">sdo.SimulationTest/sim</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\shared\slcontrollib\+sdo\SimulationTest.m',717,0)">line 717</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('objfunDS_v1', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\objfunDS_v1.m', 5)" style="font-weight:bold">objfunDS_v1</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\objfunDS_v1.m',5,0)">line 5</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ds2>@(p)costfxn(p,simulator)')" style="font-weight:bold">ds2>@(p)costfxn(p,simulator)</a>
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.absSolver/evalRequirements', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m', 350)" style="font-weight:bold">sdo.solvers.absSolver/evalRequirements</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m',350,0)">line 350</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon/evalRequirements', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 285)" style="font-weight:bold">sdo.solvers.fmincon/evalRequirements</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',285,0)">line 285</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon/constrFcn', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 366)" style="font-weight:bold">sdo.solvers.fmincon/constrFcn</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',366,0)">line 366</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon>@(x)constrFcn(this,x,Log,GradLog)')" style="font-weight:bold">sdo.solvers.fmincon>@(x)constrFcn(this,x,Log,GradLog)</a>
+  In barrier
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fmincon', 'C:\Program Files\MATLAB\R2019a\toolbox\shared\optimlib\fmincon.p', 824)" style="font-weight:bold">fmincon</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\shared\optimlib\fmincon.p',824,0)">line 824</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon/minimize', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 196)" style="font-weight:bold">sdo.solvers.fmincon/minimize</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',196,0)">line 196</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.absSolver/run', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m', 992)" style="font-weight:bold">sdo.solvers.absSolver/run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m',992,0)">line 992</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.optimize', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\optimize.m', 124)" style="font-weight:bold">sdo.optimize</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\optimize.m',124,0)">line 124</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ds2', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\ds2.m', 117)" style="font-weight:bold">ds2</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\ds2.m',117,0)">line 117</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m', 91)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m',91,0)">line 91</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TestScript_SSDS', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\TestScript_SSDS.m', 57)" style="font-weight:bold">TestScript_SSDS</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\TestScript_SSDS.m',57,0)">line 57</a>)] 
+[Warning: The file containing block diagram '<a href="matlab:open_system ('ss1_plant')">ss1_plant</a>' is shadowed by a file of the same name higher on the MATLAB path. This can
+cause unexpected behavior. For more information see <a href="matlab:helpview([docroot '/toolbox/simulink/helptargets.map'], 'shadowing')">"Avoiding Problems with Shadowed Files"</a> in the Simulink documentation.
+
+The file containing the block diagram is: C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\SSDS-OptTargets-05-22-2020
+10-52-objfun_v1-inter_v1-plant_v1\SS1\ss1_plant.slx.
+The file higher on the MATLAB path is: C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\SSDS-OptTargets-05-22-2020
+09-29-objfun_v1-inter_v1-plant_v1\SS1\ss1_plant.slx] 
+[> In Simulink.SimulationInput/sim
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.SimulationTest/sim', 'C:\Program Files\MATLAB\R2019a\toolbox\shared\slcontrollib\+sdo\SimulationTest.m', 717)" style="font-weight:bold">sdo.SimulationTest/sim</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\shared\slcontrollib\+sdo\SimulationTest.m',717,0)">line 717</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('objfunDS_v1', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\objfunDS_v1.m', 5)" style="font-weight:bold">objfunDS_v1</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\objfunDS_v1.m',5,0)">line 5</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ds2>@(p)costfxn(p,simulator)')" style="font-weight:bold">ds2>@(p)costfxn(p,simulator)</a>
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.absSolver/evalRequirements', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m', 350)" style="font-weight:bold">sdo.solvers.absSolver/evalRequirements</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m',350,0)">line 350</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon/evalRequirements', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 285)" style="font-weight:bold">sdo.solvers.fmincon/evalRequirements</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',285,0)">line 285</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon/constrFcn', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 366)" style="font-weight:bold">sdo.solvers.fmincon/constrFcn</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',366,0)">line 366</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon>@(x)constrFcn(this,x,Log,GradLog)')" style="font-weight:bold">sdo.solvers.fmincon>@(x)constrFcn(this,x,Log,GradLog)</a>
+  In barrier
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fmincon', 'C:\Program Files\MATLAB\R2019a\toolbox\shared\optimlib\fmincon.p', 824)" style="font-weight:bold">fmincon</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\shared\optimlib\fmincon.p',824,0)">line 824</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon/minimize', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 196)" style="font-weight:bold">sdo.solvers.fmincon/minimize</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',196,0)">line 196</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.absSolver/run', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m', 992)" style="font-weight:bold">sdo.solvers.absSolver/run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m',992,0)">line 992</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.optimize', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\optimize.m', 124)" style="font-weight:bold">sdo.optimize</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\optimize.m',124,0)">line 124</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ds2', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\ds2.m', 117)" style="font-weight:bold">ds2</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\ds2.m',117,0)">line 117</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m', 91)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m',91,0)">line 91</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TestScript_SSDS', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\TestScript_SSDS.m', 57)" style="font-weight:bold">TestScript_SSDS</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\TestScript_SSDS.m',57,0)">line 57</a>)] 
+
+ans =
+
+  Columns 1 through 13
+
+   -7.7700  -53.5572   19.8343  -43.7342   10.5313   19.8883    1.8032    1.3045    1.5491    1.9351    2.7292    5.5739   -0.5892
+
+  Columns 14 through 24
+
+   -0.8309   -0.2934   -0.0353   -0.0267   -0.0055   -0.2033   -0.2013    7.0602    2.4979    1.3112    0.8544
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 4.3832e+04
+
+    2    236      43832.4            0         17.4     1.23e+06
+[Warning: The file containing block diagram '<a href="matlab:open_system ('ss1_inter')">ss1_inter</a>' is shadowed by a file of the same name higher on the MATLAB path. This can
+cause unexpected behavior. For more information see <a href="matlab:helpview([docroot '/toolbox/simulink/helptargets.map'], 'shadowing')">"Avoiding Problems with Shadowed Files"</a> in the Simulink documentation.
+
+The file containing the block diagram is: C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\SSDS-OptTargets-05-22-2020
+10-52-objfun_v1-inter_v1-plant_v1\SS1\ss1_inter.slx.
+The file higher on the MATLAB path is: C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\SSDS-OptTargets-05-22-2020
+09-29-objfun_v1-inter_v1-plant_v1\SS1\ss1_inter.slx] 
+[> In Simulink.SimulationInput/sim
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.SimulationTest/sim', 'C:\Program Files\MATLAB\R2019a\toolbox\shared\slcontrollib\+sdo\SimulationTest.m', 717)" style="font-weight:bold">sdo.SimulationTest/sim</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\shared\slcontrollib\+sdo\SimulationTest.m',717,0)">line 717</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('objfunDS_v1', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\objfunDS_v1.m', 5)" style="font-weight:bold">objfunDS_v1</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\objfunDS_v1.m',5,0)">line 5</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ds2>@(p)costfxn(p,simulator)')" style="font-weight:bold">ds2>@(p)costfxn(p,simulator)</a>
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.absSolver/evalRequirements', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m', 350)" style="font-weight:bold">sdo.solvers.absSolver/evalRequirements</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m',350,0)">line 350</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon/evalRequirements', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 285)" style="font-weight:bold">sdo.solvers.fmincon/evalRequirements</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',285,0)">line 285</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon/constrFcn', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 366)" style="font-weight:bold">sdo.solvers.fmincon/constrFcn</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',366,0)">line 366</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon>@(x)constrFcn(this,x,Log,GradLog)')" style="font-weight:bold">sdo.solvers.fmincon>@(x)constrFcn(this,x,Log,GradLog)</a>
+  In barrier
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fmincon', 'C:\Program Files\MATLAB\R2019a\toolbox\shared\optimlib\fmincon.p', 824)" style="font-weight:bold">fmincon</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\shared\optimlib\fmincon.p',824,0)">line 824</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon/minimize', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 196)" style="font-weight:bold">sdo.solvers.fmincon/minimize</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',196,0)">line 196</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.absSolver/run', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m', 992)" style="font-weight:bold">sdo.solvers.absSolver/run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m',992,0)">line 992</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.optimize', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\optimize.m', 124)" style="font-weight:bold">sdo.optimize</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\optimize.m',124,0)">line 124</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ds2', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\ds2.m', 117)" style="font-weight:bold">ds2</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\ds2.m',117,0)">line 117</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m', 91)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m',91,0)">line 91</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TestScript_SSDS', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\TestScript_SSDS.m', 57)" style="font-weight:bold">TestScript_SSDS</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\TestScript_SSDS.m',57,0)">line 57</a>)] 
+[Warning: The file containing block diagram '<a href="matlab:open_system ('ss1_plant')">ss1_plant</a>' is shadowed by a file of the same name higher on the MATLAB path. This can
+cause unexpected behavior. For more information see <a href="matlab:helpview([docroot '/toolbox/simulink/helptargets.map'], 'shadowing')">"Avoiding Problems with Shadowed Files"</a> in the Simulink documentation.
+
+The file containing the block diagram is: C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\SSDS-OptTargets-05-22-2020
+10-52-objfun_v1-inter_v1-plant_v1\SS1\ss1_plant.slx.
+The file higher on the MATLAB path is: C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\SSDS-OptTargets-05-22-2020
+09-29-objfun_v1-inter_v1-plant_v1\SS1\ss1_plant.slx] 
+[> In Simulink.SimulationInput/sim
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.SimulationTest/sim', 'C:\Program Files\MATLAB\R2019a\toolbox\shared\slcontrollib\+sdo\SimulationTest.m', 717)" style="font-weight:bold">sdo.SimulationTest/sim</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\shared\slcontrollib\+sdo\SimulationTest.m',717,0)">line 717</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('objfunDS_v1', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\objfunDS_v1.m', 5)" style="font-weight:bold">objfunDS_v1</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\objfunDS_v1.m',5,0)">line 5</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ds2>@(p)costfxn(p,simulator)')" style="font-weight:bold">ds2>@(p)costfxn(p,simulator)</a>
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.absSolver/evalRequirements', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m', 350)" style="font-weight:bold">sdo.solvers.absSolver/evalRequirements</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m',350,0)">line 350</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon/evalRequirements', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 285)" style="font-weight:bold">sdo.solvers.fmincon/evalRequirements</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',285,0)">line 285</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon/constrFcn', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 366)" style="font-weight:bold">sdo.solvers.fmincon/constrFcn</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',366,0)">line 366</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon>@(x)constrFcn(this,x,Log,GradLog)')" style="font-weight:bold">sdo.solvers.fmincon>@(x)constrFcn(this,x,Log,GradLog)</a>
+  In barrier
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fmincon', 'C:\Program Files\MATLAB\R2019a\toolbox\shared\optimlib\fmincon.p', 824)" style="font-weight:bold">fmincon</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\shared\optimlib\fmincon.p',824,0)">line 824</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon/minimize', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 196)" style="font-weight:bold">sdo.solvers.fmincon/minimize</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',196,0)">line 196</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.absSolver/run', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m', 992)" style="font-weight:bold">sdo.solvers.absSolver/run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m',992,0)">line 992</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.optimize', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\optimize.m', 124)" style="font-weight:bold">sdo.optimize</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\optimize.m',124,0)">line 124</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ds2', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\ds2.m', 117)" style="font-weight:bold">ds2</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\ds2.m',117,0)">line 117</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m', 91)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m',91,0)">line 91</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TestScript_SSDS', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\TestScript_SSDS.m', 57)" style="font-weight:bold">TestScript_SSDS</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\TestScript_SSDS.m',57,0)">line 57</a>)] 
+
+ans =
+
+  Columns 1 through 13
+
+   -7.2049  -52.7450   19.3859  -43.0575   10.2329   18.7038    1.6498    1.2574    1.4687    1.8095    2.7747    5.6229   -0.7715
+
+  Columns 14 through 24
+
+   -1.1216   -0.4932   -0.0893   -0.0634   -0.0392   -0.2448   -0.2420   11.1890    2.1019    1.2813    0.8193
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.9581e+04
+
+    3    295      39580.7            0          1.5     1.24e+06
+[Warning: The file containing block diagram '<a href="matlab:open_system ('ss1_inter')">ss1_inter</a>' is shadowed by a file of the same name higher on the MATLAB path. This can
+cause unexpected behavior. For more information see <a href="matlab:helpview([docroot '/toolbox/simulink/helptargets.map'], 'shadowing')">"Avoiding Problems with Shadowed Files"</a> in the Simulink documentation.
+
+The file containing the block diagram is: C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\SSDS-OptTargets-05-22-2020
+10-52-objfun_v1-inter_v1-plant_v1\SS1\ss1_inter.slx.
+The file higher on the MATLAB path is: C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\SSDS-OptTargets-05-22-2020
+09-29-objfun_v1-inter_v1-plant_v1\SS1\ss1_inter.slx] 
+[> In Simulink.SimulationInput/sim
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.SimulationTest/sim', 'C:\Program Files\MATLAB\R2019a\toolbox\shared\slcontrollib\+sdo\SimulationTest.m', 717)" style="font-weight:bold">sdo.SimulationTest/sim</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\shared\slcontrollib\+sdo\SimulationTest.m',717,0)">line 717</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('objfunDS_v1', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\objfunDS_v1.m', 5)" style="font-weight:bold">objfunDS_v1</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\objfunDS_v1.m',5,0)">line 5</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ds2>@(p)costfxn(p,simulator)')" style="font-weight:bold">ds2>@(p)costfxn(p,simulator)</a>
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.absSolver/evalRequirements', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m', 350)" style="font-weight:bold">sdo.solvers.absSolver/evalRequirements</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m',350,0)">line 350</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon/evalRequirements', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 285)" style="font-weight:bold">sdo.solvers.fmincon/evalRequirements</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',285,0)">line 285</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon/constrFcn', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 366)" style="font-weight:bold">sdo.solvers.fmincon/constrFcn</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',366,0)">line 366</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon>@(x)constrFcn(this,x,Log,GradLog)')" style="font-weight:bold">sdo.solvers.fmincon>@(x)constrFcn(this,x,Log,GradLog)</a>
+  In barrier
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fmincon', 'C:\Program Files\MATLAB\R2019a\toolbox\shared\optimlib\fmincon.p', 824)" style="font-weight:bold">fmincon</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\shared\optimlib\fmincon.p',824,0)">line 824</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon/minimize', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 196)" style="font-weight:bold">sdo.solvers.fmincon/minimize</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',196,0)">line 196</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.absSolver/run', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m', 992)" style="font-weight:bold">sdo.solvers.absSolver/run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m',992,0)">line 992</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.optimize', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\optimize.m', 124)" style="font-weight:bold">sdo.optimize</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\optimize.m',124,0)">line 124</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ds2', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\ds2.m', 117)" style="font-weight:bold">ds2</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\ds2.m',117,0)">line 117</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m', 91)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m',91,0)">line 91</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TestScript_SSDS', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\TestScript_SSDS.m', 57)" style="font-weight:bold">TestScript_SSDS</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\TestScript_SSDS.m',57,0)">line 57</a>)] 
+[Warning: The file containing block diagram '<a href="matlab:open_system ('ss1_plant')">ss1_plant</a>' is shadowed by a file of the same name higher on the MATLAB path. This can
+cause unexpected behavior. For more information see <a href="matlab:helpview([docroot '/toolbox/simulink/helptargets.map'], 'shadowing')">"Avoiding Problems with Shadowed Files"</a> in the Simulink documentation.
+
+The file containing the block diagram is: C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\SSDS-OptTargets-05-22-2020
+10-52-objfun_v1-inter_v1-plant_v1\SS1\ss1_plant.slx.
+The file higher on the MATLAB path is: C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\SSDS-OptTargets-05-22-2020
+09-29-objfun_v1-inter_v1-plant_v1\SS1\ss1_plant.slx] 
+[> In Simulink.SimulationInput/sim
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.SimulationTest/sim', 'C:\Program Files\MATLAB\R2019a\toolbox\shared\slcontrollib\+sdo\SimulationTest.m', 717)" style="font-weight:bold">sdo.SimulationTest/sim</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\shared\slcontrollib\+sdo\SimulationTest.m',717,0)">line 717</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('objfunDS_v1', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\objfunDS_v1.m', 5)" style="font-weight:bold">objfunDS_v1</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\objfunDS_v1.m',5,0)">line 5</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ds2>@(p)costfxn(p,simulator)')" style="font-weight:bold">ds2>@(p)costfxn(p,simulator)</a>
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.absSolver/evalRequirements', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m', 350)" style="font-weight:bold">sdo.solvers.absSolver/evalRequirements</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m',350,0)">line 350</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon/evalRequirements', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 285)" style="font-weight:bold">sdo.solvers.fmincon/evalRequirements</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',285,0)">line 285</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon/constrFcn', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 366)" style="font-weight:bold">sdo.solvers.fmincon/constrFcn</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',366,0)">line 366</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon>@(x)constrFcn(this,x,Log,GradLog)')" style="font-weight:bold">sdo.solvers.fmincon>@(x)constrFcn(this,x,Log,GradLog)</a>
+  In barrier
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fmincon', 'C:\Program Files\MATLAB\R2019a\toolbox\shared\optimlib\fmincon.p', 824)" style="font-weight:bold">fmincon</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\shared\optimlib\fmincon.p',824,0)">line 824</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon/minimize', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 196)" style="font-weight:bold">sdo.solvers.fmincon/minimize</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',196,0)">line 196</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.absSolver/run', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m', 992)" style="font-weight:bold">sdo.solvers.absSolver/run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m',992,0)">line 992</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.optimize', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\optimize.m', 124)" style="font-weight:bold">sdo.optimize</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\optimize.m',124,0)">line 124</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ds2', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\ds2.m', 117)" style="font-weight:bold">ds2</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\ds2.m',117,0)">line 117</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m', 91)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m',91,0)">line 91</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TestScript_SSDS', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\TestScript_SSDS.m', 57)" style="font-weight:bold">TestScript_SSDS</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\TestScript_SSDS.m',57,0)">line 57</a>)] 
+
+ans =
+
+  Columns 1 through 13
+
+   -7.1723  -52.6033   19.3179  -42.9400   10.1879   18.6142    1.6407    1.2474    1.4545    1.8030    2.7755    5.6213   -0.7851
+
+  Columns 14 through 24
+
+   -1.1417   -0.5103   -0.0936   -0.0660   -0.0419   -0.2479   -0.2450   11.3235    2.0447    1.2849    0.8207
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.9546e+04
+
+    4    354      39545.9            0       0.0129      1.2e+06
+Local minimum possible. Constraints satisfied.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance and constraints are 
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+[Warning: The file containing block diagram '<a href="matlab:open_system ('ss1_inter')">ss1_inter</a>' is shadowed by a file of the same name higher on the MATLAB path. This can
+cause unexpected behavior. For more information see <a href="matlab:helpview([docroot '/toolbox/simulink/helptargets.map'], 'shadowing')">"Avoiding Problems with Shadowed Files"</a> in the Simulink documentation.
+
+The file containing the block diagram is: C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\SSDS-OptTargets-05-22-2020
+10-52-objfun_v1-inter_v1-plant_v1\SS1\ss1_inter.slx.
+The file higher on the MATLAB path is: C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\SSDS-OptTargets-05-22-2020
+09-29-objfun_v1-inter_v1-plant_v1\SS1\ss1_inter.slx] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ds2', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\ds2.m', 174)" style="font-weight:bold">ds2</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\ds2.m',174,0)">line 174</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m', 91)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m',91,0)">line 91</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TestScript_SSDS', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\TestScript_SSDS.m', 57)" style="font-weight:bold">TestScript_SSDS</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\TestScript_SSDS.m',57,0)">line 57</a>)] 
+[Warning: The file containing block diagram '<a href="matlab:open_system ('ss1_plant')">ss1_plant</a>' is shadowed by a file of the same name higher on the MATLAB path. This can
+cause unexpected behavior. For more information see <a href="matlab:helpview([docroot '/toolbox/simulink/helptargets.map'], 'shadowing')">"Avoiding Problems with Shadowed Files"</a> in the Simulink documentation.
+
+The file containing the block diagram is: C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\SSDS-OptTargets-05-22-2020
+10-52-objfun_v1-inter_v1-plant_v1\SS1\ss1_plant.slx.
+The file higher on the MATLAB path is: C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\SSDS-OptTargets-05-22-2020
+09-29-objfun_v1-inter_v1-plant_v1\SS1\ss1_plant.slx] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ds2', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\ds2.m', 174)" style="font-weight:bold">ds2</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\ds2.m',174,0)">line 174</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m', 91)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m',91,0)">line 91</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TestScript_SSDS', 'C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\TestScript_SSDS.m', 57)" style="font-weight:bold">TestScript_SSDS</a> (<a href="matlab: opentoline('C:\Users\8842thayerj\Documents\GitHub\GaitSimulation\TestScript_SSDS.m',57,0)">line 57</a>)] 
+IdleTimeout has been reached.
+Parallel pool using the 'local' profile is shutting down.
+clc, clear all, close all
+TestScript_DS
