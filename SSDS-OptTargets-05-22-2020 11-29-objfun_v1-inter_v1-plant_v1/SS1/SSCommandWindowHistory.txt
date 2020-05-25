@@ -1,0 +1,198 @@
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 12).
+
+ans = 
+
+ <a href="matlab: helpPopup parallel.Pool" style="font-weight:bold">Pool</a> with properties: 
+
+            Connected: true
+           NumWorkers: 12
+              Cluster: <a href="matlab: parallel.internal.display.Displayer.displayObject('1F8B0800000000000000AD54C14E0231102D2B4B2451A217C3D10F50829ED48B2286A861C120460F9B60C12AAB65BBB64BA2378E7E8A473FC34FF0E2DD239F60CB76DDD25D408393BCB4333B6FA6339D2D489D58804B8EE39523C3B1C8B10A0249FDAC696095EBE742DFE0F0208518235C705C1F5117E2C28DC33C0C9F0B953EC665DC67DC6CA11E727D12C63F56E22FCBB8A6D4333257984FE8F960FB6928DF428878EB99285E568B277C866614CF903A50EA3D3323BE91C057CF63F2FA4DA98B55F4228CB368FEAE6FA2E68A83D125859E8768AB25F9EFE9881FE54BEE8BF0CFA726D7FDA5F91BD2B6C0C1D3806B8E81C41BC787FC1E4AF3D943E008FA1024DCE3C44B073149CB9CB32495A0AB3603C4EBD17D54C929AB3A6F696957EF774D89B322F59F123B41E9852AE9401CC42B1A7F9B97BCD49F38CE28B9E5571F3BEF29699FFB84C23B2412F90E71037BADDFBB24F4015136EEDF408F7D87225677B1E3A2AAD3412E73DC3BE1DFEC52046F347F71EE9D197D08E73AEC83D07150F6883F98C1AF697CA197F7EC0BC64F6FDF23C63647D1EC92E789C9B21B04F6F8996D0BFA5D5124B3AD52B35A3AB4476E2DD9F9D63D6933BBB15DDCDA85F13A3233FA9F95F6408A07A3FB53F859633ADF90BBF9F20EF775FE92C6D7E7D91CE3C7DF65DD4FE7EBF992E61480F139FD6FFE0B98FE2E5F01B5CF81AEBECBEA7F3BCFBB2CE41B1567301CE0060000')">local</a>
+        AttachedFiles: {}
+    AutoAddClientPath: true
+          IdleTimeout: 30 minutes (30 minutes remaining)
+          SpmdEnabled: true
+
+
+opt = 
+
+  <a href="matlab:helpPopup sdo.OptimizeOptions" style="font-weight:bold">OptimizeOptions</a> with properties:
+
+                      Method: 'fmincon'
+               MethodOptions: [1×1 optim.options.Fmincon]
+                    Restarts: 0
+              StopIfFeasible: 'on'
+                     GradFcn: 'off'
+                 UseParallel: 0
+    ParallelPathDependencies: {}
+    ParallelFileDependencies: {}
+              OptimizedModel: ''
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.9932e+07
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 22-May-2020 11:31:45
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.9932e+07
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     55   2.9932e+07       0.2538
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.8069e+07
+
+    1    110  1.80694e+07       0.0326         2.46     4.63e+06
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.7438e+07
+
+    2    165   1.7438e+07      0.02509        0.423     4.59e+06
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.7177e+07
+
+    3    220  1.71771e+07      0.02135         1.37     4.57e+06
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.6826e+07
+
+    4    275  1.68259e+07      0.01384          1.3     2.71e+06
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.6399e+07
+
+    5    330  1.63988e+07            0         1.34     2.41e+06
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.6352e+07
+
+    6    385  1.63516e+07            0        0.439     4.55e+05
+Local minimum found that satisfies the constraints.
+
+Optimization completed because the objective function is non-decreasing in 
+feasible directions, to within the value of the optimality tolerance,
+and constraints are satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 840.165291 seconds.
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.8512e+05
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 22-May-2020 11:44:08
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.8512e+05
+
+Removing data from parallel workers...
+Data removed from parallel workers.
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('parallel.internal.queue.JavaBackedFuture/waitScalar', 'C:\Program Files\MATLAB\R2019a\toolbox\distcomp\cluster\+parallel\+internal\+queue\JavaBackedFuture.m', 215)" style="font-weight:bold">parallel.internal.queue.JavaBackedFuture/waitScalar</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\distcomp\cluster\+parallel\+internal\+queue\JavaBackedFuture.m',215,0)">line 215</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('parallel.Future>@(o)waitScalar(o,predicate,waitGranularity,deadline)')" style="font-weight:bold">parallel.Future>@(o)waitScalar(o,predicate,waitGranularity,deadline)</a>
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('parallel.Future/wait', 'C:\Program Files\MATLAB\R2019a\toolbox\distcomp\cluster\+parallel\@Future\Future.m', 295)" style="font-weight:bold">parallel.Future/wait</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\distcomp\cluster\+parallel\@Future\Future.m',295,0)">line 295</a>)
+            ret = all(arrayfun(@(o) waitScalar(o, predicate, waitGranularity, deadline), ...
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Simulink.Simulation.Future/fetchSingleOutputCaptureError', 'C:\Program Files\MATLAB\R2019a\toolbox\simulink\simulink\+Simulink\+Simulation\Future.p', 268)" style="font-weight:bold">Simulink.Simulation.Future/fetchSingleOutputCaptureError</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\simulink\simulink\+Simulink\+Simulation\Future.p',268,0)">line 268</a>)
+                wait(F, 'finished', 0.01);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Simulink.Simulation.Future>@(F)F.fetchSingleOutputCaptureError()', 'C:\Program Files\MATLAB\R2019a\toolbox\simulink\simulink\+Simulink\+Simulation\Future.p', 200)" style="font-weight:bold">Simulink.Simulation.Future>@(F)F.fetchSingleOutputCaptureError()</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\simulink\simulink\+Simulink\+Simulation\Future.p',200,0)">line 200</a>)
+            simOut = arrayfun(@(F) F.fetchSingleOutputCaptureError(), obj);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Simulink.Simulation.Future/Simulink.SimulationOutput', 'C:\Program Files\MATLAB\R2019a\toolbox\simulink\simulink\+Simulink\+Simulation\Future.p', 200)" style="font-weight:bold">Simulink.Simulation.Future/Simulink.SimulationOutput</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\simulink\simulink\+Simulink\+Simulation\Future.p',200,0)">line 200</a>)
+            simOut = arrayfun(@(F) F.fetchSingleOutputCaptureError(), obj);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Simulink.Simulation.Future/fetchSingleOutput', 'C:\Program Files\MATLAB\R2019a\toolbox\simulink\simulink\+Simulink\+Simulation\Future.p', 247)" style="font-weight:bold">Simulink.Simulation.Future/fetchSingleOutput</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\simulink\simulink\+Simulink\+Simulation\Future.p',247,0)">line 247</a>)
+            out = Simulink.SimulationOutput(obj);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Simulink.Simulation.Future>@(F)F.fetchSingleOutput()', 'C:\Program Files\MATLAB\R2019a\toolbox\simulink\simulink\+Simulink\+Simulation\Future.p', 179)" style="font-weight:bold">Simulink.Simulation.Future>@(F)F.fetchSingleOutput()</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\simulink\simulink\+Simulink\+Simulation\Future.p',179,0)">line 179</a>)
+            out = arrayfun(@(F) F.fetchSingleOutput(), obj);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Simulink.Simulation.Future/fetchOutputs', 'C:\Program Files\MATLAB\R2019a\toolbox\simulink\simulink\+Simulink\+Simulation\Future.p', 179)" style="font-weight:bold">Simulink.Simulation.Future/fetchOutputs</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\simulink\simulink\+Simulink\+Simulation\Future.p',179,0)">line 179</a>)
+            out = arrayfun(@(F) F.fetchSingleOutput(), obj);
+
+In MultiSim.internal.SimulationRunnerParallelBase/assignOutputsOnSimManager
+
+In Simulink.SimulationManager/executeSims
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Simulink.SimulationManagerEngine/executeSims', 'C:\Program Files\MATLAB\R2019a\toolbox\simulink\simulink\+Simulink\SimulationManagerEngine.m', 50)" style="font-weight:bold">Simulink.SimulationManagerEngine/executeSims</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\simulink\simulink\+Simulink\SimulationManagerEngine.m',50,0)">line 50</a>)
+            out = obj.SimulationManager.executeSims(fh);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon/evalRequirementGradients', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 442)" style="font-weight:bold">sdo.solvers.fmincon/evalRequirementGradients</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',442,0)">line 442</a>)
+                    simLog = executeSims(this.SimManagerEngine,fcn,simin);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon/costFcn', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 328)" style="font-weight:bold">sdo.solvers.fmincon/costFcn</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',328,0)">line 328</a>)
+                        g = evalRequirementGradients(this,x,Log,GradLog);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon>@(x)costFcn(this,x,Log,GradLog)')" style="font-weight:bold">sdo.solvers.fmincon>@(x)costFcn(this,x,Log,GradLog)</a>
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fmincon', 'C:\Program Files\MATLAB\R2019a\toolbox\shared\optimlib\fmincon.p', 561)" style="font-weight:bold">fmincon</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\shared\optimlib\fmincon.p',561,0)">line 561</a>)
+      [initVals.f,initVals.g] = feval(funfcn{3},X,varargin{:});
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.fmincon/minimize', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m', 196)" style="font-weight:bold">sdo.solvers.fmincon/minimize</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\fmincon.m',196,0)">line 196</a>)
+            [x, fval, exitflag, output, lambda, grad] = fmincon(@(x) costFcn(this,x,Log,GradLog), x0, ...
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.solvers.absSolver/run', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m', 992)" style="font-weight:bold">sdo.solvers.absSolver/run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\+solvers\absSolver.m',992,0)">line 992</a>)
+					[p,status,iOut] = minimize(this);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sdo.optimize', 'C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\optimize.m', 124)" style="font-weight:bold">sdo.optimize</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\sldo\sldo\+sdo\optimize.m',124,0)">line 124</a>)
+      [p,infoOut] = run(solver);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ss1', 'C:\Users\jess-local\GaitSimulation\ss1.m', 332)" style="font-weight:bold">ss1</a> (<a href="matlab: opentoline('C:\Users\jess-local\GaitSimulation\ss1.m',332,0)">line 332</a>)
+    [pOpt,optInfo] = sdo.optimize(evalDesign,p,opt); %optimize
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m', 91)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m',91,0)">line 91</a>)
+evalin('caller', strcat(script, ';'));
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TestScript_SSDS', 'C:\Users\jess-local\GaitSimulation\TestScript_SSDS.m', 50)" style="font-weight:bold">TestScript_SSDS</a> (<a href="matlab: opentoline('C:\Users\jess-local\GaitSimulation\TestScript_SSDS.m',50,0)">line 50</a>)
+        run ss1 % run double support period 1
+} 
+uiopen('C:\Users\jess-local\OneDrive - Marquette University\Research\Prior Work\Sun\Single Support\Internal_MPC_model_21_original.slx',1)
+TestScript_SSDS
+[Warning: The value of local variables may have been changed to match the globals.  Future versions of MATLAB will require
+that you declare a variable to be global before you use that variable.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ss1', 'C:\Users\jess-local\GaitSimulation\ss1.m', 2)" style="font-weight:bold">ss1</a> (<a href="matlab: opentoline('C:\Users\jess-local\GaitSimulation\ss1.m',2,0)">line 2</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run', 'C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m', 91)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\matlab\lang\run.m',91,0)">line 91</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TestScript_SSDS', 'C:\Users\jess-local\GaitSimulation\TestScript_SSDS.m', 50)" style="font-weight:bold">TestScript_SSDS</a> (<a href="matlab: opentoline('C:\Users\jess-local\GaitSimulation\TestScript_SSDS.m',50,0)">line 50</a>)] 
+Parallel pool using the 'local' profile is shutting down.

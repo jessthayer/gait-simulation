@@ -44,27 +44,27 @@ tnow = 0; %set current time to 0
 sys = 'ds1_inter';
 open_system(sys);
 
-% %set internal model initial conditions
-% load([sim_file_dir '\' trialName '\SS1\ss1_plant_end'])
-%     sdo.setValueInModel(sys,'p_stance_ankle_i',ic.p(1));
-%     sdo.setValueInModel(sys,'w_stance_ankle_i',ic.w(1));
-%     sdo.setValueInModel(sys,'p_stance_knee_i',ic.p(2));
-%     sdo.setValueInModel(sys,'w_stance_knee_i',ic.w(2));
-%     sdo.setValueInModel(sys,'p_stance_hip_i',ic.p(3));
-%     sdo.setValueInModel(sys,'w_stance_hip_i',ic.w(3));
-%     sdo.setValueInModel(sys,'p_swing_ankle_i',ic.p(4));
-%     sdo.setValueInModel(sys,'w_swing_ankle_i',ic.w(4));
-%     sdo.setValueInModel(sys,'p_swing_knee_i',ic.p(5));
-%     sdo.setValueInModel(sys,'w_swing_knee_i',ic.w(5));
-%     sdo.setValueInModel(sys,'p_swing_hip_i',ic.p(6));
-%     sdo.setValueInModel(sys,'w_swing_hip_i',ic.w(6));
+%set internal model initial conditions
+load([icID])
+    sdo.setValueInModel(sys,'p_stance_ankle_i',ic.p(1));
+    sdo.setValueInModel(sys,'w_stance_ankle_i',ic.w(1));
+    sdo.setValueInModel(sys,'p_stance_knee_i',ic.p(2));
+    sdo.setValueInModel(sys,'w_stance_knee_i',ic.w(2));
+    sdo.setValueInModel(sys,'p_stance_hip_i',ic.p(3));
+    sdo.setValueInModel(sys,'w_stance_hip_i',ic.w(3));
+    sdo.setValueInModel(sys,'p_swing_ankle_i',ic.p(4));
+    sdo.setValueInModel(sys,'w_swing_ankle_i',ic.w(4));
+    sdo.setValueInModel(sys,'p_swing_knee_i',ic.p(5));
+    sdo.setValueInModel(sys,'w_swing_knee_i',ic.w(5));
+    sdo.setValueInModel(sys,'p_swing_hip_i',ic.p(6));
+    sdo.setValueInModel(sys,'w_swing_hip_i',ic.w(6));
 %     sdo.setValueInModel(sys,'Planar_joint_x_p_i',ic.planar.p(1));
 %     sdo.setValueInModel(sys,'Planar_joint_x_v_i',ic.planar.w(1));
 %     sdo.setValueInModel(sys,'Planar_joint_y_p_i',ic.planar.p(2));
 %     sdo.setValueInModel(sys,'Planar_joint_y_v_i',ic.planar.w(2));
 %     sdo.setValueInModel(sys,'Planar_joint_z_p_i',ic.planar.p(3));
 %     sdo.setValueInModel(sys,'Planar_joint_z_w_i',ic.planar.w(3));
-%     save_system('ds2_inter');
+    save_system(sys);
 
 %get design vars for the MPC optimization
 p = sdo.getParameterFromModel(sys,{'lagStanceAnkle','lagStanceKnee','lagSwingAnkle','lagSwingKnee','w_stance_ankle_i', 'w_stance_knee_i','w_stance_hip_i','w_swing_knee_i','w_swing_hip_i'});
@@ -130,21 +130,21 @@ end
 
 save('ds1_optimizedcontrolinput_iter_1','u'); %save optimized control inputs
 
-% %set plant initial conditions
-% load([sim_file_dir '\' trialName '\SS1\ss1_plant_end'])
+%set plant initial conditions
+load([icID])
 plant = 'ds1_plant';
-% sdo.setValueInModel(plant,'p_stance_ankle',ic.p(1));
-% sdo.setValueInModel(plant,'p_stance_knee',ic.p(2));
-% sdo.setValueInModel(plant,'p_stance_hip',ic.p(3));
-% sdo.setValueInModel(plant,'p_swing_ankle',ic.p(4));
-% sdo.setValueInModel(plant,'p_swing_knee',ic.p(5));
-% sdo.setValueInModel(plant,'p_swing_hip',ic.p(6));
-% sdo.setValueInModel(plant,'w_stance_ankle',ic.w(1));
-% sdo.setValueInModel(plant,'w_stance_knee',ic.w(2));
-% sdo.setValueInModel(plant,'w_stance_hip',ic.w(3));
-% sdo.setValueInModel(plant,'w_swing_ankle',ic.w(4));
-% sdo.setValueInModel(plant,'w_swing_knee',ic.w(5));
-% sdo.setValueInModel(plant,'w_swing_hip',ic.w(6));
+sdo.setValueInModel(plant,'p_stance_ankle',ic.p(1));
+sdo.setValueInModel(plant,'p_stance_knee',ic.p(2));
+sdo.setValueInModel(plant,'p_stance_hip',ic.p(3));
+sdo.setValueInModel(plant,'p_swing_ankle',ic.p(4));
+sdo.setValueInModel(plant,'p_swing_knee',ic.p(5));
+sdo.setValueInModel(plant,'p_swing_hip',ic.p(6));
+sdo.setValueInModel(plant,'w_stance_ankle',ic.w(1));
+sdo.setValueInModel(plant,'w_stance_knee',ic.w(2));
+sdo.setValueInModel(plant,'w_stance_hip',ic.w(3));
+sdo.setValueInModel(plant,'w_swing_ankle',ic.w(4));
+sdo.setValueInModel(plant,'w_swing_knee',ic.w(5));
+sdo.setValueInModel(plant,'w_swing_hip',ic.w(6));
 % sdo.setValueInModel(plant,'x_planar_p',ic.planar.p(1));
 % sdo.setValueInModel(plant,'x_planar_v',ic.planar.w(1));
 % sdo.setValueInModel(plant,'y_planar_p',ic.planar.p(2));
@@ -412,6 +412,8 @@ save('ds1_plant_end') %save end plant iteration for plotting
 % footLength = sdo.getValueFromModel(plant,'F_L');
 % correctionAngle = atan2d(lead_toe_z.data(end),footLength);
 
+save('ds1_plant_end'); %save plant iteration
+
 %save final states as initial conditions file for next period
 filename = 'ds1_plant_FC';
     ic.p(1) = stance_ankle_p_out(end) %+ correctionAngle;
@@ -433,11 +435,5 @@ filename = 'ds1_plant_FC';
     ic.planar.p(3) = Planar_joint_z_p_out(end);
     ic.planar.w(3) = Planar_joint_z_w_out(end);
     save(filename,'ic')
-
-filename = 'ds1_nextoptIC_end';
-save(filename,'Planar_joint_x_p_out1','Planar_joint_x_v_out1','Planar_joint_y_p_out1','Planar_joint_y_v_out1','Planar_joint_z_p_out1','Planar_joint_z_w_out1','stance_ankle_p_out1','stance_ankle_w_out1','stance_hip_p_out1','stance_hip_w_out1','stance_knee_p_out1','stance_knee_w_out1','swing_ankle_p_out1','swing_ankle_w_out1','swing_hip_p_out1','swing_hip_w_out1','swing_knee_p_out1','swing_knee_w_out1');
-
-filename = 'ds1_controlinputhistory_end';
-save(filename,'u_stance_ankle_data','u_stance_knee_data','u_stance_hip_data','u_swing_ankle_data','u_swing_knee_data','u_swing_hip_data');
 
 cd(subdirectory)
