@@ -7132,4 +7132,36 @@ design =
 
 ans =
 
-  Columns 1 through
+  Columns 1 through 12
+
+   34.7237   13.1305   32.3373  -21.0713  -75.4035   -4.8516  -15.9602   -1.5843   -6.4101    0.8814    8.6319    4.5622
+
+  Columns 13 through 24
+
+   -0.6337    1.9454   -2.8946   -1.6025    1.4741   -3.8984    4.1136    3.2108    6.6232    3.9484   10.7972    8.4692
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 9.7004e+04
+
+    3    196        97004            0        0.114        0.073
+Local minimum found that satisfies the constraints.
+
+Optimization completed because the objective function is non-decreasing in 
+feasible directions, to within the value of the optimality tolerance,
+and constraints are satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 232.651225 seconds.
+
+ic = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    p: -17.3409
+
+IdleTimeout has been reached.
+Parallel pool using the 'local' profile is shutting down.

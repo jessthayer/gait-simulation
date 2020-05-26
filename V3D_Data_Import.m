@@ -9,7 +9,7 @@ for x = 1:npatients
     close all
     clear fname fid hA hB hC hD hE patientnum v xyz count dataArray
     
-fname = 'C:\Users\jess-local\OneDrive - Marquette University\Research\SubjectTesting\Marquette Custom HH Gait PAF_v1.2\Data\First_Last_Subj02\Norm\subj02_norm_sagittalAngleMoment.txt';
+fname = 'C:\Users\jess-local\OneDrive - Marquette University\Research\SubjectTesting\Marquette Custom HH Gait PAF_v1.2\Data\First_Last_Subj01\2019-12-28_norm\subj01_norm_sagittalAngleMoment.txt';
 
 patientnum = x;
 
@@ -62,7 +62,7 @@ for x=1:npatients
     close all
     clear fname fid hA hB hC hD hE patientnum v xyz count dataArray
     
-fname = 'C:\Users\jess-local\OneDrive - Marquette University\Research\SubjectTesting\Marquette Custom HH Gait PAF_v1.2\Data\First_Last_Subj02\Norm\subj02_norm_spatialTemporal.txt';
+fname = 'C:\Users\jess-local\OneDrive - Marquette University\Research\SubjectTesting\Marquette Custom HH Gait PAF_v1.2\Data\First_Last_Subj01\2019-12-28_norm\subj01_norm_spatialTemporal.txt';
 
 patientnum=x;
 
@@ -248,5 +248,5 @@ grid on
 title('R HIP MOMENT')
 
 %% Save subject data as .mat file
-subjID = 'Subject_2';
+subjID = 'Subject_1';
 save(['gaitAnalysis_' subjID],'patient','patient_mean')
