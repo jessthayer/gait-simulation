@@ -1,0 +1,4882 @@
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 12).
+
+ans = 
+
+ <a href="matlab: helpPopup parallel.Pool" style="font-weight:bold">Pool</a> with properties: 
+
+            Connected: true
+           NumWorkers: 12
+              Cluster: <a href="matlab: parallel.internal.display.Displayer.displayObject('1F8B0800000000000000AD54C14E0231102D2B4B2451A217C3D10F50829ED48B2286A861C120460F9B60C12AAB65BBB64BA2378E7E8A473FC34FF0E2DD239F60CB76DDD25D408393BCB4333B6FA6339D2D489D58804B8EE39523C3B1C8B10A0249FDAC696095EBE742DFE0F0208518235C705C1F5117E2C28DC33C0C9F0B953EC665DC67DC6CA11E727D12C63F56E22FCBB8A6D4333257984FE8F960FB6928DF428878EB99285E568B277C866614CF903A50EA3D3323BE91C057CF63F2FA4DA98B55F4228CB368FEAE6FA2E68A83D125859E8768AB25F9EFE9881FE54BEE8BF0CFA726D7FDA5F91BD2B6C0C1D3806B8E81C41BC787FC1E4AF3D943E008FA1024DCE3C44B073149CB9CB32495A0AB3603C4EBD17D54C929AB3A6F696957EF774D89B322F59F123B41E9852AE9401CC42B1A7F9B97BCD49F38CE28B9E5571F3BEF29699FFB84C23B2412F90E71037BADDFBB24F4015136EEDF408F7D87225677B1E3A2AAD3412E73DC3BE1DFEC52046F347F71EE9D197D08E73AEC83D07150F6883F98C1AF697CA197F7EC0BC64F6FDF23C63647D1EC92E789C9B21B04F6F8996D0BFA5D5124B3AD52B35A3AB4476E2DD9F9D63D6933BBB15DDCDA85F13A3233FA9F95F6408A07A3FB53F859633ADF90BBF9F20EF775FE92C6D7E7D91CE3C7DF65DD4FE7EBF992E61480F139FD6FFE0B98FE2E5F01B5CF81AEBECBEA7F3BCFBB2CE41B1567301CE0060000')">local</a>
+        AttachedFiles: {}
+    AutoAddClientPath: true
+          IdleTimeout: 30 minutes (30 minutes remaining)
+          SpmdEnabled: true
+
+[Warning: Elements of the "Maximum" property of the 'w_swing_knee_i' parameter are equal to the "Minimum" property, the element values
+will be set to the "Maximum" value and not optimized.] 
+
+ans =
+
+  Columns 1 through 22
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 23 through 24
+
+     0     0
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.7149e+04
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 02:28:26
+
+ans =
+
+  Columns 1 through 22
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 23 through 24
+
+     0     0
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.7149e+04
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     53      87148.9        0.051
+
+ans =
+
+  Columns 1 through 13
+
+    8.2025   38.8607   11.8697    3.0771    0.8215    5.7237   -0.3096   -0.2920   -0.0635    0.4810    0.4380    0.2025    0.6979
+
+  Columns 14 through 24
+
+    0.5537   -0.0293    0.9427    2.5708    5.5984   54.7250    4.4983    2.3715    1.8084    1.2522    1.0722
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 7.2294e+04
+
+    1    106      72293.8      0.04539         1.04     1.75e+05
+
+ans =
+
+  Columns 1 through 13
+
+    8.3667   39.4978   12.0695    3.1304    0.8358    5.8211   -0.3002   -0.2836   -0.0586    0.4860    0.4442    0.2054    0.6121
+
+  Columns 14 through 24
+
+    0.4666   -0.0683    0.9107    2.5309    5.4941   54.9986    4.4493    2.3826    1.8150    1.2540    1.0728
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 7.2231e+04
+
+    2    159      72230.6      0.04533       0.0079     1.61e+05
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 538.764220 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+    8.3667   39.4978   12.0695    3.1304    0.8358    5.8211   -0.3002   -0.2836   -0.0586    0.4860    0.4442    0.2054    0.6121
+
+  Columns 14 through 24
+
+    0.4666   -0.0683    0.9107    2.5309    5.4941   54.9986    4.4493    2.3826    1.8150    1.2540    1.0728
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4199e+05
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 02:36:38
+
+ans =
+
+  Columns 1 through 13
+
+    8.3667   39.4978   12.0695    3.1304    0.8358    5.8211   -0.3002   -0.2836   -0.0586    0.4860    0.4442    0.2054    0.6121
+
+  Columns 14 through 24
+
+    0.4666   -0.0683    0.9107    2.5309    5.4941   54.9986    4.4493    2.3826    1.8150    1.2540    1.0728
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4199e+05
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49       141995       0.2193
+
+ans =
+
+  Columns 1 through 13
+
+    6.8986   30.0751    8.9474    2.2203    1.4345    5.5696   -1.6334   -1.6660    0.9857    1.4656   -0.9335    1.2527    2.9617
+
+  Columns 14 through 24
+
+    2.7862    1.9688   -3.0693    4.4798    3.4144   54.9988    6.5568    4.6582    4.1358    3.6688    3.3161
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.3857e+05
+
+    1     98       138574       0.2091            2     1.55e+03
+
+ans =
+
+  Columns 1 through 13
+
+    4.6546   20.6217    5.7994    1.2771    1.3316    5.5537   -1.5189   -1.4907    1.6158    2.0526   -0.6366    1.8761    3.1619
+
+  Columns 14 through 24
+
+    3.1212    3.1751   -3.0364    4.9594    4.1684   54.9989    7.9798    5.9426    5.3711    4.9462    5.3657
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.3647e+05
+
+    2    147       136474       0.2027        0.826     1.28e+03
+
+ans =
+
+  Columns 1 through 13
+
+    4.6554   20.5942    5.7903    1.2744    1.3315    5.5530   -1.5193   -1.4906    1.6169    2.0539   -0.6349    1.8772    3.1645
+
+  Columns 14 through 24
+
+    3.1241    3.1775   -2.9805    4.9627    4.1715   54.9989    7.9841    5.9470    5.3756    4.9500    5.3678
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.3647e+05
+
+    3    196       136467       0.2027       0.0116     1.28e+03
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 490.949437 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+    4.6554   20.5942    5.7903    1.2744    1.3315    5.5530   -1.5193   -1.4906    1.6169    2.0539   -0.6349    1.8772    3.1645
+
+  Columns 14 through 24
+
+    3.1241    3.1775   -2.9805    4.9627    4.1715   54.9989    7.9841    5.9470    5.3756    4.9500    5.3678
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.3717e+05
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 02:44:48
+
+ans =
+
+  Columns 1 through 13
+
+    4.6554   20.5942    5.7903    1.2744    1.3315    5.5530   -1.5193   -1.4906    1.6169    2.0539   -0.6349    1.8772    3.1645
+
+  Columns 14 through 24
+
+    3.1241    3.1775   -2.9805    4.9627    4.1715   54.9989    7.9841    5.9470    5.3756    4.9500    5.3678
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.3717e+05
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49       137171       0.2009
+
+ans =
+
+  Columns 1 through 13
+
+    1.9520   -0.1413   -1.1234   -0.7492    0.6986    5.7443    0.1128    0.2974    3.3966    3.7929    1.3551    3.6695    6.5338
+
+  Columns 14 through 24
+
+    6.5443    6.6049    0.5242    8.2593    7.3643   54.9990   12.1083   10.1476    9.5759    9.1674    9.5090
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.3090e+05
+
+    1     98       130902       0.1804         2.09     1.32e+03
+
+ans =
+
+  Columns 1 through 13
+
+    1.7654   -0.5586   -1.2639   -0.7945    0.6832    5.6311    0.1325    0.3066    3.4061    3.8039    1.3554    3.6784    6.5595
+
+  Columns 14 through 24
+
+    6.5680    6.6279    0.5435    8.2858    7.3697   54.9990   12.1443   10.1808    9.6092    9.2007    9.5460
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.3085e+05
+
+    2    147       130855       0.1803        0.116     1.06e+03
+
+ans =
+
+  Columns 1 through 13
+
+    1.7643   -0.5604   -1.2645   -0.7947    0.6832    5.6312    0.1325    0.3066    3.4061    3.8040    1.3554    3.6785    6.5596
+
+  Columns 14 through 24
+
+    6.5681    6.6279    0.5435    8.2859    7.3706   54.9990   12.1445   10.1810    9.6094    9.2009    9.5461
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.3085e+05
+
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 481.660924 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+    1.7654   -0.5586   -1.2639   -0.7945    0.6832    5.6311    0.1325    0.3066    3.4061    3.8039    1.3554    3.6784    6.5595
+
+  Columns 14 through 24
+
+    6.5680    6.6279    0.5435    8.2858    7.3697   54.9990   12.1443   10.1808    9.6092    9.2007    9.5460
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.3064e+05
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 02:52:50
+
+ans =
+
+  Columns 1 through 13
+
+    1.7654   -0.5586   -1.2639   -0.7945    0.6832    5.6311    0.1325    0.3066    3.4061    3.8039    1.3554    3.6784    6.5595
+
+  Columns 14 through 24
+
+    6.5680    6.6279    0.5435    8.2858    7.3697   54.9990   12.1443   10.1808    9.6092    9.2007    9.5460
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.3064e+05
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49       130640       0.1752
+
+ans =
+
+  Columns 1 through 13
+
+   -0.4297  -20.9820   -8.1159   -2.7828    0.0495    5.2403    1.6996    2.2829    4.7335    5.6024    3.1684    5.4595    9.6161
+
+  Columns 14 through 24
+
+    9.8515    9.8988    4.5235   11.4235   10.9539   54.9988   16.0858   14.1399   13.5465   13.1225   13.4148
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.2511e+05
+
+    1     98       125107       0.1649         2.19     1.48e+03
+
+ans =
+
+  Columns 1 through 13
+
+   -0.6932  -21.7453   -8.3536   -2.8549    0.0258    5.1741    1.7274    2.2818    4.8011    5.6106    3.1802    5.4659    9.6703
+
+  Columns 14 through 24
+
+    9.8855    9.9339    4.5242   11.4678   10.9616   54.9988   16.1467   14.2000   13.6078   13.1869   13.4812
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.2503e+05
+
+    2    147       125026       0.1649       0.0837          692
+
+ans =
+
+  Columns 1 through 13
+
+   -0.6948  -21.7475   -8.3543   -2.8551    0.0257    5.1742    1.7275    2.2815    4.8013    5.6106    3.1803    5.4659    9.6704
+
+  Columns 14 through 24
+
+    9.8855    9.9339    4.5242   11.4680   10.9616   54.9988   16.1470   14.2003   13.6080   13.1872   13.4815
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.2503e+05
+
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 471.718995 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+   -0.6932  -21.7453   -8.3536   -2.8549    0.0258    5.1741    1.7274    2.2818    4.8011    5.6106    3.1802    5.4659    9.6703
+
+  Columns 14 through 24
+
+    9.8855    9.9339    4.5242   11.4678   10.9616   54.9988   16.1467   14.2000   13.6078   13.1869   13.4812
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.2436e+05
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 03:00:41
+
+ans =
+
+  Columns 1 through 13
+
+   -0.6932  -21.7453   -8.3536   -2.8549    0.0258    5.1741    1.7274    2.2818    4.8011    5.6106    3.1802    5.4659    9.6703
+
+  Columns 14 through 24
+
+    9.8855    9.9339    4.5242   11.4678   10.9616   54.9988   16.1467   14.2000   13.6078   13.1869   13.4812
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.2436e+05
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49       124356       0.1668
+
+ans =
+
+  Columns 1 through 13
+
+   -2.7900  -42.8521  -15.3209   -4.8831   -0.6524    4.8763    3.1674    4.2718    6.5445    7.1350    5.0522    7.2133   12.7143
+
+  Columns 14 through 24
+
+   12.8803   12.9047    7.8768   15.0398   13.7709   54.9984   20.1304   18.2077   17.5760   17.1364   17.4132
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.1926e+05
+
+    1     98       119255       0.1665          1.5     1.76e+03
+
+ans =
+
+  Columns 1 through 13
+
+   -2.9186  -43.1313  -15.4144   -4.9125   -0.6646    4.8265    3.1857    4.2718    6.5517    7.1490    5.0545    7.2191   12.7395
+
+  Columns 14 through 24
+
+   12.9072   12.9346    7.8938   15.0452   13.8008   54.9983   20.1584   18.2347   17.6041   17.1646   17.4422
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.1922e+05
+
+    2    147       119221       0.1665       0.0539          882
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 362.095535 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+   -2.9186  -43.1313  -15.4144   -4.9125   -0.6646    4.8265    3.1857    4.2718    6.5517    7.1490    5.0545    7.2191   12.7395
+
+  Columns 14 through 24
+
+   12.9072   12.9346    7.8938   15.0452   13.8008   54.9983   20.1584   18.2347   17.6041   17.1646   17.4422
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.1844e+05
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 03:06:43
+
+ans =
+
+  Columns 1 through 13
+
+   -2.9186  -43.1313  -15.4144   -4.9125   -0.6646    4.8265    3.1857    4.2718    6.5517    7.1490    5.0545    7.2191   12.7395
+
+  Columns 14 through 24
+
+   12.9072   12.9346    7.8938   15.0452   13.8008   54.9983   20.1584   18.2347   17.6041   17.1646   17.4422
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.1844e+05
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49       118437       0.1677
+
+ans =
+
+  Columns 1 through 13
+
+   -5.6203  -64.4725  -22.4656   -6.9788   -1.3593    4.4504    4.5980    5.9287    8.1480    8.7999    6.7393    8.8975   15.7598
+
+  Columns 14 through 24
+
+   16.0452   16.0909   11.1530   18.3835   16.9729   54.9976   24.1908   22.2794   21.6223   21.1333   21.4239
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.1380e+05
+
+    1     98       113798       0.1672         1.13     1.63e+03
+
+ans =
+
+  Columns 1 through 13
+
+   -5.6417  -64.5098  -22.4782   -6.9828   -1.3559    4.4458    4.6003    5.9288    8.1498    8.8013    6.7412    8.8986   15.7636
+
+  Columns 14 through 24
+
+   16.0491   16.0942   11.1563   18.3828   16.9759   54.9976   24.1947   22.2832   21.6262   21.1374   21.4279
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.1379e+05
+
+    2    147       113793       0.1672      0.00546      1.3e+03
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 357.359087 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+   -5.6417  -64.5098  -22.4782   -6.9828   -1.3559    4.4458    4.6003    5.9288    8.1498    8.8013    6.7412    8.8986   15.7636
+
+  Columns 14 through 24
+
+   16.0491   16.0942   11.1563   18.3828   16.9759   54.9976   24.1947   22.2832   21.6262   21.1374   21.4279
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.1299e+05
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 03:12:40
+
+ans =
+
+  Columns 1 through 13
+
+   -5.6417  -64.5098  -22.4782   -6.9828   -1.3559    4.4458    4.6003    5.9288    8.1498    8.8013    6.7412    8.8986   15.7636
+
+  Columns 14 through 24
+
+   16.0491   16.0942   11.1563   18.3828   16.9759   54.9976   24.1947   22.2832   21.6262   21.1374   21.4279
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.1299e+05
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49       112986       0.1677
+
+ans =
+
+  Columns 1 through 13
+
+   -8.8759  -85.6771  -29.4765   -9.0398   -1.0006    3.8032    5.9241    7.3431    9.8536   10.4044    8.3124   10.5217   18.6851
+
+  Columns 14 through 24
+
+   19.2470   19.1811   14.4065   21.7892   19.4772   54.9962   28.2093   26.3025   25.6312   25.1059   25.4019
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.0886e+05
+
+    1     98       108864       0.1669         1.03      1.7e+03
+
+ans =
+
+  Columns 1 through 13
+
+   -8.8964  -85.7139  -29.4890   -9.0437   -1.0334    3.8012    5.9265    7.3461    9.8548   10.4061    8.3144   10.5234   18.6892
+
+  Columns 14 through 24
+
+   19.2500   19.1848   14.4093   21.7915   19.4848   54.9962   28.2133   26.3066   25.6353   25.1101   25.4061
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.0886e+05
+
+    2    147       108859       0.1669       0.0142     1.61e+03
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 353.511373 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+   -8.8964  -85.7139  -29.4890   -9.0437   -1.0334    3.8012    5.9265    7.3461    9.8548   10.4061    8.3144   10.5234   18.6892
+
+  Columns 14 through 24
+
+   19.2500   19.1848   14.4093   21.7915   19.4848   54.9962   28.2133   26.3066   25.6353   25.1101   25.4061
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.0796e+05
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 03:18:34
+
+ans =
+
+  Columns 1 through 13
+
+   -8.8964  -85.7139  -29.4890   -9.0437   -1.0334    3.8012    5.9265    7.3461    9.8548   10.4061    8.3144   10.5234   18.6892
+
+  Columns 14 through 24
+
+   19.2500   19.1848   14.4093   21.7915   19.4848   54.9962   28.2133   26.3066   25.6353   25.1101   25.4061
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.0796e+05
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49       107963       0.1668
+
+ans =
+
+  Columns 1 through 13
+
+  -12.5831 -106.7850  -36.4634  -11.0998   -1.7301    3.1548    7.1245    8.9197   11.4647   12.0208    9.9401   12.1531   21.4319
+
+  Columns 14 through 24
+
+   22.3165   22.2910   17.5542   24.9317   17.0351   54.9941   32.1962   30.2829   29.6021   29.0488   29.3177
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.0432e+05
+
+    1     98       104315       0.1665         0.99     1.85e+03
+
+ans =
+
+  Columns 1 through 13
+
+  -12.6060 -106.8217  -36.4758  -11.1036   -1.7335    3.1527    7.1273    8.9219   11.4664   12.0225    9.9415   12.1546   21.4364
+
+  Columns 14 through 24
+
+   22.3195   22.2943   17.5574   24.9349   17.0330   54.9941   32.2002   30.2870   29.6062   29.0529   29.3220
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.0431e+05
+
+    2    147       104311       0.1665      0.00309          107
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 347.996414 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -12.6060 -106.8217  -36.4758  -11.1036   -1.7335    3.1527    7.1273    8.9219   11.4664   12.0225    9.9415   12.1546   21.4364
+
+  Columns 14 through 24
+
+   22.3195   22.2943   17.5574   24.9349   17.0330   54.9941   32.2002   30.2870   29.6062   29.0529   29.3220
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.0327e+05
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 03:24:21
+
+ans =
+
+  Columns 1 through 13
+
+  -12.6060 -106.8217  -36.4758  -11.1036   -1.7335    3.1527    7.1273    8.9219   11.4664   12.0225    9.9415   12.1546   21.4364
+
+  Columns 14 through 24
+
+   22.3195   22.2943   17.5574   24.9349   17.0330   54.9941   32.2002   30.2870   29.6062   29.0529   29.3220
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.0327e+05
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49       103271       0.1667
+
+ans =
+
+  Columns 1 through 13
+
+  -16.6680 -127.9706  -43.4834  -12.6025   -1.5696    2.3916    8.2170   10.0490   13.0503   13.6194   11.6047   13.8358   23.9412
+
+  Columns 14 through 24
+
+   25.5265   25.3933   20.6865   28.0499   13.1587   54.9909   36.1628   34.2436   33.5552   32.9838   33.2134
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.0002e+05
+
+    1     98       100022       0.1665        0.963     2.28e+03
+
+ans =
+
+  Columns 1 through 13
+
+  -16.6886 -128.0080  -43.4960  -12.6105   -1.5944    2.3904    8.2202   10.0544   13.0520   13.6212   11.6061   13.8371   23.9467
+
+  Columns 14 through 24
+
+   25.5296   25.3970   20.6902   28.0537   13.1588   54.9908   36.1672   34.2481   33.5598   32.9884   33.2181
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.0002e+05
+
+    2    147       100018       0.1665      0.00927     2.04e+03
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 342.989066 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -16.6886 -128.0080  -43.4960  -12.6105   -1.5944    2.3904    8.2202   10.0544   13.0520   13.6212   11.6061   13.8371   23.9467
+
+  Columns 14 through 24
+
+   25.5296   25.3970   20.6902   28.0537   13.1588   54.9908   36.1672   34.2481   33.5598   32.9884   33.2181
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 9.8881e+04
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 03:30:04
+
+ans =
+
+  Columns 1 through 13
+
+  -16.6886 -128.0080  -43.4960  -12.6105   -1.5944    2.3904    8.2202   10.0544   13.0520   13.6212   11.6061   13.8371   23.9467
+
+  Columns 14 through 24
+
+   25.5296   25.3970   20.6902   28.0537   13.1588   54.9908   36.1672   34.2481   33.5598   32.9884   33.2181
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 9.8881e+04
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      98881.3       0.1659
+
+ans =
+
+  Columns 1 through 13
+
+  -21.0406 -149.2798  -50.5503  -14.7000   -2.5228    1.4777    9.1953   11.4168   14.5954   15.1968   13.2072   15.4161   26.1204
+
+  Columns 14 through 24
+
+   28.5119   28.4269   23.7687   31.1309   15.8280   54.9854   40.1120   38.1964   37.5059   36.9173   37.1087
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 9.5956e+04
+
+    1     98      95955.9       0.1654         1.11     2.22e+03
+
+ans =
+
+  Columns 1 through 13
+
+  -21.0603 -149.3165  -50.5627  -14.7035   -2.5229    1.4773    9.1974   11.4197   14.5974   15.1987   13.2088   15.4178   26.1267
+
+  Columns 14 through 24
+
+   28.5159   28.4307   23.7723   31.1345   15.8349   54.9853   40.1163   38.2007   37.5102   36.9216   37.1132
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 9.5953e+04
+
+    2    147      95952.7       0.1654      0.00117          142
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 338.156988 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -21.0603 -149.3165  -50.5627  -14.7035   -2.5229    1.4773    9.1974   11.4197   14.5974   15.1987   13.2088   15.4178   26.1267
+
+  Columns 14 through 24
+
+   28.5159   28.4307   23.7723   31.1345   15.8349   54.9853   40.1163   38.2007   37.5102   36.9216   37.1132
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 9.4805e+04
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 03:35:42
+
+ans =
+
+  Columns 1 through 13
+
+  -21.0603 -149.3165  -50.5627  -14.7035   -2.5229    1.4773    9.1974   11.4197   14.5974   15.1987   13.2088   15.4178   26.1267
+
+  Columns 14 through 24
+
+   28.5159   28.4307   23.7723   31.1345   15.8349   54.9853   40.1163   38.2007   37.5102   36.9216   37.1132
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 9.4805e+04
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      94805.1       0.1642
+
+ans =
+
+  Columns 1 through 13
+
+  -25.6251 -170.6969  -56.5463  -16.4388   -2.9940    0.6588    9.9559   12.5158   16.1587   16.8048   14.8034   17.0150   27.8498
+
+  Columns 14 through 24
+
+   31.8312   31.5920   26.8770   34.2757   18.6796   54.9775   44.0435   42.1422   41.4500   40.8517   41.0140
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 9.2159e+04
+
+    1     98      92158.9       0.1634        0.947     1.93e+03
+
+ans =
+
+  Columns 1 through 13
+
+  -25.6443 -170.7323  -56.5655  -16.4453   -2.9972    0.6579    9.9597   12.5206   16.1605   16.8064   14.8050   17.0167   27.8563
+
+  Columns 14 through 24
+
+   31.8333   31.5951   26.8804   34.2789   18.6843   54.9774   44.0478   42.1465   41.4542   40.8560   41.0183
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 9.2156e+04
+
+    2    147      92156.1       0.1634       0.0017          120
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 334.331073 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -25.6443 -170.7323  -56.5655  -16.4453   -2.9972    0.6579    9.9597   12.5206   16.1605   16.8064   14.8050   17.0167   27.8563
+
+  Columns 14 through 24
+
+   31.8333   31.5951   26.8804   34.2789   18.6843   54.9774   44.0478   42.1465   41.4542   40.8560   41.0183
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 9.1123e+04
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 03:41:16
+
+ans =
+
+  Columns 1 through 13
+
+  -25.6443 -170.7323  -56.5655  -16.4453   -2.9972    0.6579    9.9597   12.5206   16.1605   16.8064   14.8050   17.0167   27.8563
+
+  Columns 14 through 24
+
+   31.8333   31.5951   26.8804   34.2789   18.6843   54.9774   44.0478   42.1465   41.4542   40.8560   41.0183
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 9.1123e+04
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      91122.8       0.1624
+
+ans =
+
+  Columns 1 through 13
+
+  -29.7393 -189.4009  -62.7657  -18.2859   -3.5601   -0.3371   10.5493   13.7441   17.4865   18.1944   16.1846   18.4039   28.9306
+
+  Columns 14 through 24
+
+   34.2484   34.2319   29.5809   36.9775   21.3991   54.9666   47.4517   45.5656   44.8722   44.2680   44.4062
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.9017e+04
+
+    1     98      89017.2       0.1623         1.07     2.61e+03
+
+ans =
+
+  Columns 1 through 13
+
+  -30.2877 -190.7172  -63.1991  -18.4176   -3.6110   -0.3370   10.5991   13.8225   17.5625   18.2644   16.2556   18.4743   29.0883
+
+  Columns 14 through 24
+
+   34.4242   34.3794   29.7220   37.1178   21.5338   54.9648   47.6299   45.7430   45.0500   44.4464   44.5865
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.8910e+04
+
+    2    147      88910.1       0.1623       0.0291          198
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 328.202150 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -30.2877 -190.7172  -63.1991  -18.4176   -3.6110   -0.3370   10.5991   13.8225   17.5625   18.2644   16.2556   18.4743   29.0883
+
+  Columns 14 through 24
+
+   34.4242   34.3794   29.7220   37.1178   21.5338   54.9648   47.6299   45.7430   45.0500   44.4464   44.5865
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.8109e+04
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 03:46:44
+
+ans =
+
+  Columns 1 through 13
+
+  -30.2877 -190.7172  -63.1991  -18.4176   -3.6110   -0.3370   10.5991   13.8225   17.5625   18.2644   16.2556   18.4743   29.0883
+
+  Columns 14 through 24
+
+   34.4242   34.3794   29.7220   37.1178   21.5338   54.9648   47.6299   45.7430   45.0500   44.4464   44.5865
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.8109e+04
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      88109.2       0.1613
+
+ans =
+
+  Columns 1 through 13
+
+  -33.4671 -204.9562  -67.9278  -19.9298   -4.1406   -1.3320   11.0214   14.7164   18.6185   19.0507   17.3158   19.1029   29.9752
+
+  Columns 14 through 24
+
+   36.1577   36.3066   31.7346   38.2422   23.6000   54.9521   50.2326   48.3488   47.6592   47.0517   47.1773
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.6646e+04
+
+    1     98      86646.3        0.161         1.03     3.16e+03
+
+ans =
+
+  Columns 1 through 13
+
+  -34.9559 -209.3688  -69.2894  -20.3546   -4.2854   -1.3316   11.3045   14.9958   18.8841   19.2933   17.5769   19.3177   30.0889
+
+  Columns 14 through 24
+
+   36.6667   36.8640   32.2505   38.6272   24.1009   54.9449   50.8794   48.9931   48.3047   47.6978   47.8251
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.6291e+04
+
+    2    147      86290.9        0.161        0.083          289
+
+ans =
+
+  Columns 1 through 13
+
+  -34.9609 -209.3807  -69.2943  -20.3557   -4.2857   -1.3316   11.3047   14.9966   18.8848   19.2941   17.5776   19.3184   30.0908
+
+  Columns 14 through 24
+
+   36.6684   36.8654   32.2520   38.6286   24.1024   54.9449   50.8813   48.9950   48.3067   47.6997   47.8270
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.6290e+04
+
+    3    196      86289.9        0.161     0.000243          161
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 422.052799 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -34.9609 -209.3807  -69.2943  -20.3557   -4.2857   -1.3316   11.3047   14.9966   18.8848   19.2941   17.5776   19.3184   30.0908
+
+  Columns 14 through 24
+
+   36.6684   36.8654   32.2520   38.6286   24.1024   54.9449   50.8813   48.9950   48.3067   47.6997   47.8270
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.5817e+04
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 03:53:46
+
+ans =
+
+  Columns 1 through 13
+
+  -34.9609 -209.3807  -69.2943  -20.3557   -4.2857   -1.3316   11.3047   14.9966   18.8848   19.2941   17.5776   19.3184   30.0908
+
+  Columns 14 through 24
+
+   36.6684   36.8654   32.2520   38.6286   24.1024   54.9449   50.8813   48.9950   48.3067   47.6997   47.8270
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.5817e+04
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      85817.4       0.1597
+
+ans =
+
+  Columns 1 through 13
+
+  -39.8694 -231.1592  -76.3264  -22.4372   -5.0409   -2.2645   11.7549   16.2948   19.4417   19.6049   19.1809   19.6228   30.9342
+
+  Columns 14 through 24
+
+   38.4197   38.8061   35.2945   39.2273   27.2656   54.9160   53.5947   52.9635   52.2811   51.6690   51.7839
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.3841e+04
+
+    1     98      83841.3       0.1592        0.996     2.36e+03
+
+ans =
+
+  Columns 1 through 13
+
+  -39.8872 -231.1945  -76.3391  -22.4413   -5.0419   -2.2648   11.7577   16.2971   19.4436   19.6061   19.1826   19.6240   30.9354
+
+  Columns 14 through 24
+
+   38.4242   38.8103   35.2983   39.2297   27.2690   54.9158   53.6001   52.9678   52.2854   51.6733   51.7883
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.3839e+04
+
+    2    147      83839.1       0.1592      0.00076          130
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 319.809759 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -39.8872 -231.1945  -76.3391  -22.4413   -5.0419   -2.2648   11.7577   16.2971   19.4436   19.6061   19.1826   19.6240   30.9354
+
+  Columns 14 through 24
+
+   38.4242   38.8103   35.2983   39.2297   27.2690   54.9158   53.6001   52.9678   52.2854   51.6733   51.7883
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.3781e+04
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 03:59:06
+
+ans =
+
+  Columns 1 through 13
+
+  -39.8872 -231.1945  -76.3391  -22.4413   -5.0419   -2.2648   11.7577   16.2971   19.4436   19.6061   19.1826   19.6240   30.9354
+
+  Columns 14 through 24
+
+   38.4242   38.8103   35.2983   39.2297   27.2690   54.9158   53.6001   52.9678   52.2854   51.6733   51.7883
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.3781e+04
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      83780.7       0.1578
+
+ans =
+
+  Columns 1 through 13
+
+  -44.8438 -253.1247  -83.5332  -24.6496   -5.7436   -3.2137   12.1760   17.4903   19.6734   19.7624   19.5549   19.7761   31.3632
+
+  Columns 14 through 24
+
+   38.9038   39.2863   38.3364   39.5371   30.3606   54.8737   54.1861   53.8951   53.6645   53.5569   53.5662
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.2970e+04
+
+    1     98      82969.8       0.1576        0.985     1.52e+03
+
+ans =
+
+  Columns 1 through 13
+
+  -44.8613 -253.1594  -83.5455  -24.6529   -5.7449   -3.2140   12.1775   17.4931   19.6743   19.7632   19.5564   19.7768   31.3640
+
+  Columns 14 through 24
+
+   38.9060   39.2883   38.3404   39.5384   30.3644   54.8735   54.1886   53.8988   53.6692   53.5623   53.5716
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.2967e+04
+
+    2    147      82967.5       0.1576     0.000641          119
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 316.643883 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -44.8613 -253.1594  -83.5455  -24.6529   -5.7449   -3.2140   12.1775   17.4931   19.6743   19.7632   19.5564   19.7768   31.3640
+
+  Columns 14 through 24
+
+   38.9060   39.2883   38.3404   39.5384   30.3644   54.8735   54.1886   53.8988   53.6692   53.5623   53.5716
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.3325e+04
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 04:04:22
+
+ans =
+
+  Columns 1 through 13
+
+  -44.8613 -253.1594  -83.5455  -24.6529   -5.7449   -3.2140   12.1775   17.4931   19.6743   19.7632   19.5564   19.7768   31.3640
+
+  Columns 14 through 24
+
+   38.9060   39.2883   38.3404   39.5384   30.3644   54.8735   54.1886   53.8988   53.6692   53.5623   53.5716
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.3325e+04
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      83324.5       0.1562
+
+ans =
+
+  Columns 1 through 13
+
+  -49.8445 -275.2563  -90.9036  -26.8319   -6.4843   -4.1833   12.4550   18.6152   19.7909   19.8527   19.7358   19.8634   31.5691
+
+  Columns 14 through 24
+
+   39.0581   39.5252   39.0786   39.7144   33.4697   54.8154   54.5040   54.3473   54.2244   54.1690   54.1736
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.3009e+04
+
+    1     98      83008.8       0.1562        0.996          358
+
+ans =
+
+  Columns 1 through 13
+
+  -49.8618 -275.2907  -90.9139  -26.8368   -6.4851   -4.1835   12.4567   18.6175   19.7914   19.8532   19.7367   19.8638   31.5701
+
+  Columns 14 through 24
+
+   39.0587   39.5263   39.0816   39.7153   33.4734   54.8151   54.5056   54.3494   54.2269   54.1717   54.1763
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.3008e+04
+
+    2    147      83007.6       0.1562     0.000513         64.9
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 312.044925 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -49.8618 -275.2907  -90.9139  -26.8368   -6.4851   -4.1835   12.4567   18.6175   19.7914   19.8532   19.7367   19.8638   31.5701
+
+  Columns 14 through 24
+
+   39.0587   39.5263   39.0816   39.7153   33.4734   54.8151   54.5056   54.3494   54.2269   54.1717   54.1763
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.3798e+04
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 04:09:34
+
+ans =
+
+  Columns 1 through 13
+
+  -49.8618 -275.2907  -90.9139  -26.8368   -6.4851   -4.1835   12.4567   18.6175   19.7914   19.8532   19.7367   19.8638   31.5701
+
+  Columns 14 through 24
+
+   39.0587   39.5263   39.0816   39.7153   33.4734   54.8151   54.5056   54.3494   54.2269   54.1717   54.1763
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.3798e+04
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      83798.5       0.1549
+
+ans =
+
+  Columns 1 through 13
+
+  -54.8332 -290.7182  -97.0573  -29.0323   -7.2029   -5.1370   12.6701   19.1782   19.8577   19.9063   19.8391   19.9158   31.6842
+
+  Columns 14 through 24
+
+   38.9970   39.6417   39.4388   39.8199   36.5740   54.7357   54.6885   54.6057   54.5354   54.5037   54.5064
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.3610e+04
+
+    1     98      83610.3        0.155        0.972          131
+
+ans =
+
+  Columns 1 through 13
+
+  -54.8504 -290.7555  -97.0695  -29.0345   -7.2047   -5.1372   12.6708   19.1801   19.8581   19.9065   19.8396   19.9160   31.6852
+
+  Columns 14 through 24
+
+   38.9974   39.6423   39.4405   39.8204   36.5778   54.7353   54.6894   54.6069   54.5369   54.5053   54.5080
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.3610e+04
+
+    2    147      83609.6        0.155     0.000521         15.5
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 308.109328 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -54.8504 -290.7555  -97.0695  -29.0345   -7.2047   -5.1372   12.6708   19.1801   19.8581   19.9065   19.8396   19.9160   31.6852
+
+  Columns 14 through 24
+
+   38.9974   39.6423   39.4405   39.8204   36.5778   54.7353   54.6894   54.6069   54.5369   54.5053   54.5080
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.4839e+04
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 04:14:42
+
+ans =
+
+  Columns 1 through 13
+
+  -54.8504 -290.7555  -97.0695  -29.0345   -7.2047   -5.1372   12.6708   19.1801   19.8581   19.9065   19.8396   19.9160   31.6852
+
+  Columns 14 through 24
+
+   38.9974   39.6423   39.4405   39.8204   36.5778   54.7353   54.6894   54.6069   54.5369   54.5053   54.5080
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.4839e+04
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      84838.5       0.1538
+
+ans =
+
+  Columns 1 through 13
+
+  -59.7973 -294.4906  -98.2392  -29.4205   -7.9112   -6.0391   12.8170   19.4106   19.8944   19.9377   19.9007   19.9475   31.7494
+
+  Columns 14 through 24
+
+   38.8033   39.6740   39.6373   39.8817   38.8808   54.6279   54.7956   54.7594   54.7192   54.7007   54.7024
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.4730e+04
+
+    1     98        84730       0.1539        0.911         73.2
+
+ans =
+
+  Columns 1 through 13
+
+  -59.8143 -294.5077  -98.2439  -29.4230   -7.9127   -6.0400   12.8178   19.4116   19.8945   19.9378   19.9010   19.9477   31.7497
+
+  Columns 14 through 24
+
+   38.8026   39.6741   39.6383   39.8820   38.8854   54.6274   54.7961   54.7601   54.7201   54.7017   54.7033
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.4730e+04
+
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 302.539023 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -59.7973 -294.4906  -98.2392  -29.4205   -7.9112   -6.0391   12.8170   19.4106   19.8944   19.9377   19.9007   19.9475   31.7494
+
+  Columns 14 through 24
+
+   38.8033   39.6740   39.6373   39.8817   38.8808   54.6279   54.7956   54.7594   54.7192   54.7007   54.7024
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.6390e+04
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 04:19:44
+
+ans =
+
+  Columns 1 through 13
+
+  -59.7973 -294.4906  -98.2392  -29.4205   -7.9112   -6.0391   12.8170   19.4106   19.8944   19.9377   19.9007   19.9475   31.7494
+
+  Columns 14 through 24
+
+   38.8033   39.6740   39.6373   39.8817   38.8808   54.6279   54.7956   54.7594   54.7192   54.7007   54.7024
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.6390e+04
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      86390.3       0.1528
+
+ans =
+
+  Columns 1 through 13
+
+  -64.7019 -296.5256  -98.8654  -29.6389   -8.6468   -6.9065   12.9233   19.5031   19.9129   19.9554   19.9374   19.9667   31.7837
+
+  Columns 14 through 24
+
+   38.5126   39.6333   39.5571   39.9102   39.3480   54.4857   54.8545   54.8511   54.8292   54.8185   54.8196
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.6331e+04
+
+    1     98      86330.5       0.1528        0.874         58.7
+
+ans =
+
+  Columns 1 through 13
+
+  -64.7191 -296.5355  -98.8693  -29.6396   -8.6480   -6.9077   12.9239   19.5035   19.9130   19.9555   19.9376   19.9668   31.7839
+
+  Columns 14 through 24
+
+   38.5114   39.6331   39.5629   39.9105   39.3499   54.4849   54.8548   54.8515   54.8297   54.8191   54.8202
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.6330e+04
+
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 301.597448 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -64.7019 -296.5256  -98.8654  -29.6389   -8.6468   -6.9065   12.9233   19.5031   19.9129   19.9554   19.9374   19.9667   31.7837
+
+  Columns 14 through 24
+
+   38.5126   39.6333   39.5571   39.9102   39.3480   54.4857   54.8545   54.8511   54.8292   54.8185   54.8196
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.8408e+04
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 04:24:45
+
+ans =
+
+  Columns 1 through 13
+
+  -64.7019 -296.5256  -98.8654  -29.6389   -8.6468   -6.9065   12.9233   19.5031   19.9129   19.9554   19.9374   19.9667   31.7837
+
+  Columns 14 through 24
+
+   38.5126   39.6333   39.5571   39.9102   39.3480   54.4857   54.8545   54.8511   54.8292   54.8185   54.8196
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.8408e+04
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      88408.1       0.1519
+
+ans =
+
+  Columns 1 through 13
+
+  -69.5451 -297.6345  -99.2653  -29.7413   -9.3819   -7.7769   13.0045   19.5301   19.9176   19.9683   19.9593   19.9785   31.7985
+
+  Columns 14 through 24
+
+   38.1595   39.4982   39.6957   39.9306   39.6038   54.3026   54.8885   54.9060   54.8957   54.8899   54.8907
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.8374e+04
+
+    1     98      88373.8        0.152        0.876          101
+
+ans =
+
+  Columns 1 through 13
+
+  -69.5620 -297.6348  -99.2650  -29.7411   -9.3819   -7.7776   13.0050   19.5302   19.9177   19.9683   19.9594   19.9786   31.7985
+
+  Columns 14 through 24
+
+   38.1585   39.4975   39.6963   39.9305   39.6048   54.3017   54.8886   54.9062   54.8961   54.8903   54.8911
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 8.8374e+04
+
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 297.683609 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -69.5451 -297.6345  -99.2653  -29.7413   -9.3819   -7.7769   13.0045   19.5301   19.9176   19.9683   19.9593   19.9785   31.7985
+
+  Columns 14 through 24
+
+   38.1595   39.4982   39.6957   39.9306   39.6038   54.3026   54.8885   54.9060   54.8957   54.8899   54.8907
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 9.0860e+04
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 04:29:43
+
+ans =
+
+  Columns 1 through 13
+
+  -69.5451 -297.6345  -99.2653  -29.7413   -9.3819   -7.7769   13.0045   19.5301   19.9176   19.9683   19.9593   19.9785   31.7985
+
+  Columns 14 through 24
+
+   38.1595   39.4982   39.6957   39.9306   39.6038   54.3026   54.8885   54.9060   54.8957   54.8899   54.8907
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 9.0860e+04
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      90859.9       0.1511
+
+ans =
+
+  Columns 1 through 13
+
+  -74.3049 -298.3611  -99.4823  -29.8173   -9.6628   -8.5669   13.0632   19.5103   19.9146   19.9726   19.9729   19.9857   31.8117
+
+  Columns 14 through 24
+
+   37.8734   39.2616   39.7152   39.9410   39.7502   54.0721   54.8927   54.9385   54.9359   54.9331   54.9338
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 9.0840e+04
+
+    1     98        90840       0.1512        0.793         60.1
+
+ans =
+
+  Columns 1 through 13
+
+  -74.3221 -298.3643  -99.4836  -29.8176   -9.6643   -8.5683   13.0636   19.5102   19.9146   19.9726   19.9730   19.9857   31.8118
+
+  Columns 14 through 24
+
+   37.8719   39.2604   39.7152   39.9411   39.7509   54.0710   54.8927   54.9387   54.9361   54.9333   54.9340
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 9.0840e+04
+
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 290.746736 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -74.3049 -298.3611  -99.4823  -29.8173   -9.6628   -8.5669   13.0632   19.5103   19.9146   19.9726   19.9729   19.9857   31.8117
+
+  Columns 14 through 24
+
+   37.8734   39.2616   39.7152   39.9410   39.7502   54.0721   54.8927   54.9385   54.9359   54.9331   54.9338
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 9.3737e+04
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 04:34:34
+
+ans =
+
+  Columns 1 through 13
+
+  -74.3049 -298.3611  -99.4823  -29.8173   -9.6628   -8.5669   13.0632   19.5103   19.9146   19.9726   19.9729   19.9857   31.8117
+
+  Columns 14 through 24
+
+   37.8734   39.2616   39.7152   39.9410   39.7502   54.0721   54.8927   54.9385   54.9359   54.9331   54.9338
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 9.3737e+04
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49        93737       0.1506
+
+ans =
+
+  Columns 1 through 13
+
+  -78.9616 -298.7826  -99.6068  -29.6553   -9.7826   -9.1878   13.1051   19.4540   19.9021   19.9735   19.9805   19.9896   31.8127
+
+  Columns 14 through 24
+
+   37.5132   38.9058   39.6490   39.9141   39.8145   53.7998   54.8812   54.9549   54.9598   54.9591   54.9598
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 9.3724e+04
+
+    1     98      93724.3       0.1506        0.624         80.9
+
+ans =
+
+  Columns 1 through 13
+
+  -78.9795 -298.7832  -99.6081  -29.6616   -9.7842   -9.1933   13.1054   19.4538   19.9020   19.9735   19.9805   19.9897   31.8128
+
+  Columns 14 through 24
+
+   37.5113   38.9041   39.6486   39.9139   39.8152   53.7984   54.8811   54.9550   54.9599   54.9593   54.9599
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 9.3724e+04
+
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 286.284783 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -78.9616 -298.7826  -99.6068  -29.6553   -9.7826   -9.1878   13.1051   19.4540   19.9021   19.9735   19.9805   19.9896   31.8127
+
+  Columns 14 through 24
+
+   37.5132   38.9058   39.6490   39.9141   39.8145   53.7998   54.8812   54.9549   54.9598   54.9591   54.9598
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 9.7033e+04
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 04:39:20
+
+ans =
+
+  Columns 1 through 13
+
+  -78.9616 -298.7826  -99.6068  -29.6553   -9.7826   -9.1878   13.1051   19.4540   19.9021   19.9735   19.9805   19.9896   31.8127
+
+  Columns 14 through 24
+
+   37.5132   38.9058   39.6490   39.9141   39.8145   53.7998   54.8812   54.9549   54.9598   54.9591   54.9598
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 9.7033e+04
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49      97033.2       0.1502
+
+ans =
+
+  Columns 1 through 13
+
+  -83.4894 -295.1282  -99.4479  -29.7335   -9.8211   -9.5085   13.1343   19.3716   19.8058   19.9446   19.9837   19.9920   31.8137
+
+  Columns 14 through 24
+
+   37.2301   38.2563   39.4515   39.9025   39.8596   53.4889   54.8543   54.9644   54.9739   54.9748   54.9755
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 9.7027e+04
+
+    1     98      97027.2       0.1502        0.326         77.9
+
+ans =
+
+  Columns 1 through 13
+
+  -83.5092 -295.2001  -99.4545  -29.7334   -9.8234   -9.5205   13.1346   19.3711   19.7886   19.9445   19.9838   19.9920   31.8137
+
+  Columns 14 through 24
+
+   37.2280   38.2533   39.4504   39.9023   39.8597   53.4874   54.8542   54.9644   54.9740   54.9749   54.9756
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 9.7027e+04
+
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 279.587411 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -83.4894 -295.1282  -99.4479  -29.7335   -9.8211   -9.5085   13.1343   19.3716   19.8058   19.9446   19.9837   19.9920   31.8137
+
+  Columns 14 through 24
+
+   37.2301   38.2563   39.4515   39.9025   39.8596   53.4889   54.8543   54.9644   54.9739   54.9748   54.9755
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.0076e+05
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 04:43:59
+
+ans =
+
+  Columns 1 through 13
+
+  -83.4894 -295.1282  -99.4479  -29.7335   -9.8211   -9.5085   13.1343   19.3716   19.8058   19.9446   19.9837   19.9920   31.8137
+
+  Columns 14 through 24
+
+   37.2301   38.2563   39.4515   39.9025   39.8596   53.4889   54.8543   54.9644   54.9739   54.9748   54.9755
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.0076e+05
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49       100758       0.1503
+
+ans =
+
+  Columns 1 through 13
+
+  -87.8556 -287.5858  -99.5499  -29.2939   -9.7472  -10.0902   13.1556   19.2747   19.8138   19.9116   19.9836   19.9935   31.8133
+
+  Columns 14 through 24
+
+   36.9790   37.6926   38.7555   39.6962   39.8435   53.1542   54.8117   54.9666   54.9820   54.9841   54.9849
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.0075e+05
+
+    1     98       100751       0.1503        0.585          148
+
+ans =
+
+  Columns 1 through 13
+
+  -87.8737 -287.5703  -99.5512  -29.2934   -9.7470  -10.0937   13.1557   19.2742   19.8138   19.9114   19.9836   19.9935   31.8133
+
+  Columns 14 through 24
+
+   36.9777   37.6902   38.7527   39.6951   39.8440   53.1525   54.8115   54.9666   54.9820   54.9842   54.9850
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.0075e+05
+
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 276.021466 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -87.8556 -287.5858  -99.5499  -29.2939   -9.7472  -10.0902   13.1556   19.2747   19.8138   19.9116   19.9836   19.9935   31.8133
+
+  Columns 14 through 24
+
+   36.9790   37.6926   38.7555   39.6962   39.8435   53.1542   54.8117   54.9666   54.9820   54.9841   54.9849
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.0492e+05
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 04:48:35
+
+ans =
+
+  Columns 1 through 13
+
+  -87.8556 -287.5858  -99.5499  -29.2939   -9.7472  -10.0902   13.1556   19.2747   19.8138   19.9116   19.9836   19.9935   31.8133
+
+  Columns 14 through 24
+
+   36.9790   37.6926   38.7555   39.6962   39.8435   53.1542   54.8117   54.9666   54.9820   54.9841   54.9849
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.0492e+05
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49       104918       0.1506
+
+ans =
+
+  Columns 1 through 13
+
+  -92.0233 -292.8104  -99.2749  -29.5663   -9.1972  -10.4618   13.1709   19.1685   19.8017   19.8762   19.9837   19.9941   31.8135
+
+  Columns 14 through 24
+
+   36.7970   37.3634   37.5199   39.7338   39.8771   52.8089   54.7495   54.9660   54.9860   54.9896   54.9905
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.0491e+05
+
+    1     98       104913       0.1506         0.38          208
+
+ans =
+
+  Columns 1 through 13
+
+  -92.0421 -292.8172  -99.2732  -29.5668   -9.1873  -10.4680   13.1710   19.1679   19.8017   19.8763   19.9837   19.9941   31.8135
+
+  Columns 14 through 24
+
+   36.7959   37.3614   37.5166   39.7350   39.8775   52.8072   54.7492   54.9660   54.9860   54.9896   54.9906
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.0491e+05
+
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 271.366914 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -92.0233 -292.8104  -99.2749  -29.5663   -9.1972  -10.4618   13.1709   19.1685   19.8017   19.8762   19.9837   19.9941   31.8135
+
+  Columns 14 through 24
+
+   36.7970   37.3634   37.5199   39.7338   39.8771   52.8089   54.7495   54.9660   54.9860   54.9896   54.9905
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.0952e+05
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 04:53:06
+
+ans =
+
+  Columns 1 through 13
+
+  -92.0233 -292.8104  -99.2749  -29.5663   -9.1972  -10.4618   13.1709   19.1685   19.8017   19.8762   19.9837   19.9941   31.8135
+
+  Columns 14 through 24
+
+   36.7970   37.3634   37.5199   39.7338   39.8771   52.8089   54.7495   54.9660   54.9860   54.9896   54.9905
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.0952e+05
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49       109518       0.1512
+
+ans =
+
+  Columns 1 through 13
+
+  -94.7421 -295.6195  -99.5089  -27.5956   -9.5563  -10.9933   13.1820   19.0610   19.7755   19.9052   19.9861   19.9947   31.8127
+
+  Columns 14 through 24
+
+   36.6282   36.9263   36.3852   39.6145   39.8200   52.4716   54.6641   54.9584   54.9878   54.9927   54.9939
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.0952e+05
+
+
+ans =
+
+  Columns 1 through 13
+
+  -93.3827 -294.2150  -99.3919  -28.5809   -9.3767  -10.7276   13.1764   19.1147   19.7886   19.8907   19.9849   19.9944   31.8131
+
+  Columns 14 through 24
+
+   36.7126   37.1448   36.9525   39.6742   39.8486   52.6403   54.7068   54.9622   54.9869   54.9912   54.9922
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.0952e+05
+
+
+ans =
+
+  Columns 1 through 13
+
+  -92.7030 -293.5127  -99.3334  -29.0736   -9.2870  -10.5947   13.1736   19.1416   19.7952   19.8834   19.9843   19.9942   31.8133
+
+  Columns 14 through 24
+
+   36.7548   37.2541   37.2362   39.7040   39.8629   52.7246   54.7281   54.9641   54.9864   54.9904   54.9914
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.0952e+05
+
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 341.919662 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -92.0233 -292.8104  -99.2749  -29.5663   -9.1972  -10.4618   13.1709   19.1685   19.8017   19.8762   19.9837   19.9941   31.8135
+
+  Columns 14 through 24
+
+   36.7970   37.3634   37.5199   39.7338   39.8771   52.8089   54.7495   54.9660   54.9860   54.9896   54.9905
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.1457e+05
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 04:58:48
+
+ans =
+
+  Columns 1 through 13
+
+  -92.0233 -292.8104  -99.2749  -29.5663   -9.1972  -10.4618   13.1709   19.1685   19.8017   19.8762   19.9837   19.9941   31.8135
+
+  Columns 14 through 24
+
+   36.7970   37.3634   37.5199   39.7338   39.8771   52.8089   54.7495   54.9660   54.9860   54.9896   54.9905
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.1457e+05
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49       114565        0.152
+
+ans =
+
+  Columns 1 through 13
+
+  -94.5299 -295.5931  -99.5035  -29.7193   -9.6324  -11.2059   13.1788   19.0294   19.7519   19.9008   19.9841   19.9943   31.8129
+
+  Columns 14 through 24
+
+   36.6317   36.9559   36.6066   39.6083   39.8133   52.3930   54.6003   54.9511   54.9867   54.9925   54.9938
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.1457e+05
+
+
+ans =
+
+  Columns 1 through 13
+
+  -93.2766 -294.2018  -99.3892  -29.6428   -9.4148  -10.8338   13.1749   19.0990   19.7768   19.8885   19.9839   19.9942   31.8132
+
+  Columns 14 through 24
+
+   36.7144   37.1596   37.0632   39.6710   39.8452   52.6010   54.6749   54.9586   54.9864   54.9911   54.9922
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.1457e+05
+
+
+ans =
+
+  Columns 1 through 13
+
+  -92.6500 -293.5061  -99.3321  -29.6045   -9.3060  -10.6478   13.1729   19.1337   19.7893   19.8823   19.9838   19.9941   31.8133
+
+  Columns 14 through 24
+
+   36.7557   37.2615   37.2915   39.7024   39.8612   52.7050   54.7122   54.9623   54.9862   54.9903   54.9914
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.1457e+05
+
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 337.308134 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -92.0233 -292.8104  -99.2749  -29.5663   -9.1972  -10.4618   13.1709   19.1685   19.8017   19.8762   19.9837   19.9941   31.8135
+
+  Columns 14 through 24
+
+   36.7970   37.3634   37.5199   39.7338   39.8771   52.8089   54.7495   54.9660   54.9860   54.9896   54.9905
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.2004e+05
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 05:04:25
+
+ans =
+
+  Columns 1 through 13
+
+  -92.0233 -292.8104  -99.2749  -29.5663   -9.1972  -10.4618   13.1709   19.1685   19.8017   19.8762   19.9837   19.9941   31.8135
+
+  Columns 14 through 24
+
+   36.7970   37.3634   37.5199   39.7338   39.8771   52.8089   54.7495   54.9660   54.9860   54.9896   54.9905
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.2004e+05
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49       120045       0.1529
+
+ans =
+
+  Columns 1 through 13
+
+  -96.6205 -295.4882  -99.4721  -29.7061   -9.5933  -10.0341   13.1767   19.0037   19.7248   19.9138   19.9852   19.9944   31.8131
+
+  Columns 14 through 24
+
+   36.6351   36.9843   36.5427   39.6035   39.8104   52.3339   54.5177   54.9414   54.9853   54.9921   54.9937
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.2004e+05
+
+
+ans =
+
+  Columns 1 through 13
+
+  -94.3219 -294.1493  -99.3735  -29.6362   -9.3952  -10.2480   13.1738   19.0861   19.7633   19.8950   19.9844   19.9942   31.8133
+
+  Columns 14 through 24
+
+   36.7161   37.1738   37.0313   39.6687   39.8438   52.5714   54.6336   54.9537   54.9856   54.9909   54.9921
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.2005e+05
+
+
+ans =
+
+  Columns 1 through 13
+
+  -93.1726 -293.4799  -99.3242  -29.6012   -9.2962  -10.3549   13.1723   19.1273   19.7825   19.8856   19.9840   19.9942   31.8134
+
+  Columns 14 through 24
+
+   36.7565   37.2686   37.2756   39.7012   39.8605   52.6902   54.6915   54.9599   54.9858   54.9902   54.9913
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.2005e+05
+
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 327.848796 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -92.0233 -292.8104  -99.2749  -29.5663   -9.1972  -10.4618   13.1709   19.1685   19.8017   19.8762   19.9837   19.9941   31.8135
+
+  Columns 14 through 24
+
+   36.7970   37.3634   37.5199   39.7338   39.8771   52.8089   54.7495   54.9660   54.9860   54.9896   54.9905
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.2593e+05
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 05:09:52
+
+ans =
+
+  Columns 1 through 13
+
+  -92.0233 -292.8104  -99.2749  -29.5663   -9.1972  -10.4618   13.1709   19.1685   19.8017   19.8762   19.9837   19.9941   31.8135
+
+  Columns 14 through 24
+
+   36.7970   37.3634   37.5199   39.7338   39.8771   52.8089   54.7495   54.9660   54.9860   54.9896   54.9905
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.2593e+05
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49       125928       0.1538
+
+ans =
+
+  Columns 1 through 13
+
+  -94.2847 -294.9799  -99.2071  -29.4982   -8.9285   -9.9373   13.1751   18.9834   19.6945   19.8892   19.9819   19.9938   31.8132
+
+  Columns 14 through 24
+
+   36.6391   37.0140   36.4038   39.6087   39.8108   52.2910   54.4130   54.9277   54.9833   54.9917   54.9936
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.2593e+05
+
+
+ans =
+
+  Columns 1 through 13
+
+  -93.1540 -293.8952  -99.2410  -29.5322   -9.0628  -10.1996   13.1730   19.0759   19.7481   19.8827   19.9828   19.9940   31.8134
+
+  Columns 14 through 24
+
+   36.7181   37.1887   36.9618   39.6713   39.8440   52.5499   54.5812   54.9469   54.9846   54.9907   54.9921
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.2593e+05
+
+    1    147       125927       0.1538        0.263         13.3
+
+ans =
+
+  Columns 1 through 13
+
+  -94.1175 -294.9748  -99.2114  -29.5041   -8.9206   -9.8357   13.1753   18.9846   19.6945   19.8892   19.9819   19.9938   31.8130
+
+  Columns 14 through 24
+
+   36.6291   36.9755   36.4937   39.5267   39.7554   52.2998   54.4164   54.9277   54.9833   54.9917   54.9936
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.2593e+05
+
+
+ans =
+
+  Columns 1 through 13
+
+  -93.6357 -294.4350  -99.2262  -29.5182   -8.9917  -10.0176   13.1741   19.0302   19.7213   19.8859   19.9824   19.9939   31.8132
+
+  Columns 14 through 24
+
+   36.6736   37.0821   36.7278   39.5990   39.7997   52.4249   54.4988   54.9373   54.9840   54.9912   54.9928
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.2593e+05
+
+    2    245       125927       0.1538        0.182         13.3
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 392.914908 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -93.6357 -294.4350  -99.2262  -29.5182   -8.9917  -10.0176   13.1741   19.0302   19.7213   19.8859   19.9824   19.9939   31.8132
+
+  Columns 14 through 24
+
+   36.6736   37.0821   36.7278   39.5990   39.7997   52.4249   54.4988   54.9373   54.9840   54.9912   54.9928
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.3216e+05
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 05:16:25
+
+ans =
+
+  Columns 1 through 13
+
+  -93.6357 -294.4350  -99.2262  -29.5182   -8.9917  -10.0176   13.1741   19.0302   19.7213   19.8859   19.9824   19.9939   31.8132
+
+  Columns 14 through 24
+
+   36.6736   37.0821   36.7278   39.5990   39.7997   52.4249   54.4988   54.9373   54.9840   54.9912   54.9928
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.3216e+05
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49       132165       0.1549
+
+ans =
+
+  Columns 1 through 13
+
+  -94.5846 -295.5820  -98.9344  -28.8281   -8.5459   -9.4265   13.1772   18.8688   19.6124   19.8877   19.9798   19.9935   31.8130
+
+  Columns 14 through 24
+
+   36.5412   36.8096   36.0282   39.3978   39.6770   51.9845   54.1395   54.8914   54.9794   54.9922   54.9948
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.3216e+05
+
+
+ans =
+
+  Columns 1 through 13
+
+  -94.1101 -295.0085  -99.0803  -29.1732   -8.7688   -9.7221   13.1757   18.9495   19.6668   19.8868   19.9811   19.9937   31.8131
+
+  Columns 14 through 24
+
+   36.6074   36.9458   36.3780   39.4984   39.7384   52.2047   54.3191   54.9144   54.9817   54.9917   54.9938
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.3216e+05
+
+    1    147       132163       0.1549        0.297         12.2
+
+ans =
+
+  Columns 1 through 13
+
+  -94.5803 -295.5831  -98.9343  -28.9015   -8.5623   -9.3651   13.1774   18.8690   19.6126   19.8877   19.9798   19.9935   31.8129
+
+  Columns 14 through 24
+
+   36.5378   36.8056   36.1455   39.2755   39.5744   51.9869   54.1424   54.8913   54.9794   54.9922   54.9949
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.3216e+05
+
+
+ans =
+
+  Columns 1 through 13
+
+  -94.3452 -295.2958  -99.0073  -29.0373   -8.6656   -9.5436   13.1765   18.9093   19.6397   19.8873   19.9805   19.9936   31.8130
+
+  Columns 14 through 24
+
+   36.5726   36.8757   36.2618   39.3870   39.6564   52.0958   54.2308   54.9028   54.9805   54.9920   54.9943
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.3216e+05
+
+    2    245       132163       0.1549        0.179         12.3
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 392.633213 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -94.3452 -295.2958  -99.0073  -29.0373   -8.6656   -9.5436   13.1765   18.9093   19.6397   19.8873   19.9805   19.9936   31.8130
+
+  Columns 14 through 24
+
+   36.5726   36.8757   36.2618   39.3870   39.6564   52.0958   54.2308   54.9028   54.9805   54.9920   54.9943
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.3870e+05
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 05:22:58
+
+ans =
+
+  Columns 1 through 13
+
+  -94.3452 -295.2958  -99.0073  -29.0373   -8.6656   -9.5436   13.1765   18.9093   19.6397   19.8873   19.9805   19.9936   31.8130
+
+  Columns 14 through 24
+
+   36.5726   36.8757   36.2618   39.3870   39.6564   52.0958   54.2308   54.9028   54.9805   54.9920   54.9943
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.3870e+05
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49       138697       0.1564
+
+ans =
+
+  Columns 1 through 13
+
+  -94.6310 -295.3869  -97.7447  -28.4722   -8.1463   -8.9120   13.1788   18.7674   19.5268   19.8796   19.9770   19.9929   31.8129
+
+  Columns 14 through 24
+
+   36.4617   36.6620   35.7622   39.1086   39.4264   51.7182   53.8398   54.8443   54.9736   54.9920   54.9956
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.3869e+05
+
+
+ans =
+
+  Columns 1 through 13
+
+  -94.4881 -295.3414  -98.3760  -28.7548   -8.4059   -9.2278   13.1777   18.8383   19.5833   19.8835   19.9787   19.9932   31.8129
+
+  Columns 14 through 24
+
+   36.5172   36.7689   36.0120   39.2478   39.5414   51.9070   54.0353   54.8736   54.9771   54.9920   54.9950
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.3870e+05
+
+    1    147       138695       0.1564        0.317         9.61
+
+ans =
+
+  Columns 1 through 13
+
+  -94.6351 -295.3887  -97.7834  -28.1916   -8.1840   -8.8783   13.1789   18.7667   19.5271   19.8796   19.9770   19.9929   31.8129
+
+  Columns 14 through 24
+
+   36.4591   36.6584   35.7657   38.9987   39.2149   51.7175   53.8435   54.8442   54.9736   54.9920   54.9956
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.3869e+05
+
+
+ans =
+
+  Columns 1 through 13
+
+  -94.5616 -295.3650  -98.0797  -28.4732   -8.2950   -9.0530   13.1783   18.8025   19.5552   19.8815   19.9779   19.9931   31.8129
+
+  Columns 14 through 24
+
+   36.4881   36.7136   35.8888   39.1233   39.3781   51.8122   53.9394   54.8589   54.9754   54.9920   54.9953
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.3869e+05
+
+    2    245       138694       0.1564        0.176         9.76
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 380.811139 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -94.5616 -295.3650  -98.0797  -28.4732   -8.2950   -9.0530   13.1783   18.8025   19.5552   19.8815   19.9779   19.9931   31.8129
+
+  Columns 14 through 24
+
+   36.4881   36.7136   35.8888   39.1233   39.3781   51.8122   53.9394   54.8589   54.9754   54.9920   54.9953
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4545e+05
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 05:29:18
+
+ans =
+
+  Columns 1 through 13
+
+  -94.5616 -295.3650  -98.0797  -28.4732   -8.2950   -9.0530   13.1783   18.8025   19.5552   19.8815   19.9779   19.9931   31.8129
+
+  Columns 14 through 24
+
+   36.4881   36.7136   35.8888   39.1233   39.3781   51.8122   53.9394   54.8589   54.9754   54.9920   54.9953
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4545e+05
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49       145454        0.158
+
+ans =
+
+  Columns 1 through 13
+
+  -94.3226 -292.5547  -97.1372  -27.1499   -7.7375   -8.3952   13.1799   18.6771   19.4378   19.8655   19.9735   19.9922   31.8128
+
+  Columns 14 through 24
+
+   36.3954   36.5522   35.6162   38.7082   38.8721   51.4868   53.5181   54.7810   54.9654   54.9910   54.9959
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4545e+05
+
+    1     98       145450       0.1579        0.663         7.34
+
+ans =
+
+  Columns 1 through 13
+
+  -94.3211 -292.5391  -97.1189  -27.1398   -7.7358   -8.3931   13.1799   18.6765   19.4372   19.8654   19.9735   19.9922   31.8128
+
+  Columns 14 through 24
+
+   36.3950   36.5514   35.6147   38.7009   38.8313   51.4852   53.5162   54.7807   54.9653   54.9910   54.9959
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.4545e+05
+
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 239.766436 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -94.3226 -292.5547  -97.1372  -27.1499   -7.7375   -8.3952   13.1799   18.6771   19.4378   19.8655   19.9735   19.9922   31.8128
+
+  Columns 14 through 24
+
+   36.3954   36.5522   35.6162   38.7082   38.8721   51.4868   53.5181   54.7810   54.9654   54.9910   54.9959
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.5236e+05
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 05:33:18
+
+ans =
+
+  Columns 1 through 13
+
+  -94.3226 -292.5547  -97.1372  -27.1499   -7.7375   -8.3952   13.1799   18.6771   19.4378   19.8655   19.9735   19.9922   31.8128
+
+  Columns 14 through 24
+
+   36.3954   36.5522   35.6162   38.7082   38.8721   51.4868   53.5181   54.7810   54.9654   54.9910   54.9959
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.5236e+05
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49       152362       0.1595
+
+ans =
+
+  Columns 1 through 13
+
+  -93.5958 -288.9334  -94.7745  -25.5478   -7.1610   -7.7254   13.1811   18.5728   19.3259   19.8427   19.9685   19.9911   31.8128
+
+  Columns 14 through 24
+
+   36.3210   36.4261   35.3776   38.1802   37.9161   51.2228   53.1168   54.6836   54.9521   54.9891   54.9960
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.5236e+05
+
+    1     98       152357       0.1594        0.676         4.76
+
+ans =
+
+  Columns 1 through 13
+
+  -93.5916 -288.8623  -94.6874  -25.5425   -7.1594   -7.7232   13.1811   18.5723   19.3253   19.8426   19.9684   19.9911   31.8128
+
+  Columns 14 through 24
+
+   36.3206   36.4256   35.3782   38.1765   37.8802   51.2214   53.1148   54.6831   54.9520   54.9891   54.9960
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.5236e+05
+
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 235.719676 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -93.5958 -288.9334  -94.7745  -25.5478   -7.1610   -7.7254   13.1811   18.5728   19.3259   19.8427   19.9685   19.9911   31.8128
+
+  Columns 14 through 24
+
+   36.3210   36.4261   35.3776   38.1802   37.9161   51.2228   53.1168   54.6836   54.9521   54.9891   54.9960
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.5936e+05
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 05:37:14
+
+ans =
+
+  Columns 1 through 13
+
+  -93.5958 -288.9334  -94.7745  -25.5478   -7.1610   -7.7254   13.1811   18.5728   19.3259   19.8427   19.9685   19.9911   31.8128
+
+  Columns 14 through 24
+
+   36.3210   36.4261   35.3776   38.1802   37.9161   51.2228   53.1168   54.6836   54.9521   54.9891   54.9960
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.5936e+05
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49       159359       0.1614
+
+ans =
+
+  Columns 1 through 13
+
+  -92.3773 -279.5550  -89.2874  -23.8912   -6.5750   -7.0513   13.1820   18.4851   19.2173   19.8135   19.9625   19.9899   31.8127
+
+  Columns 14 through 24
+
+   36.2614   36.3342   35.2396   36.2546   36.4105   51.0069   52.7336   54.5554   54.9338   54.9862   54.9956
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.5935e+05
+
+    1     98       159353       0.1613        0.686         5.09
+
+ans =
+
+  Columns 1 through 13
+
+  -92.3710 -279.4033  -89.2584  -23.8861   -6.5733   -7.0492   13.1820   18.4847   19.2168   19.8134   19.9625   19.9899   31.8127
+
+  Columns 14 through 24
+
+   36.2611   36.3339   35.2394   36.2546   36.3991   51.0058   52.7318   54.5548   54.9337   54.9862   54.9956
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.5935e+05
+
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 231.408829 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -92.3773 -279.5550  -89.2874  -23.8912   -6.5750   -7.0513   13.1820   18.4851   19.2173   19.8135   19.9625   19.9899   31.8127
+
+  Columns 14 through 24
+
+   36.2614   36.3342   35.2396   36.2546   36.4105   51.0069   52.7336   54.5554   54.9338   54.9862   54.9956
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.6640e+05
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 05:41:05
+
+ans =
+
+  Columns 1 through 13
+
+  -92.3773 -279.5550  -89.2874  -23.8912   -6.5750   -7.0513   13.1820   18.4851   19.2173   19.8135   19.9625   19.9899   31.8127
+
+  Columns 14 through 24
+
+   36.2614   36.3342   35.2396   36.2546   36.4105   51.0069   52.7336   54.5554   54.9338   54.9862   54.9956
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.6640e+05
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49       166404       0.1631
+
+ans =
+
+  Columns 1 through 13
+
+  -90.7238 -262.4895  -83.7497  -22.1910   -5.9860   -6.3814   13.1827   18.4109   19.1112   19.7773   19.9553   19.9884   31.8127
+
+  Columns 14 through 24
+
+   36.2136   36.2653   35.1554   35.6265   34.9748   50.8296   52.3741   54.3856   54.9078   54.9818   54.9948
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.6640e+05
+
+    1     98       166398        0.163        0.683         3.46
+
+ans =
+
+  Columns 1 through 13
+
+  -90.7165 -262.4319  -83.7337  -22.1862   -5.9845   -6.3794   13.1827   18.4105   19.1107   19.7771   19.9553   19.9884   31.8127
+
+  Columns 14 through 24
+
+   36.2133   36.2649   35.1545   35.6222   34.9689   50.8287   52.3724   54.3848   54.9077   54.9818   54.9947
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.6640e+05
+
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 226.380627 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -90.7238 -262.4895  -83.7497  -22.1910   -5.9860   -6.3814   13.1827   18.4109   19.1112   19.7773   19.9553   19.9884   31.8127
+
+  Columns 14 through 24
+
+   36.2136   36.2653   35.1554   35.6265   34.9748   50.8296   52.3741   54.3856   54.9078   54.9818   54.9948
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.7350e+05
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 05:44:50
+
+ans =
+
+  Columns 1 through 13
+
+  -90.7238 -262.4895  -83.7497  -22.1910   -5.9860   -6.3814   13.1827   18.4109   19.1112   19.7773   19.9553   19.9884   31.8127
+
+  Columns 14 through 24
+
+   36.2136   36.2653   35.1554   35.6265   34.9748   50.8296   52.3741   54.3856   54.9078   54.9818   54.9948
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.7350e+05
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49       173496       0.1647
+
+ans =
+
+  Columns 1 through 13
+
+  -88.7466 -245.9910  -78.0313  -20.4669   -5.3974   -5.7185   13.1831   18.3479   19.0080   19.7335   19.9466   19.9866   31.8127
+
+  Columns 14 through 24
+
+   36.1751   36.2160   35.1416   35.5493   33.7100   50.6837   52.0424   54.1625   54.8703   54.9753   54.9934
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.7349e+05
+
+    1     98       173490       0.1646        0.678         2.77
+
+ans =
+
+  Columns 1 through 13
+
+  -88.7384 -245.9445  -78.0163  -20.4625   -5.3959   -5.7166   13.1831   18.3476   19.0075   19.7333   19.9465   19.9866   31.8127
+
+  Columns 14 through 24
+
+   36.1749   36.2157   35.1415   35.5489   33.7066   50.6829   52.0408   54.1614   54.8701   54.9753   54.9934
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.7349e+05
+
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 222.166854 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -88.7466 -245.9910  -78.0313  -20.4669   -5.3974   -5.7185   13.1831   18.3479   19.0080   19.7335   19.9466   19.9866   31.8127
+
+  Columns 14 through 24
+
+   36.1751   36.2160   35.1416   35.5493   33.7100   50.6837   52.0424   54.1625   54.8703   54.9753   54.9934
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.8068e+05
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 05:48:32
+
+ans =
+
+  Columns 1 through 13
+
+  -88.7466 -245.9910  -78.0313  -20.4669   -5.3974   -5.7185   13.1831   18.3479   19.0080   19.7335   19.9466   19.9866   31.8127
+
+  Columns 14 through 24
+
+   36.1751   36.2160   35.1416   35.5493   33.7100   50.6837   52.0424   54.1625   54.8703   54.9753   54.9934
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.8068e+05
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49       180680       0.1658
+
+ans =
+
+  Columns 1 through 13
+
+  -86.4873 -229.0459  -72.2540  -18.7455   -4.8158   -5.0744   13.1835   18.2942   18.9082   19.6810   19.9358   19.9844   31.8127
+
+  Columns 14 through 24
+
+   36.1435   36.1738   35.1048   35.2985   32.4123   50.5633   51.7439   53.8867   54.8171   54.9661   54.9914
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.8067e+05
+
+    1     98       180674       0.1657        0.662          2.7
+
+ans =
+
+  Columns 1 through 13
+
+  -86.4785 -229.0008  -72.2393  -18.7411   -4.8144   -5.0725   13.1835   18.2939   18.9077   19.6807   19.9357   19.9844   31.8127
+
+  Columns 14 through 24
+
+   36.1434   36.1735   35.1046   35.2971   32.4078   50.5627   51.7425   53.8854   54.8168   54.9661   54.9914
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.8067e+05
+
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 216.954606 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -86.4873 -229.0459  -72.2540  -18.7455   -4.8158   -5.0744   13.1835   18.2942   18.9082   19.6810   19.9358   19.9844   31.8127
+
+  Columns 14 through 24
+
+   36.1435   36.1738   35.1048   35.2985   32.4123   50.5633   51.7439   53.8867   54.8171   54.9661   54.9914
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.8806e+05
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 05:52:09
+
+ans =
+
+  Columns 1 through 13
+
+  -86.4873 -229.0459  -72.2540  -18.7455   -4.8158   -5.0744   13.1835   18.2942   18.9082   19.6810   19.9358   19.9844   31.8127
+
+  Columns 14 through 24
+
+   36.1435   36.1738   35.1048   35.2985   32.4123   50.5633   51.7439   53.8867   54.8171   54.9661   54.9914
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.8806e+05
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49       188059       0.1661
+
+ans =
+
+  Columns 1 through 13
+
+  -83.9223 -211.8077  -66.4414  -17.0299   -4.2418   -4.4502   13.1837   18.2483   18.8125   19.6189   19.9224   19.9816   31.8127
+
+  Columns 14 through 24
+
+   36.1178   36.1406   35.0829   35.1460   31.4375   50.4638   51.4778   53.5577   54.7393   54.9525   54.9885
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.8805e+05
+
+    1     98       188053        0.166        0.645         2.52
+
+ans =
+
+  Columns 1 through 13
+
+  -83.9135 -211.7644  -66.4271  -17.0255   -4.2404   -4.4481   13.1837   18.2480   18.8120   19.6186   19.9223   19.9816   31.8127
+
+  Columns 14 through 24
+
+   36.1176   36.1405   35.0828   35.1451   31.4361   50.4633   51.4765   53.5562   54.7389   54.9525   54.9884
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.8805e+05
+
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 215.108006 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -83.9223 -211.8077  -66.4414  -17.0299   -4.2418   -4.4502   13.1837   18.2483   18.8125   19.6189   19.9224   19.9816   31.8127
+
+  Columns 14 through 24
+
+   36.1178   36.1406   35.0829   35.1460   31.4375   50.4638   51.4778   53.5577   54.7393   54.9525   54.9885
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.9581e+05
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 05:55:44
+
+ans =
+
+  Columns 1 through 13
+
+  -83.9223 -211.8077  -66.4414  -17.0299   -4.2418   -4.4502   13.1837   18.2483   18.8125   19.6189   19.9224   19.9816   31.8127
+
+  Columns 14 through 24
+
+   36.1178   36.1406   35.0829   35.1460   31.4375   50.4638   51.4778   53.5577   54.7393   54.9525   54.9885
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.9581e+05
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49       195806       0.1651
+
+ans =
+
+  Columns 1 through 13
+
+  -81.1931 -194.4148  -60.6246  -15.3284   -3.6784   -3.8498   13.1839   18.2089   18.7213   19.5463   19.9054   19.9781   31.8127
+
+  Columns 14 through 24
+
+   36.0965   36.1133   35.0590   35.0029   30.7153   50.3813   51.2434   53.1920   54.6271   54.9325   54.9840
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.9580e+05
+
+    1     98       195801        0.165        0.626         2.63
+
+ans =
+
+  Columns 1 through 13
+
+  -81.1836 -194.3702  -60.6098  -15.3238   -3.6768   -3.8475   13.1839   18.2087   18.7209   19.5460   19.9053   19.9781   31.8127
+
+  Columns 14 through 24
+
+   36.0964   36.1131   35.0593   35.0049   30.7189   50.3809   51.2422   53.1902   54.6265   54.9324   54.9840
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 1.9580e+05
+
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 209.599741 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -81.1931 -194.4148  -60.6246  -15.3284   -3.6784   -3.8498   13.1839   18.2089   18.7213   19.5463   19.9054   19.9781   31.8127
+
+  Columns 14 through 24
+
+   36.0965   36.1133   35.0590   35.0029   30.7153   50.3813   51.2434   53.1920   54.6271   54.9325   54.9840
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.0421e+05
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 05:59:13
+
+ans =
+
+  Columns 1 through 13
+
+  -81.1931 -194.4148  -60.6246  -15.3284   -3.6784   -3.8498   13.1839   18.2089   18.7213   19.5463   19.9054   19.9781   31.8127
+
+  Columns 14 through 24
+
+   36.0965   36.1133   35.0590   35.0029   30.7153   50.3813   51.2434   53.1920   54.6271   54.9325   54.9840
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.0421e+05
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49       204206       0.1626
+
+ans =
+
+  Columns 1 through 13
+
+  -78.2603 -176.7686  -54.7652  -13.6291   -3.1221   -3.2670   13.1841   18.1751   18.6350   19.4621   19.8835   19.9735   31.8127
+
+  Columns 14 through 24
+
+   36.0792   36.0940   35.0651   35.0507   31.0275   50.3125   51.0371   52.7981   54.4546   54.8996   54.9770
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.0420e+05
+
+    1     98       204201       0.1625        0.614         2.34
+
+ans =
+
+  Columns 1 through 13
+
+  -78.2511 -176.7253  -54.7507  -13.6246   -3.1205   -3.2647   13.1841   18.1749   18.6345   19.4616   19.8834   19.9735   31.8127
+
+  Columns 14 through 24
+
+   36.0791   36.0939   35.0653   35.0523   31.0366   50.3121   51.0360   52.7963   54.4538   54.8995   54.9770
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.0420e+05
+
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 204.245482 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -78.2603 -176.7686  -54.7652  -13.6291   -3.1221   -3.2670   13.1841   18.1751   18.6350   19.4621   19.8835   19.9735   31.8127
+
+  Columns 14 through 24
+
+   36.0792   36.0940   35.0651   35.0507   31.0275   50.3125   51.0371   52.7981   54.4546   54.8996   54.9770
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.1376e+05
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 06:02:38
+
+ans =
+
+  Columns 1 through 13
+
+  -78.2603 -176.7686  -54.7652  -13.6291   -3.1221   -3.2670   13.1841   18.1751   18.6350   19.4621   19.8835   19.9735   31.8127
+
+  Columns 14 through 24
+
+   36.0792   36.0940   35.0651   35.0507   31.0275   50.3125   51.0371   52.7981   54.4546   54.8996   54.9770
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.1376e+05
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49       213764       0.1572
+
+ans =
+
+  Columns 1 through 13
+
+  -75.2084 -158.8098  -48.8419  -11.9281   -2.5735   -2.7023   13.1842   18.1458   18.5533   19.3655   19.8548   19.9674   31.8127
+
+  Columns 14 through 24
+
+   36.0646   36.0778   35.0793   35.1710   31.7731   50.2548   50.8572   52.4042   54.2093   54.8483   54.9663
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.1376e+05
+
+    1     98       213759       0.1572        0.604         3.57
+
+ans =
+
+  Columns 1 through 13
+
+  -75.2000 -158.7685  -48.8280  -11.9237   -2.5720   -2.6997   13.1842   18.1456   18.5529   19.3651   19.8547   19.9674   31.8127
+
+  Columns 14 through 24
+
+   36.0645   36.0777   35.0793   35.1707   31.7769   50.2545   50.8563   52.4024   54.2081   54.8480   54.9662
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.1376e+05
+
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 199.685826 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -75.2084 -158.8098  -48.8419  -11.9281   -2.5735   -2.7023   13.1842   18.1458   18.5533   19.3655   19.8548   19.9674   31.8127
+
+  Columns 14 through 24
+
+   36.0646   36.0778   35.0793   35.1710   31.7731   50.2548   50.8572   52.4042   54.2093   54.8483   54.9663
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.2563e+05
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 06:05:57
+
+ans =
+
+  Columns 1 through 13
+
+  -75.2084 -158.8098  -48.8419  -11.9281   -2.5735   -2.7023   13.1842   18.1458   18.5533   19.3655   19.8548   19.9674   31.8127
+
+  Columns 14 through 24
+
+   36.0646   36.0778   35.0793   35.1710   31.7731   50.2548   50.8572   52.4042   54.2093   54.8483   54.9663
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.2563e+05
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49       225633       0.1452
+
+ans =
+
+  Columns 1 through 13
+
+  -71.7688 -139.7449  -42.5916  -10.1481   -2.0095   -2.1198   13.1842   18.1199   18.4751   19.2551   19.8161   19.9589   31.8127
+
+  Columns 14 through 24
+
+   36.0523   36.0660   35.1194   35.5112   33.0627   50.2053   50.6973   52.0081   53.8282   54.7496   54.9458
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.2563e+05
+
+    1     98       225628       0.1452        0.635         3.12
+
+ans =
+
+  Columns 1 through 13
+
+  -71.7593 -139.7028  -42.5772  -10.1435   -2.0077   -2.1172   13.1842   18.1198   18.4747   19.2545   19.8159   19.9589   31.8127
+
+  Columns 14 through 24
+
+   36.0522   36.0659   35.1196   35.5134   33.0707   50.2051   50.6965   52.0061   53.8264   54.7491   54.9457
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.2563e+05
+
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 193.643440 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -71.7688 -139.7449  -42.5916  -10.1481   -2.0095   -2.1198   13.1842   18.1199   18.4751   19.2551   19.8161   19.9589   31.8127
+
+  Columns 14 through 24
+
+   36.0523   36.0660   35.1194   35.5112   33.0627   50.2053   50.6973   52.0081   53.8282   54.7496   54.9458
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.4501e+05
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 06:09:10
+
+ans =
+
+  Columns 1 through 13
+
+  -71.7688 -139.7449  -42.5916  -10.1481   -2.0095   -2.1198   13.1842   18.1199   18.4751   19.2551   19.8161   19.9589   31.8127
+
+  Columns 14 through 24
+
+   36.0523   36.0660   35.1194   35.5112   33.0627   50.2053   50.6973   52.0081   53.8282   54.7496   54.9458
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.4501e+05
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49       245005       0.1453
+
+ans =
+
+  Columns 1 through 13
+
+  -68.5519 -119.1892  -35.8556   -8.2193   -1.4008   -1.4477   13.1843   18.0983   18.4040   19.1319   19.7606   19.9459   31.8127
+
+  Columns 14 through 24
+
+   36.0426   36.0622   35.2320   36.4899   35.2109   50.1653   50.5623   51.6181   53.0977   54.3294   54.8307
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.4500e+05
+
+    1     98       244997       0.1453        0.742          2.9
+
+ans =
+
+  Columns 1 through 13
+
+  -68.5358 -119.1522  -35.8429   -8.2152   -1.3992   -1.4457   13.1843   18.0982   18.4036   19.1313   19.7603   19.9459   31.8127
+
+  Columns 14 through 24
+
+   36.0426   36.0622   35.2326   36.4934   35.2172   50.1651   50.5616   51.6162   53.0948   54.3275   54.8301
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.4500e+05
+
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 188.727819 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -68.5519 -119.1892  -35.8556   -8.2193   -1.4008   -1.4477   13.1843   18.0983   18.4040   19.1319   19.7606   19.9459   31.8127
+
+  Columns 14 through 24
+
+   36.0426   36.0622   35.2320   36.4899   35.2109   50.1653   50.5623   51.6181   53.0977   54.3294   54.8307
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.6906e+05
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 06:12:19
+
+ans =
+
+  Columns 1 through 13
+
+  -68.5519 -119.1892  -35.8556   -8.2193   -1.4008   -1.4477   13.1843   18.0983   18.4040   19.1319   19.7606   19.9459   31.8127
+
+  Columns 14 through 24
+
+   36.0426   36.0622   35.2320   36.4899   35.2109   50.1653   50.5623   51.6181   53.0977   54.3294   54.8307
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.6906e+05
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49       269058       0.1226
+
+ans =
+
+  Columns 1 through 13
+
+  -65.2208  -97.0738  -28.6631   -6.1965   -0.7929   -0.7708   13.1843   18.0784   18.3320   18.9770   19.6612   19.9201   31.8127
+
+  Columns 14 through 24
+
+   36.0338   36.0546   35.3034   36.9185   37.1452   50.1298   50.4420   51.2717   52.4564   53.7842   54.6452
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.6905e+05
+
+    1     98       269050       0.1226        0.779         2.27
+
+ans =
+
+  Columns 1 through 13
+
+  -65.2037  -97.0390  -28.6507   -6.1921   -0.7910   -0.7684   13.1843   18.0783   18.3316   18.9763   19.6607   19.9200   31.8127
+
+  Columns 14 through 24
+
+   36.0338   36.0545   35.3037   36.9206   37.1523   50.1296   50.4413   51.2700   52.4537   53.7818   54.6443
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.6905e+05
+
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 184.871682 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -65.2208  -97.0738  -28.6631   -6.1965   -0.7929   -0.7708   13.1843   18.0784   18.3320   18.9770   19.6612   19.9201   31.8127
+
+  Columns 14 through 24
+
+   36.0338   36.0546   35.3034   36.9185   37.1452   50.1298   50.4420   51.2717   52.4564   53.7842   54.6452
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.9380e+05
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 06:15:24
+
+ans =
+
+  Columns 1 through 13
+
+  -65.2208  -97.0738  -28.6631   -6.1965   -0.7929   -0.7708   13.1843   18.0784   18.3320   18.9770   19.6612   19.9201   31.8127
+
+  Columns 14 through 24
+
+   36.0338   36.0546   35.3034   36.9185   37.1452   50.1298   50.4420   51.2717   52.4564   53.7842   54.6452
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.9380e+05
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49       293802      0.09044
+
+ans =
+
+  Columns 1 through 13
+
+  -61.8416  -72.6393  -20.8267   -4.0737   -0.2308   -0.0942   13.1843   18.0595   18.2582   18.7905   19.4816   19.8627   31.8127
+
+  Columns 14 through 24
+
+   36.0256   36.0443   35.3461   36.9867   38.2141   50.0972   50.3312   50.9536   51.8647   53.1077   54.3186
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.9380e+05
+
+    1     98       293797      0.09043        0.831         1.53
+
+ans =
+
+  Columns 1 through 13
+
+  -61.8229  -72.6113  -20.8154   -4.0688   -0.2278   -0.0909   13.1843   18.0594   18.2578   18.7896   19.4808   19.8624   31.8127
+
+  Columns 14 through 24
+
+   36.0255   36.0442   35.3464   36.9871   38.2174   50.0971   50.3306   50.9520   51.8621   53.1048   54.3170
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 2.9380e+05
+
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 179.614815 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -61.8416  -72.6393  -20.8267   -4.0737   -0.2308   -0.0942   13.1843   18.0595   18.2582   18.7905   19.4816   19.8627   31.8127
+
+  Columns 14 through 24
+
+   36.0256   36.0443   35.3461   36.9867   38.2141   50.0972   50.3312   50.9536   51.8647   53.1077   54.3186
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.1837e+05
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 06:18:23
+
+ans =
+
+  Columns 1 through 13
+
+  -61.8416  -72.6393  -20.8267   -4.0737   -0.2308   -0.0942   13.1843   18.0595   18.2582   18.7905   19.4816   19.8627   31.8127
+
+  Columns 14 through 24
+
+   36.0256   36.0443   35.3461   36.9867   38.2141   50.0972   50.3312   50.9536   51.8647   53.1077   54.3186
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.1837e+05
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49       318367      0.05303
+
+ans =
+
+  Columns 1 through 13
+
+  -57.5334  -45.9177  -12.5165   -2.0129    0.1650    0.5502   13.1843   18.0414   18.1832   18.5782   19.1792   19.7174   31.8127
+
+  Columns 14 through 24
+
+   36.0177   36.0323   35.3697   36.8461   38.2069   50.0669   50.2278   50.6569   51.3053   52.3301   53.7298
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.1836e+05
+
+    1     98       318363      0.05302        0.865         1.04
+
+ans =
+
+  Columns 1 through 13
+
+  -57.5235  -45.9066  -12.5061   -2.0043    0.1707    0.5560   13.1843   18.0413   18.1828   18.5772   19.1779   19.7167   31.8127
+
+  Columns 14 through 24
+
+   36.0177   36.0323   35.3698   36.8453   38.2069   50.0667   50.2272   50.6553   51.3026   52.3268   53.7271
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.1836e+05
+
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 175.086324 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -57.5334  -45.9177  -12.5165   -2.0129    0.1650    0.5502   13.1843   18.0414   18.1832   18.5782   19.1792   19.7174   31.8127
+
+  Columns 14 through 24
+
+   36.0177   36.0323   35.3697   36.8461   38.2069   50.0669   50.2278   50.6569   51.3053   52.3301   53.7298
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.4210e+05
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 06:21:18
+
+ans =
+
+  Columns 1 through 13
+
+  -57.5334  -45.9177  -12.5165   -2.0129    0.1650    0.5502   13.1843   18.0414   18.1832   18.5782   19.1792   19.7174   31.8127
+
+  Columns 14 through 24
+
+   36.0177   36.0323   35.3697   36.8461   38.2069   50.0669   50.2278   50.6569   51.3053   52.3301   53.7298
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.4210e+05
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49       342099      0.01473
+
+ans =
+
+  Columns 1 through 13
+
+  -54.3188  -20.5097   -5.1834   -0.5231    0.4591    1.0864   13.1843   18.0245   18.1096   18.3536   18.7586   19.3182   31.8127
+
+  Columns 14 through 24
+
+   36.0105   36.0198   35.3808   36.5761   37.6393   50.0390   50.1329   50.3841   50.7785   51.4863   52.7162
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.4210e+05
+
+    1     98       342097      0.01473        0.814        0.618
+
+ans =
+
+  Columns 1 through 13
+
+  -54.3025  -20.4732   -5.1206   -0.4789    0.4729    1.1072   13.1843   18.0243   18.1091   18.3522   18.7573   19.3171   31.8127
+
+  Columns 14 through 24
+
+   36.0104   36.0197   35.3809   36.5743   37.6367   50.0388   50.1323   50.3823   50.7753   51.4827   52.7135
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.4210e+05
+
+Converged to an infeasible point.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance but constraints are not
+satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 170.639019 seconds.
+
+ans =
+
+  Columns 1 through 13
+
+  -54.3188  -20.5097   -5.1834   -0.5231    0.4591    1.0864   13.1843   18.0245   18.1096   18.3536   18.7586   19.3182   31.8127
+
+  Columns 14 through 24
+
+   36.0105   36.0198   35.3808   36.5761   37.6393   50.0390   50.1329   50.3841   50.7785   51.4863   52.7162
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.6464e+05
+
+Configuring parallel workers for optimization...
+Parallel workers configured for optimization.
+
+ Optimization started 20-Mar-2020 06:24:08
+
+ans =
+
+  Columns 1 through 13
+
+  -54.3188  -20.5097   -5.1834   -0.5231    0.4591    1.0864   13.1843   18.0245   18.1096   18.3536   18.7586   19.3182   31.8127
+
+  Columns 14 through 24
+
+   36.0105   36.0198   35.3808   36.5761   37.6393   50.0390   50.1329   50.3841   50.7785   51.4863   52.7162
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.6464e+05
+
+
+                               max                     First-order 
+ Iter F-count        f(x)   constraint    Step-size    optimality
+    0     49       364642            0
+
+ans =
+
+  Columns 1 through 13
+
+  -52.9820   -9.2620   -2.3346   -0.0643    0.6404    1.3295   13.1843   18.0128   18.0577   18.1867   18.4018   18.6925   31.8127
+
+  Columns 14 through 24
+
+   36.0055   36.0106   35.3836   36.3217   36.9382   50.0203   50.0691   50.1998   50.4101   50.8154   51.5812
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.6464e+05
+
+    1     98       364642            0        0.423        0.212
+
+ans =
+
+  Columns 1 through 13
+
+  -52.7038    3.7055    1.5791    0.7186    0.9091    1.7684   13.1843   18.0116   18.0526   18.1736   18.3930   18.7468   31.8127
+
+  Columns 14 through 24
+
+   36.0050   36.0096   35.3839   36.3001   36.9227   50.0187   50.0637   50.1853   50.3853   50.7893   51.6141
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.6464e+05
+
+    2    147       364642            0        0.639        0.152
+
+ans =
+
+  Columns 1 through 13
+
+  -52.8509   -0.2287    1.0666    0.8543    0.9219    1.8049   13.1843   18.0123   18.0554   18.1817   18.4074   18.7658   31.8127
+
+  Columns 14 through 24
+
+   36.0052   36.0101   35.3837   36.3128   36.9499   50.0196   50.0667   50.1936   50.4006   50.8137   51.6461
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.6464e+05
+
+    3    196       364642            0        0.101        0.106
+
+ans =
+
+  Columns 1 through 13
+
+  -51.8177    4.8880    2.9943    1.5006    1.1205    2.0286   13.1843   18.0122   18.0553   18.1840   18.4266   18.8457   31.8127
+
+  Columns 14 through 24
+
+   36.0052   36.0102   35.3859   36.3294   37.0459   50.0194   50.0663   50.1932   50.4066   50.8641   51.8637
+
+
+design = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    F: 3.6464e+05
+
+    4    245       364641            0        0.359       0.0485
+Local minimum found that satisfies the constraints.
+
+Optimization completed because the objective function is non-decreasing in 
+feasible directions, to within the value of the optimality tolerance,
+and constraints are satisfied to within the value of the constraint tolerance.
+Removing data from parallel workers...
+Data removed from parallel workers.
+Elapsed time is 251.786518 seconds.
+IdleTimeout has been reached.
+Parallel pool using the 'local' profile is shutting down.
+Undefined function or variable 'n'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('GaitCycle_Plot_Code_v2', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\GaitCycle_Plot_Code_v2.m', 13)" style="font-weight:bold">GaitCycle_Plot_Code_v2</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\GaitCycle_Plot_Code_v2.m',13,0)">line 13</a>)
+for i = 1:n
+
+GaitCycle_Plot_Code_v2
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+{Reference to non-existent field 'swing_ankle_p_out'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('GaitCycle_Plot_Code_v2', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\GaitCycle_Plot_Code_v2.m', 22)" style="font-weight:bold">GaitCycle_Plot_Code_v2</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\GaitCycle_Plot_Code_v2.m',22,0)">line 22</a>)
+    trajec.m(i).ankle = [model.m(i).ds1.swing_ankle_p_out; model.m(i).ss1.stance_ankle_p_out; model.m(i).ds2.stance_ankle_p_out;
+    model.m(i).ss2.swing_ankle_p_out];
+} 
+GaitCycle_Plot_Code_v2
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+GaitCycle_Plot_Code_v2
+{Error: <a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\GaitCycle_Plot_Code_v2.m',37,25)">File: GaitCycle_Plot_Code_v2.m Line: 37 Column: 25
+</a>Invalid expression. When calling a function or indexing a variable, use parentheses. Otherwise, check for mismatched delimiters.
+} 
+opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\GaitCycle_Plot_Code_v2.m',37,25)
+GaitCycle_Plot_Code_v2
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plot')" style="font-weight:bold">plot</a>
+Vectors must be the same length.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('GaitCycle_Plot_Code_v2', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\GaitCycle_Plot_Code_v2.m', 36)" style="font-weight:bold">GaitCycle_Plot_Code_v2</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\GaitCycle_Plot_Code_v2.m',36,0)">line 36</a>)
+    plot(trajec.m(j).t,trajec.m(j).hip)
+} 
+GaitCycle_Plot_Code_v2
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+ans = 
+
+  <a href="matlab:helpPopup matlab.graphics.chart.decoration.ConstantLine" style="font-weight:bold">ConstantLine</a> with properties:
+
+    InterceptAxis: 'x'
+            Value: 92.5894
+            Color: [0.1500 0.1500 0.1500]
+        LineStyle: '-'
+        LineWidth: 0.5000
+            Label: ''
+      DisplayName: ''
+
+  Show <a href="matlab:if exist('ans', 'var'), matlab.graphics.internal.getForDisplay('ans', ans, 'matlab.graphics.chart.decoration.ConstantLine'), else, matlab.graphics.internal.getForDisplay('ans'), end">all properties</a>
+
+GaitCycle_Plot_Code_v2
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+ans = 
+
+  <a href="matlab:helpPopup matlab.graphics.chart.decoration.ConstantLine" style="font-weight:bold">ConstantLine</a> with properties:
+
+    InterceptAxis: 'x'
+            Value: 0.9259
+            Color: [0.1500 0.1500 0.1500]
+        LineStyle: '-'
+        LineWidth: 0.5000
+            Label: ''
+      DisplayName: ''
+
+  Show <a href="matlab:if exist('ans', 'var'), matlab.graphics.internal.getForDisplay('ans', ans, 'matlab.graphics.chart.decoration.ConstantLine'), else, matlab.graphics.internal.getForDisplay('ans'), end">all properties</a>
+
+GaitCycle_Plot_Code_v2
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+ans = 
+
+  <a href="matlab:helpPopup matlab.graphics.chart.decoration.ConstantLine" style="font-weight:bold">ConstantLine</a> with properties:
+
+    InterceptAxis: 'x'
+            Value: 0.9259
+            Color: [0.1500 0.1500 0.1500]
+        LineStyle: '-'
+        LineWidth: 0.5000
+            Label: ''
+      DisplayName: ''
+
+  Show <a href="matlab:if exist('ans', 'var'), matlab.graphics.internal.getForDisplay('ans', ans, 'matlab.graphics.chart.decoration.ConstantLine'), else, matlab.graphics.internal.getForDisplay('ans'), end">all properties</a>
+
+GaitCycle_Plot_Code_v2
+{Error: <a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\GaitCycle_Plot_Code_v2.m',26,276)">File: GaitCycle_Plot_Code_v2.m Line: 26 Column: 276
+</a>Invalid expression. When calling a function or indexing a variable, use parentheses. Otherwise, check for mismatched delimiters.
+} 
+GaitCycle_Plot_Code_v2
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+ans = 
+
+  <a href="matlab:helpPopup matlab.graphics.chart.decoration.ConstantLine" style="font-weight:bold">ConstantLine</a> with properties:
+
+    InterceptAxis: 'x'
+            Value: 92.5894
+            Color: [0.1500 0.1500 0.1500]
+        LineStyle: '-'
+        LineWidth: 0.5000
+            Label: ''
+      DisplayName: ''
+
+  Show <a href="matlab:if exist('ans', 'var'), matlab.graphics.internal.getForDisplay('ans', ans, 'matlab.graphics.chart.decoration.ConstantLine'), else, matlab.graphics.internal.getForDisplay('ans'), end">all properties</a>
+
+GaitCycle_Plot_Code_v2
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plot')" style="font-weight:bold">plot</a>
+Error in color/linetype argument.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('GaitCycle_Plot_Code_v2', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\GaitCycle_Plot_Code_v2.m', 38)" style="font-weight:bold">GaitCycle_Plot_Code_v2</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Plot Code\GaitCycle_Plot_Code_v2.m',38,0)">line 38</a>)
+    plot(trajec.m(j).t,trajec.m(j).hip, 'color(j)')
+} 
+
+ans = 
+
+  <a href="matlab:helpPopup matlab.graphics.chart.decoration.ConstantLine" style="font-weight:bold">ConstantLine</a> with properties:
+
+    InterceptAxis: 'x'
+            Value: 92.5894
+            Color: [0 0 1]
+        LineStyle: '-'
+        LineWidth: 0.5000
+            Label: ''
+      DisplayName: ''
+
+  Show <a href="matlab:if exist('ans', 'var'), matlab.graphics.internal.getForDisplay('ans', ans, 'matlab.graphics.chart.decoration.ConstantLine'), else, matlab.graphics.internal.getForDisplay('ans'), end">all properties</a>
+
+GaitCycle_Plot_Code_v2
+
+trajec = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+    m: [1×1 struct]
+
+
+ans = 
+
+  <a href="matlab:helpPopup matlab.graphics.chart.decoration.ConstantLine" style="font-weight:bold">ConstantLine</a> with properties:
+
+    InterceptAxis: 'x'
+            Value: 92.5894
+            Color: [0 0 1]
+        LineStyle: '-'
+        LineWidth: 0.5000
+            Label: ''
+      DisplayName: ''
+
+  Show <a href="matlab:if exist('ans', 'var'), matlab.graphics.internal.getForDisplay('ans', ans, 'matlab.graphics.chart.decoration.ConstantLine'), else, matlab.graphics.internal.getForDisplay('ans'), end">all properties</a>
+
+
+ans = 
+
+  <a href="matlab:helpPopup matlab.graphics.chart.decoration.ConstantLine" style="font-weight:bold">ConstantLine</a> with properties:
+
+    InterceptAxis: 'x'
+            Value: 92.5894
+            Color: [0 0 1]
+        LineStyle: '-'
+        LineWidth: 0.5000
+            Label: ''
+      DisplayName: ''
+
+  Show <a href="matlab:if exist('ans', 'var'), matlab.graphics.internal.getForDisplay('ans', ans, 'matlab.graphics.chart.decoration.ConstantLine'), else, matlab.graphics.internal.getForDisplay('ans'), end">all properties</a>
+
+
+ans = 
+
+  <a href="matlab:helpPopup matlab.graphics.chart.decoration.ConstantLine" style="font-weight:bold">ConstantLine</a> with properties:
+
+    InterceptAxis: 'x'
+            Value: 92.5894
+            Color: [0 0 1]
+        LineStyle: '-'
+        LineWidth: 0.5000
+            Label: ''
+      DisplayName: ''
+
+  Show <a href="matlab:if exist('ans', 'var'), matlab.graphics.internal.getForDisplay('ans', ans, 'matlab.graphics.chart.decoration.ConstantLine'), else, matlab.graphics.internal.getForDisplay('ans'), end">all properties</a>
+
+uiopen('C:\Users\jess-local\OneDrive - Marquette University\Research\Simulations\objfunDS_v0.m',1)
+uiopen('C:\Users\jess-local\OneDrive - Marquette University\Research\Simulations\objfunSS_v0.m',1)
+uiopen('C:\Users\jess-local\OneDrive - Marquette University\Research\Simulations\ds_inter_v0_i.slx',1)
+uiopen('C:\Users\jess-local\OneDrive - Marquette University\Research\Simulations\ss_inter_v0_i.slx',1)
+load('ds1_plant_iter_20.mat')
+load('ds1_plant_iter_20.mat')
+set_param('ss1_plant','StopTime',num2str(ss_predictionHorizon));
+{Invalid Simulink object name: ss1_plant
+Caused by:
+    No block diagram 'ss1_plant' is loaded.
+} 
+set_param('ss_plant_v1_i','StopTime',num2str(ss_predictionHorizon));
+{Invalid Simulink object name: ss_plant_v1_i
+Caused by:
+    No block diagram 'ss_plant_v1_i' is loaded.
+} 
+set_param('ds1_plant','StopTime',num2str(ds_predictionHorizon));
+{Invalid Simulink object name: ds1_plant
+Caused by:
+    No block diagram 'ds1_plant' is loaded.
+} 
+set_param('ds_plant_v1_i','StopTime',num2str(ds_predictionHorizon));
+sim(plant)
+{No system or file called 'ds1_plant' found.
+} 
+sim('ds_plant_v1_i')
+sim('ds_inter_v1_i')
+{Error evaluating expression 'stopTime' for 'StopTime' specified in the Configuration Parameters dialog for block diagram '<a href="matlab:open_system ('ds_inter_v1_i')">ds_inter_v1_i</a>'.
+Caused by:
+    Undefined function or variable 'stopTime'.
+        Variable 'stopTime' does not exist.
+        Suggested Actions:
+            • Load a file into base workspace. - <a href="matlab:slprivate('robustVarRefHotlink_cb', 'loadFile', 'ds_inter_v1_i', 'stopTime')">Fix</a>
+            • Create a new variable. - <a href="matlab:slprivate('robustVarRefHotlink_cb', 'createEntry', 'stopTime', 'ds_inter_v1_i', '', 'normal', '', '', ' ')">Fix</a>
+} 
+set_param('ds_inter_v1_i','StopTime',num2str(ds_predictionHorizon));
+sim('ds_inter_v1_i')
+{['ds_inter_v1_i']: The following errors were found in the model ds_inter_v1_i.
+Caused by:
+    ['ds_inter_v1_i']: Solid has unapplied changes. Please apply or cancel these changes before running the simulation. Resolve this
+    issue in order to simulate the model.
+} 
+sim('ds_inter_v1_i')
+{['ds_inter_v1_i']: The following errors were found in the model ds_inter_v1_i.
+Caused by:
+    ['ds_inter_v1_i']: Solid has unapplied changes. Please apply or cancel these changes before running the simulation. Resolve this
+    issue in order to simulate the model.
+} 
+Updating Model Advisor cache…
+Model Advisor cache updated. For new customizations, to update the cache, use the Advisor.Manager.refresh_customizations method.
+sim('ds_inter_v1_i')
+uiopen('C:\Users\jess-local\OneDrive - Marquette University\Research\Simulations\ss_inter_v1_i.slx',1)
+[Warning: Children generator function returned an empty cell array.] 
+[Warning: Children generator function returned an empty cell array.] 
+uiopen('C:\Users\jess-local\OneDrive - Marquette University\Research\Simulations\ss_plant_v2_i.slx',1)
+uiopen('C:\Users\jess-local\OneDrive - Marquette University\Research\Simulations\ds_plant_v1_i.slx',1)
+[Warning: Children generator function returned an empty cell array.] 
+[Warning: Children generator function returned an empty cell array.] 
+[Warning: Children generator function returned an empty cell array.] 
+[Warning: Children generator function returned an empty cell array.] 
+[Warning: Children generator function returned an empty cell array.] 
+[Warning: Children generator function returned an empty cell array.] 
+uiopen('C:\Users\jess-local\OneDrive - Marquette University\Research\FwdKinematicScript_v1.m',1)
+uiopen('C:\Users\jess-local\OneDrive - Marquette University\Research\InvKinematicScript_v4.m',1)
+uiopen('C:\Users\jess-local\OneDrive - Marquette University\Research\InvKinematicScript_v3.m',1)
+uiopen('C:\Users\jess-local\OneDrive - Marquette University\Research\InvKinematicScript_v2.m',1)
+uiopen('C:\Users\jess-local\OneDrive - Marquette University\Research\FwdKinematicScript_v1.m',1)
+main_v4
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cd')" style="font-weight:bold">cd</a>
+Cannot CD to C:\Users\8842thayerj\OneDrive - Marquette University\Research\Simulations (Directory permission denied).
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_v4', 'C:\Users\jess-local\OneDrive - Marquette University\Research\Simulations\main_v4.m', 36)" style="font-weight:bold">main_v4</a> (<a href="matlab: opentoline('C:\Users\jess-local\OneDrive - Marquette University\Research\Simulations\main_v4.m',36,0)">line 36</a>)
+cd([sim_file_dir]) %move to directory location before creating new folder
+} 
+main_v4
